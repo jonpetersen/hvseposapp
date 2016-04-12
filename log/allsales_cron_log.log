@@ -1,0 +1,17 @@
+hvs_migration_allsales.rb:39:in `<main>': uninitialized constant CreateSales (NameError)
+-- drop_table(:allsales)
+   -> 0.0089s
+-- create_table("allsales")
+   -> 0.0095s
+-- add_index(:allsales, :plu)
+   -> 0.0482s
+-- add_index(:allsales, :type)
+   -> 0.0429s
+-- drop_table(:allsales)
+   -> 0.0093s
+-- create_table("allsales")
+   -> 0.0086s
+-- add_index(:allsales, :plu)
+   -> 0.0469s
+-- add_index(:allsales, :type)
+   -> 0.0464s

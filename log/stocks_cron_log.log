@@ -1,0 +1,12 @@
+-- drop_table(:stocks)
+   -> 0.0572s
+-- create_table("stocks")
+   -> 0.0179s
+-- add_index(:stocks, :plu)
+   -> 0.0368s
+-- drop_table(:stocks)
+   -> 0.0647s
+-- create_table("stocks")
+   -> 0.0428s
+-- add_index(:stocks, :plu)
+   -> 0.0374s
