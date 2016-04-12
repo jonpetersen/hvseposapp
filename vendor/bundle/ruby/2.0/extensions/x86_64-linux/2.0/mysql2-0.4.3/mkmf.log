@@ -1,0 +1,391 @@
+have_header: checking for ruby/thread.h... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -E -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby/thread.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl() in ruby/thread.h... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:7:32: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return 0; }
+                                ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby/thread.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_blocking_region()... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:1: warning: ‘rb_thread_blocking_region’ is deprecated (declared at /usr/include/ruby/2.0/ruby/intern.h:841) [-Wdeprecated-declarations]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return 0; }
+ ^
+conftest.c:5:32: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return 0; }
+                                ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_wait_for_single_fd()... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:57: error: ‘rb_wait_for_single_fd’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return 0; }
+                                                         ^
+conftest.c:5:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c:5:32: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return 0; }
+                                ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:1: warning: implicit declaration of function ‘rb_wait_for_single_fd’ [-Wimplicit-function-declaration]
+ int t(void) { rb_wait_for_single_fd(); return 0; }
+ ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { rb_wait_for_single_fd(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_hash_dup()... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:32: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_hash_dup; return 0; }
+                                ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_hash_dup; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_intern3()... -------------------- yes
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:57: error: ‘rb_intern3’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_intern3; return 0; }
+                                                         ^
+conftest.c:5:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c:5:32: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_intern3; return 0; }
+                                ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_intern3; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I.    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64   -L/usr/lib64/ruby/2.0 -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:1: warning: implicit declaration of function ‘rb_intern3’ [-Wimplicit-function-declaration]
+ int t(void) { rb_intern3(); return 0; }
+ ^
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { rb_intern3(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_header: checking for mysql.h... -------------------- yes
+
+"gcc -E -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <mysql.h>
+/* end */
+
+--------------------
+
+have_header: checking for errmsg.h... -------------------- yes
+
+"gcc -E -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <errmsg.h>
+/* end */
+
+--------------------
+
+have_header: checking for mysqld_error.h... -------------------- yes
+
+"gcc -E -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <mysqld_error.h>
+/* end */
+
+--------------------
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Weverything -lpthread -lrt -ldl -lcrypt -lm   -lc"
+gcc: error: unrecognized command line option ‘-Weverything’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-bad-function-cast -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-conditional-uninitialized -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-covered-switch-default -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-declaration-after-statement -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-disabled-macro-expansion -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-documentation-unknown-command -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-missing-field-initializers -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-missing-variable-declarations -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-padded -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-reserved-id-macro -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-sign-conversion -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-static-in-inline -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-switch-enum -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-undef -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-unreachable-code -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby -Werror -Wno-used-but-marked-unused -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/usr/include/ruby/2.0 -I/usr/include/ruby/2.0/ruby/backward -I/usr/include/ruby/2.0 -I. -I/usr/include/mysql55    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -mtune=generic -fPIC -Wno-bad-function-cast -Wno-conditional-uninitialized -Wno-covered-switch-default -Wno-declaration-after-statement -Wno-disabled-macro-expansion -Wno-documentation-unknown-command -Wno-missing-field-initializers -Wno-missing-variable-declarations -Wno-padded -Wno-reserved-id-macro -Wno-sign-conversion -Wno-static-in-inline -Wno-switch-enum -Wno-undef -Wno-unreachable-code -Wno-used-but-marked-unused conftest.c  -L. -L/usr/lib64 -L. -fstack-protector -rdynamic -Wl,-export-dynamic  -m64  -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl  -L/usr/lib64/ruby/2.0 -lruby  -Wl,-rpath,/usr/lib64/mysql -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
