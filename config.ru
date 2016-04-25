@@ -22,6 +22,26 @@ app = Rack::Builder.new do
   map("/updatesales") {run UpdatesalesController.new }
   map("/updatestocks") {run UpdatestocksController.new }
   map("/updatestockquantities") {run UpdatestockquantitiesController.new }
+  map("/eodtotal") {run EodtotalController.new }
+  map("/salestoday") {run SalestodayController.new }
+  map("/salelasttime") {run SalelasttimeController.new }
+  map("/salesthismonth") {run SalesthismonthController.new }
+  map("/salesthismonthavg") {run SalesthismonthavgController.new }
+  map("/transactionsrecent") {run TransactionsrecentController.new }
+  map("/goodsinrecent") {run GoodsinrecentController.new }
+  map("/stockvatreport") {run StockvatreportController.new }
+  map("/vattoday") {run VattodayController.new }
+  map("/saleschart") {run SaleschartController.new }
+  map("/bootstrap") {run BootstrapController.new }
+  map("/topsellersallsales") {run TopsellersallsalesController.new }
+  map("/topsellersallsalesreport") {run TopsellersallsalesreportController.new }
+  map("/topsellersarchivesales") {run TopsellersarchivesalesController.new }
+  map("/topsellersarchivesalesreport") {run TopsellersarchivesalesreportController.new }
+  map("/topsellerstodaysales") {run TopsellerstodaysalesController.new }
+  map("/topsellerstodaysalesreport") {run TopsellerstodaysalesreportController.new }
+  map("/deptsalesreport") {run DeptsalesreportController.new }
+  map("/groupsalesreport") {run GroupsalesreportController.new }
+
 
   
 end

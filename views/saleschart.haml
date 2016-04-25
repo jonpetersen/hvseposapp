@@ -1,0 +1,13 @@
+%html
+  %head
+    -# %script{:type => 'text/javascript', :src => '//www.google.com/jsapi'}
+    %script{:type => 'text/javascript', :src => './js/chartkick.js'}
+    %script{:type => 'text/javascript', :src => './js/highcharts.js'}
+    = bootstrap_assets
+  %body
+    - container :fluid do
+      %p Monthly Sales Values
+      = line_chart [{name: "Sales Values", data:@sales_values},{name: "Sales Counts", data: @sales_counts}]
+      %p All Sales Values
+      = line_chart @all_sales_values
+	      

@@ -8,6 +8,14 @@ gem "activerecord"
 gem "json"
 gem "dbf"
 gem "whenever"
+gem "chartkick"
+gem "groupdate"
+gem "sinatra-twitter-bootstrap"
+gem "activerecord-import"
+gem "graphviz"
+gem "rails-erd"
+gem 'active_record_union'
+
 
 # Optional
 gem "activesupport"

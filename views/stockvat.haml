@@ -1,0 +1,70 @@
+%h2 Stock VAT 20% - Code 1 
+%p= @stock_vat.count.to_s + " Products"
+
+%table
+  %tbody
+    %tr
+      %td <b>PLU
+      %td <b>PRODUCT
+      %td <b>GID
+      %td <b>GROUP
+      %td <b>DID
+      %td <b>DEPARTMENT
+      %td <b>VAT
+    - @stock_vat.each do |row|
+      %tr
+        %td= row.plu
+        %td= row.desc
+        %td= row.depart.group.gid
+        %td= row.depart.group.desc            
+        %td= row.dept
+        %td= row.depart.desc
+        %td #{row.vatrate}%
+
+%h2 Stock NonVAT 0% - Code 2 
+%p=@stock_nonvat.count.to_s + " Products"
+
+%table
+  %tbody
+    %tr
+      %td <b>PLU
+      %td <b>PRODUCT
+      %td <b>GID
+      %td <b>GROUP
+      %td <b>DID
+      %td <b>DEPARTMENT
+      %td <b>VAT
+    - @stock_nonvat.each do |row|
+      %tr
+        %td= row.plu
+        %td= row.desc
+        %td= row.depart.group.gid
+        %td= row.depart.group.desc            
+        %td= row.dept
+        %td= row.depart.desc
+        %td #{row.vatrate}%
+
+%h2 Stock VAT 5% - Code 3 
+%p= @stock_vatother.count.to_s + " Products"
+
+%table
+  %tbody
+    %tr
+      %td <b>PLU
+      %td <b>PRODUCT
+      %td <b>GID
+      %td <b>GROUP
+      %td <b>DID
+      %td <b>DEPARTMENT
+      %td <b>VAT
+    - @stock_vatother.each do |row|
+      %tr
+        %td= row.plu
+        %td= row.desc
+        %td= row.depart.group.gid
+        %td= row.depart.group.desc            
+        %td= row.dept
+        %td= row.depart.desc
+        %td #{row.vatrate}%
+
+

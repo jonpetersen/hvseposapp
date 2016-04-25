@@ -33,5 +33,8 @@ class CreateEodlogs < ActiveRecord::Migration
   end
 end
 
-CreateEodlogs.down
-CreateEodlogs.up
+table = DBF::Table.new($aws_dir + "EODLOG.DBF")
+if Eodlog.count != table.count
+  CreateEodlogs.down
+  CreateEodlogs.up
+end

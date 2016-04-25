@@ -1,0 +1,23 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"}
+    %script{:type => "text/javascript", :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"}
+  %body
+    .container
+      %h2  #{@dept} Department Sales #{@report_time}
+      %table{:class => "table table-bordered"}
+        %tbody
+          %tr
+            %td <b>DESC
+            %td <b>VALUE
+            %td <b>QUANTITY
+            %td <b>AVG PRICE
+            
+          - @deptsales.each do |row|
+            %tr
+              %td= row[0]
+              %td= "£" + "#{row[1].round(2)}"
+              %td= row[2].round if row[2]
+              %td=  "£" + "#{(row[1]/row[2]).round(2)}" if row[2]

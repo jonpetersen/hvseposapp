@@ -13,6 +13,9 @@ require 'yaml'
 require 'mysql2'
 require 'active_record'
 require 'dbf'
+require 'chartkick'
+require 'sinatra/twitter-bootstrap'
+require 'rails_erd/diagram/graphviz'
 
 # configs
 require_relative 'deploy_setting'
@@ -28,6 +31,9 @@ $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
     require file
   end
 end
+
+#RailsERD.options.filetype = :dot
+#RailsERD::Diagram::Graphviz.create
 
 class Sinatra::Base
   # helpers
@@ -48,5 +54,5 @@ class Sinatra::Base
     disable :run, :reload
     # set :redis, Redis.new(:db => 15)
   end
-
+  
 end
