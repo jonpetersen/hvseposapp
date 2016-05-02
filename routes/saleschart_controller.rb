@@ -2,7 +2,6 @@ class SaleschartController < Sinatra::Base
   register Sinatra::Twitter::Bootstrap::Assets
   
   get '/' do
-    @estimates = {:cash => 12, :securities=> 24}
     @sales_counts = Allsale.where("type = ?","P").group(:date).count
     @sales_values = Allsale.where("type = ?","P").group(:date).sum(:totalprice)
     @sales_values_archive = Archivesale.where("type = ?","P").group(:date).sum(:totalprice)

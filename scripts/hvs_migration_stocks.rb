@@ -41,6 +41,14 @@ class CreateStocks < ActiveRecord::Migration
     Stock.reset_column_information
     Stock.import $stocksdata
     add_index :stocks, :plu
+    change_table :stocks do |t|
+      t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :price1, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :price2, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :price3, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :avgcost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :casecost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+    end  
   end
 
   def self.down
@@ -51,9 +59,6 @@ end
 table = DBF::Table.new($aws_dir + "Stock.DBF")
 if Stock.count != table.count
   CreateStocksdata.up
-  puts Time.now
   CreateStocks.down
-  puts Time.now
   CreateStocks.up
-  puts Time.now
 end

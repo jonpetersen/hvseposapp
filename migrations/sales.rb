@@ -9,6 +9,12 @@ class CreateSales < ActiveRecord::Migration
     end
     add_index :sales, :plu
     add_index :sales, :type
+    
+    change_table :sales do |t|
+      t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      
+    end
+  
   end
 
   def self.down

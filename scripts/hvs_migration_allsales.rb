@@ -32,6 +32,21 @@ class CreateAllsales < ActiveRecord::Migration
     end
     add_index :allsales, :plu
     add_index :allsales, :type
+    change_table :allsales do |t|
+      t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :vatamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :unitprice, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :totalprice, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :discamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :mixamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :shiftdisc, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :change, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender1, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender2, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender3, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :charge, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :pricechg, :decimal, :precision => 10, :scale => 2, :default => 0.0
+    end
   end
 
   def self.down

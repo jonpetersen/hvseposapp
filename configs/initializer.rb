@@ -16,6 +16,7 @@ require 'dbf'
 require 'chartkick'
 require 'sinatra/twitter-bootstrap'
 require 'rails_erd/diagram/graphviz'
+require 'money'
 
 # configs
 require_relative 'deploy_setting'
@@ -32,12 +33,15 @@ $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
   end
 end
 
+Money.default_currency = Money::Currency.new("GBP")
+
 #RailsERD.options.filetype = :dot
 #RailsERD::Diagram::Graphviz.create
 
 class Sinatra::Base
   # helpers
   include DebugOn
+  register Sinatra::Twitter::Bootstrap::Assets
 
   # set sinatra's variables
   set :app_name, "Hvseposapp" 
@@ -50,8 +54,8 @@ class Sinatra::Base
     disable :run, :reload, :show_exceptions
     # set :redis, Redis.new(:db => 2)
   else
-    enable  :sessions, :logging, :dump_errors, :show_exceptions
-    disable :run, :reload
+    enable  :sessions, :logging, :dump_errors, :show_exceptions, :reload
+    disable :run
     # set :redis, Redis.new(:db => 15)
   end
   

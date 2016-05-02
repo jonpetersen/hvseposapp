@@ -8473,3 +8473,51 @@ hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stock
    -> 0.0094s
 -- create_table("inwards")
    -> 0.0389s
+hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stockquantity (NameError)
+	from hvs_migration_inwards.rb:36:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0078s
+-- create_table("inwards")
+   -> 0.0205s
+hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stockquantity (NameError)
+	from hvs_migration_inwards.rb:36:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0071s
+-- create_table("inwards")
+   -> 0.0181s
+hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stockquantity (NameError)
+	from hvs_migration_inwards.rb:36:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0181s
+-- create_table("inwards")
+   -> 0.0318s
+hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stockquantity (NameError)
+	from hvs_migration_inwards.rb:36:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0110s
+-- create_table("inwards")
+   -> 0.0197s
+hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stockquantity (NameError)
+	from hvs_migration_inwards.rb:39:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0104s
+-- create_table("inwards")
+   -> 0.0243s
+-- drop_table(:inwards)
+   -> 0.0093s
+-- create_table("inwards")
+   -> 0.0072s
+-- change_table(:inwards)
+   -> 0.0207s
+-- drop_table(:inwards)
+   -> 0.0092s
+-- create_table("inwards")
+   -> 0.0155s
+-- change_table(:inwards)
+   -> 0.0212s
+-- drop_table(:inwards)
+   -> 0.0036s
+-- create_table("inwards")
+   -> 0.0073s
+-- change_table(:inwards)
+   -> 0.0271s

@@ -31,6 +31,22 @@ class CreateSales < ActiveRecord::Migration
     end
     add_index :sales, :plu
     add_index :sales, :type
+    
+    change_table :sales do |t|
+      t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :vatamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :unitprice, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :totalprice, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :discamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :mixamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :shiftdisc, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :change, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender1, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender2, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :tender3, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :charge, :decimal, :precision => 10, :scale => 2, :default => 0.0
+      t.change :pricechg, :decimal, :precision => 10, :scale => 2, :default => 0.0
+    end
   end
 
   def self.down

@@ -4269,3 +4269,79 @@ hvs_migration_allsales.rb:39:in `<main>': uninitialized constant CreateSales (Na
    -> 0.0599s
 -- add_index(:allsales, :type)
    -> 0.0523s
+-- drop_table(:allsales)
+   -> 0.0096s
+-- create_table("allsales")
+   -> 0.0088s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0117s
+-- add_index(:allsales, :plu)
+   -> 0.0597s
+-- add_index(:allsales, :type)
+   -> 0.0586s
+-- change_table(:allsales)
+   -> 8.8843s
+-- drop_table(:allsales)
+   -> 0.0073s
+-- create_table("allsales")
+   -> 0.0120s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0112s
+-- add_index(:allsales, :plu)
+   -> 0.0612s
+-- add_index(:allsales, :type)
+   -> 0.0568s
+-- change_table(:allsales)
+   -> 9.6358s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:73:in `rescue in initialize': file not found: /home/hvsepos/Touch/DATA/allsales.DBF (DBF::FileNotFoundError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:66:in `initialize'
+	from hvs_migration_allsales.rb:57:in `new'
+	from hvs_migration_allsales.rb:57:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0069s
+-- create_table("allsales")
+   -> 0.0200s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0126s
+-- add_index(:allsales, :plu)
+   -> 0.0627s
+-- add_index(:allsales, :type)
+   -> 0.0571s
+-- change_table(:allsales)
+   -> 9.7743s
+-- drop_table(:allsales)
+   -> 0.0067s
+-- create_table("allsales")
+   -> 0.0089s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0110s
+-- add_index(:allsales, :plu)
+   -> 0.0650s
+-- add_index(:allsales, :type)
+   -> 0.0605s
+-- change_table(:allsales)
+   -> 10.0844s
+-- drop_table(:allsales)
+   -> 0.0086s
+-- create_table("allsales")
+   -> 0.0087s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0110s
+-- add_index(:allsales, :plu)
+   -> 0.0706s
+-- add_index(:allsales, :type)
+   -> 0.0597s
+-- change_table(:allsales)
+   -> 10.2885s
+-- drop_table(:allsales)
+   -> 0.0072s
+-- create_table("allsales")
+   -> 0.0087s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0120s
+-- add_index(:allsales, :plu)
+   -> 0.0677s
+-- add_index(:allsales, :type)
+   -> 0.0600s
+-- change_table(:allsales)
+   -> 10.7103s

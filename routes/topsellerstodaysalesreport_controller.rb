@@ -11,7 +11,7 @@ class TopsellerstodaysalesreportController < Sinatra::Base
     @topsellers = []
     @topsellers_value.each do |item|
 	  itemqty = @topsellers_qty.detect {|key, val| key == item[0]}
-      @topsellers << [item[0],item[1],itemqty[1]]
+      @topsellers << [item[0],item[1].to_f,itemqty[1]]
     end
     
     @report_time = "Today"

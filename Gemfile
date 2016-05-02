@@ -15,6 +15,7 @@ gem "activerecord-import"
 gem "graphviz"
 gem "rails-erd"
 gem 'active_record_union'
+gem 'money'
 
 
 # Optional

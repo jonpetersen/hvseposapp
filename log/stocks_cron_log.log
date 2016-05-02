@@ -3891,3 +3891,214 @@ hvs_migration_stocks.rb:51: syntax error, unexpected keyword_end, expecting end-
 -- add_index(:stocks, :plu)
    -> 0.0405s
 2016-04-25 17:30:39 +0100
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_index' for CreateStocksdata:Class (NoMethodError)
+	from hvs_migration_stocks.rb:25:in `<main>'
+2016-04-28 10:30:03 +0100
+-- drop_table(:stocks)
+   -> 0.0043s
+-- create_table("stocks")
+   -> 0.0104s
+-- add_index(:stocks, :plu)
+   -> 0.0365s
+-- change_table(:stocks)
+   -> 1.1350s
+2016-04-28 11:30:03 +0100
+-- drop_table(:stocks)
+   -> 0.0037s
+-- create_table("stocks")
+   -> 0.0102s
+-- add_index(:stocks, :plu)
+   -> 0.0372s
+-- change_table(:stocks)
+   -> 1.1716s
+2016-04-28 12:30:02 +0100
+-- drop_table(:stocks)
+   -> 0.0038s
+-- create_table("stocks")
+   -> 0.0095s
+-- add_index(:stocks, :plu)
+   -> 0.0368s
+-- change_table(:stocks)
+   -> 1.2123s
+2016-04-28 13:30:03 +0100
+-- drop_table(:stocks)
+   -> 0.0036s
+-- create_table("stocks")
+   -> 0.0102s
+-- add_index(:stocks, :plu)
+   -> 0.0363s
+-- change_table(:stocks)
+   -> 1.1329s
+2016-04-28 14:30:03 +0100
+-- drop_table(:stocks)
+   -> 0.0037s
+-- create_table("stocks")
+   -> 0.0099s
+-- add_index(:stocks, :plu)
+   -> 0.0396s
+-- change_table(:stocks)
+   -> 1.3728s
+2016-04-28 16:30:04 +0100
+-- drop_table(:stocks)
+   -> 0.0043s
+-- create_table("stocks")
+   -> 0.0098s
+-- add_index(:stocks, :plu)
+   -> 0.0410s
+-- change_table(:stocks)
+   -> 1.2975s
+2016-04-28 17:30:04 +0100
+-- drop_table(:stocks)
+   -> 0.0032s
+-- create_table("stocks")
+   -> 0.0314s
+-- add_index(:stocks, :plu)
+   -> 0.0476s
+-- change_table(:stocks)
+   -> 1.4264s
+2016-04-29 09:00:03 +0100
+-- drop_table(:stocks)
+   -> 0.0082s
+-- create_table("stocks")
+   -> 0.0098s
+-- add_index(:stocks, :plu)
+   -> 0.0382s
+-- change_table(:stocks)
+   -> 1.3187s
+2016-04-29 15:30:02 +0100
+-- drop_table(:stocks)
+   -> 0.0044s
+-- create_table("stocks")
+   -> 0.0099s
+-- add_index(:stocks, :plu)
+   -> 0.0369s
+-- change_table(:stocks)
+   -> 1.3474s
