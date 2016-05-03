@@ -4345,3 +4345,15 @@ hvs_migration_allsales.rb:39:in `<main>': uninitialized constant CreateSales (Na
    -> 0.0600s
 -- change_table(:allsales)
    -> 10.7103s
+-- drop_table(:allsales)
+   -> 0.0075s
+-- create_table("allsales")
+   -> 0.0086s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0148s
+-- add_index(:allsales, :plu)
+   -> 0.0316s
+-- add_index(:allsales, :type)
+   -> 0.0305s
+-- change_table(:allsales)
+   -> 0.9850s

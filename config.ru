@@ -42,6 +42,7 @@ app = Rack::Builder.new do
   map("/deptsalesreport") {run DeptsalesreportController.new }
   map("/groupsalesreport") {run GroupsalesreportController.new }
   map("/dashboard") {run DashboardController.new }
+  map("/stockitem") {run StockitemController.new }
 
   
 end

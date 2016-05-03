@@ -7,10 +7,13 @@ class TopsellerstodaysalesController < Sinatra::Base
     #topsellers_allsales_qty.last.to_i
     @topsellers_value = Sale.where("type = ?","P").group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
     
-    if @topsellers_value.size == 0
-	  {"items" =>
-	    [{"label" => "EOD","value" => ""}]}.to_json    
-	else 
+    if @topsellers_value.empty?
+	  allsales_lastdate = Allsale.last.date 
+	  @topsellers_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
+	end
+    
+    
+     
       {"items" =>
 	    [{"label" => @topsellers_value[0][0],"value" => "£" + "#{@topsellers_value[0][1].round}"},
 	     {"label" => @topsellers_value[1][0],"value" => "£" + "#{@topsellers_value[1][1].round}"},
@@ -18,7 +21,6 @@ class TopsellerstodaysalesController < Sinatra::Base
 	     {"label" => @topsellers_value[3][0],"value" => "£" + "#{@topsellers_value[3][1].round}"},
 	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"}
 	    ]}.to_json
-    end
    
   end
 

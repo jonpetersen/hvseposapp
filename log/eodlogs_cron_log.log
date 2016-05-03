@@ -9732,3 +9732,9 @@
    -> 0.0077s
 -- change_table(:eodlogs)
    -> 0.3017s
+-- drop_table(:eodlogs)
+   -> 0.0062s
+-- create_table("eodlogs")
+   -> 0.0243s
+-- change_table(:eodlogs)
+   -> 0.2733s
