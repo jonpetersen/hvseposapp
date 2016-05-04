@@ -4354,3 +4354,21 @@ hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_
    -> 0.0382s
 -- change_table(:stocks)
    -> 1.1696s
+2016-05-04 09:00:03 +0100
+-- drop_table(:stocks)
+   -> 0.0080s
+-- create_table("stocks")
+   -> 0.0094s
+-- add_index(:stocks, :plu)
+   -> 0.0389s
+-- change_table(:stocks)
+   -> 1.2939s
+2016-05-04 10:30:02 +0100
+-- drop_table(:stocks)
+   -> 0.0040s
+-- create_table("stocks")
+   -> 0.0098s
+-- add_index(:stocks, :plu)
+   -> 0.0391s
+-- change_table(:stocks)
+   -> 1.1643s
