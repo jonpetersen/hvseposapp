@@ -5495,3 +5495,62 @@ hvs_migration_stocks.rb:34:in `<class:CreateStocksdata>': undefined method `add_
    -> 0.0401s
 -- add_index(:stocks, :dept)
    -> 0.0351s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stocks' doesn't exist: SHOW FULL FIELDS FROM `stocks` (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:312:in `execute_and_free'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:459:in `columns'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/schema_cache.rb:43:in `columns'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attributes.rb:93:in `columns'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attributes.rb:98:in `columns_hash'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:205:in `subclass_from_attributes?'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:54:in `new'
+	from hvs_migration_stocks.rb:24:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stocks.rb:23:in `up'
+	from hvs_migration_stocks.rb:61:in `<main>'
+hvs_migration_stocks.rb:23:in `eval': Mysql2::Error: Table 'stocks' already exists: CREATE TABLE `stocks` (`id` int(11) auto_increment PRIMARY KEY, `plu` varchar(14), `desc` varchar(30), `dept` varchar(10), `supp` varchar(10), `suppcode` varchar(20), `cost` float, `vatcode` int(11), `vatrate` float, `qty1` float, `price1` float, `qty2` float, `price2` float, `qty3` float, `price3` float, `qty4` float, `price4` float, `qty5` float, `price5` float, `qty6` float, `price6` float, `stock` float, `caseqty` int(11), `min` int(11), `max` int(11), `stop` int(11), `mixmatch` int(11), `pshift1` int(11), `pshift2` int(11), `pshift3` int(11), `pshift4` int(11), `pshift5` int(11), `pshift6` int(11), `followon` varchar(20), `bonus` int(11), `kitchen` int(11), `opalert` int(11), `prnalert` int(11), `comment1` varchar(30), `comment2` varchar(30), `comment3` varchar(30), `location` varchar(30), `condiment1` int(11), `condiment2` int(11), `condiment3` int(11), `qtydes1` varchar(8), `qtydes2` varchar(8), `qtydes3` varchar(8), `qtydes4` varchar(8), `qtydes5` varchar(8), `qtydes6` varchar(8), `lastsold` date, `lastrece` date, `lastorder` date, `serialmin` int(11), `serialmax` int(11), `opcomment` text, `question1` int(11), `question2` int(11), `question3` int(11), `comprece` tinyint(1), `opening` float, `stockin` float, `stockout` float, `avgcost` float, `lasttake` date, `maxdisc` float, `loypoints` int(11), `compstock` tinyint(1), `postsale` tinyint(1), `takeout` tinyint(1), `nonstock` tinyint(1), `custpts` int(11), `photo` varchar(64), `remtext1` varchar(36), `remtext2` varchar(36), `loyex` tinyint(1), `redonrem` tinyint(1), `shelf_lab` tinyint(1), `prod_lab` tinyint(1), `sales_qty` float, `casecost` float, `saleslabel` varchar(56), `labelprn` varchar(56), `cwmgroup` varchar(4), `cwmplu` varchar(4), `nuovqty` float, `cuovlabel` varchar(10), `nweight` float, `lweighable` tinyint(1), `cgroupid` varchar(10), `cuniqueid` varchar(10), `nonorder` int(11), `lghost` tinyint(1), `nghostsell` float, `nghostmsel` float, `cmasterplu` varchar(10), `lmodifier` tinyint(1), `cdefloc` varchar(10), `letopup` tinyint(1), `lrecipe` tinyint(1), `lonfly` tinyint(1), `luncexport` tinyint(1), `ltracking` tinyint(1), `ndcstubs` int(11), `lrepair` tinyint(1), `nrepmargin` float, `ldcmeasure` tinyint(1), `nwsfcolour` int(11), `nwsbcolour` int(11), `lwsexclude` tinyint(1), `lsageexcl` tinyint(1), `nwsseq` int(11), `lusepict` tinyint(1), `lnontax` tinyint(1), `ltrainee` tinyint(1), `lnoreturn` tinyint(1), `lwsconsol` tinyint(1), `lascondi` tinyint(1), `lusedmm` tinyint(1), `ctheme` varchar(20), `nrcpremote` int(11), `mrcpinst` text, `lrcpdispla` tinyint(1), `lrcpdtrain` tinyint(1), `nthfcolour` int(11), `lvoucher` tinyint(1), `lvchaccnt` tinyint(1), `lvchticket` tinyint(1), `lvchserial` tinyint(1), `lfreqplu` tinyint(1), `ifrequency` int(11), `ldelivery` tinyint(1), `ilabwareid` int(11), `lpackage` tinyint(1), `nthbcolour` int(11), `linsurance` tinyint(1), `nonorderu` float, `dtlastedit` datetime, `leodprint` tinyint(1), `lsquidrdm` tinyint(1), `lsquidtop` tinyint(1), `lwghtbcode` tinyint(1), `csize` varchar(15), `cfacing` varchar(10)) ENGINE=InnoDB (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/schema_statements.rb:222:in `create_table'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:470:in `create_table'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:665:in `block in method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from (eval):2:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/schema.rb:41:in `instance_eval'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/schema.rb:41:in `define'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/schema.rb:61:in `define'
+	from (eval):1:in `up'
+	from hvs_migration_stocks.rb:23:in `eval'
+	from hvs_migration_stocks.rb:23:in `up'
+	from hvs_migration_stocks.rb:56:in `<main>'
+-- create_table("stocks")
+-- drop_table(:stocks)
+   -> 0.0494s
+-- create_table("stocks")
+   -> 0.1076s
+-- change_table(:stocks)
+   -> 1.6254s
+-- add_index(:stocks, :plu)
+   -> 0.0361s
+-- add_index(:stocks, :dept)
+   -> 0.0349s

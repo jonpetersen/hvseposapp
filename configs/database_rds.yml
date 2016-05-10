@@ -1,0 +1,19 @@
+production:
+  adapter:  mysql2
+  username: jon
+  password: a6bert00
+  host:     hvsmysql.c7wwgcu9honp.eu-west-1.rds.amazonaws.com
+  timezone: GMT
+  reconnect: true
+  database: hvs
+  encoding: utf8
+
+development:
+  adapter:  mysql2
+  username: jon
+  password: a6bert00
+  host:     hvsmysql.c7wwgcu9honp.eu-west-1.rds.amazonaws.com
+  timezone: GMT
+  reconnect: true
+  database: hvs
+  encoding: utf8

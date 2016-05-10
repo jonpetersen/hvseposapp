@@ -1,17 +1,13 @@
 require 'dbf'
 require "active_record"
-require "mysql"
+require "mysql2"
+require "yaml"
+require_relative "../configs/deploy_setting.rb"
+require_relative "../configs/active_record_setting.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
 
-ActiveRecord::Base.establish_connection(  
-  :adapter => "mysql",  
-  :host => "localhost",  
-  :database =>  "hvs",
-  :username => "jon",
-  :password => "a6bert00") 
-  
 class Eodlog < ActiveRecord::Base
   #belongs_to :stock
   self.inheritance_column = nil
@@ -51,7 +47,11 @@ class CreateEodlogs < ActiveRecord::Migration
 end
 
 table = DBF::Table.new($aws_dir + "EODLOG.DBF")
-if Eodlog.count != table.count
-  CreateEodlogs.down
-  CreateEodlogs.up
+if Eodlog.table_exists?
+  if Eodlog.count != table.count
+    CreateEodlogs.down
+    CreateEodlogs.up
+  end
+else
+  CreateEodlogs.up  
 end

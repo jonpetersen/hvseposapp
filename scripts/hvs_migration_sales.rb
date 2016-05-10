@@ -1,17 +1,12 @@
 require 'dbf'
 require "active_record"
-require "mysql"
+require "mysql2"
+require "yaml"
+require_relative "../configs/deploy_setting.rb"
+require_relative "../configs/active_record_setting.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
-
-ActiveRecord::Base.establish_connection(  
-  :adapter => "mysql",  
-  :host => "localhost",  
-  :database =>  "hvs",
-  :username => "jon",
-  :password => "a6bert00") 
-
 
 class Sale < ActiveRecord::Base
   #belongs_to :stock

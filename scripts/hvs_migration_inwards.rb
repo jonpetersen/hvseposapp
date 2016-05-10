@@ -1,16 +1,12 @@
 require 'dbf'
 require "active_record"
-require "mysql"
+require "mysql2"
+require "yaml"
+require_relative "../configs/deploy_setting.rb"
+require_relative "../configs/active_record_setting.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
-
-ActiveRecord::Base.establish_connection(  
-  :adapter => "mysql",  
-  :host => "localhost",  
-  :database =>  "hvs",
-  :username => "jon",
-  :password => "a6bert00") 
 
 class Inward < ActiveRecord::Base
   self.inheritance_column = nil
@@ -36,7 +32,11 @@ class CreateInwards < ActiveRecord::Migration
 end
 
 table = DBF::Table.new($aws_dir + "inwards.DBF")
-if Inward.count != table.count
-  CreateInwards.down
+if Inward.table_exists?
+  if Inward.count != table.count
+    CreateInwards.down
+    CreateInwards.up
+  end
+else
   CreateInwards.up
 end

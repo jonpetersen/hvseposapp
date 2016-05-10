@@ -1,16 +1,12 @@
 require 'dbf'
 require "active_record"
-require "mysql"
+require "mysql2"
+require "yaml"
+require "../configs/deploy_setting.rb"
+require "../configs/active_record_setting.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
-
-ActiveRecord::Base.establish_connection(  
-  :adapter => "mysql",  
-  :host => "localhost",  
-  :database =>  "hvs",
-  :username => "jon",
-  :password => "a6bert00") 
 
 class Archivesale < ActiveRecord::Base
   self.inheritance_column = nil
@@ -65,5 +61,10 @@ class CreateArchivesales < ActiveRecord::Migration
   end
 end
 
-CreateArchivesales.down
-CreateArchivesales.up
+if Archivesale.table_exists?
+  CreateArchivesales.down
+  CreateArchivesales.up
+else
+  CreateArchivesales.up
+end
+

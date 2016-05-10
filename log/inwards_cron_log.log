@@ -8587,3 +8587,15 @@ hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stock
    -> 0.0064s
 -- change_table(:inwards)
    -> 0.0235s
+-- drop_table(:inwards)
+   -> 0.0067s
+-- create_table("inwards")
+   -> 0.0064s
+-- change_table(:inwards)
+   -> 0.0243s
+-- drop_table(:inwards)
+   -> 0.0043s
+-- create_table("inwards")
+   -> 0.0101s
+-- change_table(:inwards)
+   -> 0.0323s

@@ -1,17 +1,12 @@
 require 'dbf'
 require "active_record"
-require "mysql"
+require "mysql2"
+require "yaml"
+require_relative "../configs/deploy_setting.rb"
+require_relative "../configs/active_record_setting.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
-
-ActiveRecord::Base.establish_connection(  
-  :adapter => "mysql",  
-  :host => "localhost",  
-  :database =>  "hvs",
-  :username => "jon",
-  :password => "a6bert00") 
-
 
 class Allsale < ActiveRecord::Base
   #belongs_to :stock
@@ -278,7 +273,11 @@ class CreateAllsales < ActiveRecord::Migration
 end
 
 table = DBF::Table.new($aws_dir + "allsales.DBF")
-if Allsale.count != table.count
-  CreateAllsales.down
-  CreateAllsales.up
+if Allsale.table_exists?
+  if Allsale.count != table.count
+    CreateAllsales.down
+    CreateAllsales.up
+  end
+else
+  CreateAllsales.up  
 end
