@@ -4357,3 +4357,105 @@ hvs_migration_allsales.rb:39:in `<main>': uninitialized constant CreateSales (Na
    -> 0.0305s
 -- change_table(:allsales)
    -> 0.9850s
+-- drop_table(:allsales)
+   -> 0.0041s
+-- create_table("allsales")
+   -> 0.0089s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0118s
+-- add_index(:allsales, :plu)
+   -> 0.0321s
+-- add_index(:allsales, :type)
+   -> 0.0308s
+-- change_table(:allsales)
+   -> 1.1391s
+-- drop_table(:allsales)
+   -> 0.0156s
+-- create_table("allsales")
+   -> 0.0133s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0111s
+-- add_index(:allsales, :plu)
+   -> 0.0329s
+-- add_index(:allsales, :type)
+   -> 0.0331s
+-- add_index(:allsales, :date)
+   -> 0.0316s
+-- change_table(:allsales)
+   -> 1.8078s
+-- drop_table(:allsales)
+   -> 0.0087s
+-- create_table("allsales")
+   -> 0.0182s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0143s
+-- add_index(:allsales, :plu)
+   -> 0.0395s
+-- add_index(:allsales, :type)
+   -> 0.0353s
+-- add_index(:allsales, :date)
+   -> 0.0337s
+-- change_table(:allsales)
+   -> 2.4962s
+-- drop_table(:allsales)
+   -> 0.0054s
+-- create_table("allsales")
+   -> 0.0087s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0186s
+-- add_index(:allsales, :plu)
+   -> 0.0340s
+-- add_index(:allsales, :type)
+   -> 0.0372s
+-- add_index(:allsales, :date)
+   -> 0.0327s
+-- change_table(:allsales)
+   -> 2.4094s
+-- drop_table(:allsales)
+   -> 0.0091s
+-- create_table("allsales")
+   -> 0.0088s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0110s
+-- add_index(:allsales, :plu)
+   -> 0.0355s
+-- add_index(:allsales, :type)
+   -> 0.0358s
+-- add_index(:allsales, :date)
+   -> 0.0348s
+-- change_table(:allsales)
+   -> 2.8090s
+-- drop_table(:allsales)
+   -> 0.0076s
+-- create_table("allsales")
+   -> 0.0135s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0136s
+-- add_index(:allsales, :plu)
+   -> 0.0403s
+-- add_index(:allsales, :type)
+   -> 0.0364s
+-- add_index(:allsales, :date)
+   -> 0.0354s
+-- change_table(:allsales)
+   -> 3.2030s
+-- drop_table(:allsales)
+   -> 0.0047s
+-- create_table("allsales")
+   -> 0.0150s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0106s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0115s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0123s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0120s
+-- add_index(:allsales, :plu)
+   -> 0.0398s
+-- add_index(:allsales, :type)
+   -> 0.0375s
+-- add_index(:allsales, :date)
+   -> 0.0394s
+-- change_table(:allsales)
+   -> 3.7340s

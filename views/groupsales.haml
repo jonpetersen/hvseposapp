@@ -1,10 +1,20 @@
-!!!
-%html{:lang => "en"}
-  %head
-    = bootstrap_assets
-  %body
-    .container
-      %h2  #{@group} Group Sales #{@report_time}
+.row
+  .col-sm-3.col-md-2.sidebar
+    %ul.nav.nav-sidebar
+      %li.active
+        %h2.page-header Groups
+        %li
+          %a{:href => "http://hvsapp.jonpetersen.co.uk/groupsalesreport?group=all"} All Groups £#{@allgroupsalestotal.to_i}
+        - @salesbygroup_array.each do |row|
+          %li
+            %a{:href => "http://hvsapp.jonpetersen.co.uk/groupsalesreport?group=#{row[1]}"} #{row[0]} £#{row[2].to_i}
+  .col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2.main
+    %h2.page-header #{@thisgroup} - #{@report_time}
+    .row.placeholders
+      .col-xs-12.col-sm-12.placeholder
+        = line_chart @groupsalesseries, trendline: true
+    %h3.sub-header Items
+    .table-responsive
       %table{:class => "table table-bordered"}
         %tbody
           %tr
@@ -16,6 +26,6 @@
           - @groupsales.each do |row|
             %tr
               %td= row[0]
-              %td= Money.new(row[1]*100).format
+              %td £#{row[1].to_i}
               %td= row[2].round if row[2]
               %td= Money.new((row[1]/row[2])*100).format if row[2]

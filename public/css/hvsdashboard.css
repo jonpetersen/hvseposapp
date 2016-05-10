@@ -1,0 +1,12 @@
+.table-responsive
+{
+    overflow-x: auto;
+    border: 1px solid #dddddd;
+}
+
+.table-responsive td, .table-responsive th 
+{ 
+    white-space:nowrap;
+    padding: 2px;
+    text-align: -webkit-auto;    
+}

@@ -11,7 +11,9 @@ class TopsellersallsalesController < Sinatra::Base
 	     {"label" => @topsellers_value[1][0],"value" => "£" + "#{@topsellers_value[1][1].round}"},
 	     {"label" => @topsellers_value[2][0],"value" => "£" + "#{@topsellers_value[2][1].round}"},
 	     {"label" => @topsellers_value[3][0],"value" => "£" + "#{@topsellers_value[3][1].round}"},
-	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"}
+	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"},
+	     {"label" => @topsellers_value[5][0],"value" => "£" + "#{@topsellers_value[5][1].round}"},
+	     {"label" => @topsellers_value[6][0],"value" => "£" + "#{@topsellers_value[6][1].round}"}
 	    ]}.to_json
     
    

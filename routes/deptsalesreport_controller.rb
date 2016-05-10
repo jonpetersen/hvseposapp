@@ -4,8 +4,6 @@ class DeptsalesreportController < Sinatra::Base
   
   get '/' do
     
-    @departs = Depart.all
-        
     @salesbydept = Sale.joins(:stock).where("type = ?","P").group("stocks.dept")
     @allsalesbydept = Allsale.joins(:stock).where("type = ?","P").group("stocks.dept")
     @archivesalesbydept = Archivesale.joins(:stock).where("type = ?","P").group("stocks.dept")
@@ -14,7 +12,7 @@ class DeptsalesreportController < Sinatra::Base
     
     @salesbydept_array = []
     @everysalebydeptvalue.each do |dept|
-	  @salesbydept_array << [@departs.where(:gid => dept[0]).first.desc,dept[0],dept[1]]
+	  @salesbydept_array << [Depart.all.where(:gid => dept[0]).first.desc,dept[0],dept[1]]
     end
     
     #default to largest dept if dept param is missing
@@ -82,6 +80,13 @@ class DeptsalesreportController < Sinatra::Base
     else
       @deptsalesseries = @all_sales_values
     end
+    
+    @deptsalesseries[Date.parse("2016-05-02")] = 0
+    @deptsalesseries[Date.parse("2015-12-25")] = 0
+    @deptsalesseries[Date.parse("2015-12-26")] = 0
+    @deptsalesseries[Date.parse("2015-12-27")] = 0
+    @deptsalesseries[Date.parse("2015-12-28")] = 0
+    @deptsalesseries[Date.parse("2016-01-01")] = 0
     
     @alldeptsalestotal = @all_sales_values.values.sum
     

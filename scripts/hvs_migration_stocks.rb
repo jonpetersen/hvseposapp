@@ -39,8 +39,7 @@ class CreateStocks < ActiveRecord::Migration
     new_schema = table.schema.gsub!("Stock","stocks")
     eval(new_schema)
     Stock.reset_column_information
-    Stock.import $stocksdata
-    add_index :stocks, :plu
+    Stock.import $stocksdata    
     change_table :stocks do |t|
       t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
       t.change :price1, :decimal, :precision => 10, :scale => 2, :default => 0.0
@@ -48,7 +47,9 @@ class CreateStocks < ActiveRecord::Migration
       t.change :price3, :decimal, :precision => 10, :scale => 2, :default => 0.0
       t.change :avgcost, :decimal, :precision => 10, :scale => 2, :default => 0.0
       t.change :casecost, :decimal, :precision => 10, :scale => 2, :default => 0.0
-    end  
+    end
+    add_index :stocks, :plu
+    add_index :stocks, :dept  
   end
 
   def self.down

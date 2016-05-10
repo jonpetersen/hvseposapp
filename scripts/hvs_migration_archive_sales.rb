@@ -24,6 +24,9 @@ class CreateArchivesales < ActiveRecord::Migration
     schema = schema.gsub!("desc","description")
     eval(schema)
     add_column :archivesales, :created_at, :datetime
+    add_column :archivesales, :lmmcomp, :tinyint
+    add_column :archivesales, :lmsm, :tinyint
+    add_column :archivesales, :imovoqty, :int
     Archivesale.reset_column_information
     @archive_files.each do |file|
 	  table = DBF::Table.new(file)
@@ -33,7 +36,13 @@ class CreateArchivesales < ActiveRecord::Migration
     end
     add_index :archivesales, :plu
     add_index :archivesales, :type
+    add_index :archivesales, :date
+    add_index :archivesales, :cuniqueid
+    add_index :archivesales, :description
+    add_index :archivesales, [:plu, :type]
+    
     change_table :archivesales do |t|
+      t.change :time, :time
       t.change :cost, :decimal, :precision => 10, :scale => 2, :default => 0.0
       t.change :vatamount, :decimal, :precision => 10, :scale => 2, :default => 0.0
       t.change :unitprice, :decimal, :precision => 10, :scale => 2, :default => 0.0

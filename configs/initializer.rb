@@ -12,11 +12,14 @@ require 'time'
 require 'yaml'
 require 'mysql2'
 require 'active_record'
+require 'active_record_union'
 require 'dbf'
 require 'chartkick'
 require 'sinatra/twitter-bootstrap'
 require 'rails_erd/diagram/graphviz'
 require 'money'
+require 'groupdate'
+require 'bullet'
 
 # configs
 require_relative 'deploy_setting'
@@ -59,4 +62,10 @@ class Sinatra::Base
     # set :redis, Redis.new(:db => 15)
   end
   
+  configure :development do
+    Bullet.enable = true
+    Bullet.bullet_logger = true
+    use Bullet::Rack
+  end
+
 end

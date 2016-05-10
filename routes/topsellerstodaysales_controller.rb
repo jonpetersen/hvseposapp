@@ -10,16 +10,15 @@ class TopsellerstodaysalesController < Sinatra::Base
     if @topsellers_value.empty?
 	  allsales_lastdate = Allsale.last.date 
 	  @topsellers_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
-	end
-    
-    
-     
+	end     
       {"items" =>
 	    [{"label" => @topsellers_value[0][0],"value" => "£" + "#{@topsellers_value[0][1].round}"},
 	     {"label" => @topsellers_value[1][0],"value" => "£" + "#{@topsellers_value[1][1].round}"},
 	     {"label" => @topsellers_value[2][0],"value" => "£" + "#{@topsellers_value[2][1].round}"},
 	     {"label" => @topsellers_value[3][0],"value" => "£" + "#{@topsellers_value[3][1].round}"},
-	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"}
+	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"},
+	     {"label" => @topsellers_value[5][0],"value" => "£" + "#{@topsellers_value[5][1].round}"},
+	     {"label" => @topsellers_value[6][0],"value" => "£" + "#{@topsellers_value[6][1].round}"}
 	    ]}.to_json
    
   end

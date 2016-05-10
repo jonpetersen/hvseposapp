@@ -7,12 +7,22 @@ class TopsellersarchivesalesreportController < Sinatra::Base
     
     @topsellers = []
     @topsellers_value.each do |item|
-	  puts item[0]
 	  itemqty = @topsellers_qty.detect {|key, val| key == item[0]}
-      itemdesc = Stock.where("plu = ?",item[0]).first.desc 
-      @topsellers << [itemdesc,item[0],item[1],itemqty[1]]
+      stockitem = Stock.where("plu = ?",item[0]).first
+      itemdept = Stock.joins(:depart).where("plu = ?", item[0]).first
+      if itemdept
+        itemdept = itemdept.depart.desc
+	  else
+	    itemdept = "NO DEPT FOR THIS ITEM"
+      end  
+      if stockitem
+        itemdesc = stockitem.desc
+      else
+        itemdesc = "NOT IN STOCK DATABASE"
+      end
+      @topsellers << [itemdesc,item[0],item[1],itemqty[1],itemdept]
     end
-    
+    @salestotal = Archivesale.where("type = ?","P").sum("totalprice")
     @report_time = "All"
     haml :topsellers
     

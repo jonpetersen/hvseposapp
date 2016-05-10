@@ -8527,3 +8527,63 @@ hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stock
    -> 0.0172s
 -- change_table(:inwards)
    -> 0.0255s
+-- drop_table(:inwards)
+   -> 0.0058s
+-- create_table("inwards")
+   -> 0.0145s
+-- change_table(:inwards)
+   -> 0.0239s
+-- drop_table(:inwards)
+   -> 0.0037s
+-- create_table("inwards")
+   -> 0.0076s
+-- change_table(:inwards)
+   -> 0.0263s
+-- drop_table(:inwards)
+   -> 0.0036s
+-- create_table("inwards")
+   -> 0.0071s
+-- change_table(:inwards)
+   -> 0.0283s
+-- drop_table(:inwards)
+   -> 0.0102s
+-- create_table("inwards")
+   -> 0.0177s
+-- change_table(:inwards)
+   -> 0.0253s
+-- drop_table(:inwards)
+   -> 0.0062s
+-- create_table("inwards")
+   -> 0.0067s
+-- change_table(:inwards)
+   -> 0.0316s
+-- drop_table(:inwards)
+   -> 0.0068s
+-- create_table("inwards")
+   -> 0.0078s
+-- change_table(:inwards)
+   -> 0.0284s
+-- drop_table(:inwards)
+   -> 0.0046s
+-- create_table("inwards")
+   -> 0.0087s
+-- change_table(:inwards)
+   -> 0.0269s
+-- drop_table(:inwards)
+   -> 0.0038s
+-- create_table("inwards")
+   -> 0.0074s
+-- change_table(:inwards)
+   -> 0.0223s
+-- drop_table(:inwards)
+   -> 0.0041s
+-- create_table("inwards")
+   -> 0.0068s
+-- change_table(:inwards)
+   -> 0.0242s
+-- drop_table(:inwards)
+   -> 0.0046s
+-- create_table("inwards")
+   -> 0.0064s
+-- change_table(:inwards)
+   -> 0.0235s

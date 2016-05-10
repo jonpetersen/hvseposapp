@@ -16,7 +16,7 @@ gem "graphviz"
 gem "rails-erd"
 gem 'active_record_union'
 gem 'money'
-
+gem "bullet", :group => "development"
 
 # Optional
 gem "activesupport"

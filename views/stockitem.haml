@@ -1,19 +1,18 @@
-!!!
-%html{:lang => "en"}
-  %head
-    = bootstrap_assets
-  %body
-    .container
-      %h2 #{@stockitem.desc} - #{@plu} - #{@stockitem.depart.desc}
-      %table{:class => "table table-bordered"}
-        %tbody
-          %tr
-            %td <b>PRICE
-            %td <b>COST
-            %td <b>CASE QTY
-            %td <b>VAT RATE
-          %tr
-            %td= Money.new(@stockitem.price1*100).format
-            %td= Money.new(@stockitem.cost*100).format
-            %td= @stockitem.caseqty
-            %td #{@stockitem.vatrate.round(0)}%
+%h2 #{@stockitem.desc} - #{@plu} - #{@stockitem.depart.desc}
+%h4 Total Sold #{@item_total_qtysold}
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>PRICE
+      %td <b>COST
+      %td <b>CASE QTY
+      %td <b>VAT RATE
+    %tr
+      %td= Money.new(@stockitem.price1*100).format
+      %td= Money.new(@stockitem.cost*100).format
+      %td= @stockitem.caseqty
+      %td #{@stockitem.vatrate.round(0)}%
+%p Sales Last 30 Days
+= line_chart @item_total_qtysold_last30days, height: "250px"
+%p Sales By Week
+= line_chart @item_total_qtysold_by_week, height: "250px"

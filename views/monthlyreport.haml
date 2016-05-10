@@ -1,0 +1,20 @@
+%div
+  %h2 #{@salesmonthforreport}
+  %h3 Total Sales #{Money.new(@monthlysales*100).format}
+  %h4 Total VAT #{Money.new(@monthlyvat*100).format} (#{@monthlyvatpercent}%)
+  %table{:class => "table table-bordered"}
+    %tbody
+      %tr
+        %td <b>DEPT
+        %td <b>VALUE
+        %td <b>%
+
+      - @monthlygroupsales.each do |row|
+        %tr
+          %td= row[0]
+          %td= Money.new(row[2] * 100).format
+          %td= ((row[2]/@monthlysales) * 100).round
+  %h3 Sales Count by Day of Week
+  = column_chart @monthlysalesbydayofweek, height: "250px"
+  %h3 Sales Count by Hour of Day
+  = column_chart @monthlysalesbyhourofday, height: "250px"  

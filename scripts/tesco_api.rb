@@ -1,7 +1,7 @@
 require 'net/http'
 
 uri = URI('https://dev.tescolabs.com/grocery/products/?query=bread&offset=0&limit=10')
-uri.query = URI.encode_www_form({query: "bread", offset: 0, limit: 10})
+uri.query = URI.encode_www_form({query: "Milky Way 21.5g", offset: 0, limit: 10})
 
 request = Net::HTTP::Get.new(uri.request_uri)
 # Request headers

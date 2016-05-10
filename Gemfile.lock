@@ -20,6 +20,9 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.3)
     builder (3.2.2)
+    bullet (5.0.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.9.0)
     chartkick (1.4.2)
     choice (0.2.0)
     chronic (0.10.2)
@@ -79,6 +82,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+    uniform_notifier (1.9.0)
     whenever (0.9.4)
       chronic (>= 0.6.3)
 
@@ -90,6 +94,7 @@ DEPENDENCIES
   activerecord
   activerecord-import
   activesupport
+  bullet
   chartkick
   dbf
   graphviz
