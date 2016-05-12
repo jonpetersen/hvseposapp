@@ -132,7 +132,7 @@ class CreateAllsales < ActiveRecord::Migration
                          lstkupdtd: record.lstkupdtd,
                          lsageexp: record.lsageexp,
                          cgeneric2: record.cgeneric2,
-                         created_at: Time.now)
+                         created_at: (record.date.to_datetime + Time.parse(record.time).seconds_since_midnight.seconds))
       else
         Allsale.create(type: record.type,
                        branch: record.branch,
@@ -240,8 +240,8 @@ class CreateAllsales < ActiveRecord::Migration
                        lstkupdtd: record.lstkupdtd,
                        lsageexp: record.lsageexp,
                        cgeneric2: record.cgeneric2,
-                       created_at: Time.now)  
-      end
+                       created_at: (record.date.to_datetime + Time.parse(record.time).seconds_since_midnight.seconds)) 
+        end
       end
     end
     add_index :allsales, :plu

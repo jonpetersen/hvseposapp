@@ -1,0 +1,27 @@
+%script{:src => "https://d3js.org/d3.v3.min.js"}
+%script{:src => "./js/ie-emulation-modes-warning.js"}
+%script{:type => 'text/javascript', :src => "./cal-heatmap-master/cal-heatmap.min.js"}
+%link{:href => "./cal-heatmap-master/cal-heatmap.css", :rel => "stylesheet"}
+%br
+<div id="cal-heatmap"></div>
+<script type="text/javascript">
+var cal = new CalHeatMap();
+cal.init({
+domain: "day",
+subDomain: "hour",
+range: 200,
+rowLimit: 1,
+domainGutter: 0,
+data: "http://hvsapp.jonpetersen.co.uk/salesactivity?output=json",
+considerMissingDataAsZero: true,
+start: new Date(2015, 9, 28),
+end: new Date(2016, 5, 11),
+cellSize: 15,
+cellPadding: 5,
+verticalOrientation: true,
+displayLegend: false,
+label: {position: "left",offset: {x: 20,y: 12},width: 110},
+legend: [1, 10, 40, 70, 100, 130],
+legendColors: {min: "#ecf5e2",max: "#232181",empty: "white"}
+});
+</script>

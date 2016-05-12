@@ -27,27 +27,27 @@ class GroupsalesreportController < Sinatra::Base
     class Groupsales
       def self.totalqty(group)
         if group != "all"
-          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
-          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
-          group_sales = Sale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
+          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("archivesales.plu")
+          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("allsales.plu")
+          group_sales = Sale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("sales.plu")
           group_everysale = group_sales.sum(:qty).merge(group_allsales.sum(:qty)){ |k, a_value, b_value| a_value + b_value }.merge(group_archivesales.sum(:qty)){ |k, a_value, b_value| a_value + b_value }
         else
-          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
-          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
-          group_sales = Sale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
+          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("archivesales.plu")
+          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("allsales.plu")
+          group_sales = Sale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("sales.plu")
           group_everysale = group_sales.sum(:qty).merge(group_allsales.sum(:qty)){ |k, a_value, b_value| a_value + b_value }.merge(group_archivesales.sum(:qty)){ |k, a_value, b_value| a_value + b_value }  
         end
       end
       def self.totalprice(group)
         if group != "all"
-          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
-          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
-          group_sales = Sale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("description")
+          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("archivesales.plu")
+          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("allsales.plu")
+          group_sales = Sale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group("sales.plu")
           group_everysale = group_sales.sum(:totalprice).merge(group_allsales.sum(:totalprice)){ |k, a_value, b_value| a_value + b_value }.merge(group_archivesales.sum(:totalprice)){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
         else
-          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
-          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
-          group_sales = Sale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("description")
+          group_archivesales = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("archivesales.plu")
+          group_allsales = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("allsales.plu")
+          group_sales = Sale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("sales.plu")
           group_everysale = group_sales.sum(:totalprice).merge(group_allsales.sum(:totalprice)){ |k, a_value, b_value| a_value + b_value }.merge(group_archivesales.sum(:totalprice)){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
         end
       end
@@ -93,7 +93,8 @@ class GroupsalesreportController < Sinatra::Base
     
     groupsales.each do |item|
 	  itemqty = groupqtys.detect {|key, val| key == item[0]}
-      @groupsales << [item[0],item[1],itemqty[1]]
+      itemdesc = Stock.where("plu = ?",item[0]).first.desc
+      @groupsales << [itemdesc,item[0],item[1],itemqty[1]]
     end
     
     @report_time = "All Sales"

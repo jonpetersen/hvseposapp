@@ -3,7 +3,7 @@ production:
   username: jon
   password: a6bert00
   host:     hvsmysql.c7wwgcu9honp.eu-west-1.rds.amazonaws.com
-  timezone: GMT
+  timezone: 'utc'
   reconnect: true
   database: hvs
   encoding: utf8
@@ -13,7 +13,7 @@ development:
   username: jon
   password: a6bert00
   host:     hvsmysql.c7wwgcu9honp.eu-west-1.rds.amazonaws.com
-  timezone: GMT
+  timezone: 'utc'
   reconnect: true
   database: hvs
   encoding: utf8

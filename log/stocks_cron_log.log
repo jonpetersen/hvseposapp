@@ -5554,3 +5554,26 @@ hvs_migration_stocks.rb:23:in `eval': Mysql2::Error: Table 'stocks' already exis
    -> 0.0361s
 -- add_index(:stocks, :dept)
    -> 0.0349s
+-- drop_table(:stocks)
+   -> 0.0383s
+-- create_table("stocks")
+   -> 0.0758s
+-- change_table(:stocks)
+   -> 1.7516s
+-- add_index(:stocks, :plu)
+   -> 0.0461s
+-- add_index(:stocks, :dept)
+   -> 0.0351s
+-- drop_table(:stocks)
+   -> 0.0933s
+-- create_table("stocks")
+   -> 0.1499s
+-- change_table(:stocks)
+   -> 1.6447s
+-- add_index(:stocks, :plu)
+   -> 0.0368s
+-- add_index(:stocks, :dept)
+   -> 0.0360s
+/home/hvsepos/hvseposapp/configs/active_record_setting.rb:3:in `<top (required)>': undefined method `active_record' for #<Hash:0x00000003542588> (NoMethodError)
+	from hvs_migration_stocks.rb:8:in `require_relative'
+	from hvs_migration_stocks.rb:8:in `<main>'

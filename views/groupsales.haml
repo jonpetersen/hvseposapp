@@ -25,7 +25,8 @@
             
           - @groupsales.each do |row|
             %tr
-              %td= row[0]
-              %td £#{row[1].to_i}
-              %td= row[2].round if row[2]
-              %td= Money.new((row[1]/row[2])*100).format if row[2]
+              %td 
+                %a{:href => "../stockitem/#{row[1]}"} #{row[0]}
+              %td £#{row[2].to_i}
+              %td= row[3].round if row[3]
+              %td= Money.new((row[2]/row[3])*100).format if row[3]

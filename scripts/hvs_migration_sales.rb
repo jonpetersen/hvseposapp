@@ -127,7 +127,7 @@ class CreateSales < ActiveRecord::Migration
                   lstkupdtd: record.lstkupdtd,
                   lsageexp: record.lsageexp,
                   cgeneric2: record.cgeneric2,
-                  created_at: Time.now) if record
+                  created_at: (record.date.to_datetime + Time.parse(record.time).seconds_since_midnight.seconds)) if record
     end
     add_index :sales, :plu
     add_index :sales, :type

@@ -36,6 +36,7 @@ $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
   end
 end
 
+Groupdate.time_zone = "UTC"
 Money.default_currency = Money::Currency.new("GBP")
 
 #RailsERD.options.filetype = :dot

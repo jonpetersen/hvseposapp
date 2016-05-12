@@ -8599,3 +8599,12 @@ hvs_migration_inwards.rb:24:in `up': uninitialized constant CreateInwards::Stock
    -> 0.0101s
 -- change_table(:inwards)
    -> 0.0323s
+-- drop_table(:inwards)
+   -> 0.0153s
+-- create_table("inwards")
+   -> 0.0252s
+-- change_table(:inwards)
+   -> 0.0713s
+/home/hvsepos/hvseposapp/configs/active_record_setting.rb:3:in `<top (required)>': undefined method `active_record' for #<Hash:0x00000000aea880> (NoMethodError)
+	from hvs_migration_inwards.rb:6:in `require_relative'
+	from hvs_migration_inwards.rb:6:in `<main>'

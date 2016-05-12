@@ -34,11 +34,20 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand{:href => "http://hvsdashboard.jonpetersen.co.uk/hvs1"} Back to Dashboard
+          %a.navbar-brand{:href => "http://hvsdashboard.jonpetersen.co.uk/hvs1"} HVS Dashboard
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
               %a{:href => "../saleschart"} Sales Charts
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Sales Activity
+                %span.caret
+              %ul.dropdown-menu{:role => "menu"}
+                %li
+                  %a{:href => "../salesactivity"} Activity by Time
+                %li
+                  %a{:href => "../heatmaps"} Activity Heatmap             
             %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                 Sales Reports
