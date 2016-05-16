@@ -27,7 +27,10 @@ class TopsellerstodaysalesreportController < Sinatra::Base
     end
     
     @salestotal = Sale.where("type = ?","P").sum("totalprice")
-    
+    if @salestotal == 0
+	  @salestotal = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).sum(:totalprice)    
+	end
+	    
     @report_time = "Today"
     haml :topsellers   
   end

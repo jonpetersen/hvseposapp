@@ -18,8 +18,9 @@ class SaleschartController < Sinatra::Base
     missingvatpercent = 0.077
     
     @missing_salesvat_values = {@salesvat_values_archive.keys[97] + 1 => 193.68 * missingvatpercent,@salesvat_values_archive.keys[97] + 2 => 198.19 * missingvatpercent,@salesvat_values_archive.keys[97] + 3 => 186.54 * missingvatpercent,@salesvat_values_archive.keys[97] + 4 => 164.89 * missingvatpercent,@salesvat_values_archive.keys[97] + 5 => 282.38 * missingvatpercent,@salesvat_values_archive.keys[97] + 6 => 231.92 * missingvatpercent,@salesvat_values_archive.keys[97] + 7 => 112.84 * missingvatpercent,@salesvat_values_archive.keys[97] + 8 => 250.99 * missingvatpercent,@salesvat_values_archive.keys[97] + 9 => 374.36 * missingvatpercent,@salesvat_values_archive.keys[97] + 10 => 402.48 * missingvatpercent}
-     
-    @all_sales_values = @sales_values_archive.merge(@sales_values).merge(@missing_sales_values) 
+    
+    #merge order changed because April 30th data in archive and allsales
+    @all_sales_values = @sales_values.merge(@sales_values_archive).merge(@missing_sales_values) 
     @all_salesvat_values = @salesvat_values_archive.merge(@salesvat_values).merge(@missing_salesvat_values) 
 
     @all_sales_values[Date.parse("2015-12-25")] = 0
@@ -46,6 +47,13 @@ class SaleschartController < Sinatra::Base
 	    @vatpercent_hash[h[0]] = 0
 	  end   
 	end
+    
+    #fix fudge for 30 April 2016 - shouldn't be needed once May has been archived
+    @vatpercent_hash[Date.parse("2016-04-30")] = 6.89
+    
+    #sort into date order for charting
+    @all_sales_values = @all_sales_values.sort_by{|k,v| k}
+    @vatpercent_hash = @vatpercent_hash.sort_by{|k,v| k}
     
     haml :saleschart
     

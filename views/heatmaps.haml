@@ -3,25 +3,32 @@
 %script{:type => 'text/javascript', :src => "./cal-heatmap-master/cal-heatmap.min.js"}
 %link{:href => "./cal-heatmap-master/cal-heatmap.css", :rel => "stylesheet"}
 %br
-<div id="cal-heatmap"></div>
-<script type="text/javascript">
-var cal = new CalHeatMap();
-cal.init({
-domain: "day",
-subDomain: "hour",
-range: 200,
-rowLimit: 1,
-domainGutter: 0,
-data: "http://hvsapp.jonpetersen.co.uk/salesactivity?output=json",
-considerMissingDataAsZero: true,
-start: new Date(2015, 9, 28),
-end: new Date(2016, 5, 11),
-cellSize: 15,
-cellPadding: 5,
-verticalOrientation: true,
-displayLegend: false,
-label: {position: "left",offset: {x: 20,y: 12},width: 110},
-legend: [1, 10, 40, 70, 100, 130],
-legendColors: {min: "#ecf5e2",max: "#232181",empty: "white"}
-});
-</script>
+%div
+  #items-by-hour
+  <script type="text/javascript">
+  (function() {
+  var cal = new CalHeatMap();
+  cal.init({
+  itemSelector: "#items-by-hour",
+  domain: "day",
+  domainLabelFormat: "%a %e %b %y",
+  subDomain: "hour",
+  range: 60,
+  rowLimit: 1,
+  domainGutter: 0,
+  data: "http://hvsapp.jonpetersen.co.uk/salesactivity?output=json",
+  considerMissingDataAsZero: true,
+  start: new Date().setTime(new Date().getTime() - (24*60*60*1000) * 80),
+  cellSize: 15,
+  cellPadding: 5,
+  verticalOrientation: true,
+  displayLegend: false,
+  label: {position: "left",offset: {x: 20,y: 12},width: 110},
+  legend: [1, 10, 40, 70, 100, 130],
+  legendColors: {min: "#ecf5e2",max: "#232181",empty: "white"},
+  previousSelector: "#items-by-hour-PreviousDomain-selector",
+  nextSelector: "#items-by-hour-NextDomain-selector",
+  });
+  cal.next(28);
+  })();
+  </script>

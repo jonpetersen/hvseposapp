@@ -9786,3 +9786,27 @@
    -> 0.0257s
 -- change_table(:eodlogs)
    -> 0.6274s
+-- drop_table(:eodlogs)
+   -> 0.0571s
+-- create_table("eodlogs")
+   -> 0.0345s
+-- change_table(:eodlogs)
+   -> 0.7263s
+-- drop_table(:eodlogs)
+   -> 0.0214s
+-- create_table("eodlogs")
+   -> 0.0258s
+-- change_table(:eodlogs)
+   -> 0.6449s
+-- drop_table(:eodlogs)
+   -> 0.0163s
+-- create_table("eodlogs")
+   -> 0.0212s
+-- change_table(:eodlogs)
+   -> 0.6495s
+-- drop_table(:eodlogs)
+   -> 0.0440s
+-- create_table("eodlogs")
+   -> 0.0259s
+-- change_table(:eodlogs)
+   -> 0.6459s

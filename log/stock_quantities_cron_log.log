@@ -9,3 +9,63 @@
 /home/hvsepos/hvseposapp/configs/active_record_setting.rb:3:in `<top (required)>': undefined method `active_record' for #<Hash:0x00000001de2730> (NoMethodError)
 	from hvs_migration_stock_quantities.rb:6:in `require_relative'
 	from hvs_migration_stock_quantities.rb:6:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0338s
+-- create_table("stockquantities")
+   -> 0.0317s
+-- drop_table(:stockquantities)
+   -> 0.0113s
+-- create_table("stockquantities")
+   -> 0.0349s
+-- drop_table(:stockquantities)
+   -> 0.0169s
+-- create_table("stockquantities")
+   -> 0.0364s
+-- drop_table(:stockquantities)
+   -> 0.0289s
+-- create_table("stockquantities")
+   -> 0.0341s
+-- drop_table(:stockquantities)
+   -> 0.0567s
+-- create_table("stockquantities")
+   -> 0.1245s
+-- drop_table(:stockquantities)
+   -> 0.0626s
+-- create_table("stockquantities")
+   -> 0.1314s
+-- drop_table(:stockquantities)
+   -> 0.0119s
+-- create_table("stockquantities")
+   -> 0.0325s
+-- drop_table(:stockquantities)
+   -> 0.0713s
+-- create_table("stockquantities")
+   -> 0.1036s
+-- drop_table(:stockquantities)
+   -> 0.0607s
+-- create_table("stockquantities")
+   -> 0.0949s
+-- drop_table(:stockquantities)
+   -> 0.0388s
+-- create_table("stockquantities")
+   -> 0.0314s
+-- drop_table(:stockquantities)
+   -> 0.0276s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0805s
+-- create_table("stockquantities")
+   -> 0.0490s
+-- drop_table(:stockquantities)
+   -> 0.0636s
+-- create_table("stockquantities")
+   -> 0.1254s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0379s
+-- drop_table(:stockquantities)
+   -> 0.0138s
+-- create_table("stockquantities")
+   -> 0.0371s

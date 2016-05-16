@@ -1,6 +1,7 @@
 class StockitemController < Sinatra::Base
-
+  
   get '/:plu' do
+	require "./scripts/tesco_api.rb"
 	  
 	# plu = "90207"  
 	  
@@ -24,6 +25,10 @@ class StockitemController < Sinatra::Base
     @item_total_qtysold_last30days = item_total_qtysold_by_day.to_a.last(30)
     
     #@item_total_qtysold_by_week = item_everysale.group_by_week(:date).count.to_a
+    
+    #TESCO API LOOKUP
+    Tescosearch.name(@stockitem.desc)
+    Tescosearch.price(@stockitem.desc)    
     
     haml :stockitem
     
