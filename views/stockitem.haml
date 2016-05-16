@@ -12,17 +12,18 @@
       %td= Money.new(@stockitem.cost*100).format
       %td= @stockitem.caseqty
       %td #{@stockitem.vatrate.round(0)}%
+%h4 Top 2 results from searching Tesco's stock (only works with most common products)
 %table{:class => "table table-bordered"}
   %tbody
     %tr
       %td <b>Tesco Name
       %td <b>Tesco Price
     %tr
-      %td= @tesco_name1
-      %td= @tesco_price1
+      %td= @tescosearchname1
+      %td= @tescosearchprice1
     %tr
-      %td= @tesco_name2
-      %td= @tesco_price2
+      %td= @tescosearchname2
+      %td= @tescosearchprice2
 %p Sales Last 30 Days
 = line_chart @item_total_qtysold_last30days, height: "250px"
 %p Sales By Week

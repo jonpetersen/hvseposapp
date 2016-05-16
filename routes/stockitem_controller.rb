@@ -27,8 +27,22 @@ class StockitemController < Sinatra::Base
     #@item_total_qtysold_by_week = item_everysale.group_by_week(:date).count.to_a
     
     #TESCO API LOOKUP
-    Tescosearch.name(@stockitem.desc)
-    Tescosearch.price(@stockitem.desc)    
+    @tescosearch = Tesco.search(@stockitem.desc)
+    if @tescosearch[0] 
+	   @tescosearchname1 = @tescosearch[0]["name"]
+	   @tescosearchprice1 = Money.new(@tescosearch[0]["price"]).format
+	else
+	  @tescosearchname1 = "Not found"
+	  @tescosearchprice1 = "Not found"
+	end
+	
+	if @tescosearch[1] 
+	   @tescosearchname2 = @tescosearch[1]["name"]
+	   @tescosearchprice2 = Money.new(@tescosearch[1]["price"]).format
+	else
+	  @tescosearchname2 = "Not found"
+	  @tescosearchprice2 = "Not found"
+	end
     
     haml :stockitem
     
