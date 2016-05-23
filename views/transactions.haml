@@ -1,0 +1,26 @@
+%h4 Last #{@last_n_transactions_array.size} Transactions
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>Transaction
+      %td <b>Time
+      %td <b>Operator
+      %td <b>Value
+      %td <b>Cash
+      %td <b>Change
+      %td <b>Paid
+      %td <b>Card
+      %td <b>Items
+    - @last_n_transactions_array.reverse.each do |row|
+      %tr
+        %td= row[:transno]
+        %td= row[:time]
+        %td= row[:operator]
+        %td= Money.new(row[:transvalue]*100).format
+        %td= Money.new(row[:tender1]*100).format
+        %td= Money.new(row[:change]*100).format
+        %td= Money.new(row[:paid]*100).format
+        %td= Money.new(row[:tender2]*100).format
+        %td
+          - row[:items].each do |item|
+            %li #{item[0]}, #{Money.new(item[1]*100).format}, #{item[2]}

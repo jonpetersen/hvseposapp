@@ -53,6 +53,12 @@ class SaleschartController < Sinatra::Base
     
     #sort into date order for charting
     @all_sales_values = @all_sales_values.sort_by{|k,v| k}
+    
+    @all_sales_values_for_chart = []
+    @all_sales_values.each do |a|	    
+	  @all_sales_values_for_chart << [a[0].strftime("%a %d %b %y"),a[1]]    
+	end    
+    
     @vatpercent_hash = @vatpercent_hash.sort_by{|k,v| k}
     
     haml :saleschart

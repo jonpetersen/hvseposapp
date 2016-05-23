@@ -1,8 +1,8 @@
 %br
 %p Current Month Sales
 = line_chart [{name: "Sales Values", data:@sales_values},{name: "Sales Counts", data: @sales_counts}], height: "250px"
-%p All Time Sales
-= line_chart @all_sales_values, height: "250px"
+%p All Sales
+= line_chart @all_sales_values_for_chart, height: "250px"
 %p All Time VAT %'s
 = line_chart @vatpercent_hash, height: "250px", colors: ["pink", "#999"]
 

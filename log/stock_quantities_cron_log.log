@@ -69,3 +69,83 @@
    -> 0.0138s
 -- create_table("stockquantities")
    -> 0.0371s
+-- drop_table(:stockquantities)
+   -> 0.0151s
+-- create_table("stockquantities")
+   -> 0.0204s
+-- drop_table(:stockquantities)
+   -> 0.1033s
+-- create_table("stockquantities")
+   -> 0.0854s
+-- drop_table(:stockquantities)
+   -> 0.0227s
+-- create_table("stockquantities")
+   -> 0.0343s
+-- drop_table(:stockquantities)
+   -> 0.0133s
+-- create_table("stockquantities")
+   -> 0.0312s
+-- drop_table(:stockquantities)
+   -> 0.0126s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0098s
+-- create_table("stockquantities")
+   -> 0.0202s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0235s
+-- drop_table(:stockquantities)
+   -> 0.0430s
+-- create_table("stockquantities")
+   -> 0.0706s
+-- drop_table(:stockquantities)
+   -> 0.0158s
+-- create_table("stockquantities")
+   -> 0.0348s
+-- drop_table(:stockquantities)
+   -> 0.0100s
+-- create_table("stockquantities")
+   -> 0.0342s
+-- drop_table(:stockquantities)
+   -> 0.0115s
+-- create_table("stockquantities")
+   -> 0.0420s
+-- drop_table(:stockquantities)
+   -> 0.0174s
+-- create_table("stockquantities")
+   -> 0.0312s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0251s
+-- drop_table(:stockquantities)
+   -> 0.0105s
+-- create_table("stockquantities")
+   -> 0.0242s
+-- drop_table(:stockquantities)
+   -> 0.0109s
+-- create_table("stockquantities")
+   -> 0.0308s
+-- drop_table(:stockquantities)
+   -> 0.0130s
+-- create_table("stockquantities")
+   -> 0.0341s
+-- drop_table(:stockquantities)
+   -> 0.0208s
+-- create_table("stockquantities")
+   -> 0.0391s
+-- drop_table(:stockquantities)
+   -> 0.0146s
+-- create_table("stockquantities")
+   -> 0.0314s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0341s
+-- drop_table(:stockquantities)
+   -> 0.0152s
+-- create_table("stockquantities")
+   -> 0.0327s

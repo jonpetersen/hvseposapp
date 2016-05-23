@@ -69,6 +69,8 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
+    sinatra-advanced-routes (0.5.3)
+      sinatra (~> 1.0)
     sinatra-twitter-bootstrap (2.3.4)
     sixarm_ruby_unaccent (1.1.1)
     thin (1.6.4)
@@ -108,6 +110,7 @@ DEPENDENCIES
   redis
   rest-client
   sinatra
+  sinatra-advanced-routes
   sinatra-twitter-bootstrap
   thin
   whenever

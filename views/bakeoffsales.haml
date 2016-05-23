@@ -1,0 +1,61 @@
+.grid
+  .row
+    %h4 Pastry Bake Off Sales
+    %table{:class => "table-responsive table-bordered col-xs-1"}
+      %tbody
+        %td Date
+        - @bakeoffallsales_pastry[0].to_a[0][1].last(21).reverse.each do |date|
+          %tr
+            %td= date[0].to_date.strftime("%a %b %e")
+    - @bakeoffallsales_pastry.each do |item|
+      %table{:class => "table-responsive table-bordered col-xs-1"}
+        %tbody
+          %td= item.keys[0]
+          - item.to_a[0][1].last(21).reverse.each do |date|
+            %tr
+              %td= date[1].to_i
+  .row
+    %h4 Sausage Roll & Pies Bake Off Sales
+    %table{:class => "table-responsive table-bordered col-xs-1"}
+      %tbody
+        %td Date
+        - @bakeoffallsales_sr_pies[0].to_a[0][1].last(21).reverse.each do |date|
+          %tr
+            %td= date[0].to_date.strftime("%a %b %e")
+    - @bakeoffallsales_sr_pies.each do |item|
+      %table{:class => "table-responsive table-bordered col-xs-1"}
+        %tbody
+          %td= item.keys[0]
+          - item.to_a[0][1].last(21).reverse.each do |date|
+            %tr
+              %td= date[1].to_i
+  .row
+    %h4 Slices Bake Off Sales
+    %table{:class => "table-responsive table-bordered col-xs-1"}
+      %tbody
+        %td Date
+        - @bakeoffallsales_slices[0].to_a[0][1].last(21).reverse.each do |date|
+          %tr
+            %td= date[0].to_date.strftime("%a %b %e")
+    - @bakeoffallsales_slices.each do |item|
+      %table{:class => "table-responsive table-bordered col-xs-1"}
+        %tbody
+          %td= item.keys[0]
+          - item.to_a[0][1].last(21).reverse.each do |date|
+            %tr
+              %td= date[1].to_i
+  .row
+    %h4 Pasties Bake Off Sales
+    %table{:class => "table-responsive table-bordered col-xs-1"}
+      %tbody
+        %td Date
+        - @bakeoffallsales_pasties[0].to_a[0][1].last(21).reverse.each do |date|
+          %tr
+            %td= date[0].to_date.strftime("%a %b %e")
+    - @bakeoffallsales_pasties.each do |item|
+      %table{:class => "table-responsive table-bordered col-xs-1"}
+        %tbody
+          %td= item.keys[0]
+          - item.to_a[0][1].last(21).reverse.each do |date|
+            %tr
+              %td= date[1].to_i

@@ -1,6 +1,7 @@
 # base
 require 'bundler/setup'
 require 'sinatra/base'
+require 'sinatra/advanced_routes'
 
 # gems
 require 'logger'
@@ -20,6 +21,7 @@ require 'rails_erd/diagram/graphviz'
 require 'money'
 require 'groupdate'
 require 'bullet'
+
 
 # configs
 require_relative 'deploy_setting'
@@ -46,7 +48,8 @@ class Sinatra::Base
   # helpers
   include DebugOn
   register Sinatra::Twitter::Bootstrap::Assets
-
+  register Sinatra::AdvancedRoutes
+  
   # set sinatra's variables
   set :app_name, "Hvseposapp" 
   set :app_logger, Logger.new(File.join($root_path, 'log', "hvseposapp.log"), 'daily')
@@ -70,3 +73,5 @@ class Sinatra::Base
   end
 
 end
+
+

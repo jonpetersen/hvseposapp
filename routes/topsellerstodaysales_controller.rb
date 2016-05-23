@@ -11,15 +11,14 @@ class TopsellerstodaysalesController < Sinatra::Base
 	  allsales_lastdate = Allsale.last.date 
 	  @topsellers_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
 	end     
-      {"items" =>
-	    [{"label" => @topsellers_value[0][0],"value" => "£" + "#{@topsellers_value[0][1].round}"},
-	     {"label" => @topsellers_value[1][0],"value" => "£" + "#{@topsellers_value[1][1].round}"},
-	     {"label" => @topsellers_value[2][0],"value" => "£" + "#{@topsellers_value[2][1].round}"},
-	     {"label" => @topsellers_value[3][0],"value" => "£" + "#{@topsellers_value[3][1].round}"},
-	     {"label" => @topsellers_value[4][0],"value" => "£" + "#{@topsellers_value[4][1].round}"},
-	     {"label" => @topsellers_value[5][0],"value" => "£" + "#{@topsellers_value[5][1].round}"},
-	     {"label" => @topsellers_value[6][0],"value" => "£" + "#{@topsellers_value[6][1].round}"}
-	    ]}.to_json
+    items_array = []
+	n = 7
+	n = @topsellers_value.size unless @topsellers_value.size > 7
+	for i in 0...n
+	  items_array << {"label" => @topsellers_value[i][0],"value" => "£" + "#{@topsellers_value[i][1].round}"}
+	end
+      
+    {"items" => items_array}.to_json
    
   end
 

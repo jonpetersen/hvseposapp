@@ -17,6 +17,7 @@ gem "rails-erd"
 gem 'active_record_union'
 gem 'money'
 gem "bullet", :group => "development"
+gem "sinatra-advanced-routes"
 
 # Optional
 gem "activesupport"

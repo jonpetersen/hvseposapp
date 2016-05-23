@@ -2,7 +2,7 @@
 require_relative 'configs/initializer'
 
 # App Router
-app = Rack::Builder.new do
+Hvseposapp = Rack::Builder.new do
 
   # CMS
   # map "/cms" do
@@ -46,8 +46,11 @@ app = Rack::Builder.new do
   map("/monthlyreport") {run MonthlyreportController.new }
   map("/salesactivity") {run SalesactivityController.new }
   map("/heatmaps") {run HeatmapsController.new }
+  map("/transactionstoday") {run TransactionstodayController.new }
+  map("/bakeoffsales") {run BakeoffsalesreportController.new }
+  map("/routes") {run RoutesController.new }
 
   
 end
 
-run app
+run Hvseposapp
