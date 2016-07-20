@@ -9,3 +9,55 @@
 -- drop_table(:archivesales)
    -> 0.0394s
 -- archive_files()
+-- drop_table(:archivesales)
+   -> 0.5163s
+-- create_table("archivesales")
+   -> 0.1332s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.0678s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.0437s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0406s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0435s
+-- add_index(:archivesales, :plu)
+   -> 0.4463s
+-- add_index(:archivesales, :type)
+   -> 0.2431s
+-- add_index(:archivesales, :date)
+   -> 0.2361s
+-- add_index(:archivesales, :cuniqueid)
+   -> 0.2717s
+-- add_index(:archivesales, :description)
+   -> 0.2759s
+-- add_index(:archivesales, [:plu, :type])
+   -> 0.3168s
+-- change_table(:archivesales)
+   -> 39.2189s
+-- drop_table(:archivesales)
+   -> 0.2509s
+-- create_table("archivesales")
+   -> 0.1015s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.0491s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.0248s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0410s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0303s
+-- add_index(:archivesales, :plu)
+   -> 0.4930s
+-- add_index(:archivesales, :type)
+   -> 0.2945s
+-- add_index(:archivesales, :date)
+   -> 0.2966s
+-- add_index(:archivesales, :cuniqueid)
+   -> 0.3448s
+-- add_index(:archivesales, :description)
+   -> 0.3470s
+-- add_index(:archivesales, [:plu, :type])
+   -> 0.3513s
+-- change_table(:archivesales)
+   -> 42.6017s

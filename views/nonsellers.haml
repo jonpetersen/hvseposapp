@@ -1,0 +1,17 @@
+%div
+  %strong{:style => "font-size:22px"} Nonsellers
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>ITEM
+      %td <b>PLU
+      %td <b>LAST RECEIVED
+      %td <b>STOCK LEVEL
+      
+    - @nonsellers.each do |row|
+      %tr
+        %td 
+          %a{:href => "../stockitem/#{row[1]}"} #{row[0]}
+        %td= row[1]
+        %td= row[2]
+        %td= row[3]

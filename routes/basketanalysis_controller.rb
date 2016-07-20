@@ -1,7 +1,42 @@
-class TransactionstodayController < Sinatra::Base
+class BasketanalysisController < Sinatra::Base
 
   get '/' do
   	
+  	sales_transactions = Sale.where("type = ?","P").group(:transno)
+  	allsales_transactions = Allsale.where("type = ?","P").group(:transno)
+  	#archivesales_transactions = Archivesale.where("type = ?","P").group(:transno)
+  	
+  	sales_transactions_array = []
+  	allsales_transactions_array = []
+  	
+  	sales_transactions.each do |t|
+	  items = Sale.where("transno = ? AND type = ?",t.transno,"P")	
+	  items_array = []
+	  items.each do |i|      
+        items_array << i.description
+      end
+      sales_transactions_array << items_array.uniq
+    end
+    
+    allsales_transactions.each do |t|
+	  items = Allsale.where("transno = ? AND type = ?",t.transno,"P")	
+	  items_array = []
+	  items.each do |i|      
+        items_array << i.description
+      end
+      allsales_transactions_array << items_array.uniq
+    end
+    
+    
+    transactions_array = sales_transactions_array + allsales_transactions_array
+    
+    test_data = transactions_array
+    item_set = Apriori::ItemSet.new(test_data)
+    support = 50
+    confidence = 60
+    item_set.mine(support, confidence)
+    
+    
   	if params[:n]
   	
   	  n=params[:n].to_i
@@ -11,9 +46,7 @@ class TransactionstodayController < Sinatra::Base
       if sales_transactions.empty?
 	    allsales_lastdate = Allsale.last.date 
 	    lastn_transactions = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:transno).last(n)
-	    @sales_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).sum(:totalprice)
 	  else
-	    @sales_value = Sale.where("type = ?","P").sum(:totalprice)
 	    lastn_transactions = sales_transactions  
 	  end
       

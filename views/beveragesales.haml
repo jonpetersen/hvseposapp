@@ -1,0 +1,16 @@
+.grid
+  .row
+    %h4 Beverage Sales
+    %table{:class => "table-responsive table-bordered col-xs-1"}
+      %tbody
+        %td Date
+        - @beverageallsales[0].to_a[0][1].last(22).reverse.each do |date|
+          %tr
+            %td= date[0].to_date.strftime("%a %b %e")
+    - @beverageallsales.each do |item|
+      %table{:class => "table-responsive table-bordered col-xs-1"}
+        %tbody
+          %td= item.keys[0]
+          - item.to_a[0][1].last(22).reverse.each do |date|
+            %tr
+              %td= date[1].to_i

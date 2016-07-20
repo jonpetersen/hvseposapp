@@ -21,6 +21,7 @@ require 'rails_erd/diagram/graphviz'
 require 'money'
 require 'groupdate'
 require 'bullet'
+require 'apriori'
 
 
 # configs

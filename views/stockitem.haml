@@ -1,4 +1,4 @@
-%h2 #{@stockitem.desc} - #{@stockitem.depart.desc}
+%h2 #{@stockitem.desc} - #{@stockitem.depart.desc} - #{@stockitem.plu}
 %h4 Total Sold #{@item_total_qtysold}
 %table{:class => "table table-bordered"}
   %tbody
@@ -7,11 +7,13 @@
       %td <b>COST
       %td <b>CASE QTY
       %td <b>VAT RATE
+      %td <b>LAST SOLD
     %tr
       %td= Money.new(@stockitem.price1*100).format
       %td= Money.new(@stockitem.cost*100).format
       %td= @stockitem.caseqty
       %td #{@stockitem.vatrate.round(0)}%
+      %td= @stockitem.lastsold
 %h4 Top 2 results from searching Tesco's stock (only works with most common products)
 %table{:class => "table table-bordered"}
   %tbody

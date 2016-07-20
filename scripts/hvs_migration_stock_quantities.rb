@@ -30,10 +30,10 @@ end
 
 table = DBF::Table.new($aws_dir + "StockQuantitiesByLocation.DBF")
 if Stockquantity.table_exists?
-  if Stockquantity.count != table.count
+  #if Stockquantity.count != table.count
     CreateStockquantities.down
     CreateStockquantities.up
-  end
+  #end
 else
   CreateStockquantities.up
 end

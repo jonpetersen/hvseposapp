@@ -48,7 +48,10 @@ Hvseposapp = Rack::Builder.new do
   map("/heatmaps") {run HeatmapsController.new }
   map("/transactionstoday") {run TransactionstodayController.new }
   map("/bakeoffsales") {run BakeoffsalesreportController.new }
+  map("/beveragesales") {run BeveragesalesreportController.new }
   map("/routes") {run RoutesController.new }
+  map("/nonsellers") {run NonsellersController.new }
+  map("/transactionsize") {run TransactionsizeController.new }
 
   
 end

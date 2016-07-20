@@ -18,6 +18,7 @@ gem 'active_record_union'
 gem 'money'
 gem "bullet", :group => "development"
 gem "sinatra-advanced-routes"
+gem "apriori-ruby"
 
 # Optional
 gem "activesupport"

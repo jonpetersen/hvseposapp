@@ -1,4 +1,4 @@
-%h4 Last #{@last_n_transactions_array.size} Transactions
+%h4 Last #{@last_n_transactions_array.size} Transactions #{Money.new(@sales_value * 100).format}
 %table{:class => "table table-bordered"}
   %tbody
     %tr

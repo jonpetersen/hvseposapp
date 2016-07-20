@@ -94,7 +94,8 @@ class GroupsalesreportController < Sinatra::Base
     groupsales.each do |item|
 	  itemqty = groupqtys.detect {|key, val| key == item[0]}
       itemdesc = Stock.where("plu = ?",item[0]).first.desc
-      @groupsales << [itemdesc,item[0],item[1],itemqty[1]]
+      item_last_sold = Stock.where("plu = ?",item[0]).first.lastsold
+      @groupsales << [itemdesc,item[0],item[1],itemqty[1],item_last_sold]
     end
     
     @report_time = "All Sales"

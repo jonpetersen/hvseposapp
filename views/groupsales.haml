@@ -22,7 +22,7 @@
             %td <b>VALUE
             %td <b>QUANTITY
             %td <b>AVG PRICE
-            
+            %td <b>LAST SOLD
           - @groupsales.each do |row|
             %tr
               %td 
@@ -30,3 +30,4 @@
               %td £#{row[2].to_i}
               %td= row[3].round if row[3]
               %td= Money.new((row[2]/row[3])*100).format if row[3]
+              %td= row[4] if row[3]

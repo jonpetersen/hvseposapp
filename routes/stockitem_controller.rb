@@ -3,7 +3,7 @@ class StockitemController < Sinatra::Base
   get '/:plu' do
 	require "./scripts/tesco_api.rb"
 	  
-	# plu = "90207"  
+	# plu = "91103"  
 	  
     plu=params[:plu]
     @stockitem = Stock.joins(:depart).where("plu = ?",plu).first
