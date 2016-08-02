@@ -14308,3 +14308,87 @@ hvs_migration_inwards.rb:22:in `block in up': undefined method `branch' for nil:
    -> 0.0212s
 -- change_table(:inwards)
    -> 0.1189s
+-- drop_table(:inwards)
+   -> 0.0452s
+-- create_table("inwards")
+   -> 0.0167s
+-- change_table(:inwards)
+   -> 0.1353s
+-- drop_table(:inwards)
+   -> 0.0123s
+-- create_table("inwards")
+   -> 0.0285s
+-- change_table(:inwards)
+   -> 0.1438s
+-- drop_table(:inwards)
+   -> 0.0101s
+-- create_table("inwards")
+   -> 0.0283s
+-- change_table(:inwards)
+   -> 0.1676s
+-- drop_table(:inwards)
+   -> 0.0194s
+-- create_table("inwards")
+   -> 0.0169s
+-- change_table(:inwards)
+   -> 0.1307s
+-- drop_table(:inwards)
+   -> 0.0086s
+-- create_table("inwards")
+   -> 0.0201s
+-- change_table(:inwards)
+   -> 0.1375s
+-- drop_table(:inwards)
+   -> 0.0271s
+-- create_table("inwards")
+   -> 0.0190s
+-- change_table(:inwards)
+   -> 0.1316s
+-- drop_table(:inwards)
+   -> 0.0524s
+-- create_table("inwards")
+   -> 0.0292s
+-- change_table(:inwards)
+   -> 0.1449s
+-- drop_table(:inwards)
+   -> 0.0106s
+-- create_table("inwards")
+   -> 0.0167s
+-- change_table(:inwards)
+   -> 0.1244s
+-- drop_table(:inwards)
+   -> 0.0329s
+-- create_table("inwards")
+   -> 0.0311s
+-- change_table(:inwards)
+   -> 0.1346s
+-- drop_table(:inwards)
+   -> 0.0091s
+-- create_table("inwards")
+   -> 0.0304s
+-- change_table(:inwards)
+   -> 0.1237s
+-- drop_table(:inwards)
+   -> 0.0096s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.1410s
+-- drop_table(:inwards)
+   -> 0.0582s
+-- create_table("inwards")
+   -> 0.0213s
+-- change_table(:inwards)
+   -> 0.1331s
+-- drop_table(:inwards)
+   -> 0.0090s
+-- create_table("inwards")
+   -> 0.0173s
+-- change_table(:inwards)
+   -> 0.1246s
+-- drop_table(:inwards)
+   -> 0.0170s
+-- create_table("inwards")
+   -> 0.1681s
+-- change_table(:inwards)
+   -> 0.1182s

@@ -97,7 +97,7 @@ class DeptsalesreportController < Sinatra::Base
       @deptsales << [item[0],item[1],itemqty[1]]
     end
     
-    @report_time = "All Sales"
+    @report_time = "Sales Since Oct 28 2015"
     haml :deptsales   
   end
 

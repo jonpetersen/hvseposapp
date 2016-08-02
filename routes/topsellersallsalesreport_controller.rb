@@ -12,8 +12,8 @@ class TopsellersallsalesreportController < Sinatra::Base
       itemdept = Stock.joins(:depart).where("plu = ?", item[0]).first.depart.desc
       @topsellers << [itemdesc,item[0],item[1],itemqty[1],itemdept]
     end
-    @salestotal = Allsale.where("type = ?","P").sum("totalprice")
-    @report_time = "Month"
+    @salestotal = (Allsale.where("type = ?","P").sum("totalprice")).to_i
+    @report_time = "This Month (excl today)"
     haml :topsellers
     
    

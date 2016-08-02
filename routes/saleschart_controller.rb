@@ -3,6 +3,7 @@ class SaleschartController < Sinatra::Base
   
   get '/' do
     @sales_counts = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Time.now.month).group(:date).count    
+    @transaction_counts = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Time.now.month).group(:date).select(:transno).distinct.count
     @sales_values = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Time.now.month).group(:date).sum(:totalprice)
     @salesvat_values = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Time.now.month).group(:date).sum(:vatamount)
             

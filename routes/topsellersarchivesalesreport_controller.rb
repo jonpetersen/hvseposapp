@@ -22,8 +22,11 @@ class TopsellersarchivesalesreportController < Sinatra::Base
       end
       @topsellers << [itemdesc,item[0],item[1],itemqty[1],itemdept]
     end
-    @salestotal = Archivesale.where("type = ?","P").sum("totalprice")
-    @report_time = "All"
+    
+    @thismonthsalestotal = Allsale.where("type = ?","P").sum("totalprice")
+    
+    @salestotal = (Archivesale.where("type = ?","P").sum("totalprice") + @thismonthsalestotal).to_i
+    @report_time = "Since 28 Oct 2015"
     haml :topsellers
     
   end

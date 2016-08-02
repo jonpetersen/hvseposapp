@@ -2,17 +2,17 @@
   .col-sm-3.col-md-2.sidebar
     %ul.nav.nav-sidebar
       %li.active
-        %h2.page-header Groups
+        %h3.page-header Groups
         %li
           %a{:href => "http://hvsapp.jonpetersen.co.uk/groupsalesreport?group=all"} All Groups £#{@allgroupsalestotal.to_i}
         - @salesbygroup_array.each do |row|
           %li
             %a{:href => "http://hvsapp.jonpetersen.co.uk/groupsalesreport?group=#{row[1]}"} #{row[0]} £#{row[2].to_i}
   .col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2.main
-    %h2.page-header #{@thisgroup} - #{@report_time}
+    %h3.page-header #{@thisgroup} - #{@report_time}
     .row.placeholders
       .col-xs-12.col-sm-12.placeholder
-        = line_chart @groupsalesseries, trendline: true
+        = line_chart @groupsalesseries, height: "200px"
     %h3.sub-header Items
     .table-responsive
       %table{:class => "table table-bordered"}
