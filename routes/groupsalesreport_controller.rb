@@ -57,7 +57,7 @@ class GroupsalesreportController < Sinatra::Base
           group_sales_values_archive = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group(:date).sum(:totalprice)
           all_sales_values = group_sales_values_archive.merge(group_sales_values)
         else
-          group_sales_values = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group(:date).sum(:totalprice)
+          group_sales_values = Allsale.joins(:stock =>{:depart => :group}).where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group(:date).sum(:totalprice)
           group_sales_values_archive = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group(:date).sum(:totalprice)
           all_sales_values = group_sales_values_archive.merge(group_sales_values)
         end    
@@ -67,7 +67,7 @@ class GroupsalesreportController < Sinatra::Base
     groupsales = Groupsales.totalprice(@group)
     groupqtys = Groupsales.totalqty(@group)
     
-    @sales_values = Allsale.where("type = ?","P").group(:date).sum(:totalprice)
+    @sales_values = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group(:date).sum(:totalprice)
     @sales_values_archive = Archivesale.where("type = ?","P").group(:date).sum(:totalprice)
     
     @missing_sales_values = {@sales_values_archive.keys[97] + 1 => 193.68,@sales_values_archive.keys[97] + 2 => 198.19,@sales_values_archive.keys[97] + 3 => 186.54,@sales_values_archive.keys[97] + 4 => 164.89,@sales_values_archive.keys[97] + 5 => 282.38,@sales_values_archive.keys[97] + 6 => 231.92,@sales_values_archive.keys[97] + 7 => 112.84,@sales_values_archive.keys[97] + 8 => 250.99,@sales_values_archive.keys[97] + 9 => 374.36,@sales_values_archive.keys[97] + 10 => 402.48}

@@ -2,7 +2,7 @@
   .col-sm-3.col-md-2.sidebar
     %ul.nav.nav-sidebar
       %li.active
-        %h3.page-header Departments
+        %h3.page-header Select Dept
         %li
           %a{:href => "http://hvsapp.jonpetersen.co.uk/deptsalesreport?dept=all"} All Departments £#{@alldeptsalestotal.to_i}
         - @salesbydept_array.each do |row|
@@ -12,19 +12,21 @@
     %h3.page-header #{@thisdepart} - #{@report_time}
     .row.placeholders
       .col-xs-12.col-sm-12.placeholder
-        = line_chart @deptsalesseries, height: "200px"
+        = line_chart @deptsalesseries, height: "250px"
     %span
       %table{:class => "table-responsive table-bordered"}
         %tbody
           %tr
             %td <b>ITEM
             %td <b>VALUE
-            %td <b>QTY
-            %td <b>AVG £
-            
+            %td <b>QUANTITY
+            %td <b>AVG PRICE
+            %td <b>LAST SOLD
           - @deptsales.each do |row|
             %tr
-              %td= row[0]
-              %td £#{row[1].to_i}
-              %td= row[2].round if row[2]
-              %td= Money.new((row[1]/row[2])*100).format if row[2]
+              %td
+                %a{:href => "../stockitem/#{row[1]}"} #{row[0]}
+              %td £#{row[2].to_i}
+              %td= row[3].round if row[3]
+              %td= Money.new((row[2]/row[3])*100).format if row[3]
+              %td= row[4] if row[3]

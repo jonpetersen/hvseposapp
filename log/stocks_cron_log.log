@@ -24967,3 +24967,63 @@ hvs_migration_stocks.rb:23:in `eval': Mysql2::Error: Table 'stocks' already exis
    -> 0.0338s
 -- add_index(:stocks, :dept)
    -> 0.0342s
+-- drop_table(:stocks)
+   -> 0.0156s
+-- create_table("stocks")
+   -> 0.0301s
+-- change_table(:stocks)
+   -> 1.8640s
+-- add_index(:stocks, :plu)
+   -> 0.0500s
+-- add_index(:stocks, :dept)
+   -> 0.0373s
+-- drop_table(:stocks)
+   -> 0.0136s
+-- create_table("stocks")
+   -> 0.0594s
+-- change_table(:stocks)
+   -> 2.0761s
+-- add_index(:stocks, :plu)
+   -> 0.0615s
+-- add_index(:stocks, :dept)
+   -> 0.0522s
+-- drop_table(:stocks)
+   -> 0.0233s
+-- create_table("stocks")
+   -> 0.0190s
+-- change_table(:stocks)
+   -> 1.7237s
+-- add_index(:stocks, :plu)
+   -> 0.0497s
+-- add_index(:stocks, :dept)
+   -> 0.0414s
+-- drop_table(:stocks)
+   -> 0.0121s
+-- create_table("stocks")
+   -> 0.0301s
+-- change_table(:stocks)
+   -> 1.7553s
+-- add_index(:stocks, :plu)
+   -> 0.0497s
+-- add_index(:stocks, :dept)
+   -> 0.0440s
+-- drop_table(:stocks)
+   -> 0.0109s
+-- create_table("stocks")
+   -> 0.0222s
+-- change_table(:stocks)
+   -> 1.5180s
+-- add_index(:stocks, :plu)
+   -> 0.0348s
+-- add_index(:stocks, :dept)
+   -> 0.0453s
+-- drop_table(:stocks)
+   -> 0.0097s
+-- create_table("stocks")
+   -> 0.0207s
+-- change_table(:stocks)
+   -> 1.9353s
+-- add_index(:stocks, :plu)
+   -> 0.0494s
+-- add_index(:stocks, :dept)
+   -> 0.0420s
