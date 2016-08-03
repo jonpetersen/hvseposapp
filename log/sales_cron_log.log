@@ -57619,3 +57619,4096 @@
    -> 0.0364s
 -- change_table(:sales)
    -> 1.2514s
+-- drop_table(:sales)
+   -> 0.0182s
+-- create_table("sales")
+   -> 0.0367s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0305s
+-- add_index(:sales, :plu)
+   -> 0.0421s
+-- add_index(:sales, :type)
+   -> 0.0322s
+-- add_index(:sales, :date)
+   -> 0.0292s
+-- add_index(:sales, :time)
+   -> 0.0364s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0288s
+-- change_table(:sales)
+   -> 1.5056s
+-- drop_table(:sales)
+   -> 0.0235s
+-- create_table("sales")
+   -> 0.0267s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0366s
+-- add_index(:sales, :plu)
+   -> 0.0244s
+-- add_index(:sales, :type)
+   -> 0.0217s
+-- add_index(:sales, :date)
+   -> 0.0361s
+-- add_index(:sales, :time)
+   -> 0.0235s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0240s
+-- change_table(:sales)
+   -> 1.2936s
+-- drop_table(:sales)
+   -> 0.0086s
+-- create_table("sales")
+   -> 0.0416s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0459s
+-- add_index(:sales, :plu)
+   -> 0.0419s
+-- add_index(:sales, :type)
+   -> 0.0255s
+-- add_index(:sales, :date)
+   -> 0.0422s
+-- add_index(:sales, :time)
+   -> 0.0346s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0285s
+-- change_table(:sales)
+   -> 1.3878s
+-- drop_table(:sales)
+   -> 0.0366s
+-- create_table("sales")
+   -> 0.0373s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0297s
+-- add_index(:sales, :plu)
+   -> 0.0347s
+-- add_index(:sales, :type)
+   -> 0.0234s
+-- add_index(:sales, :date)
+   -> 0.0452s
+-- add_index(:sales, :time)
+   -> 0.0347s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0224s
+-- change_table(:sales)
+   -> 1.3178s
+-- drop_table(:sales)
+   -> 0.0112s
+-- create_table("sales")
+   -> 0.0369s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0424s
+-- add_index(:sales, :plu)
+   -> 0.0232s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0363s
+-- add_index(:sales, :time)
+   -> 0.0263s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0239s
+-- change_table(:sales)
+   -> 1.2286s
+-- drop_table(:sales)
+   -> 0.0237s
+-- create_table("sales")
+   -> 0.0208s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0313s
+-- add_index(:sales, :plu)
+   -> 0.0277s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0360s
+-- add_index(:sales, :time)
+   -> 0.0246s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0259s
+-- change_table(:sales)
+   -> 1.2691s
+-- drop_table(:sales)
+   -> 0.0203s
+-- create_table("sales")
+   -> 0.0186s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0315s
+-- add_index(:sales, :plu)
+   -> 0.0305s
+-- add_index(:sales, :type)
+   -> 0.0231s
+-- add_index(:sales, :date)
+   -> 0.0256s
+-- add_index(:sales, :time)
+   -> 0.0362s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0235s
+-- change_table(:sales)
+   -> 1.2592s
+-- drop_table(:sales)
+   -> 0.0127s
+-- create_table("sales")
+   -> 0.0186s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0435s
+-- add_index(:sales, :plu)
+   -> 0.0375s
+-- add_index(:sales, :type)
+   -> 0.0257s
+-- add_index(:sales, :date)
+   -> 0.0394s
+-- add_index(:sales, :time)
+   -> 0.0261s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0299s
+-- change_table(:sales)
+   -> 1.3053s
+-- drop_table(:sales)
+   -> 0.0119s
+-- create_table("sales")
+   -> 0.0337s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0461s
+-- add_index(:sales, :plu)
+   -> 0.0240s
+-- add_index(:sales, :type)
+   -> 0.0224s
+-- add_index(:sales, :date)
+   -> 0.0409s
+-- add_index(:sales, :time)
+   -> 0.0230s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0245s
+-- change_table(:sales)
+   -> 1.2805s
+-- drop_table(:sales)
+   -> 0.0089s
+-- create_table("sales")
+   -> 0.0338s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0302s
+-- add_index(:sales, :plu)
+   -> 0.0269s
+-- add_index(:sales, :type)
+   -> 0.0212s
+-- add_index(:sales, :date)
+   -> 0.0413s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0236s
+-- change_table(:sales)
+   -> 1.2689s
+-- drop_table(:sales)
+   -> 0.0100s
+-- create_table("sales")
+   -> 0.0192s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0310s
+-- add_index(:sales, :plu)
+   -> 0.0274s
+-- add_index(:sales, :type)
+   -> 0.0240s
+-- add_index(:sales, :date)
+   -> 0.0373s
+-- add_index(:sales, :time)
+   -> 0.0236s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0223s
+-- change_table(:sales)
+   -> 1.2799s
+-- drop_table(:sales)
+   -> 0.0104s
+-- create_table("sales")
+   -> 0.0235s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0450s
+-- add_index(:sales, :plu)
+   -> 0.0339s
+-- add_index(:sales, :type)
+   -> 0.0423s
+-- add_index(:sales, :date)
+   -> 0.0245s
+-- add_index(:sales, :time)
+   -> 0.0259s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0254s
+-- change_table(:sales)
+   -> 1.2855s
+-- drop_table(:sales)
+   -> 0.0181s
+-- create_table("sales")
+   -> 0.0252s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0345s
+-- add_index(:sales, :plu)
+   -> 0.0256s
+-- add_index(:sales, :type)
+   -> 0.0360s
+-- add_index(:sales, :date)
+   -> 0.0210s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0253s
+-- change_table(:sales)
+   -> 1.2423s
+-- drop_table(:sales)
+   -> 0.0113s
+-- create_table("sales")
+   -> 0.0235s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0323s
+-- add_index(:sales, :plu)
+   -> 0.0286s
+-- add_index(:sales, :type)
+   -> 0.0365s
+-- add_index(:sales, :date)
+   -> 0.0307s
+-- add_index(:sales, :time)
+   -> 0.0252s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0500s
+-- change_table(:sales)
+   -> 1.3446s
+-- drop_table(:sales)
+   -> 0.0085s
+-- create_table("sales")
+   -> 0.0224s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0344s
+-- add_index(:sales, :plu)
+   -> 0.0271s
+-- add_index(:sales, :type)
+   -> 0.0363s
+-- add_index(:sales, :date)
+   -> 0.0263s
+-- add_index(:sales, :time)
+   -> 0.0296s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0301s
+-- change_table(:sales)
+   -> 1.4132s
+-- drop_table(:sales)
+   -> 0.0225s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0312s
+-- add_index(:sales, :plu)
+   -> 0.0292s
+-- add_index(:sales, :type)
+   -> 0.0236s
+-- add_index(:sales, :date)
+   -> 0.0253s
+-- add_index(:sales, :time)
+   -> 0.0336s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0245s
+-- change_table(:sales)
+   -> 1.4169s
+-- drop_table(:sales)
+   -> 0.0082s
+-- create_table("sales")
+   -> 0.0248s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0459s
+-- add_index(:sales, :plu)
+   -> 0.0268s
+-- add_index(:sales, :type)
+   -> 0.0229s
+-- add_index(:sales, :date)
+   -> 0.0256s
+-- add_index(:sales, :time)
+   -> 0.0315s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.3810s
+-- drop_table(:sales)
+   -> 0.0177s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0350s
+-- add_index(:sales, :plu)
+   -> 0.0251s
+-- add_index(:sales, :type)
+   -> 0.0225s
+-- add_index(:sales, :date)
+   -> 0.0511s
+-- add_index(:sales, :time)
+   -> 0.0237s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0239s
+-- change_table(:sales)
+   -> 1.3011s
+-- drop_table(:sales)
+   -> 0.0214s
+-- create_table("sales")
+   -> 0.0217s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0319s
+-- add_index(:sales, :plu)
+   -> 0.0437s
+-- add_index(:sales, :type)
+   -> 0.0340s
+-- add_index(:sales, :date)
+   -> 0.0416s
+-- add_index(:sales, :time)
+   -> 0.0733s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0378s
+-- change_table(:sales)
+   -> 1.5344s
+-- drop_table(:sales)
+   -> 0.0373s
+-- create_table("sales")
+   -> 0.0758s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0742s
+-- add_index(:sales, :plu)
+   -> 0.0355s
+-- add_index(:sales, :type)
+   -> 0.0311s
+-- add_index(:sales, :date)
+   -> 0.0266s
+-- add_index(:sales, :time)
+   -> 0.0338s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0382s
+-- change_table(:sales)
+   -> 1.4044s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0215s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0399s
+-- add_index(:sales, :plu)
+   -> 0.0285s
+-- add_index(:sales, :type)
+   -> 0.0239s
+-- add_index(:sales, :date)
+   -> 0.0354s
+-- add_index(:sales, :time)
+   -> 0.0230s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0260s
+-- change_table(:sales)
+   -> 1.3281s
+-- drop_table(:sales)
+   -> 0.0120s
+-- create_table("sales")
+   -> 0.0235s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0372s
+-- add_index(:sales, :plu)
+   -> 0.0250s
+-- add_index(:sales, :type)
+   -> 0.0218s
+-- add_index(:sales, :date)
+   -> 0.0324s
+-- add_index(:sales, :time)
+   -> 0.0264s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0216s
+-- change_table(:sales)
+   -> 1.3034s
+-- drop_table(:sales)
+   -> 0.0207s
+-- create_table("sales")
+   -> 0.0213s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0299s
+-- add_index(:sales, :plu)
+   -> 0.0419s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0251s
+-- add_index(:sales, :time)
+   -> 0.0235s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0222s
+-- change_table(:sales)
+   -> 1.2789s
+-- drop_table(:sales)
+   -> 0.0119s
+-- create_table("sales")
+   -> 0.0220s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0335s
+-- add_index(:sales, :plu)
+   -> 0.0266s
+-- add_index(:sales, :type)
+   -> 0.0258s
+-- add_index(:sales, :date)
+   -> 0.0340s
+-- add_index(:sales, :time)
+   -> 0.0245s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0237s
+-- change_table(:sales)
+   -> 1.3561s
+-- drop_table(:sales)
+   -> 0.0158s
+-- create_table("sales")
+   -> 0.0236s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0405s
+-- add_index(:sales, :plu)
+   -> 0.0284s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0274s
+-- add_index(:sales, :time)
+   -> 0.0353s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0236s
+-- change_table(:sales)
+   -> 1.2782s
+-- drop_table(:sales)
+   -> 0.0094s
+-- create_table("sales")
+   -> 0.0200s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0432s
+-- add_index(:sales, :plu)
+   -> 0.0298s
+-- add_index(:sales, :type)
+   -> 0.0226s
+-- add_index(:sales, :date)
+   -> 0.0344s
+-- add_index(:sales, :time)
+   -> 0.0229s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0232s
+-- change_table(:sales)
+   -> 1.2869s
+-- drop_table(:sales)
+   -> 0.0078s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0312s
+-- add_index(:sales, :plu)
+   -> 0.0423s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0311s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0419s
+-- change_table(:sales)
+   -> 1.2723s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0196s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0285s
+-- add_index(:sales, :plu)
+   -> 0.0321s
+-- add_index(:sales, :type)
+   -> 0.0207s
+-- add_index(:sales, :date)
+   -> 0.0218s
+-- add_index(:sales, :time)
+   -> 0.0238s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0217s
+-- change_table(:sales)
+   -> 1.3359s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0403s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0288s
+-- add_index(:sales, :plu)
+   -> 0.0300s
+-- add_index(:sales, :type)
+   -> 0.0325s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0226s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 1.3042s
+-- drop_table(:sales)
+   -> 0.0114s
+-- create_table("sales")
+   -> 0.0195s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0297s
+-- add_index(:sales, :plu)
+   -> 0.0262s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0257s
+-- add_index(:sales, :time)
+   -> 0.0364s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0235s
+-- change_table(:sales)
+   -> 1.2882s
+-- drop_table(:sales)
+   -> 0.0080s
+-- create_table("sales")
+   -> 0.0263s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0324s
+-- add_index(:sales, :plu)
+   -> 0.0244s
+-- add_index(:sales, :type)
+   -> 0.0362s
+-- add_index(:sales, :date)
+   -> 0.0231s
+-- add_index(:sales, :time)
+   -> 0.0225s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0217s
+-- change_table(:sales)
+   -> 1.2795s
+-- drop_table(:sales)
+   -> 0.0135s
+-- create_table("sales")
+   -> 0.0245s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0328s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0248s
+-- add_index(:sales, :date)
+   -> 0.0252s
+-- add_index(:sales, :time)
+   -> 0.0355s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0321s
+-- change_table(:sales)
+   -> 1.3112s
+-- drop_table(:sales)
+   -> 0.0116s
+-- create_table("sales")
+   -> 0.0278s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0279s
+-- add_index(:sales, :plu)
+   -> 0.0294s
+-- add_index(:sales, :type)
+   -> 0.0365s
+-- add_index(:sales, :date)
+   -> 0.0219s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0231s
+-- change_table(:sales)
+   -> 1.3195s
+-- drop_table(:sales)
+   -> 0.0130s
+-- create_table("sales")
+   -> 0.0304s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0364s
+-- add_index(:sales, :plu)
+   -> 0.0270s
+-- add_index(:sales, :type)
+   -> 0.0227s
+-- add_index(:sales, :date)
+   -> 0.0240s
+-- add_index(:sales, :time)
+   -> 0.0338s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.3321s
+-- drop_table(:sales)
+   -> 0.0122s
+-- create_table("sales")
+   -> 0.0194s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0432s
+-- add_index(:sales, :plu)
+   -> 0.0244s
+-- add_index(:sales, :type)
+   -> 0.0241s
+-- add_index(:sales, :date)
+   -> 0.0217s
+-- add_index(:sales, :time)
+   -> 0.0386s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0232s
+-- change_table(:sales)
+   -> 1.3403s
+-- drop_table(:sales)
+   -> 0.0096s
+-- create_table("sales")
+   -> 0.0229s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0285s
+-- add_index(:sales, :plu)
+   -> 0.0264s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0376s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0241s
+-- change_table(:sales)
+   -> 1.2963s
+-- drop_table(:sales)
+   -> 0.0126s
+-- create_table("sales")
+   -> 0.0184s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0291s
+-- add_index(:sales, :plu)
+   -> 0.0248s
+-- add_index(:sales, :type)
+   -> 0.0204s
+-- add_index(:sales, :date)
+   -> 0.0366s
+-- add_index(:sales, :time)
+   -> 0.0224s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0228s
+-- change_table(:sales)
+   -> 1.3095s
+-- drop_table(:sales)
+   -> 0.0232s
+-- create_table("sales")
+   -> 0.0285s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0318s
+-- add_index(:sales, :plu)
+   -> 0.0400s
+-- add_index(:sales, :type)
+   -> 0.0223s
+-- add_index(:sales, :date)
+   -> 0.0221s
+-- add_index(:sales, :time)
+   -> 0.0229s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0348s
+-- change_table(:sales)
+   -> 1.2935s
+-- drop_table(:sales)
+   -> 0.0081s
+-- create_table("sales")
+   -> 0.0184s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0298s
+-- add_index(:sales, :plu)
+   -> 0.0280s
+-- add_index(:sales, :type)
+   -> 0.0342s
+-- add_index(:sales, :date)
+   -> 0.0222s
+-- add_index(:sales, :time)
+   -> 0.0235s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.3071s
+-- drop_table(:sales)
+   -> 0.0112s
+-- create_table("sales")
+   -> 0.0317s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0339s
+-- add_index(:sales, :plu)
+   -> 0.0442s
+-- add_index(:sales, :type)
+   -> 0.0362s
+-- add_index(:sales, :date)
+   -> 0.0232s
+-- add_index(:sales, :time)
+   -> 0.0204s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0410s
+-- change_table(:sales)
+   -> 1.3479s
+-- drop_table(:sales)
+   -> 0.0210s
+-- create_table("sales")
+   -> 0.0212s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0308s
+-- add_index(:sales, :plu)
+   -> 0.0260s
+-- add_index(:sales, :type)
+   -> 0.0365s
+-- add_index(:sales, :date)
+   -> 0.0237s
+-- add_index(:sales, :time)
+   -> 0.0223s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0243s
+-- change_table(:sales)
+   -> 1.3035s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0215s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0301s
+-- add_index(:sales, :plu)
+   -> 0.0373s
+-- add_index(:sales, :type)
+   -> 0.0288s
+-- add_index(:sales, :date)
+   -> 0.0214s
+-- add_index(:sales, :time)
+   -> 0.0263s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0369s
+-- change_table(:sales)
+   -> 1.3221s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0305s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0311s
+-- add_index(:sales, :plu)
+   -> 0.0417s
+-- add_index(:sales, :type)
+   -> 0.0240s
+-- add_index(:sales, :date)
+   -> 0.0231s
+-- add_index(:sales, :time)
+   -> 0.0277s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0418s
+-- change_table(:sales)
+   -> 1.3053s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0335s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0416s
+-- add_index(:sales, :plu)
+   -> 0.0278s
+-- add_index(:sales, :type)
+   -> 0.0225s
+-- add_index(:sales, :date)
+   -> 0.0362s
+-- add_index(:sales, :time)
+   -> 0.0233s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0238s
+-- change_table(:sales)
+   -> 1.3211s
+-- drop_table(:sales)
+   -> 0.0075s
+-- create_table("sales")
+   -> 0.0262s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0294s
+-- add_index(:sales, :plu)
+   -> 0.0402s
+-- add_index(:sales, :type)
+   -> 0.0210s
+-- add_index(:sales, :date)
+   -> 0.0220s
+-- add_index(:sales, :time)
+   -> 0.0237s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0339s
+-- change_table(:sales)
+   -> 1.2806s
+-- drop_table(:sales)
+   -> 0.0127s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0285s
+-- add_index(:sales, :plu)
+   -> 0.0385s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0274s
+-- add_index(:sales, :time)
+   -> 0.0243s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0382s
+-- change_table(:sales)
+   -> 1.3819s
+-- drop_table(:sales)
+   -> 0.0149s
+-- create_table("sales")
+   -> 0.0329s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0311s
+-- add_index(:sales, :plu)
+   -> 0.0337s
+-- add_index(:sales, :type)
+   -> 0.0259s
+-- add_index(:sales, :date)
+   -> 0.0277s
+-- add_index(:sales, :time)
+   -> 0.0397s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0226s
+-- change_table(:sales)
+   -> 1.4576s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0230s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0344s
+-- add_index(:sales, :plu)
+   -> 0.0388s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0267s
+-- add_index(:sales, :time)
+   -> 0.0213s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0355s
+-- change_table(:sales)
+   -> 1.3610s
+-- drop_table(:sales)
+   -> 0.0264s
+-- create_table("sales")
+   -> 0.0328s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0349s
+-- add_index(:sales, :plu)
+   -> 0.0254s
+-- add_index(:sales, :type)
+   -> 0.0320s
+-- add_index(:sales, :date)
+   -> 0.0258s
+-- add_index(:sales, :time)
+   -> 0.0256s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.4127s
+-- drop_table(:sales)
+   -> 0.0429s
+-- create_table("sales")
+   -> 0.0397s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0600s
+-- add_index(:sales, :plu)
+   -> 0.0333s
+-- add_index(:sales, :type)
+   -> 0.0319s
+-- add_index(:sales, :date)
+   -> 0.0234s
+-- add_index(:sales, :time)
+   -> 0.0243s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0234s
+-- change_table(:sales)
+   -> 1.3177s
+-- drop_table(:sales)
+   -> 0.0172s
+-- create_table("sales")
+   -> 0.0222s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0294s
+-- add_index(:sales, :plu)
+   -> 0.0397s
+-- add_index(:sales, :type)
+   -> 0.0219s
+-- add_index(:sales, :date)
+   -> 0.0241s
+-- add_index(:sales, :time)
+   -> 0.0289s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0346s
+-- change_table(:sales)
+   -> 1.2758s
+-- drop_table(:sales)
+   -> 0.0118s
+-- create_table("sales")
+   -> 0.0237s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0389s
+-- add_index(:sales, :plu)
+   -> 0.0251s
+-- add_index(:sales, :type)
+   -> 0.0231s
+-- add_index(:sales, :date)
+   -> 0.0345s
+-- add_index(:sales, :time)
+   -> 0.0272s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.3626s
+-- drop_table(:sales)
+   -> 0.0091s
+-- create_table("sales")
+   -> 0.0230s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0296s
+-- add_index(:sales, :plu)
+   -> 0.0283s
+-- add_index(:sales, :type)
+   -> 0.0250s
+-- add_index(:sales, :date)
+   -> 0.0220s
+-- add_index(:sales, :time)
+   -> 0.0310s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0248s
+-- change_table(:sales)
+   -> 1.2392s
+-- drop_table(:sales)
+   -> 0.0250s
+-- create_table("sales")
+   -> 0.0230s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0312s
+-- add_index(:sales, :plu)
+   -> 0.0245s
+-- add_index(:sales, :type)
+   -> 0.0236s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0392s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0246s
+-- change_table(:sales)
+   -> 1.3767s
+-- drop_table(:sales)
+   -> 0.0149s
+-- create_table("sales")
+   -> 0.0186s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0326s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0257s
+-- add_index(:sales, :date)
+   -> 0.0332s
+-- add_index(:sales, :time)
+   -> 0.0347s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0256s
+-- change_table(:sales)
+   -> 1.3385s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0331s
+-- add_index(:sales, :plu)
+   -> 0.0267s
+-- add_index(:sales, :type)
+   -> 0.0358s
+-- add_index(:sales, :date)
+   -> 0.0220s
+-- add_index(:sales, :time)
+   -> 0.0234s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0239s
+-- change_table(:sales)
+   -> 1.9752s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0230s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0411s
+-- add_index(:sales, :plu)
+   -> 0.0269s
+-- add_index(:sales, :type)
+   -> 0.0225s
+-- add_index(:sales, :date)
+   -> 0.0340s
+-- add_index(:sales, :time)
+   -> 0.0373s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0234s
+-- change_table(:sales)
+   -> 1.7295s
+-- drop_table(:sales)
+   -> 0.0132s
+-- create_table("sales")
+   -> 0.0214s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0366s
+-- add_index(:sales, :plu)
+   -> 0.0263s
+-- add_index(:sales, :type)
+   -> 0.0234s
+-- add_index(:sales, :date)
+   -> 0.0222s
+-- add_index(:sales, :time)
+   -> 0.0321s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0236s
+-- change_table(:sales)
+   -> 1.3508s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0195s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0313s
+-- add_index(:sales, :plu)
+   -> 0.0354s
+-- add_index(:sales, :type)
+   -> 0.0229s
+-- add_index(:sales, :date)
+   -> 0.0239s
+-- add_index(:sales, :time)
+   -> 0.0223s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0359s
+-- change_table(:sales)
+   -> 1.8469s
+-- drop_table(:sales)
+   -> 0.0243s
+-- create_table("sales")
+   -> 0.0222s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0301s
+-- add_index(:sales, :plu)
+   -> 0.0404s
+-- add_index(:sales, :type)
+   -> 0.0240s
+-- add_index(:sales, :date)
+   -> 0.0229s
+-- add_index(:sales, :time)
+   -> 0.0289s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0349s
+-- change_table(:sales)
+   -> 1.3333s
+-- drop_table(:sales)
+   -> 0.0101s
+-- create_table("sales")
+   -> 0.0208s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0436s
+-- add_index(:sales, :plu)
+   -> 0.0303s
+-- add_index(:sales, :type)
+   -> 0.0250s
+-- add_index(:sales, :date)
+   -> 0.0443s
+-- add_index(:sales, :time)
+   -> 0.0236s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0265s
+-- change_table(:sales)
+   -> 1.3809s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0452s
+-- add_index(:sales, :plu)
+   -> 0.0354s
+-- add_index(:sales, :type)
+   -> 0.0227s
+-- add_index(:sales, :date)
+   -> 0.0257s
+-- add_index(:sales, :time)
+   -> 0.0232s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0362s
+-- change_table(:sales)
+   -> 1.3510s
+-- drop_table(:sales)
+   -> 0.0094s
+-- create_table("sales")
+   -> 0.0318s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0396s
+-- add_index(:sales, :plu)
+   -> 0.0313s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0517s
+-- add_index(:sales, :time)
+   -> 0.0257s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0227s
+-- change_table(:sales)
+   -> 1.4106s
+-- drop_table(:sales)
+   -> 0.0125s
+-- create_table("sales")
+   -> 0.0362s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0463s
+-- add_index(:sales, :plu)
+   -> 0.0298s
+-- add_index(:sales, :type)
+   -> 0.0394s
+-- add_index(:sales, :date)
+   -> 0.0367s
+-- add_index(:sales, :time)
+   -> 0.0243s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0354s
+-- change_table(:sales)
+   -> 1.3811s
+-- drop_table(:sales)
+   -> 0.0165s
+-- create_table("sales")
+   -> 0.0233s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0297s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0232s
+-- add_index(:sales, :date)
+   -> 0.0243s
+-- add_index(:sales, :time)
+   -> 0.0394s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0230s
+-- change_table(:sales)
+   -> 1.3456s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0332s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0298s
+-- add_index(:sales, :plu)
+   -> 0.0288s
+-- add_index(:sales, :type)
+   -> 0.0231s
+-- add_index(:sales, :date)
+   -> 0.0228s
+-- add_index(:sales, :time)
+   -> 0.0368s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0231s
+-- change_table(:sales)
+   -> 1.2923s
+-- drop_table(:sales)
+   -> 0.0262s
+-- create_table("sales")
+   -> 0.0242s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0355s
+-- add_index(:sales, :plu)
+   -> 0.0250s
+-- add_index(:sales, :type)
+   -> 0.0418s
+-- add_index(:sales, :date)
+   -> 0.0244s
+-- add_index(:sales, :time)
+   -> 0.0278s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0249s
+-- change_table(:sales)
+   -> 1.3277s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0353s
+-- add_index(:sales, :plu)
+   -> 0.0388s
+-- add_index(:sales, :type)
+   -> 0.0249s
+-- add_index(:sales, :date)
+   -> 0.0234s
+-- add_index(:sales, :time)
+   -> 0.0503s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0223s
+-- change_table(:sales)
+   -> 1.9115s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0212s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0328s
+-- add_index(:sales, :plu)
+   -> 0.0290s
+-- add_index(:sales, :type)
+   -> 0.0283s
+-- add_index(:sales, :date)
+   -> 0.0257s
+-- add_index(:sales, :time)
+   -> 0.0380s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0240s
+-- change_table(:sales)
+   -> 1.3345s
+-- drop_table(:sales)
+   -> 0.0158s
+-- create_table("sales")
+   -> 0.0207s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0316s
+-- add_index(:sales, :plu)
+   -> 0.0293s
+-- add_index(:sales, :type)
+   -> 0.0215s
+-- add_index(:sales, :date)
+   -> 0.0230s
+-- add_index(:sales, :time)
+   -> 0.0373s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0262s
+-- change_table(:sales)
+   -> 1.2816s
+-- drop_table(:sales)
+   -> 0.0153s
+-- create_table("sales")
+   -> 0.0270s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0473s
+-- add_index(:sales, :plu)
+   -> 0.0276s
+-- add_index(:sales, :type)
+   -> 0.0225s
+-- add_index(:sales, :date)
+   -> 0.0247s
+-- add_index(:sales, :time)
+   -> 0.0348s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0252s
+-- change_table(:sales)
+   -> 1.3710s
+-- drop_table(:sales)
+   -> 0.0179s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0343s
+-- add_index(:sales, :plu)
+   -> 0.0385s
+-- add_index(:sales, :type)
+   -> 0.0257s
+-- add_index(:sales, :date)
+   -> 0.0236s
+-- add_index(:sales, :time)
+   -> 0.0260s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0357s
+-- change_table(:sales)
+   -> 1.4284s
+-- drop_table(:sales)
+   -> 0.0182s
+-- create_table("sales")
+   -> 0.0340s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0308s
+-- add_index(:sales, :plu)
+   -> 0.0257s
+-- add_index(:sales, :type)
+   -> 0.0253s
+-- add_index(:sales, :date)
+   -> 0.0357s
+-- add_index(:sales, :time)
+   -> 0.0290s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0228s
+-- change_table(:sales)
+   -> 1.4803s
+-- drop_table(:sales)
+   -> 0.0122s
+-- create_table("sales")
+   -> 0.0251s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0353s
+-- add_index(:sales, :plu)
+   -> 0.0295s
+-- add_index(:sales, :type)
+   -> 0.0227s
+-- add_index(:sales, :date)
+   -> 0.0221s
+-- add_index(:sales, :time)
+   -> 0.0396s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0274s
+-- change_table(:sales)
+   -> 1.4049s
+-- drop_table(:sales)
+   -> 0.0128s
+-- create_table("sales")
+   -> 0.0303s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0437s
+-- add_index(:sales, :plu)
+   -> 0.0420s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0383s
+-- add_index(:sales, :time)
+   -> 0.0362s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0259s
+-- change_table(:sales)
+   -> 1.4073s
+-- drop_table(:sales)
+   -> 0.0089s
+-- create_table("sales")
+   -> 0.0330s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0316s
+-- add_index(:sales, :plu)
+   -> 0.0347s
+-- add_index(:sales, :type)
+   -> 0.0276s
+-- add_index(:sales, :date)
+   -> 0.0325s
+-- add_index(:sales, :time)
+   -> 0.0377s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0245s
+-- change_table(:sales)
+   -> 1.3324s
+-- drop_table(:sales)
+   -> 0.0139s
+-- create_table("sales")
+   -> 0.0403s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0350s
+-- add_index(:sales, :plu)
+   -> 0.0488s
+-- add_index(:sales, :type)
+   -> 0.0271s
+-- add_index(:sales, :date)
+   -> 0.0336s
+-- add_index(:sales, :time)
+   -> 0.0370s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0297s
+-- change_table(:sales)
+   -> 1.4397s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0215s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0468s
+-- add_index(:sales, :plu)
+   -> 0.0259s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0334s
+-- add_index(:sales, :time)
+   -> 0.0264s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 1.5838s
+-- drop_table(:sales)
+   -> 0.1943s
+-- create_table("sales")
+   -> 0.1911s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.2414s
+-- add_index(:sales, :plu)
+   -> 0.0355s
+-- add_index(:sales, :type)
+   -> 0.0248s
+-- add_index(:sales, :date)
+   -> 0.0419s
+-- add_index(:sales, :time)
+   -> 0.0280s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0312s
+-- change_table(:sales)
+   -> 1.3452s
+-- drop_table(:sales)
+   -> 0.0127s
+-- create_table("sales")
+   -> 0.0332s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0449s
+-- add_index(:sales, :plu)
+   -> 0.0280s
+-- add_index(:sales, :type)
+   -> 0.0337s
+-- add_index(:sales, :date)
+   -> 0.0251s
+-- add_index(:sales, :time)
+   -> 0.0421s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0294s
+-- change_table(:sales)
+   -> 1.3488s
+-- drop_table(:sales)
+   -> 0.0156s
+-- create_table("sales")
+   -> 0.0348s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0430s
+-- add_index(:sales, :plu)
+   -> 0.0388s
+-- add_index(:sales, :type)
+   -> 0.0265s
+-- add_index(:sales, :date)
+   -> 0.0234s
+-- add_index(:sales, :time)
+   -> 0.0228s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0375s
+-- change_table(:sales)
+   -> 1.3792s
+-- drop_table(:sales)
+   -> 0.0101s
+-- create_table("sales")
+   -> 0.0230s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0334s
+-- add_index(:sales, :plu)
+   -> 0.0357s
+-- add_index(:sales, :type)
+   -> 0.0232s
+-- add_index(:sales, :date)
+   -> 0.0236s
+-- add_index(:sales, :time)
+   -> 0.0381s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0258s
+-- change_table(:sales)
+   -> 1.3221s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0233s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0429s
+-- add_index(:sales, :plu)
+   -> 0.0420s
+-- add_index(:sales, :type)
+   -> 0.0358s
+-- add_index(:sales, :date)
+   -> 0.0343s
+-- add_index(:sales, :time)
+   -> 0.0257s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0305s
+-- change_table(:sales)
+   -> 0.8576s
+-- drop_table(:sales)
+   -> 0.0091s
+-- create_table("sales")
+   -> 0.0340s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0389s
+-- add_index(:sales, :plu)
+   -> 0.0256s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0294s
+-- add_index(:sales, :time)
+   -> 0.0343s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0493s
+-- change_table(:sales)
+   -> 0.8578s
+-- drop_table(:sales)
+   -> 0.0271s
+-- create_table("sales")
+   -> 0.0226s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0331s
+-- add_index(:sales, :plu)
+   -> 0.0339s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0433s
+-- add_index(:sales, :time)
+   -> 0.0250s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0257s
+-- change_table(:sales)
+   -> 0.8801s
+-- drop_table(:sales)
+   -> 0.0069s
+-- create_table("sales")
+   -> 0.0202s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0326s
+-- add_index(:sales, :plu)
+   -> 0.0241s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0354s
+-- add_index(:sales, :time)
+   -> 0.0238s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 0.8533s
+-- drop_table(:sales)
+   -> 0.0143s
+-- create_table("sales")
+   -> 0.0222s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0432s
+-- add_index(:sales, :plu)
+   -> 0.0236s
+-- add_index(:sales, :type)
+   -> 0.0269s
+-- add_index(:sales, :date)
+   -> 0.0307s
+-- add_index(:sales, :time)
+   -> 0.0333s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0220s
+-- change_table(:sales)
+   -> 0.8525s
+-- drop_table(:sales)
+   -> 0.0115s
+-- create_table("sales")
+   -> 0.0198s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0327s
+-- add_index(:sales, :plu)
+   -> 0.0224s
+-- add_index(:sales, :type)
+   -> 0.0283s
+-- add_index(:sales, :date)
+   -> 0.0306s
+-- add_index(:sales, :time)
+   -> 0.0325s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0205s
+-- change_table(:sales)
+   -> 0.8386s
+-- drop_table(:sales)
+   -> 0.0235s
+-- create_table("sales")
+   -> 0.0339s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.1198s
+-- add_index(:sales, :plu)
+   -> 0.0569s
+-- add_index(:sales, :type)
+   -> 0.0308s
+-- add_index(:sales, :date)
+   -> 0.0332s
+-- add_index(:sales, :time)
+   -> 0.0330s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0243s
+-- change_table(:sales)
+   -> 0.9036s
+-- drop_table(:sales)
+   -> 0.0269s
+-- create_table("sales")
+   -> 0.0264s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0362s
+-- add_index(:sales, :plu)
+   -> 0.0236s
+-- add_index(:sales, :type)
+   -> 0.0281s
+-- add_index(:sales, :date)
+   -> 0.0396s
+-- add_index(:sales, :time)
+   -> 0.0264s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0324s
+-- change_table(:sales)
+   -> 0.8521s
+-- drop_table(:sales)
+   -> 0.0174s
+-- create_table("sales")
+   -> 0.0202s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0501s
+-- add_index(:sales, :plu)
+   -> 0.0275s
+-- add_index(:sales, :type)
+   -> 0.0354s
+-- add_index(:sales, :date)
+   -> 0.0275s
+-- add_index(:sales, :time)
+   -> 0.0208s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0527s
+-- change_table(:sales)
+   -> 0.8520s
+-- drop_table(:sales)
+   -> 0.0155s
+-- create_table("sales")
+   -> 0.0220s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0290s
+-- add_index(:sales, :plu)
+   -> 0.0253s
+-- add_index(:sales, :type)
+   -> 0.0313s
+-- add_index(:sales, :date)
+   -> 0.0340s
+-- add_index(:sales, :time)
+   -> 0.0234s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0415s
+-- change_table(:sales)
+   -> 0.9070s
+-- drop_table(:sales)
+   -> 0.0133s
+-- create_table("sales")
+   -> 0.0395s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0311s
+-- add_index(:sales, :plu)
+   -> 0.0309s
+-- add_index(:sales, :type)
+   -> 0.0241s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0246s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0309s
+-- change_table(:sales)
+   -> 0.8144s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:282:in `deleted_record?': undefined method `unpack' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:124:in `record'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_sales.rb:163:in `count'
+	from hvs_migration_sales.rb:163:in `<main>'
+-- drop_table(:sales)
+   -> 0.0105s
+-- create_table("sales")
+   -> 0.0341s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0368s
+-- add_index(:sales, :plu)
+   -> 0.0318s
+-- add_index(:sales, :type)
+   -> 0.0222s
+-- add_index(:sales, :date)
+   -> 0.0221s
+-- add_index(:sales, :time)
+   -> 0.0544s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0212s
+-- change_table(:sales)
+   -> 0.8819s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0301s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0375s
+-- add_index(:sales, :plu)
+   -> 0.0405s
+-- add_index(:sales, :type)
+   -> 0.0344s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0198s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0213s
+-- change_table(:sales)
+   -> 0.9027s
+-- drop_table(:sales)
+   -> 0.0100s
+-- create_table("sales")
+   -> 0.0239s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0341s
+-- add_index(:sales, :plu)
+   -> 0.0453s
+-- add_index(:sales, :type)
+   -> 0.0207s
+-- add_index(:sales, :date)
+   -> 0.0202s
+-- add_index(:sales, :time)
+   -> 0.0298s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0405s
+-- change_table(:sales)
+   -> 0.9658s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0342s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0381s
+-- add_index(:sales, :plu)
+   -> 0.0296s
+-- add_index(:sales, :type)
+   -> 0.0248s
+-- add_index(:sales, :date)
+   -> 0.0267s
+-- add_index(:sales, :time)
+   -> 0.0379s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0262s
+-- change_table(:sales)
+   -> 0.9023s
+-- drop_table(:sales)
+   -> 0.0142s
+-- create_table("sales")
+   -> 0.0304s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0505s
+-- add_index(:sales, :plu)
+   -> 0.0298s
+-- add_index(:sales, :type)
+   -> 0.0214s
+-- add_index(:sales, :date)
+   -> 0.0206s
+-- add_index(:sales, :time)
+   -> 0.0417s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 0.9105s
+-- drop_table(:sales)
+   -> 0.0192s
+-- create_table("sales")
+   -> 0.0284s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0336s
+-- add_index(:sales, :plu)
+   -> 0.0266s
+-- add_index(:sales, :type)
+   -> 0.0308s
+-- add_index(:sales, :date)
+   -> 0.0348s
+-- add_index(:sales, :time)
+   -> 0.0264s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0357s
+-- change_table(:sales)
+   -> 0.9460s
+-- drop_table(:sales)
+   -> 0.0115s
+-- create_table("sales")
+   -> 0.0204s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0467s
+-- add_index(:sales, :plu)
+   -> 0.0341s
+-- add_index(:sales, :type)
+   -> 0.0219s
+-- add_index(:sales, :date)
+   -> 0.0194s
+-- add_index(:sales, :time)
+   -> 0.0489s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0331s
+-- change_table(:sales)
+   -> 0.8871s
+-- drop_table(:sales)
+   -> 0.0163s
+-- create_table("sales")
+   -> 0.0227s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0471s
+-- add_index(:sales, :plu)
+   -> 0.0379s
+-- add_index(:sales, :type)
+   -> 0.0295s
+-- add_index(:sales, :date)
+   -> 0.0253s
+-- add_index(:sales, :time)
+   -> 0.0318s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0220s
+-- change_table(:sales)
+   -> 0.8475s
+-- drop_table(:sales)
+   -> 0.0098s
+-- create_table("sales")
+   -> 0.0371s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0461s
+-- add_index(:sales, :plu)
+   -> 0.0429s
+-- add_index(:sales, :type)
+   -> 0.0214s
+-- add_index(:sales, :date)
+   -> 0.0297s
+-- add_index(:sales, :time)
+   -> 0.0291s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0323s
+-- change_table(:sales)
+   -> 0.8368s
+-- drop_table(:sales)
+   -> 0.0083s
+-- create_table("sales")
+   -> 0.0323s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0286s
+-- add_index(:sales, :plu)
+   -> 0.0261s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0426s
+-- add_index(:sales, :time)
+   -> 0.0241s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0320s
+-- change_table(:sales)
+   -> 0.9047s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0219s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0407s
+-- add_index(:sales, :plu)
+   -> 0.0238s
+-- add_index(:sales, :type)
+   -> 0.0529s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0423s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 0.8804s
+-- drop_table(:sales)
+   -> 0.0159s
+-- create_table("sales")
+   -> 0.0290s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0429s
+-- add_index(:sales, :plu)
+   -> 0.0274s
+-- add_index(:sales, :type)
+   -> 0.0431s
+-- add_index(:sales, :date)
+   -> 0.0253s
+-- add_index(:sales, :time)
+   -> 0.0322s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0417s
+-- change_table(:sales)
+   -> 0.8340s
+-- drop_table(:sales)
+   -> 0.0138s
+-- create_table("sales")
+   -> 0.0385s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0671s
+-- add_index(:sales, :plu)
+   -> 0.0315s
+-- add_index(:sales, :type)
+   -> 0.0204s
+-- add_index(:sales, :date)
+   -> 0.0369s
+-- add_index(:sales, :time)
+   -> 0.0432s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0311s
+-- change_table(:sales)
+   -> 0.8447s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0311s
+-- add_index(:sales, :plu)
+   -> 0.0216s
+-- add_index(:sales, :type)
+   -> 0.0360s
+-- add_index(:sales, :date)
+   -> 0.0254s
+-- add_index(:sales, :time)
+   -> 0.0364s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0374s
+-- change_table(:sales)
+   -> 0.8703s
+-- drop_table(:sales)
+   -> 0.0116s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0480s
+-- add_index(:sales, :plu)
+   -> 0.0247s
+-- add_index(:sales, :type)
+   -> 0.0255s
+-- add_index(:sales, :date)
+   -> 0.0336s
+-- add_index(:sales, :time)
+   -> 0.0334s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0250s
+-- change_table(:sales)
+   -> 0.9021s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/header.rb:17:in `unpack_header': undefined method `unpack' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/header.rb:12:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:68:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:68:in `initialize'
+	from hvs_migration_sales.rb:161:in `new'
+	from hvs_migration_sales.rb:161:in `<main>'
+-- drop_table(:sales)
+   -> 0.0189s
+-- create_table("sales")
+   -> 0.0290s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.2574s
+-- add_index(:sales, :plu)
+   -> 0.0613s
+-- add_index(:sales, :type)
+   -> 0.0327s
+-- add_index(:sales, :date)
+   -> 0.0204s
+-- add_index(:sales, :time)
+   -> 0.0351s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0412s
+-- change_table(:sales)
+   -> 0.8917s
+-- drop_table(:sales)
+   -> 0.0111s
+-- create_table("sales")
+   -> 0.0347s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0283s
+-- add_index(:sales, :plu)
+   -> 0.0253s
+-- add_index(:sales, :type)
+   -> 0.0205s
+-- add_index(:sales, :date)
+   -> 0.0327s
+-- add_index(:sales, :time)
+   -> 0.0199s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0207s
+-- change_table(:sales)
+   -> 0.8606s
+-- drop_table(:sales)
+   -> 0.0089s
+-- create_table("sales")
+   -> 0.0183s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0466s
+-- add_index(:sales, :plu)
+   -> 0.0369s
+-- add_index(:sales, :type)
+   -> 0.0287s
+-- add_index(:sales, :date)
+   -> 0.0343s
+-- add_index(:sales, :time)
+   -> 0.0280s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0457s
+-- change_table(:sales)
+   -> 0.8640s
+-- drop_table(:sales)
+   -> 0.0241s
+-- create_table("sales")
+   -> 0.0185s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0356s
+-- add_index(:sales, :plu)
+   -> 0.0310s
+-- add_index(:sales, :type)
+   -> 0.0299s
+-- add_index(:sales, :date)
+   -> 0.0274s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0272s
+-- change_table(:sales)
+   -> 0.8815s
+-- drop_table(:sales)
+   -> 0.0095s
+-- create_table("sales")
+   -> 0.0217s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0433s
+-- add_index(:sales, :plu)
+   -> 0.0289s
+-- add_index(:sales, :type)
+   -> 0.0328s
+-- add_index(:sales, :date)
+   -> 0.0282s
+-- add_index(:sales, :time)
+   -> 0.0279s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0250s
+-- change_table(:sales)
+   -> 0.9301s
+-- drop_table(:sales)
+   -> 0.0121s
+-- create_table("sales")
+   -> 0.0329s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0478s
+-- add_index(:sales, :plu)
+   -> 0.0271s
+-- add_index(:sales, :type)
+   -> 0.0222s
+-- add_index(:sales, :date)
+   -> 0.0345s
+-- add_index(:sales, :time)
+   -> 0.0190s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0329s
+-- change_table(:sales)
+   -> 0.8662s
+-- drop_table(:sales)
+   -> 0.0167s
+-- create_table("sales")
+   -> 0.0288s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0616s
+-- add_index(:sales, :plu)
+   -> 0.0475s
+-- add_index(:sales, :type)
+   -> 0.0319s
+-- add_index(:sales, :date)
+   -> 0.0358s
+-- add_index(:sales, :time)
+   -> 0.0220s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0212s
+-- change_table(:sales)
+   -> 0.8946s
+-- drop_table(:sales)
+   -> 0.0115s
+-- create_table("sales")
+   -> 0.0190s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0325s
+-- add_index(:sales, :plu)
+   -> 0.0353s
+-- add_index(:sales, :type)
+   -> 0.0214s
+-- add_index(:sales, :date)
+   -> 0.0201s
+-- add_index(:sales, :time)
+   -> 0.0231s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0203s
+-- change_table(:sales)
+   -> 0.8639s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:282:in `deleted_record?': undefined method `unpack' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:124:in `record'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_sales.rb:23:in `up'
+	from hvs_migration_sales.rb:165:in `<main>'
+-- drop_table(:sales)
+   -> 0.0149s
+-- create_table("sales")
+   -> 0.0213s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0329s
+-- drop_table(:sales)
+   -> 0.0107s
+-- create_table("sales")
+   -> 0.0283s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0280s
+-- add_index(:sales, :plu)
+   -> 0.0225s
+-- add_index(:sales, :type)
+   -> 0.0199s
+-- add_index(:sales, :date)
+   -> 0.0218s
+-- add_index(:sales, :time)
+   -> 0.0322s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0217s
+-- change_table(:sales)
+   -> 0.8393s
+-- drop_table(:sales)
+   -> 0.0103s
+-- create_table("sales")
+   -> 0.0188s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0269s
+-- add_index(:sales, :plu)
+   -> 0.0272s
+-- add_index(:sales, :type)
+   -> 0.0356s
+-- add_index(:sales, :date)
+   -> 0.0311s
+-- add_index(:sales, :time)
+   -> 0.0238s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0211s
+-- change_table(:sales)
+   -> 0.9372s
+-- drop_table(:sales)
+   -> 0.0092s
+-- create_table("sales")
+   -> 0.0185s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0343s
+-- add_index(:sales, :plu)
+   -> 0.0245s
+-- add_index(:sales, :type)
+   -> 0.0239s
+-- add_index(:sales, :date)
+   -> 0.0349s
+-- add_index(:sales, :time)
+   -> 0.0232s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0224s
+-- change_table(:sales)
+   -> 1.5497s
+-- drop_table(:sales)
+   -> 0.0133s
+-- create_table("sales")
+   -> 0.0220s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0554s
+-- add_index(:sales, :plu)
+   -> 0.0226s
+-- add_index(:sales, :type)
+   -> 0.0212s
+-- add_index(:sales, :date)
+   -> 0.0396s
+-- add_index(:sales, :time)
+   -> 0.0234s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0231s
+-- change_table(:sales)
+   -> 0.9270s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/header.rb:17:in `unpack_header': undefined method `unpack' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/header.rb:12:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:68:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:68:in `initialize'
+	from hvs_migration_sales.rb:161:in `new'
+	from hvs_migration_sales.rb:161:in `<main>'
+-- drop_table(:sales)
+   -> 0.0092s
+-- create_table("sales")
+   -> 0.0355s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0281s
+-- add_index(:sales, :plu)
+   -> 0.0289s
+-- add_index(:sales, :type)
+   -> 0.0233s
+-- add_index(:sales, :date)
+   -> 0.0344s
+-- add_index(:sales, :time)
+   -> 0.0236s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0244s
+-- change_table(:sales)
+   -> 0.9319s
+-- drop_table(:sales)
+   -> 0.0080s
+-- create_table("sales")
+   -> 0.0179s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0276s
+-- add_index(:sales, :plu)
+   -> 0.0243s
+-- add_index(:sales, :type)
+   -> 0.0325s
+-- add_index(:sales, :date)
+   -> 0.0410s
+-- add_index(:sales, :time)
+   -> 0.0311s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0195s
+-- change_table(:sales)
+   -> 0.8589s
+-- drop_table(:sales)
+   -> 0.0082s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0291s
+-- add_index(:sales, :plu)
+   -> 0.0256s
+-- add_index(:sales, :type)
+   -> 0.0195s
+-- add_index(:sales, :date)
+   -> 0.0205s
+-- add_index(:sales, :time)
+   -> 0.0199s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0366s
+-- change_table(:sales)
+   -> 0.8357s
+-- drop_table(:sales)
+   -> 0.0105s
+-- create_table("sales")
+   -> 0.0356s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0286s
+-- add_index(:sales, :plu)
+   -> 0.0368s
+-- add_index(:sales, :type)
+   -> 0.0216s
+-- add_index(:sales, :date)
+   -> 0.0219s
+-- add_index(:sales, :time)
+   -> 0.0201s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0345s
+-- change_table(:sales)
+   -> 0.8634s
+-- drop_table(:sales)
+   -> 0.0106s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0476s
+-- add_index(:sales, :plu)
+   -> 0.0262s
+-- add_index(:sales, :type)
+   -> 0.0220s
+-- add_index(:sales, :date)
+   -> 0.0319s
+-- add_index(:sales, :time)
+   -> 0.0241s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0234s
+-- change_table(:sales)
+   -> 0.9282s
+-- drop_table(:sales)
+   -> 0.0116s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0286s
+-- add_index(:sales, :plu)
+   -> 0.0297s
+-- add_index(:sales, :type)
+   -> 0.0210s
+-- add_index(:sales, :date)
+   -> 0.0191s
+-- add_index(:sales, :time)
+   -> 0.0299s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0216s
+-- change_table(:sales)
+   -> 0.8555s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0217s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0442s
+-- add_index(:sales, :plu)
+   -> 0.0236s
+-- add_index(:sales, :type)
+   -> 0.0325s
+-- add_index(:sales, :date)
+   -> 0.0199s
+-- add_index(:sales, :time)
+   -> 0.0203s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0195s
+-- change_table(:sales)
+   -> 0.8561s
+-- drop_table(:sales)
+   -> 0.0241s
+-- create_table("sales")
+   -> 0.0227s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0295s
+-- add_index(:sales, :plu)
+   -> 0.0284s
+-- add_index(:sales, :type)
+   -> 0.0364s
+-- add_index(:sales, :date)
+   -> 0.0230s
+-- add_index(:sales, :time)
+   -> 0.0239s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 1.0158s
+-- drop_table(:sales)
+   -> 0.0522s
+-- create_table("sales")
+   -> 0.0497s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0363s
+-- add_index(:sales, :plu)
+   -> 0.0234s
+-- add_index(:sales, :type)
+   -> 0.0233s
+-- add_index(:sales, :date)
+   -> 0.0389s
+-- add_index(:sales, :time)
+   -> 0.0223s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0271s
+-- change_table(:sales)
+   -> 0.9226s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0290s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0298s
+-- add_index(:sales, :plu)
+   -> 0.0347s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0210s
+-- add_index(:sales, :time)
+   -> 0.0200s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0251s
+-- change_table(:sales)
+   -> 0.9572s
+-- drop_table(:sales)
+   -> 0.0080s
+-- create_table("sales")
+   -> 0.0309s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0250s
+-- add_index(:sales, :plu)
+   -> 0.0260s
+-- add_index(:sales, :type)
+   -> 0.0204s
+-- add_index(:sales, :date)
+   -> 0.0211s
+-- add_index(:sales, :time)
+   -> 0.0326s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0200s
+-- change_table(:sales)
+   -> 0.9160s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0180s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0279s
+-- add_index(:sales, :plu)
+   -> 0.0240s
+-- add_index(:sales, :type)
+   -> 0.0355s
+-- add_index(:sales, :date)
+   -> 0.0218s
+-- add_index(:sales, :time)
+   -> 0.0222s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0218s
+-- change_table(:sales)
+   -> 0.9151s
+-- drop_table(:sales)
+   -> 0.0164s
+-- create_table("sales")
+   -> 0.0181s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0292s
+-- add_index(:sales, :plu)
+   -> 0.0230s
+-- add_index(:sales, :type)
+   -> 0.0335s
+-- add_index(:sales, :date)
+   -> 0.0197s
+-- add_index(:sales, :time)
+   -> 0.0203s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0199s
+-- change_table(:sales)
+   -> 0.9186s
+-- drop_table(:sales)
+   -> 0.0374s
+-- create_table("sales")
+   -> 0.0487s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0449s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0221s
+-- add_index(:sales, :date)
+   -> 0.0354s
+-- add_index(:sales, :time)
+   -> 0.0270s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 0.9710s
+-- drop_table(:sales)
+   -> 0.0347s
+-- create_table("sales")
+   -> 0.0217s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0281s
+-- add_index(:sales, :plu)
+   -> 0.0242s
+-- add_index(:sales, :type)
+   -> 0.0361s
+-- add_index(:sales, :date)
+   -> 0.0216s
+-- add_index(:sales, :time)
+   -> 0.0224s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0215s
+-- change_table(:sales)
+   -> 0.9891s
+-- drop_table(:sales)
+   -> 0.0231s
+-- create_table("sales")
+   -> 0.0196s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0262s
+-- add_index(:sales, :plu)
+   -> 0.0247s
+-- add_index(:sales, :type)
+   -> 0.0197s
+-- add_index(:sales, :date)
+   -> 0.0196s
+-- add_index(:sales, :time)
+   -> 0.0389s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0213s
+-- change_table(:sales)
+   -> 0.9180s
+-- drop_table(:sales)
+   -> 0.0106s
+-- create_table("sales")
+   -> 0.0205s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0447s
+-- add_index(:sales, :plu)
+   -> 0.0227s
+-- add_index(:sales, :type)
+   -> 0.0236s
+-- add_index(:sales, :date)
+   -> 0.0237s
+-- add_index(:sales, :time)
+   -> 0.0359s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0284s
+-- change_table(:sales)
+   -> 1.0518s
+-- drop_table(:sales)
+   -> 0.0172s
+-- create_table("sales")
+   -> 0.0258s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0524s
+-- add_index(:sales, :plu)
+   -> 0.0220s
+-- add_index(:sales, :type)
+   -> 0.0339s
+-- add_index(:sales, :date)
+   -> 0.0216s
+-- add_index(:sales, :time)
+   -> 0.0210s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0203s
+-- change_table(:sales)
+   -> 0.9440s
+-- drop_table(:sales)
+   -> 0.0080s
+-- create_table("sales")
+   -> 0.0190s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0515s
+-- add_index(:sales, :plu)
+   -> 0.0252s
+-- add_index(:sales, :type)
+   -> 0.0403s
+-- add_index(:sales, :date)
+   -> 0.0209s
+-- add_index(:sales, :time)
+   -> 0.0295s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0238s
+-- change_table(:sales)
+   -> 0.9776s
+-- drop_table(:sales)
+   -> 0.0110s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0303s
+-- add_index(:sales, :plu)
+   -> 0.0255s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0215s
+-- add_index(:sales, :time)
+   -> 0.0242s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0319s
+-- change_table(:sales)
+   -> 0.9132s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0334s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0319s
+-- add_index(:sales, :plu)
+   -> 0.0371s
+-- add_index(:sales, :type)
+   -> 0.0239s
+-- add_index(:sales, :date)
+   -> 0.0243s
+-- add_index(:sales, :time)
+   -> 0.0234s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0379s
+-- change_table(:sales)
+   -> 0.9718s
+-- drop_table(:sales)
+   -> 0.0072s
+-- create_table("sales")
+   -> 0.0191s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0397s
+-- add_index(:sales, :plu)
+   -> 0.0381s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0191s
+-- add_index(:sales, :time)
+   -> 0.0206s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0359s
+-- change_table(:sales)
+   -> 1.1551s
+-- drop_table(:sales)
+   -> 0.0116s
+-- create_table("sales")
+   -> 0.0238s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0325s
+-- add_index(:sales, :plu)
+   -> 0.0264s
+-- add_index(:sales, :type)
+   -> 0.0265s
+-- add_index(:sales, :date)
+   -> 0.0372s
+-- add_index(:sales, :time)
+   -> 0.0229s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0224s
+-- change_table(:sales)
+   -> 1.0097s
+-- drop_table(:sales)
+   -> 0.0117s
+-- create_table("sales")
+   -> 0.0211s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0369s
+-- add_index(:sales, :plu)
+   -> 0.0247s
+-- add_index(:sales, :type)
+   -> 0.0245s
+-- add_index(:sales, :date)
+   -> 0.0343s
+-- add_index(:sales, :time)
+   -> 0.0214s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0239s
+-- change_table(:sales)
+   -> 0.9645s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0322s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0314s
+-- add_index(:sales, :plu)
+   -> 0.0240s
+-- add_index(:sales, :type)
+   -> 0.0208s
+-- add_index(:sales, :date)
+   -> 0.0351s
+-- add_index(:sales, :time)
+   -> 0.0222s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0243s
+-- change_table(:sales)
+   -> 0.9708s
+-- drop_table(:sales)
+   -> 0.0094s
+-- create_table("sales")
+   -> 0.0301s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0280s
+-- add_index(:sales, :plu)
+   -> 0.0360s
+-- add_index(:sales, :type)
+   -> 0.0198s
+-- add_index(:sales, :date)
+   -> 0.0199s
+-- add_index(:sales, :time)
+   -> 0.0233s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0212s
+-- change_table(:sales)
+   -> 0.9899s
+-- drop_table(:sales)
+   -> 0.0162s
+-- create_table("sales")
+   -> 0.0315s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0293s
+-- add_index(:sales, :plu)
+   -> 0.0250s
+-- add_index(:sales, :type)
+   -> 0.0340s
+-- add_index(:sales, :date)
+   -> 0.0238s
+-- add_index(:sales, :time)
+   -> 0.0231s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0239s
+-- change_table(:sales)
+   -> 0.9595s
+-- drop_table(:sales)
+   -> 0.0126s
+-- create_table("sales")
+   -> 0.0234s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0558s
+-- add_index(:sales, :plu)
+   -> 0.0238s
+-- add_index(:sales, :type)
+   -> 0.0256s
+-- add_index(:sales, :date)
+   -> 0.0216s
+-- add_index(:sales, :time)
+   -> 0.0376s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0224s
+-- change_table(:sales)
+   -> 0.9620s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0199s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0439s
+-- add_index(:sales, :plu)
+   -> 0.0394s
+-- add_index(:sales, :type)
+   -> 0.0213s
+-- add_index(:sales, :date)
+   -> 0.0223s
+-- add_index(:sales, :time)
+   -> 0.0242s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0356s
+-- change_table(:sales)
+   -> 1.0179s
+-- drop_table(:sales)
+   -> 0.0221s
+-- create_table("sales")
+   -> 0.0209s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0315s
+-- add_index(:sales, :plu)
+   -> 0.0248s
+-- add_index(:sales, :type)
+   -> 0.0229s
+-- add_index(:sales, :date)
+   -> 0.0247s
+-- add_index(:sales, :time)
+   -> 0.0364s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 0.9656s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0315s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0322s
+-- add_index(:sales, :plu)
+   -> 0.0263s
+-- add_index(:sales, :type)
+   -> 0.0253s
+-- add_index(:sales, :date)
+   -> 0.0302s
+-- add_index(:sales, :time)
+   -> 0.0342s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 1.0037s
+-- drop_table(:sales)
+   -> 0.0089s
+-- create_table("sales")
+   -> 0.0208s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0431s
+-- add_index(:sales, :plu)
+   -> 0.0278s
+-- add_index(:sales, :type)
+   -> 0.0227s
+-- add_index(:sales, :date)
+   -> 0.0319s
+-- add_index(:sales, :time)
+   -> 0.0231s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0283s
+-- change_table(:sales)
+   -> 1.0145s
+-- drop_table(:sales)
+   -> 0.0096s
+-- create_table("sales")
+   -> 0.0189s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0468s
+-- add_index(:sales, :plu)
+   -> 0.0381s
+-- add_index(:sales, :type)
+   -> 0.0234s
+-- add_index(:sales, :date)
+   -> 0.0213s
+-- add_index(:sales, :time)
+   -> 0.0214s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0238s
+-- change_table(:sales)
+   -> 1.0396s
+-- drop_table(:sales)
+   -> 0.0110s
+-- create_table("sales")
+   -> 0.0393s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0473s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0206s
+-- add_index(:sales, :date)
+   -> 0.0200s
+-- add_index(:sales, :time)
+   -> 0.0227s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0353s
+-- change_table(:sales)
+   -> 1.0605s
+-- drop_table(:sales)
+   -> 0.0118s
+-- create_table("sales")
+   -> 0.0181s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0406s
+-- add_index(:sales, :plu)
+   -> 0.0321s
+-- add_index(:sales, :type)
+   -> 0.0206s
+-- add_index(:sales, :date)
+   -> 0.0195s
+-- add_index(:sales, :time)
+   -> 0.0203s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0252s
+-- change_table(:sales)
+   -> 0.9629s
+-- drop_table(:sales)
+   -> 0.0110s
+-- create_table("sales")
+   -> 0.0232s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0289s
+-- add_index(:sales, :plu)
+   -> 0.0243s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0236s
+-- add_index(:sales, :time)
+   -> 0.0329s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0224s
+-- change_table(:sales)
+   -> 1.0295s
+-- drop_table(:sales)
+   -> 0.0083s
+-- create_table("sales")
+   -> 0.0248s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0252s
+-- add_index(:sales, :plu)
+   -> 0.0248s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0241s
+-- add_index(:sales, :time)
+   -> 0.0366s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0230s
+-- change_table(:sales)
+   -> 1.0353s
+-- drop_table(:sales)
+   -> 0.0100s
+-- create_table("sales")
+   -> 0.0212s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0566s
+-- add_index(:sales, :plu)
+   -> 0.0451s
+-- add_index(:sales, :type)
+   -> 0.0216s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0252s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0223s
+-- change_table(:sales)
+   -> 1.0332s
+-- drop_table(:sales)
+   -> 0.0117s
+-- create_table("sales")
+   -> 0.0190s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0337s
+-- add_index(:sales, :plu)
+   -> 0.0427s
+-- add_index(:sales, :type)
+   -> 0.0244s
+-- add_index(:sales, :date)
+   -> 0.0219s
+-- add_index(:sales, :time)
+   -> 0.0218s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0360s
+-- change_table(:sales)
+   -> 1.0732s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0291s
+-- add_index(:sales, :plu)
+   -> 0.0221s
+-- add_index(:sales, :type)
+   -> 0.0509s
+-- add_index(:sales, :date)
+   -> 0.0227s
+-- add_index(:sales, :time)
+   -> 0.0330s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0369s
+-- change_table(:sales)
+   -> 1.0602s
+-- drop_table(:sales)
+   -> 0.0083s
+-- create_table("sales")
+   -> 0.0309s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0283s
+-- add_index(:sales, :plu)
+   -> 0.0235s
+-- add_index(:sales, :type)
+   -> 0.0224s
+-- add_index(:sales, :date)
+   -> 0.0311s
+-- add_index(:sales, :time)
+   -> 0.0262s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0237s
+-- change_table(:sales)
+   -> 1.0645s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0228s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0287s
+-- add_index(:sales, :plu)
+   -> 0.0263s
+-- add_index(:sales, :type)
+   -> 0.0217s
+-- add_index(:sales, :date)
+   -> 0.0353s
+-- add_index(:sales, :time)
+   -> 0.0217s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 1.0280s
+-- drop_table(:sales)
+   -> 0.0210s
+-- create_table("sales")
+   -> 0.0257s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0426s
+-- add_index(:sales, :plu)
+   -> 0.0246s
+-- add_index(:sales, :type)
+   -> 0.0207s
+-- add_index(:sales, :date)
+   -> 0.0217s
+-- add_index(:sales, :time)
+   -> 0.0358s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0215s
+-- change_table(:sales)
+   -> 1.0457s
+-- drop_table(:sales)
+   -> 0.0201s
+-- create_table("sales")
+   -> 0.0221s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0307s
+-- add_index(:sales, :plu)
+   -> 0.0234s
+-- add_index(:sales, :type)
+   -> 0.0211s
+-- add_index(:sales, :date)
+   -> 0.0257s
+-- add_index(:sales, :time)
+   -> 0.0381s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0220s
+-- change_table(:sales)
+   -> 1.0380s
+-- drop_table(:sales)
+   -> 0.0071s
+-- create_table("sales")
+   -> 0.0185s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0329s
+-- add_index(:sales, :plu)
+   -> 0.0413s
+-- add_index(:sales, :type)
+   -> 0.0239s
+-- add_index(:sales, :date)
+   -> 0.0287s
+-- add_index(:sales, :time)
+   -> 0.0218s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0347s
+-- change_table(:sales)
+   -> 1.0646s
+-- drop_table(:sales)
+   -> 0.0078s
+-- create_table("sales")
+   -> 0.0400s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0414s
+-- add_index(:sales, :plu)
+   -> 0.0278s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0212s
+-- add_index(:sales, :time)
+   -> 0.0335s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0259s
+-- change_table(:sales)
+   -> 1.1160s
+-- drop_table(:sales)
+   -> 0.0086s
+-- create_table("sales")
+   -> 0.0184s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0407s
+-- add_index(:sales, :plu)
+   -> 0.0236s
+-- add_index(:sales, :type)
+   -> 0.0203s
+-- add_index(:sales, :date)
+   -> 0.0227s
+-- add_index(:sales, :time)
+   -> 0.0326s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0203s
+-- change_table(:sales)
+   -> 1.0045s
+-- drop_table(:sales)
+   -> 0.0232s
+-- create_table("sales")
+   -> 0.0431s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0485s
+-- add_index(:sales, :plu)
+   -> 0.0271s
+-- add_index(:sales, :type)
+   -> 0.0269s
+-- add_index(:sales, :date)
+   -> 0.0215s
+-- add_index(:sales, :time)
+   -> 0.0387s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0341s
+-- change_table(:sales)
+   -> 1.1709s
+-- drop_table(:sales)
+   -> 0.0125s
+-- create_table("sales")
+   -> 0.0336s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0307s
+-- add_index(:sales, :plu)
+   -> 0.0233s
+-- add_index(:sales, :type)
+   -> 0.0356s
+-- add_index(:sales, :date)
+   -> 0.0237s
+-- add_index(:sales, :time)
+   -> 0.0255s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0236s
+-- change_table(:sales)
+   -> 1.0440s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0254s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0288s
+-- add_index(:sales, :plu)
+   -> 0.0256s
+-- add_index(:sales, :type)
+   -> 0.0246s
+-- add_index(:sales, :date)
+   -> 0.0402s
+-- add_index(:sales, :time)
+   -> 0.0235s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0238s
+-- change_table(:sales)
+   -> 1.0273s
+-- drop_table(:sales)
+   -> 0.0105s
+-- create_table("sales")
+   -> 0.0261s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0408s
+-- add_index(:sales, :plu)
+   -> 0.0390s
+-- add_index(:sales, :type)
+   -> 0.0214s
+-- add_index(:sales, :date)
+   -> 0.0228s
+-- add_index(:sales, :time)
+   -> 0.0328s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0347s
+-- change_table(:sales)
+   -> 1.1558s
+-- drop_table(:sales)
+   -> 0.0131s
+-- create_table("sales")
+   -> 0.0256s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0439s
+-- add_index(:sales, :plu)
+   -> 0.0276s
+-- add_index(:sales, :type)
+   -> 0.0220s
+-- add_index(:sales, :date)
+   -> 0.0380s
+-- add_index(:sales, :time)
+   -> 0.0231s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 1.0987s
+-- drop_table(:sales)
+   -> 0.0146s
+-- create_table("sales")
+   -> 0.0241s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0309s
+-- add_index(:sales, :plu)
+   -> 0.0289s
+-- add_index(:sales, :type)
+   -> 0.0382s
+-- add_index(:sales, :date)
+   -> 0.0225s
+-- add_index(:sales, :time)
+   -> 0.0237s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0246s
+-- change_table(:sales)
+   -> 1.0662s
+-- drop_table(:sales)
+   -> 0.0092s
+-- create_table("sales")
+   -> 0.0236s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0298s
+-- add_index(:sales, :plu)
+   -> 0.0337s
+-- add_index(:sales, :type)
+   -> 0.0221s
+-- add_index(:sales, :date)
+   -> 0.0328s
+-- add_index(:sales, :time)
+   -> 0.0252s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0222s
+-- change_table(:sales)
+   -> 1.0756s
+-- drop_table(:sales)
+   -> 0.0208s
+-- create_table("sales")
+   -> 0.0195s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0302s
+-- add_index(:sales, :plu)
+   -> 0.0411s
+-- add_index(:sales, :type)
+   -> 0.0274s
+-- add_index(:sales, :date)
+   -> 0.0272s
+-- add_index(:sales, :time)
+   -> 0.0211s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0343s
+-- change_table(:sales)
+   -> 1.1436s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0188s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0347s
+-- add_index(:sales, :plu)
+   -> 0.0253s
+-- add_index(:sales, :type)
+   -> 0.0200s
+-- add_index(:sales, :date)
+   -> 0.0398s
+-- add_index(:sales, :time)
+   -> 0.0228s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0212s
+-- change_table(:sales)
+   -> 1.0739s
+-- drop_table(:sales)
+   -> 0.0110s
+-- create_table("sales")
+   -> 0.0419s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0386s
+-- add_index(:sales, :plu)
+   -> 0.0259s
+-- add_index(:sales, :type)
+   -> 0.0224s
+-- add_index(:sales, :date)
+   -> 0.0226s
+-- add_index(:sales, :time)
+   -> 0.0421s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0217s
+-- change_table(:sales)
+   -> 1.0214s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0260s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0309s
+-- add_index(:sales, :plu)
+   -> 0.0263s
+-- add_index(:sales, :type)
+   -> 0.0221s
+-- add_index(:sales, :date)
+   -> 0.0214s
+-- add_index(:sales, :time)
+   -> 0.0335s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0248s
+-- change_table(:sales)
+   -> 1.1475s
+-- drop_table(:sales)
+   -> 0.0358s
+-- create_table("sales")
+   -> 0.0581s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0534s
+-- add_index(:sales, :plu)
+   -> 0.0330s
+-- add_index(:sales, :type)
+   -> 0.0346s
+-- add_index(:sales, :date)
+   -> 0.0240s
+-- add_index(:sales, :time)
+   -> 0.0265s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0232s
+-- change_table(:sales)
+   -> 1.1507s
+-- drop_table(:sales)
+   -> 0.0178s
+-- create_table("sales")
+   -> 0.0244s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0300s
+-- add_index(:sales, :plu)
+   -> 0.0251s
+-- add_index(:sales, :type)
+   -> 0.0394s
+-- add_index(:sales, :date)
+   -> 0.0238s
+-- add_index(:sales, :time)
+   -> 0.0213s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 1.1082s
+-- drop_table(:sales)
+   -> 0.0145s
+-- create_table("sales")
+   -> 0.0195s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.2113s
+-- add_index(:sales, :plu)
+   -> 0.0622s
+-- add_index(:sales, :type)
+   -> 0.0234s
+-- add_index(:sales, :date)
+   -> 0.0221s
+-- add_index(:sales, :time)
+   -> 0.0214s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0369s
+-- change_table(:sales)
+   -> 1.2245s
+-- drop_table(:sales)
+   -> 0.0106s
+-- create_table("sales")
+   -> 0.0204s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0287s
+-- add_index(:sales, :plu)
+   -> 0.0224s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0337s
+-- add_index(:sales, :time)
+   -> 0.0217s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0216s
+-- change_table(:sales)
+   -> 1.1045s
+-- drop_table(:sales)
+   -> 0.0112s
+-- create_table("sales")
+   -> 0.0191s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0319s
+-- add_index(:sales, :plu)
+   -> 0.0405s
+-- add_index(:sales, :type)
+   -> 0.0206s
+-- add_index(:sales, :date)
+   -> 0.0222s
+-- add_index(:sales, :time)
+   -> 0.0218s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0237s
+-- change_table(:sales)
+   -> 1.1040s
+-- drop_table(:sales)
+   -> 0.0093s
+-- create_table("sales")
+   -> 0.0222s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0316s
+-- add_index(:sales, :plu)
+   -> 0.0366s
+-- add_index(:sales, :type)
+   -> 0.0212s
+-- add_index(:sales, :date)
+   -> 0.0250s
+-- add_index(:sales, :time)
+   -> 0.0249s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0233s
+-- change_table(:sales)
+   -> 1.0759s
+-- drop_table(:sales)
+   -> 0.0088s
+-- create_table("sales")
+   -> 0.0314s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0291s
+-- add_index(:sales, :plu)
+   -> 0.0366s
+-- add_index(:sales, :type)
+   -> 0.0220s
+-- add_index(:sales, :date)
+   -> 0.0220s
+-- add_index(:sales, :time)
+   -> 0.0221s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0409s
+-- change_table(:sales)
+   -> 1.0570s
+-- drop_table(:sales)
+   -> 0.0071s
+-- create_table("sales")
+   -> 0.0341s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0429s
+-- add_index(:sales, :plu)
+   -> 0.0291s
+-- add_index(:sales, :type)
+   -> 0.0254s
+-- add_index(:sales, :date)
+   -> 0.0243s
+-- add_index(:sales, :time)
+   -> 0.0362s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.1806s
+-- drop_table(:sales)
+   -> 0.0397s
+-- create_table("sales")
+   -> 0.0880s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.1267s
+-- add_index(:sales, :plu)
+   -> 0.0368s
+-- add_index(:sales, :type)
+   -> 0.0222s
+-- add_index(:sales, :date)
+   -> 0.0225s
+-- add_index(:sales, :time)
+   -> 0.0249s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0210s
+-- change_table(:sales)
+   -> 1.1234s
+-- drop_table(:sales)
+   -> 0.0092s
+-- create_table("sales")
+   -> 0.0186s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0305s
+-- add_index(:sales, :plu)
+   -> 0.0405s
+-- add_index(:sales, :type)
+   -> 0.0250s
+-- add_index(:sales, :date)
+   -> 0.0237s
+-- add_index(:sales, :time)
+   -> 0.0227s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0223s
+-- change_table(:sales)
+   -> 1.2119s
+-- drop_table(:sales)
+   -> 0.0222s
+-- create_table("sales")
+   -> 0.0188s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0298s
+-- add_index(:sales, :plu)
+   -> 0.0242s
+-- add_index(:sales, :type)
+   -> 0.0208s
+-- add_index(:sales, :date)
+   -> 0.0309s
+-- add_index(:sales, :time)
+   -> 0.0335s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0234s
+-- change_table(:sales)
+   -> 1.0989s
+-- drop_table(:sales)
+   -> 0.0163s
+-- create_table("sales")
+   -> 0.0195s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0290s
+-- add_index(:sales, :plu)
+   -> 0.0247s
+-- add_index(:sales, :type)
+   -> 0.0235s
+-- add_index(:sales, :date)
+   -> 0.0353s
+-- add_index(:sales, :time)
+   -> 0.0252s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0210s
+-- change_table(:sales)
+   -> 1.1353s
+-- drop_table(:sales)
+   -> 0.0085s
+-- create_table("sales")
+   -> 0.0201s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0290s
+-- add_index(:sales, :plu)
+   -> 0.0279s
+-- add_index(:sales, :type)
+   -> 0.0329s
+-- add_index(:sales, :date)
+   -> 0.0211s
+-- add_index(:sales, :time)
+   -> 0.0228s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0266s
+-- change_table(:sales)
+   -> 1.1534s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0182s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0472s
+-- add_index(:sales, :plu)
+   -> 0.0377s
+-- add_index(:sales, :type)
+   -> 0.0240s
+-- add_index(:sales, :date)
+   -> 0.0239s
+-- add_index(:sales, :time)
+   -> 0.0218s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 1.1196s
+-- drop_table(:sales)
+   -> 0.0094s
+-- create_table("sales")
+   -> 0.0336s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0352s
+-- add_index(:sales, :plu)
+   -> 0.0358s
+-- add_index(:sales, :type)
+   -> 0.0211s
+-- add_index(:sales, :date)
+   -> 0.0229s
+-- add_index(:sales, :time)
+   -> 0.0242s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.1119s
+-- drop_table(:sales)
+   -> 0.0099s
+-- create_table("sales")
+   -> 0.0313s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0288s
+-- add_index(:sales, :plu)
+   -> 0.0258s
+-- add_index(:sales, :type)
+   -> 0.0212s
+-- add_index(:sales, :date)
+   -> 0.0233s
+-- add_index(:sales, :time)
+   -> 0.0322s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0240s
+-- change_table(:sales)
+   -> 1.1257s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0201s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0534s
+-- add_index(:sales, :plu)
+   -> 0.0388s
+-- add_index(:sales, :type)
+   -> 0.0244s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0291s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0368s
+-- change_table(:sales)
+   -> 1.1699s
+-- drop_table(:sales)
+   -> 0.0369s
+-- create_table("sales")
+   -> 0.0323s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0744s
+-- add_index(:sales, :plu)
+   -> 0.0261s
+-- add_index(:sales, :type)
+   -> 0.0234s
+-- add_index(:sales, :date)
+   -> 0.0343s
+-- add_index(:sales, :time)
+   -> 0.0223s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:sales)
+   -> 1.1078s
+-- drop_table(:sales)
+   -> 0.0133s
+-- create_table("sales")
+   -> 0.0313s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0371s
+-- add_index(:sales, :plu)
+   -> 0.0244s
+-- add_index(:sales, :type)
+   -> 0.0237s
+-- add_index(:sales, :date)
+   -> 0.0322s
+-- add_index(:sales, :time)
+   -> 0.0247s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0242s
+-- change_table(:sales)
+   -> 1.1593s
+-- drop_table(:sales)
+   -> 0.0091s
+-- create_table("sales")
+   -> 0.0266s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0326s
+-- add_index(:sales, :plu)
+   -> 0.0243s
+-- add_index(:sales, :type)
+   -> 0.0247s
+-- add_index(:sales, :date)
+   -> 0.0215s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0339s
+-- change_table(:sales)
+   -> 1.1485s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0249s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0279s
+-- add_index(:sales, :plu)
+   -> 0.0280s
+-- add_index(:sales, :type)
+   -> 0.0226s
+-- add_index(:sales, :date)
+   -> 0.0243s
+-- add_index(:sales, :time)
+   -> 0.0336s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0226s
+-- change_table(:sales)
+   -> 1.0993s
+-- drop_table(:sales)
+   -> 0.0086s
+-- create_table("sales")
+   -> 0.0293s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0288s
+-- add_index(:sales, :plu)
+   -> 0.0367s
+-- add_index(:sales, :type)
+   -> 0.0223s
+-- add_index(:sales, :date)
+   -> 0.0206s
+-- add_index(:sales, :time)
+   -> 0.0245s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0228s
+-- change_table(:sales)
+   -> 1.1463s
+-- drop_table(:sales)
+   -> 0.0162s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0285s
+-- add_index(:sales, :plu)
+   -> 0.0372s
+-- add_index(:sales, :type)
+   -> 0.0250s
+-- add_index(:sales, :date)
+   -> 0.0223s
+-- add_index(:sales, :time)
+   -> 0.0286s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0400s
+-- change_table(:sales)
+   -> 1.1175s
+-- drop_table(:sales)
+   -> 0.0091s
+-- create_table("sales")
+   -> 0.0361s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0296s
+-- add_index(:sales, :plu)
+   -> 0.0394s
+-- add_index(:sales, :type)
+   -> 0.0249s
+-- add_index(:sales, :date)
+   -> 0.0259s
+-- add_index(:sales, :time)
+   -> 0.0278s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0343s
+-- change_table(:sales)
+   -> 1.2003s
+-- drop_table(:sales)
+   -> 0.0201s
+-- create_table("sales")
+   -> 0.0328s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0366s
+-- add_index(:sales, :plu)
+   -> 0.0364s
+-- add_index(:sales, :type)
+   -> 0.0224s
+-- add_index(:sales, :date)
+   -> 0.0207s
+-- add_index(:sales, :time)
+   -> 0.0203s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0320s
+-- change_table(:sales)
+   -> 1.1268s
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0210s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0482s
+-- add_index(:sales, :plu)
+   -> 0.0362s
+-- add_index(:sales, :type)
+   -> 0.0217s
+-- add_index(:sales, :date)
+   -> 0.0324s
+-- add_index(:sales, :time)
+   -> 0.0233s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0344s
+-- change_table(:sales)
+   -> 1.1334s
+-- drop_table(:sales)
+   -> 0.0136s
+-- create_table("sales")
+   -> 0.0264s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0469s
+-- add_index(:sales, :plu)
+   -> 0.0364s
+-- add_index(:sales, :type)
+   -> 0.0236s
+-- add_index(:sales, :date)
+   -> 0.0231s
+-- add_index(:sales, :time)
+   -> 0.0214s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0352s
+-- change_table(:sales)
+   -> 1.1269s
+-- drop_table(:sales)
+   -> 0.0086s
+-- create_table("sales")
+   -> 0.0189s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0410s
+-- add_index(:sales, :plu)
+   -> 0.0291s
+-- add_index(:sales, :type)
+   -> 0.0214s
+-- add_index(:sales, :date)
+   -> 0.0348s
+-- add_index(:sales, :time)
+   -> 0.0209s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0237s
+-- change_table(:sales)
+   -> 1.1512s
+-- drop_table(:sales)
+   -> 0.0078s
+-- create_table("sales")
+   -> 0.0204s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0410s
+-- add_index(:sales, :plu)
+   -> 0.0249s
+-- add_index(:sales, :type)
+   -> 0.0216s
+-- add_index(:sales, :date)
+   -> 0.0217s
+-- add_index(:sales, :time)
+   -> 0.0329s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0232s
+-- change_table(:sales)
+   -> 1.1849s
+-- drop_table(:sales)
+   -> 0.0118s
+-- create_table("sales")
+   -> 0.0614s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0303s
+-- add_index(:sales, :plu)
+   -> 0.0263s
+-- add_index(:sales, :type)
+   -> 0.0347s
+-- add_index(:sales, :date)
+   -> 0.0252s
+-- add_index(:sales, :time)
+   -> 0.0206s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0233s
+-- change_table(:sales)
+   -> 1.2046s
+-- drop_table(:sales)
+   -> 0.0197s
+-- create_table("sales")
+   -> 0.0378s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0942s
+-- add_index(:sales, :plu)
+   -> 0.0388s
+-- add_index(:sales, :type)
+   -> 0.0276s
+-- add_index(:sales, :date)
+   -> 0.0219s
+-- add_index(:sales, :time)
+   -> 0.0257s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0231s
+-- change_table(:sales)
+   -> 1.3568s
+-- drop_table(:sales)
+   -> 0.0133s
+-- create_table("sales")
+   -> 0.0300s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0468s
+-- add_index(:sales, :plu)
+   -> 0.0363s
+-- add_index(:sales, :type)
+   -> 0.0290s
+-- add_index(:sales, :date)
+   -> 0.0389s
+-- add_index(:sales, :time)
+   -> 0.0263s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0244s
+-- change_table(:sales)
+   -> 1.2833s
+-- drop_table(:sales)
+   -> 0.0080s
+-- create_table("sales")
+   -> 0.0191s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0430s
+-- add_index(:sales, :plu)
+   -> 0.0370s
+-- add_index(:sales, :type)
+   -> 0.0224s
+-- add_index(:sales, :date)
+   -> 0.0371s
+-- add_index(:sales, :time)
+   -> 0.0222s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0334s
+-- change_table(:sales)
+   -> 1.1687s
+-- drop_table(:sales)
+   -> 0.0216s
+-- create_table("sales")
+   -> 0.0184s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0308s
+-- add_index(:sales, :plu)
+   -> 0.0267s
+-- add_index(:sales, :type)
+   -> 0.0209s
+-- add_index(:sales, :date)
+   -> 0.0344s
+-- add_index(:sales, :time)
+   -> 0.0241s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0214s
+-- change_table(:sales)
+   -> 1.1697s
+-- drop_table(:sales)
+   -> 0.0100s
+-- create_table("sales")
+   -> 0.0223s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0341s
+-- add_index(:sales, :plu)
+   -> 0.0245s
+-- add_index(:sales, :type)
+   -> 0.0356s
+-- add_index(:sales, :date)
+   -> 0.0288s
+-- add_index(:sales, :time)
+   -> 0.0219s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0229s
+-- change_table(:sales)
+   -> 1.2730s
+-- drop_table(:sales)
+   -> 0.0143s
+-- create_table("sales")
+   -> 0.0225s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0318s
+-- add_index(:sales, :plu)
+   -> 0.0363s
+-- add_index(:sales, :type)
+   -> 0.0253s
+-- add_index(:sales, :date)
+   -> 0.0216s
+-- add_index(:sales, :time)
+   -> 0.0273s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0209s
+-- change_table(:sales)
+   -> 1.1830s
+-- drop_table(:sales)
+   -> 0.0102s
+-- create_table("sales")
+   -> 0.0198s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0445s
+-- add_index(:sales, :plu)
+   -> 0.0386s
+-- add_index(:sales, :type)
+   -> 0.0220s
+-- add_index(:sales, :date)
+   -> 0.0238s
+-- add_index(:sales, :time)
+   -> 0.0285s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0359s
+-- change_table(:sales)
+   -> 1.1812s
+-- drop_table(:sales)
+   -> 0.0097s
+-- create_table("sales")
+   -> 0.0215s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0553s
+-- add_index(:sales, :plu)
+   -> 0.0257s
+-- add_index(:sales, :type)
+   -> 0.0312s
+-- add_index(:sales, :date)
+   -> 0.0235s
+-- add_index(:sales, :time)
+   -> 0.0276s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0242s
+-- change_table(:sales)
+   -> 1.2260s
+-- drop_table(:sales)
+   -> 0.0136s
+-- create_table("sales")
+   -> 0.0206s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0405s
+-- add_index(:sales, :plu)
+   -> 0.0374s
+-- add_index(:sales, :type)
+   -> 0.0380s
+-- add_index(:sales, :date)
+   -> 0.0340s
+-- add_index(:sales, :time)
+   -> 0.0227s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0241s
+-- change_table(:sales)
+   -> 1.1920s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:73:in `rescue in initialize': file not found: /home/hvsepos/Touch/DATA/Sales.dbf (DBF::FileNotFoundError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:66:in `initialize'
+	from hvs_migration_sales.rb:17:in `new'
+	from hvs_migration_sales.rb:17:in `up'
+	from hvs_migration_sales.rb:165:in `<main>'
+-- drop_table(:sales)
+   -> 0.0164s
+-- create_table("sales")
+   -> 0.0284s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0278s
+-- add_index(:sales, :plu)
+   -> 0.0246s
+-- add_index(:sales, :type)
+   -> 0.0384s
+-- add_index(:sales, :date)
+   -> 0.0269s
+-- add_index(:sales, :time)
+   -> 0.0237s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0455s
+-- change_table(:sales)
+   -> 1.2760s
+-- drop_table(:sales)
+   -> 0.0092s
+-- create_table("sales")
+   -> 0.0272s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0310s
+-- drop_table(:sales)
+   -> 0.0079s
+-- create_table("sales")
+   -> 0.0193s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0290s
+-- add_index(:sales, :plu)
+   -> 0.0333s
+-- add_index(:sales, :type)
+   -> 0.0230s
+-- add_index(:sales, :date)
+   -> 0.0313s
+-- add_index(:sales, :time)
+   -> 0.0242s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0211s
+-- change_table(:sales)
+   -> 1.2420s
+-- drop_table(:sales)
+   -> 0.0096s
+-- create_table("sales")
+   -> 0.0188s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0301s
+-- add_index(:sales, :plu)
+   -> 0.0398s
+-- add_index(:sales, :type)
+   -> 0.0238s
+-- add_index(:sales, :date)
+   -> 0.0237s
+-- add_index(:sales, :time)
+   -> 0.0248s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0340s
+-- change_table(:sales)
+   -> 1.2407s
+-- drop_table(:sales)
+   -> 0.0090s
+-- create_table("sales")
+   -> 0.0197s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0445s
+-- add_index(:sales, :plu)
+   -> 0.0235s
+-- add_index(:sales, :type)
+   -> 0.0330s
+-- add_index(:sales, :date)
+   -> 0.0244s
+-- add_index(:sales, :time)
+   -> 0.0239s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0221s
+-- change_table(:sales)
+   -> 1.3902s
+-- drop_table(:sales)
+   -> 0.0086s
+-- create_table("sales")
+   -> 0.0275s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0412s
+-- add_index(:sales, :plu)
+   -> 0.0417s
+-- add_index(:sales, :type)
+   -> 0.0231s
+-- add_index(:sales, :date)
+   -> 0.0286s
+-- add_index(:sales, :time)
+   -> 0.0373s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0252s
+-- change_table(:sales)
+   -> 1.3342s
+-- drop_table(:sales)
+   -> 0.0113s
+-- create_table("sales")
+   -> 0.0344s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0333s
+-- add_index(:sales, :plu)
+   -> 0.0349s
+-- add_index(:sales, :type)
+   -> 0.0229s
+-- add_index(:sales, :date)
+   -> 0.0218s
+-- add_index(:sales, :time)
+   -> 0.0240s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0225s
+-- change_table(:sales)
+   -> 1.2773s
+-- drop_table(:sales)
+   -> 0.0084s
+-- create_table("sales")
+   -> 0.0198s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0292s
+-- add_index(:sales, :plu)
+   -> 0.0354s
+-- add_index(:sales, :type)
+   -> 0.0240s
+-- add_index(:sales, :date)
+   -> 0.0221s
+-- add_index(:sales, :time)
+   -> 0.0234s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0212s
+-- change_table(:sales)
+   -> 1.2041s
+-- drop_table(:sales)
+   -> 0.0204s
+-- create_table("sales")
+   -> 0.0210s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0345s
+-- add_index(:sales, :plu)
+   -> 0.0386s
+-- add_index(:sales, :type)
+   -> 0.0229s
+-- add_index(:sales, :date)
+   -> 0.0204s
+-- add_index(:sales, :time)
+   -> 0.0263s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0244s
+-- change_table(:sales)
+   -> 1.1999s

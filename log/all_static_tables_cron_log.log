@@ -2725,3 +2725,63 @@
 /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
 	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
 	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require': cannot load such file -- ./configs/deploy_setting.rb (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:120:in `require'
+	from all_static_tables_migration.rb:5:in `<main>'

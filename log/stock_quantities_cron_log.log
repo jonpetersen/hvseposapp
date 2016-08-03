@@ -6485,3 +6485,127 @@
    -> 0.0217s
 -- create_table("stockquantities")
    -> 0.0249s
+-- drop_table(:stockquantities)
+   -> 0.0106s
+-- create_table("stockquantities")
+   -> 0.0320s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0167s
+-- drop_table(:stockquantities)
+   -> 0.0185s
+-- create_table("stockquantities")
+   -> 0.0379s
+-- drop_table(:stockquantities)
+   -> 0.0143s
+-- create_table("stockquantities")
+   -> 0.0166s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0266s
+-- drop_table(:stockquantities)
+   -> 0.0247s
+-- create_table("stockquantities")
+   -> 0.0199s
+-- drop_table(:stockquantities)
+   -> 0.0079s
+-- create_table("stockquantities")
+   -> 0.0234s
+-- drop_table(:stockquantities)
+   -> 0.0297s
+-- create_table("stockquantities")
+   -> 0.0166s
+-- drop_table(:stockquantities)
+   -> 0.0280s
+-- create_table("stockquantities")
+   -> 0.0332s
+-- drop_table(:stockquantities)
+   -> 0.0115s
+-- create_table("stockquantities")
+   -> 0.0348s
+-- drop_table(:stockquantities)
+   -> 0.0079s
+-- create_table("stockquantities")
+   -> 0.0448s
+-- drop_table(:stockquantities)
+   -> 0.0081s
+-- create_table("stockquantities")
+   -> 0.0216s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0076s
+-- create_table("stockquantities")
+   -> 0.0305s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0328s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0167s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0185s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0292s
+-- drop_table(:stockquantities)
+   -> 0.0324s
+-- create_table("stockquantities")
+   -> 0.0199s
+-- drop_table(:stockquantities)
+   -> 0.0200s
+-- create_table("stockquantities")
+   -> 0.0200s
+-- drop_table(:stockquantities)
+   -> 0.0188s
+-- create_table("stockquantities")
+   -> 0.0365s
+-- drop_table(:stockquantities)
+   -> 0.0196s
+-- create_table("stockquantities")
+   -> 0.0200s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0204s
+-- drop_table(:stockquantities)
+   -> 0.0432s
+-- create_table("stockquantities")
+   -> 0.0643s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0175s
+-- drop_table(:stockquantities)
+   -> 0.0267s
+-- create_table("stockquantities")
+   -> 0.0233s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0165s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0196s
+-- drop_table(:stockquantities)
+   -> 0.0098s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0077s
+-- create_table("stockquantities")
+   -> 0.0204s
