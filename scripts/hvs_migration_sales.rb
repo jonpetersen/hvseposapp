@@ -159,10 +159,19 @@ class CreateSales < ActiveRecord::Migration
 end
 
 table = DBF::Table.new($aws_dir + "Sales.dbf")
+
+recs = 0
+table.each do |record|
+  recs = recs + 1 unless record.nil?
+end
+
 if Sale.table_exists?
-  if Sale.count != table.count 
+  if Sale.count != recs 
+    puts "Sale count is #{Sale.count} rec count is #{recs} so creating"
     CreateSales.down
     CreateSales.up
+  else
+    puts "Sale count is #{Sale.count} rec count is #{recs} so skipping"
   end
 else
   CreateSales.up

@@ -10,6 +10,7 @@ Hvseposapp = Rack::Builder.new do
   # end
 
   map("/docs") {run DocsController.new }
+  map("/nestcam") {run NestcamController.new }
   map("/")     {run MainController.new }
   map("/test") {run TestController.new }
   map("/groups") {run GroupsController.new }
@@ -27,6 +28,7 @@ Hvseposapp = Rack::Builder.new do
   map("/salelasttime") {run SalelasttimeController.new }
   map("/salesthismonth") {run SalesthismonthController.new }
   map("/salesthismonthavg") {run SalesthismonthavgController.new }
+  map("/salesthisyearavg") {run SalesthisyearavgController.new }
   map("/transactionsrecent") {run TransactionsrecentController.new }
   map("/goodsinrecent") {run GoodsinrecentController.new }
   map("/stockvatreport") {run StockvatreportController.new }

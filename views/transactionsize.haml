@@ -1,6 +1,9 @@
-%p Basket Value and Size by Month
+%h4 Average Basket Value since Nov 2015 #{Money.new(@overallaveragetransaction * 100).format} Average Basket Size since Nov 2015 #{@overallaverageitems.round(2)}
+%h4 Average Basket Value and Size by Month
 = line_chart [{name: "Avg Basket Value", data:@avgmonthlytransactionvalue},{name: "Avg Basket Item Count", data: @avgmonthlyitems}], min: nil, max: 8, height: "370px"
-%p Basket Value and Size by Week
+%h4 Average Basket Value and Size by Week
 = line_chart [{name: "Avg Basket Value", data:@avgweeklytransactionvalue},{name: "Avg Basket Item Count", data: @avgweeklyitems}], min: nil, max: 10, height: "370px"
-%p Basket Value and Size by Day of Week
+%h4 Basket Value and Size by Day (Last 90 Days)
+= line_chart [{name: "Basket Value", data:@dailytransactionvalue},{name: "Basket Item Count", data: @dailyitems}], min: nil, max: 10, height: "370px"
+%h4 Average Basket Value and Size by Day of Week
 = column_chart [{name: "Avg Basket Value", data:@avgdayofweektransactionvalue},{name: "Avg Basket Item Count", data: @avgdayofweekitems}], min: 2, max: 7, height: "370px"

@@ -1,4 +1,4 @@
-%h4 Last #{@last_n_transactions_array.size} Transactions #{Money.new(@sales_value * 100).format}
+%h4 Last #{@last_n_transactions_array.size} Transactions #{Money.new(@sales_value * 100).format}. Average value #{Money.new(@avgtransactionvalue * 100).format}. Average items #{@avgtransactionitems}
 %table{:class => "table table-bordered"}
   %tbody
     %tr

@@ -27,8 +27,17 @@ class TransactionstodayController < Sinatra::Base
 	  else
 	    @sales_value = Sale.where("type = ?","P").sum(:totalprice)
 	    lastn_transactions = sales_transactions
-	  end      
+	  end
+	       
     end
+    
+    transactions = lastn_transactions.size
+    
+    #@avgtransactionvalue = (@sales_value.to_f / lastn_transactions.size).to_f.round(2)
+    @avgtransactionvalue = (@sales_value.to_f / lastn_transactions.to_a.size).to_f.round(2)
+
+	transactionscount = lastn_transactions.count.values
+	@avgtransactionitems = (transactionscount.inject{ |sum, el| sum + el }.to_f / transactionscount.size).round(2)
             
     @last_n_transactions_array = []
     
