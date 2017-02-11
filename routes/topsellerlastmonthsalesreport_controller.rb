@@ -3,9 +3,15 @@ class TopsellerslastmonthsalesreportController < Sinatra::Base
   get '/' do    
     last_month = Date.today.month - 1 
     
-    @topsellers_value = Archivesale.where("type = ? AND MONTH(created_at) = ?","P",last_month).group(:plu).sum(:totalprice).sort_by{|_key, value| value}.reverse
+    if last_month == 12
+      lastmonths_year = Date.today.year - 1
+    else
+      lastmonths_year = Date.today.year
+    end 
+    
+    @topsellers_value = Archivesale.where("type = ? AND MONTH(created_at) = ? AND YEAR(created_at) = ?","P",last_month,lastmonths_year).group(:plu).sum(:totalprice).sort_by{|_key, value| value}.reverse
         
-    @topsellers_qty = Archivesale.where("type = ? AND MONTH(created_at) = ?","P",last_month).group(:plu).sum(:qty)
+    @topsellers_qty = Archivesale.where("type = ? AND MONTH(created_at) = ? AND YEAR(created_at) = ?","P",last_month,lastmonths_year).group(:plu).sum(:qty)
     
     @topsellers = []
     @topsellers_value.each do |item|
@@ -25,7 +31,7 @@ class TopsellerslastmonthsalesreportController < Sinatra::Base
       @topsellers << [itemdesc,item[0],item[1],itemqty[1],itemdept]
     end
         
-    @salestotal = Archivesale.where("type = ? AND MONTH(created_at) = ?","P",last_month).sum("totalprice")
+    @salestotal = Archivesale.where("type = ? AND MONTH(created_at) = ? AND YEAR(created_at) = ?","P",last_month,lastmonths_year).sum("totalprice")
     @report_time = "Last Month"
     haml :topsellers
     

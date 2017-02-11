@@ -7301,3 +7301,7 @@
    -> 0.0114s
 -- create_table("stockquantities")
    -> 0.0405s
+-- drop_table(:stockquantities)
+   -> 0.0073s
+-- create_table("stockquantities")
+   -> 0.0221s
