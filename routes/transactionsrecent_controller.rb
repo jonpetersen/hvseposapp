@@ -17,7 +17,8 @@ class TransactionsrecentController < Sinatra::Base
     
     timeago = hourstring + ":" + minstring
        
-    salesrecent = Sale.where("time >= ? AND type = ? AND first = ?",timeago,"P",1).count
+    #salesrecent = Sale.where("time >= ? AND type = ? AND first = ?",timeago,"P",1).count
+    salesrecent = Sale.where("time >= ? AND type = ? AND first = ? AND date = ?",timeago,"P",1,Date.today).count
     
     
     salesrecent.to_json

@@ -62,6 +62,17 @@ class GroupsalesreportController < Sinatra::Base
           all_sales_values = group_sales_values_archive.merge(group_sales_values)
         end    
 	  end
+	  def self.salesbymonth(group)
+	    if group != "all"
+	      group_sales_values = Allsale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group_by_month(:created_at).sum(:totalprice)
+          group_sales_values_archive = Archivesale.joins(:stock =>{:depart => :group}).where("departs.group = ? AND type = ?",group,"P").group_by_month(:created_at).sum(:totalprice)
+          all_sales_values = group_sales_values_archive.merge(group_sales_values)
+        else
+          group_sales_values = Allsale.joins(:stock =>{:depart => :group}).where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group_by_month(:created_at).sum(:totalprice)
+          group_sales_values_archive = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group_by_month(:created_at).sum(:totalprice)
+          all_sales_values = group_sales_values_archive.merge(group_sales_values)
+        end    
+	  end
     end
     
     groupsales = Groupsales.totalprice(@group)
@@ -70,14 +81,20 @@ class GroupsalesreportController < Sinatra::Base
     @sales_values = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group(:date).sum(:totalprice)
     @sales_values_archive = Archivesale.where("type = ?","P").group(:date).sum(:totalprice)
     
+    @sales_values_monthly = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group_by_month(:created_at).sum(:totalprice)
+    @sales_values_archive_monthly = Archivesale.where("type = ?","P").group_by_month(:created_at).sum(:totalprice)
+    
     @missing_sales_values = {@sales_values_archive.keys[97] + 1 => 193.68,@sales_values_archive.keys[97] + 2 => 198.19,@sales_values_archive.keys[97] + 3 => 186.54,@sales_values_archive.keys[97] + 4 => 164.89,@sales_values_archive.keys[97] + 5 => 282.38,@sales_values_archive.keys[97] + 6 => 231.92,@sales_values_archive.keys[97] + 7 => 112.84,@sales_values_archive.keys[97] + 8 => 250.99,@sales_values_archive.keys[97] + 9 => 374.36,@sales_values_archive.keys[97] + 10 => 402.48}
      
     @all_sales_values = @sales_values_archive.merge(@sales_values).merge(@missing_sales_values)
+    @all_sales_values_monthly = @sales_values_archive_monthly.merge(@sales_values_monthly)
     
     if @group != "all"
       @groupsalesseries = Groupsales.salesbydate(@group)
+      @groupsalesseries_monthly = Groupsales.salesbymonth(@group)
     else
       @groupsalesseries = @all_sales_values
+      @groupsalesseries_monthly = @all_sales_values_monthly 
     end
     
     @groupsalesseries[Date.parse("2016-05-02")] = 0

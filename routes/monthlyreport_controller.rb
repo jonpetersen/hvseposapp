@@ -24,7 +24,7 @@ class MonthlyreportController < Sinatra::Base
 		elsif month == "current"
 		  Allsale.where("type = ?","P").sum(:totalprice)  
 		else
-	      Archivesale.where("type = ? AND MONTH(date) = ?","P",month.month).sum(:totalprice)
+	      Archivesale.where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year).sum(:totalprice)
 	    end   
 	  end
 	end
@@ -36,7 +36,7 @@ class MonthlyreportController < Sinatra::Base
 		elsif month == "current"
 		  Allsale.where("type = ?","P").sum(:vatamount)
 		else
-	      Archivesale.where("type = ? AND MONTH(date) = ?","P",month.month).sum(:vatamount)
+	      Archivesale.where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year).sum(:vatamount)
 	    end   
 	  end
 	end    
@@ -49,7 +49,7 @@ class MonthlyreportController < Sinatra::Base
           month == "current"
           salesbygroup = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("departs.group")     
         else
-          salesbygroup = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND MONTH(date) = ?","P",month.month).group("departs.group")  
+          salesbygroup = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year).group("departs.group")  
         end
         orderedsalesbygroup = salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
 	    @salesbygroup_array = []
@@ -68,7 +68,7 @@ class MonthlyreportController < Sinatra::Base
           month == "current"
           monthlysales = Allsale.where("type = ?","P")
 		else
-		  monthlysales = Archivesale.where("type = ? AND MONTH(date) = ?","P",month.month)
+		  monthlysales = Archivesale.where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year)
 		end
 	    monthlysales.group_by_day_of_week(:date, week_start: :mon, format: "%a").count
 	  end
@@ -82,7 +82,7 @@ class MonthlyreportController < Sinatra::Base
           month == "current"
           monthlysales = Allsale.where("type = ?","P")
 		else
-		  monthlysales = Archivesale.where("type = ? AND MONTH(date) = ?","P",month.month)
+		  monthlysales = Archivesale.where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year)
 		end
 		monthlysales.group("hour(time)").count
 	  end

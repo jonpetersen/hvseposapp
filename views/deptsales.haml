@@ -12,16 +12,22 @@
     %h3.page-header #{@thisdepart} - #{@report_time}
     .row.placeholders
       .col-xs-12.col-sm-12.placeholder
-        = line_chart @deptsalesseries, height: "250px"
+        = line_chart @deptsalesseries, height: "450px"
+      .col-xs-12.col-sm-12.placeholder
+        = column_chart @deptsalesseries_monthly, height: "450px"
     %span
       %table{:class => "table-responsive table-bordered"}
         %tbody
           %tr
             %td <b>ITEM
             %td <b>VALUE
-            %td <b>QUANTITY
+            %td <b>TOT QTY
             %td <b>AVG PRICE
             %td <b>LAST SOLD
+            %td <b>SALES TODAY
+            %td <b>SALES THIS MONTH
+            %td <b>AVG SALES PER DAY THIS MONTH
+            %td <b>WASTED THIS MONTH
           - @deptsales.each do |row|
             %tr
               %td
@@ -30,3 +36,7 @@
               %td= row[3].round if row[3]
               %td= Money.new((row[2]/row[3])*100).format if row[3]
               %td= row[4] if row[3]
+              %td= row[5] if row[5]
+              %td= row[6] if row[6]
+              %td= row[7] if row[7]
+              %td= row[8] if row[8]

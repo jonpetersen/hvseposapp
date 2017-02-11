@@ -1,8 +1,11 @@
 class SalestodayController < Sinatra::Base
 
   get '/' do
-    salestoday = Sale.where("type = ?","P").sum("totalprice").to_s
-    salestoday = Eodlog.last.ntxbtotval if salestoday == "0.0"
+    if Eodlog.last.dtlastedit.today?
+      salestoday = Eodlog.last.ntxbtotval
+    else
+      salestoday = Sale.where("type = ?","P").sum("totalprice")
+    end        
     salestoday.to_s
   end
 

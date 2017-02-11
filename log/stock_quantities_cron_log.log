@@ -7245,3 +7245,59 @@
    -> 0.0135s
 -- create_table("stockquantities")
    -> 0.0154s
+-- drop_table(:stockquantities)
+   -> 0.0141s
+-- create_table("stockquantities")
+   -> 0.0171s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `dlastsold`, `dlastrecv`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4N012895W', '_4N010ZNQM', 0.0, '2016-06-26', '2016-05-19', '_4EC0LTM85', 1, '2016-06-26 12:22:28') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0114s
+-- create_table("stockquantities")
+   -> 0.0405s

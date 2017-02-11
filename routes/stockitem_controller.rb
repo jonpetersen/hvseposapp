@@ -17,6 +17,12 @@ class StockitemController < Sinatra::Base
       end
     end
     
+    if @stockitem.cost != 0
+      @margin = ((((@stockitem.price1/120.00)*100.00*100) - (@stockitem.cost*100)) / (@stockitem.cost)).to_i
+    else
+      @margin = "N/A"
+    end
+    
     #historical sales
     sales = Sale.joins(:stock).where("type = ? AND sales.plu = ?","P",plu)
     allsales = Allsale.joins(:stock).where("type = ? AND allsales.plu = ?","P",plu)
@@ -62,6 +68,9 @@ class StockitemController < Sinatra::Base
 	  @tescosearchname2 = "Not found"
 	  @tescosearchprice2 = "Not found"
 	end
+    
+    #GOODS IN
+    @inwards = Inward.where("plu = ?",plu)
     
     haml :stockitem
     

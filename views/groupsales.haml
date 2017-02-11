@@ -12,7 +12,9 @@
     %h3.page-header #{@thisgroup} - #{@report_time}
     .row.placeholders
       .col-xs-12.col-sm-12.placeholder
-        = line_chart @groupsalesseries, height: "250px"
+        = line_chart @groupsalesseries, height: "450px"
+      .col-xs-12.col-sm-12.placeholder
+        = column_chart @groupsalesseries_monthly, height: "450px"
     %span
       %table{:class => "table-responsive table-bordered"}
         %tbody

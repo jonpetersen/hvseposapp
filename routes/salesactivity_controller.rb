@@ -19,11 +19,18 @@ class SalesactivityController < Sinatra::Base
     @activitybyhour_today = activitybyhour.select{|key, hash| key.to_date.today?}   
 
     if params[:output] == "json"
-	  #Hash[activitybyhour.map{|k,v| [k.time.to_i,v] } ].to_json
-      # Adjust by UTC offset for BST becasue all RDS times are GMT/BST times stored as UTC
-      activitybyhour_last = Hash[activitybyhour.last(24 * 90)]
-      Hash[activitybyhour_last.map{|k,v| [(k.time.to_i - k.to_time.utc_offset),v] } ].to_json
-      
+	  if params[:period] == "all"
+        activitybyhour_last = Hash[activitybyhour.last(24 * 90)]
+        Hash[activitybyhour_last.map{|k,v| [(k.time.to_i - k.to_time.utc_offset),v] } ].to_json
+      elsif params[:period] == "weekend"
+        sales_we = sales.where(["WEEKDAY(created_at) = 5 OR WEEKDAY(created_at) = 6"]).group_by_hour(:created_at).count.select{|key, hash| key.to_date.wday == 6 || key.to_date.wday == 0}
+        allsales_we = allsales.where(["WEEKDAY(created_at) = 5 OR WEEKDAY(created_at) = 6"]).group_by_hour(:created_at).count.select{|key, hash| key.to_date.wday == 6 || key.to_date.wday == 0}
+        archivesales_we = archivesales.where(["WEEKDAY(created_at) = 5 OR WEEKDAY(created_at) = 6"]).group_by_hour(:created_at).count.select{|key, hash| key.to_date.wday == 6 || key.to_date.wday == 0}
+        
+        
+        activitybyhour_we = sales_we.merge(allsales_we).merge(archivesales_we).sort_by{|k,v| k}
+        Hash[activitybyhour_we.map{|k,v| [(k.time.to_i - k.to_time.utc_offset),v] } ].to_json
+      end
     else
       haml :salesactivity
     end

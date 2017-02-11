@@ -4,16 +4,38 @@
   %tbody
     %tr
       %td <b>PRICE
-      %td <b>COST
+      %td <b>PRICE EX VAT
+      %td <b>COST EX VAT
+      %td <b>MARGIN
       %td <b>CASE QTY
       %td <b>VAT RATE
       %td <b>LAST SOLD
     %tr
       %td= Money.new(@stockitem.price1*100).format
+      %td= Money.new(((@stockitem.price1/120.00)*100.00)*100).format
       %td= Money.new(@stockitem.cost*100).format
+      %td #{@margin}%
       %td= @stockitem.caseqty
       %td #{@stockitem.vatrate.round(0)}%
       %td= @stockitem.lastsold
+%h4 Goods In
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>DATE 
+      %td <b>SUPPLIER
+      %td <b>SUPPLIER REF
+      %td <b>CASE QTY
+      %td <b>CASES DEL
+      %td <b>CASE COST
+    - @inwards.each do |inward|
+      %tr
+        %td= inward.date_in
+        %td= inward.supplier
+        %td= inward.supp_ref
+        %td= inward.case_qty
+        %td= inward.case_del
+        %td= inward.case_cost
 %h4 Top 2 results from searching Tesco's stock (only works with most common products)
 %table{:class => "table table-bordered"}
   %tbody
