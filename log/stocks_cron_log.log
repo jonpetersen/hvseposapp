@@ -26567,3 +26567,13 @@ hvs_migration_stocks.rb:23:in `eval': Mysql2::Error: Table 'stocks' already exis
    -> 0.0347s
 -- add_index(:stocks, :dept)
    -> 0.0292s
+-- drop_table(:stocks)
+   -> 0.0260s
+-- create_table("stocks")
+   -> 0.0408s
+-- change_table(:stocks)
+   -> 2.1430s
+-- add_index(:stocks, :plu)
+   -> 0.0525s
+-- add_index(:stocks, :dept)
+   -> 0.0504s
