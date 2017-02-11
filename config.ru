@@ -41,6 +41,7 @@ Hvseposapp = Rack::Builder.new do
   map("/topsellersarchivesalesreport") {run TopsellersarchivesalesreportController.new }
   map("/topsellerstodaysales") {run TopsellerstodaysalesController.new }
   map("/topsellerstodaysalesreport") {run TopsellerstodaysalesreportController.new }
+  map("/topsellerslastmonthsalesreport") {run TopsellerslastmonthsalesreportController.new }
   map("/deptsalesreport") {run DeptsalesreportController.new }
   map("/groupsalesreport") {run GroupsalesreportController.new }
   map("/dashboard") {run DashboardController.new }
@@ -48,6 +49,7 @@ Hvseposapp = Rack::Builder.new do
   map("/monthlyreport") {run MonthlyreportController.new }
   map("/salesactivity") {run SalesactivityController.new }
   map("/heatmaps") {run HeatmapsController.new }
+  map("/heatmaps_weekend") {run HeatmapsWeekendController.new }
   map("/transactionstoday") {run TransactionstodayController.new }
   map("/bakeoffsales") {run BakeoffsalesreportController.new }
   map("/beveragesales") {run BeveragesalesreportController.new }

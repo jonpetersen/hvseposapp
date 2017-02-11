@@ -82295,3 +82295,63 @@ Sale count is 235 rec count is 238 so creating
    -> 0.0234s
 -- change_table(:sales)
    -> 1.1755s
+Sale count is 238 rec count is 239 so creating
+-- drop_table(:sales)
+   -> 0.0105s
+-- create_table("sales")
+   -> 0.0383s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0521s
+-- add_index(:sales, :plu)
+   -> 0.0282s
+-- add_index(:sales, :type)
+   -> 0.0374s
+-- add_index(:sales, :date)
+   -> 0.0233s
+-- add_index(:sales, :time)
+   -> 0.0365s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0203s
+-- change_table(:sales)
+   -> 1.2498s
+Sale count is 239 rec count is 240 so creating
+-- drop_table(:sales)
+   -> 0.0183s
+-- create_table("sales")
+   -> 0.0186s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0451s
+-- add_index(:sales, :plu)
+   -> 0.0220s
+-- add_index(:sales, :type)
+   -> 0.0380s
+-- add_index(:sales, :date)
+   -> 0.0211s
+-- add_index(:sales, :time)
+   -> 0.0350s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0205s
+-- change_table(:sales)
+   -> 1.1489s
+Sale count is 240 rec count is 243 so creating
+-- drop_table(:sales)
+   -> 0.0087s
+-- create_table("sales")
+   -> 0.0207s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0590s
+-- add_index(:sales, :plu)
+   -> 0.0257s
+-- add_index(:sales, :type)
+   -> 0.0199s
+-- add_index(:sales, :date)
+   -> 0.0340s
+-- add_index(:sales, :time)
+   -> 0.0378s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0231s
+-- change_table(:sales)
+   -> 1.1875s
+Sale count is 243 rec count is 243 so skipping
+Sale count is 243 rec count is 243 so skipping
+Sale count is 243 rec count is 243 so skipping
