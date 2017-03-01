@@ -87,3 +87,29 @@
    -> 0.4305s
 -- change_table(:archivesales)
    -> 51.3796s
+-- drop_table(:archivesales)
+   -> 0.2543s
+-- create_table("archivesales")
+   -> 0.2337s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.3062s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.0307s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0286s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0540s
+-- add_index(:archivesales, :plu)
+   -> 1.0058s
+-- add_index(:archivesales, :type)
+   -> 0.7326s
+-- add_index(:archivesales, :date)
+   -> 0.6981s
+-- add_index(:archivesales, :cuniqueid)
+   -> 0.8016s
+-- add_index(:archivesales, :description)
+   -> 0.8915s
+-- add_index(:archivesales, [:plu, :type])
+   -> 0.8888s
+-- change_table(:archivesales)
+   -> 119.1756s

@@ -7313,3 +7313,2223 @@
    -> 0.0089s
 -- create_table("stockquantities")
    -> 0.0295s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0387s
+-- drop_table(:stockquantities)
+   -> 0.0116s
+-- create_table("stockquantities")
+   -> 0.0372s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0121s
+-- create_table("stockquantities")
+   -> 0.0459s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0153s
+-- drop_table(:stockquantities)
+   -> 0.0074s
+-- create_table("stockquantities")
+   -> 0.0317s
+-- drop_table(:stockquantities)
+   -> 0.0109s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0067s
+-- create_table("stockquantities")
+   -> 0.0166s
+-- drop_table(:stockquantities)
+   -> 0.0133s
+-- create_table("stockquantities")
+   -> 0.0370s
+-- drop_table(:stockquantities)
+   -> 0.0250s
+-- create_table("stockquantities")
+   -> 0.0387s
+-- drop_table(:stockquantities)
+   -> 0.0141s
+-- create_table("stockquantities")
+   -> 0.0208s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0326s
+-- drop_table(:stockquantities)
+   -> 0.0444s
+-- create_table("stockquantities")
+   -> 0.0227s
+-- drop_table(:stockquantities)
+   -> 0.0222s
+-- create_table("stockquantities")
+   -> 0.0464s
+-- drop_table(:stockquantities)
+   -> 0.0282s
+-- create_table("stockquantities")
+   -> 0.0369s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0248s
+-- drop_table(:stockquantities)
+   -> 0.0369s
+-- create_table("stockquantities")
+   -> 0.0386s
+-- drop_table(:stockquantities)
+   -> 0.0413s
+-- create_table("stockquantities")
+   -> 0.9384s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `dlastsold`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4HH0MHUYM', '_4H50YOJRD', 1.0, '2016-04-19', '_4EC0LTM85', 1, '2016-04-19 16:37:55') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0405s
+-- create_table("stockquantities")
+   -> 0.0796s
+-- drop_table(:stockquantities)
+   -> 0.0401s
+-- create_table("stockquantities")
+   -> 0.2018s
+-- drop_table(:stockquantities)
+   -> 0.0808s
+-- create_table("stockquantities")
+   -> 0.1642s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `dlastsold`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4HD0K4CEG', '_4GB0YUSTX', 0.0, '2017-02-05', '_4EC0LTM85', 1, '2017-02-05 10:44:57') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0269s
+-- drop_table(:stockquantities)
+   -> 0.0095s
+-- create_table("stockquantities")
+   -> 0.0275s
+-- drop_table(:stockquantities)
+   -> 0.0188s
+-- create_table("stockquantities")
+   -> 0.0280s
+-- drop_table(:stockquantities)
+   -> 0.0116s
+-- create_table("stockquantities")
+   -> 0.0390s
+-- drop_table(:stockquantities)
+   -> 0.0339s
+-- create_table("stockquantities")
+   -> 0.0180s
+-- drop_table(:stockquantities)
+   -> 0.0148s
+-- create_table("stockquantities")
+   -> 0.0219s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4LQ186IQZ', '_4LQ184BAG', 10.0, '_4EC0LTM85', 1, '2016-04-04 14:50:35') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0297s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0785s
+-- create_table("stockquantities")
+   -> 0.8127s
+-- drop_table(:stockquantities)
+   -> 0.1994s
+-- create_table("stockquantities")
+   -> 0.0379s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `dlastsold`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4MX0UD1XM', '_4MU0UYD3K', -6.0, '2016-06-08', '_4EC0LTM85', 1, '2016-06-08 14:56:49') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0377s
+-- create_table("stockquantities")
+   -> 0.0404s
+-- drop_table(:stockquantities)
+   -> 0.0390s
+-- create_table("stockquantities")
+   -> 0.0401s
+-- drop_table(:stockquantities)
+   -> 0.0133s
+-- create_table("stockquantities")
+   -> 0.0192s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0161s
+-- drop_table(:stockquantities)
+   -> 0.0195s
+-- create_table("stockquantities")
+   -> 0.0342s
+-- drop_table(:stockquantities)
+   -> 0.0113s
+-- create_table("stockquantities")
+   -> 0.0194s
+-- drop_table(:stockquantities)
+   -> 0.0201s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0261s
+-- drop_table(:stockquantities)
+   -> 0.0124s
+-- create_table("stockquantities")
+   -> 0.0235s
+-- drop_table(:stockquantities)
+   -> 0.0070s
+-- create_table("stockquantities")
+   -> 0.0299s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0472s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0173s
+-- drop_table(:stockquantities)
+   -> 0.0095s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0436s
+-- drop_table(:stockquantities)
+   -> 0.0139s
+-- create_table("stockquantities")
+   -> 0.0185s
+-- drop_table(:stockquantities)
+   -> 0.0107s
+-- create_table("stockquantities")
+   -> 0.0297s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.stockquantities' doesn't exist: INSERT INTO `stockquantities` (`cuniqueid`, `cpluid`, `nstocklvl`, `clocid`, `nbranch`, `dtlastedit`) VALUES ('_4SE0KRXJ1', '_4SE0KPGX3', 0.0, '_4EC0LTM85', 1, '2016-11-29 09:41:46') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_stock_quantities.rb:22:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_stock_quantities.rb:21:in `up'
+	from hvs_migration_stock_quantities.rb:35:in `<main>'
+-- drop_table(:stockquantities)
+   -> 0.0103s
+-- create_table("stockquantities")
+   -> 0.0158s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0380s
+-- drop_table(:stockquantities)
+   -> 0.0315s
+-- create_table("stockquantities")
+   -> 0.0245s
+-- drop_table(:stockquantities)
+   -> 0.0207s
+-- create_table("stockquantities")
+   -> 0.0171s
+-- drop_table(:stockquantities)
+   -> 0.0131s
+-- create_table("stockquantities")
+   -> 0.0202s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0333s
+-- drop_table(:stockquantities)
+   -> 0.0136s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0176s
+-- drop_table(:stockquantities)
+   -> 0.0266s
+-- create_table("stockquantities")
+   -> 0.0190s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0377s
+-- drop_table(:stockquantities)
+   -> 0.0193s
+-- create_table("stockquantities")
+   -> 0.0328s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0380s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0191s
+-- drop_table(:stockquantities)
+   -> 0.0096s
+-- create_table("stockquantities")
+   -> 0.0221s
+-- drop_table(:stockquantities)
+   -> 0.0145s
+-- create_table("stockquantities")
+   -> 0.2310s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0444s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0173s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0496s
+-- drop_table(:stockquantities)
+   -> 0.0107s
+-- create_table("stockquantities")
+   -> 0.0183s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0214s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0368s
+-- drop_table(:stockquantities)
+   -> 0.0074s
+-- create_table("stockquantities")
+   -> 0.0186s
+-- drop_table(:stockquantities)
+   -> 0.0223s
+-- create_table("stockquantities")
+   -> 0.0229s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0333s
+-- drop_table(:stockquantities)
+   -> 0.0094s
+-- create_table("stockquantities")
+   -> 0.0233s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0362s
+-- drop_table(:stockquantities)
+   -> 0.0125s
+-- create_table("stockquantities")
+   -> 0.0359s
+-- drop_table(:stockquantities)
+   -> 0.0094s
+-- create_table("stockquantities")
+   -> 0.0481s
+-- drop_table(:stockquantities)
+   -> 0.0076s
+-- create_table("stockquantities")
+   -> 0.0195s
+-- drop_table(:stockquantities)
+   -> 0.0316s
+-- create_table("stockquantities")
+   -> 0.0206s
+-- drop_table(:stockquantities)
+   -> 0.0207s
+-- create_table("stockquantities")
+   -> 0.0244s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0112s
+-- create_table("stockquantities")
+   -> 0.0374s
+-- drop_table(:stockquantities)
+   -> 0.0379s
+-- create_table("stockquantities")
+   -> 0.0322s
+-- drop_table(:stockquantities)
+   -> 0.0212s
+-- create_table("stockquantities")
+   -> 0.0257s
+-- drop_table(:stockquantities)
+   -> 0.0361s
+-- create_table("stockquantities")
+   -> 0.0156s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0333s
+-- drop_table(:stockquantities)
+   -> 0.0114s
+-- create_table("stockquantities")
+   -> 0.0443s
+-- drop_table(:stockquantities)
+   -> 0.0113s
+-- create_table("stockquantities")
+   -> 0.0330s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0184s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0298s
+-- drop_table(:stockquantities)
+   -> 0.0372s
+-- create_table("stockquantities")
+   -> 0.0331s
+-- drop_table(:stockquantities)
+   -> 0.0256s
+-- create_table("stockquantities")
+   -> 0.0193s
+-- drop_table(:stockquantities)
+   -> 0.0120s
+-- create_table("stockquantities")
+   -> 0.0314s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0376s
+-- drop_table(:stockquantities)
+   -> 0.0108s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0081s
+-- create_table("stockquantities")
+   -> 0.0402s
+-- drop_table(:stockquantities)
+   -> 0.0069s
+-- create_table("stockquantities")
+   -> 0.0201s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0223s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0192s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0382s
+-- drop_table(:stockquantities)
+   -> 0.0081s
+-- create_table("stockquantities")
+   -> 0.0208s
+-- drop_table(:stockquantities)
+   -> 0.0106s
+-- create_table("stockquantities")
+   -> 0.0198s
+-- drop_table(:stockquantities)
+   -> 0.0176s
+-- create_table("stockquantities")
+   -> 0.0301s
+-- drop_table(:stockquantities)
+   -> 0.0188s
+-- create_table("stockquantities")
+   -> 0.0360s
+-- drop_table(:stockquantities)
+   -> 0.0179s
+-- create_table("stockquantities")
+   -> 0.0232s
+-- drop_table(:stockquantities)
+   -> 0.0108s
+-- create_table("stockquantities")
+   -> 0.0153s
+-- drop_table(:stockquantities)
+   -> 0.0108s
+-- create_table("stockquantities")
+   -> 0.0153s
+-- drop_table(:stockquantities)
+   -> 0.0108s
+-- create_table("stockquantities")
+   -> 0.0478s
+-- drop_table(:stockquantities)
+   -> 0.0121s
+-- create_table("stockquantities")
+   -> 0.0331s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0301s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0352s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0350s
+-- drop_table(:stockquantities)
+   -> 0.0238s
+-- create_table("stockquantities")
+   -> 0.0475s
+-- drop_table(:stockquantities)
+   -> 0.0256s
+-- create_table("stockquantities")
+   -> 0.0197s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0290s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0291s
+-- drop_table(:stockquantities)
+   -> 0.0226s
+-- create_table("stockquantities")
+   -> 0.0198s
+-- drop_table(:stockquantities)
+   -> 0.0070s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0147s
+-- create_table("stockquantities")
+   -> 0.0529s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0352s
+-- drop_table(:stockquantities)
+   -> 0.0178s
+-- create_table("stockquantities")
+   -> 0.0206s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0341s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0245s
+-- drop_table(:stockquantities)
+   -> 0.0391s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0074s
+-- create_table("stockquantities")
+   -> 0.0452s
+-- drop_table(:stockquantities)
+   -> 0.0107s
+-- create_table("stockquantities")
+   -> 0.0341s
+-- drop_table(:stockquantities)
+   -> 0.0108s
+-- create_table("stockquantities")
+   -> 0.0357s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0188s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0220s
+-- drop_table(:stockquantities)
+   -> 0.0310s
+-- create_table("stockquantities")
+   -> 0.0355s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0349s
+-- drop_table(:stockquantities)
+   -> 0.0297s
+-- create_table("stockquantities")
+   -> 0.0218s
+-- drop_table(:stockquantities)
+   -> 0.0114s
+-- create_table("stockquantities")
+   -> 0.0608s
+-- drop_table(:stockquantities)
+   -> 0.0093s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0230s
+-- drop_table(:stockquantities)
+   -> 0.0109s
+-- create_table("stockquantities")
+   -> 0.0154s
+-- drop_table(:stockquantities)
+   -> 0.0229s
+-- create_table("stockquantities")
+   -> 0.0262s
+-- drop_table(:stockquantities)
+   -> 0.0075s
+-- create_table("stockquantities")
+   -> 0.0176s
+-- drop_table(:stockquantities)
+   -> 0.0196s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0216s
+-- drop_table(:stockquantities)
+   -> 0.0248s
+-- create_table("stockquantities")
+   -> 0.0547s
+-- drop_table(:stockquantities)
+   -> 0.0076s
+-- create_table("stockquantities")
+   -> 0.0329s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0219s
+-- drop_table(:stockquantities)
+   -> 0.0281s
+-- create_table("stockquantities")
+   -> 0.0185s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0297s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0218s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0173s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0193s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0380s
+-- drop_table(:stockquantities)
+   -> 0.0262s
+-- create_table("stockquantities")
+   -> 0.0171s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0289s
+-- drop_table(:stockquantities)
+   -> 0.0120s
+-- create_table("stockquantities")
+   -> 0.0199s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0326s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0550s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0159s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0330s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0372s
+-- drop_table(:stockquantities)
+   -> 0.0081s
+-- create_table("stockquantities")
+   -> 0.0161s
+-- drop_table(:stockquantities)
+   -> 0.0136s
+-- create_table("stockquantities")
+   -> 0.0473s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0195s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0384s
+-- drop_table(:stockquantities)
+   -> 0.0255s
+-- create_table("stockquantities")
+   -> 0.0348s
+-- drop_table(:stockquantities)
+   -> 0.0106s
+-- create_table("stockquantities")
+   -> 0.0214s
+-- drop_table(:stockquantities)
+   -> 0.0377s
+-- create_table("stockquantities")
+   -> 0.0154s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0367s
+-- drop_table(:stockquantities)
+   -> 0.0295s
+-- create_table("stockquantities")
+   -> 0.0175s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0180s
+-- drop_table(:stockquantities)
+   -> 0.0134s
+-- create_table("stockquantities")
+   -> 0.0189s
+-- drop_table(:stockquantities)
+   -> 0.0160s
+-- create_table("stockquantities")
+   -> 0.0142s
+-- drop_table(:stockquantities)
+   -> 0.0216s
+-- create_table("stockquantities")
+   -> 0.0157s
+-- drop_table(:stockquantities)
+   -> 0.0171s
+-- create_table("stockquantities")
+   -> 0.0310s
+-- drop_table(:stockquantities)
+   -> 0.0067s
+-- create_table("stockquantities")
+   -> 0.0335s
+-- drop_table(:stockquantities)
+   -> 0.0196s
+-- create_table("stockquantities")
+   -> 0.0283s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0304s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0464s
+-- drop_table(:stockquantities)
+   -> 0.0243s
+-- create_table("stockquantities")
+   -> 0.0195s
+-- drop_table(:stockquantities)
+   -> 0.0170s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0174s
+-- create_table("stockquantities")
+   -> 0.0194s
+-- drop_table(:stockquantities)
+   -> 0.0238s
+-- create_table("stockquantities")
+   -> 0.0224s
+-- drop_table(:stockquantities)
+   -> 0.0079s
+-- create_table("stockquantities")
+   -> 0.0177s
+-- drop_table(:stockquantities)
+   -> 0.0350s
+-- create_table("stockquantities")
+   -> 0.0193s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0226s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0286s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0297s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0351s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0167s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0207s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0274s
+-- drop_table(:stockquantities)
+   -> 0.0136s
+-- create_table("stockquantities")
+   -> 0.0367s
+-- drop_table(:stockquantities)
+   -> 0.0288s
+-- create_table("stockquantities")
+   -> 0.0187s
+-- drop_table(:stockquantities)
+   -> 0.0233s
+-- create_table("stockquantities")
+   -> 0.0157s
+-- drop_table(:stockquantities)
+   -> 0.0114s
+-- create_table("stockquantities")
+   -> 0.0222s
+-- drop_table(:stockquantities)
+   -> 0.0073s
+-- create_table("stockquantities")
+   -> 0.0198s
+-- drop_table(:stockquantities)
+   -> 0.0105s
+-- create_table("stockquantities")
+   -> 0.0300s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0232s
+-- drop_table(:stockquantities)
+   -> 0.0309s
+-- create_table("stockquantities")
+   -> 0.0227s
+-- drop_table(:stockquantities)
+   -> 0.0257s
+-- create_table("stockquantities")
+   -> 0.0223s
+-- drop_table(:stockquantities)
+   -> 0.0078s
+-- create_table("stockquantities")
+   -> 0.0169s
+-- drop_table(:stockquantities)
+   -> 0.0065s
+-- create_table("stockquantities")
+   -> 0.0316s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0596s
+-- drop_table(:stockquantities)
+   -> 0.0127s
+-- create_table("stockquantities")
+   -> 0.0553s
+-- drop_table(:stockquantities)
+   -> 0.0246s
+-- create_table("stockquantities")
+   -> 0.0372s
+-- drop_table(:stockquantities)
+   -> 0.0175s
+-- create_table("stockquantities")
+   -> 0.0314s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0230s
+-- drop_table(:stockquantities)
+   -> 0.0177s
+-- create_table("stockquantities")
+   -> 0.0368s
+-- drop_table(:stockquantities)
+   -> 0.0094s
+-- create_table("stockquantities")
+   -> 0.0202s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0496s
+-- drop_table(:stockquantities)
+   -> 0.0078s
+-- create_table("stockquantities")
+   -> 0.0583s
+-- drop_table(:stockquantities)
+   -> 0.0069s
+-- create_table("stockquantities")
+   -> 0.0529s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0472s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0551s
+-- drop_table(:stockquantities)
+   -> 0.0186s
+-- create_table("stockquantities")
+   -> 0.0190s
+-- drop_table(:stockquantities)
+   -> 0.0078s
+-- create_table("stockquantities")
+   -> 0.0164s
+-- drop_table(:stockquantities)
+   -> 0.0073s
+-- create_table("stockquantities")
+   -> 0.0305s
+-- drop_table(:stockquantities)
+   -> 0.0109s
+-- create_table("stockquantities")
+   -> 0.0254s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0388s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0188s
+-- drop_table(:stockquantities)
+   -> 0.0121s
+-- create_table("stockquantities")
+   -> 0.0344s
+-- drop_table(:stockquantities)
+   -> 0.0271s
+-- create_table("stockquantities")
+   -> 0.0253s
+-- drop_table(:stockquantities)
+   -> 0.0138s
+-- create_table("stockquantities")
+   -> 0.0354s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0489s
+-- drop_table(:stockquantities)
+   -> 0.0098s
+-- create_table("stockquantities")
+   -> 0.0156s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0531s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0424s
+-- drop_table(:stockquantities)
+   -> 0.0137s
+-- create_table("stockquantities")
+   -> 0.0288s
+-- drop_table(:stockquantities)
+   -> 0.0130s
+-- create_table("stockquantities")
+   -> 0.0298s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0191s
+-- drop_table(:stockquantities)
+   -> 0.0232s
+-- create_table("stockquantities")
+   -> 0.0343s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0381s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0178s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0289s
+-- create_table("stockquantities")
+   -> 0.0326s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0353s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0366s
+-- drop_table(:stockquantities)
+   -> 0.0142s
+-- create_table("stockquantities")
+   -> 0.0279s
+-- drop_table(:stockquantities)
+   -> 0.0140s
+-- create_table("stockquantities")
+   -> 0.0432s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0344s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0191s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0216s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0072s
+-- create_table("stockquantities")
+   -> 0.0220s
+-- drop_table(:stockquantities)
+   -> 0.0118s
+-- create_table("stockquantities")
+   -> 0.0262s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0112s
+-- create_table("stockquantities")
+   -> 0.0274s
+-- drop_table(:stockquantities)
+   -> 0.0137s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0199s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0267s
+-- drop_table(:stockquantities)
+   -> 0.0072s
+-- create_table("stockquantities")
+   -> 0.0192s
+-- drop_table(:stockquantities)
+   -> 0.0246s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0076s
+-- create_table("stockquantities")
+   -> 0.0196s
+-- drop_table(:stockquantities)
+   -> 0.0264s
+-- create_table("stockquantities")
+   -> 0.0433s
+-- drop_table(:stockquantities)
+   -> 0.0206s
+-- create_table("stockquantities")
+   -> 0.0249s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0299s
+-- drop_table(:stockquantities)
+   -> 0.0160s
+-- create_table("stockquantities")
+   -> 0.0503s
+-- drop_table(:stockquantities)
+   -> 0.0152s
+-- create_table("stockquantities")
+   -> 0.0191s
+-- drop_table(:stockquantities)
+   -> 0.0116s
+-- create_table("stockquantities")
+   -> 0.0258s
+-- drop_table(:stockquantities)
+   -> 0.0072s
+-- create_table("stockquantities")
+   -> 0.0286s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0179s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0118s
+-- create_table("stockquantities")
+   -> 0.0277s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0480s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0411s
+-- drop_table(:stockquantities)
+   -> 0.0217s
+-- create_table("stockquantities")
+   -> 0.0456s
+-- drop_table(:stockquantities)
+   -> 0.0215s
+-- create_table("stockquantities")
+   -> 0.0194s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0220s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0499s
+-- drop_table(:stockquantities)
+   -> 0.0153s
+-- create_table("stockquantities")
+   -> 0.0421s
+-- drop_table(:stockquantities)
+   -> 0.0118s
+-- create_table("stockquantities")
+   -> 0.0415s
+-- drop_table(:stockquantities)
+   -> 0.0098s
+-- create_table("stockquantities")
+   -> 0.0211s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0273s
+-- drop_table(:stockquantities)
+   -> 0.0219s
+-- create_table("stockquantities")
+   -> 0.0166s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0328s
+-- drop_table(:stockquantities)
+   -> 0.0177s
+-- create_table("stockquantities")
+   -> 0.0321s
+-- drop_table(:stockquantities)
+   -> 0.0096s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0079s
+-- create_table("stockquantities")
+   -> 0.0409s
+-- drop_table(:stockquantities)
+   -> 0.0105s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0350s
+-- drop_table(:stockquantities)
+   -> 0.0240s
+-- create_table("stockquantities")
+   -> 0.0170s
+-- drop_table(:stockquantities)
+   -> 0.0156s
+-- create_table("stockquantities")
+   -> 0.0234s
+-- drop_table(:stockquantities)
+   -> 0.0299s
+-- create_table("stockquantities")
+   -> 0.0234s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0261s
+-- drop_table(:stockquantities)
+   -> 0.0269s
+-- create_table("stockquantities")
+   -> 0.0282s
+-- drop_table(:stockquantities)
+   -> 0.0094s
+-- create_table("stockquantities")
+   -> 0.0207s
+-- drop_table(:stockquantities)
+   -> 0.0113s
+-- create_table("stockquantities")
+   -> 0.0309s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0230s
+-- drop_table(:stockquantities)
+   -> 0.0109s
+-- create_table("stockquantities")
+   -> 0.0415s
+-- drop_table(:stockquantities)
+   -> 0.0147s
+-- create_table("stockquantities")
+   -> 0.0365s
+-- drop_table(:stockquantities)
+   -> 0.0096s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0231s
+-- drop_table(:stockquantities)
+   -> 0.0200s
+-- create_table("stockquantities")
+   -> 0.0211s
+-- drop_table(:stockquantities)
+   -> 0.0157s
+-- create_table("stockquantities")
+   -> 0.0345s
+-- drop_table(:stockquantities)
+   -> 0.0160s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0105s
+-- create_table("stockquantities")
+   -> 0.0463s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0498s
+-- drop_table(:stockquantities)
+   -> 0.0093s
+-- create_table("stockquantities")
+   -> 0.0420s
+-- drop_table(:stockquantities)
+   -> 0.0120s
+-- create_table("stockquantities")
+   -> 0.0163s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0301s
+-- drop_table(:stockquantities)
+   -> 0.0226s
+-- create_table("stockquantities")
+   -> 0.0291s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0216s
+-- drop_table(:stockquantities)
+   -> 0.0095s
+-- create_table("stockquantities")
+   -> 0.0457s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0466s
+-- drop_table(:stockquantities)
+   -> 0.0190s
+-- create_table("stockquantities")
+   -> 0.0662s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0336s
+-- drop_table(:stockquantities)
+   -> 0.0172s
+-- create_table("stockquantities")
+   -> 0.0325s
+-- drop_table(:stockquantities)
+   -> 0.0260s
+-- create_table("stockquantities")
+   -> 0.0352s
+-- drop_table(:stockquantities)
+   -> 0.0181s
+-- create_table("stockquantities")
+   -> 0.0283s
+-- drop_table(:stockquantities)
+   -> 0.0380s
+-- create_table("stockquantities")
+   -> 0.0241s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0279s
+-- drop_table(:stockquantities)
+   -> 0.0071s
+-- create_table("stockquantities")
+   -> 0.0312s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0218s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0202s
+-- create_table("stockquantities")
+   -> 0.0205s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0351s
+-- drop_table(:stockquantities)
+   -> 0.0187s
+-- create_table("stockquantities")
+   -> 0.0301s
+-- drop_table(:stockquantities)
+   -> 0.0226s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0155s
+-- create_table("stockquantities")
+   -> 0.0378s
+-- drop_table(:stockquantities)
+   -> 0.0258s
+-- create_table("stockquantities")
+   -> 0.0190s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0490s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0354s
+-- drop_table(:stockquantities)
+   -> 0.0158s
+-- create_table("stockquantities")
+   -> 0.0263s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0257s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0187s
+-- drop_table(:stockquantities)
+   -> 0.0071s
+-- create_table("stockquantities")
+   -> 0.0302s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0287s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0471s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0194s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0317s
+-- create_table("stockquantities")
+   -> 0.0261s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0358s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0364s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0179s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0398s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0166s
+-- drop_table(:stockquantities)
+   -> 0.0081s
+-- create_table("stockquantities")
+   -> 0.0209s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0333s
+-- drop_table(:stockquantities)
+   -> 0.0076s
+-- create_table("stockquantities")
+   -> 0.0188s
+-- drop_table(:stockquantities)
+   -> 0.0169s
+-- create_table("stockquantities")
+   -> 0.0335s
+-- drop_table(:stockquantities)
+   -> 0.0075s
+-- create_table("stockquantities")
+   -> 0.0516s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0177s
+-- drop_table(:stockquantities)
+   -> 0.0177s
+-- create_table("stockquantities")
+   -> 0.0211s
+-- drop_table(:stockquantities)
+   -> 0.0215s
+-- create_table("stockquantities")
+   -> 0.0481s
+-- drop_table(:stockquantities)
+   -> 0.0176s
+-- create_table("stockquantities")
+   -> 0.0184s
+-- drop_table(:stockquantities)
+   -> 0.0396s
+-- create_table("stockquantities")
+   -> 0.0294s
+-- drop_table(:stockquantities)
+   -> 0.0143s
+-- create_table("stockquantities")
+   -> 0.0359s
+-- drop_table(:stockquantities)
+   -> 0.0248s
+-- create_table("stockquantities")
+   -> 0.0173s
+-- drop_table(:stockquantities)
+   -> 0.0071s
+-- create_table("stockquantities")
+   -> 0.0169s
+-- drop_table(:stockquantities)
+   -> 0.0112s
+-- create_table("stockquantities")
+   -> 0.0168s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0224s
+-- drop_table(:stockquantities)
+   -> 0.0261s
+-- create_table("stockquantities")
+   -> 0.0164s
+-- drop_table(:stockquantities)
+   -> 0.0115s
+-- create_table("stockquantities")
+   -> 0.0235s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0211s
+-- create_table("stockquantities")
+   -> 0.0235s
+-- drop_table(:stockquantities)
+   -> 0.0079s
+-- create_table("stockquantities")
+   -> 0.0357s
+-- drop_table(:stockquantities)
+   -> 0.0127s
+-- create_table("stockquantities")
+   -> 0.0252s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0302s
+-- drop_table(:stockquantities)
+   -> 0.0180s
+-- create_table("stockquantities")
+   -> 0.0192s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0312s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0294s
+-- drop_table(:stockquantities)
+   -> 0.0075s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0813s
+-- create_table("stockquantities")
+   -> 0.0632s
+-- drop_table(:stockquantities)
+   -> 0.0124s
+-- create_table("stockquantities")
+   -> 0.0283s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0227s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0358s
+-- drop_table(:stockquantities)
+   -> 0.0282s
+-- create_table("stockquantities")
+   -> 0.0300s
+-- drop_table(:stockquantities)
+   -> 0.0093s
+-- create_table("stockquantities")
+   -> 0.0205s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0268s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0368s
+-- drop_table(:stockquantities)
+   -> 0.0135s
+-- create_table("stockquantities")
+   -> 0.0178s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0268s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0455s
+-- drop_table(:stockquantities)
+   -> 0.0316s
+-- create_table("stockquantities")
+   -> 0.0190s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0357s
+-- drop_table(:stockquantities)
+   -> 0.0234s
+-- create_table("stockquantities")
+   -> 0.0430s
+-- drop_table(:stockquantities)
+   -> 0.0239s
+-- create_table("stockquantities")
+   -> 0.0343s
+-- drop_table(:stockquantities)
+   -> 0.0359s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0210s
+-- drop_table(:stockquantities)
+   -> 0.0278s
+-- create_table("stockquantities")
+   -> 0.0605s
+-- drop_table(:stockquantities)
+   -> 0.0238s
+-- create_table("stockquantities")
+   -> 0.0218s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0344s
+-- drop_table(:stockquantities)
+   -> 0.0250s
+-- create_table("stockquantities")
+   -> 0.0336s
+-- drop_table(:stockquantities)
+   -> 0.0120s
+-- create_table("stockquantities")
+   -> 0.0251s
+-- drop_table(:stockquantities)
+   -> 0.0232s
+-- create_table("stockquantities")
+   -> 0.0163s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0155s
+-- drop_table(:stockquantities)
+   -> 0.0095s
+-- create_table("stockquantities")
+   -> 0.0189s
+-- drop_table(:stockquantities)
+   -> 0.0089s
+-- create_table("stockquantities")
+   -> 0.0164s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0239s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0213s
+-- drop_table(:stockquantities)
+   -> 0.0396s
+-- create_table("stockquantities")
+   -> 0.0469s
+-- drop_table(:stockquantities)
+   -> 0.0175s
+-- create_table("stockquantities")
+   -> 0.0256s
+-- drop_table(:stockquantities)
+   -> 0.0321s
+-- create_table("stockquantities")
+   -> 0.0281s
+-- drop_table(:stockquantities)
+   -> 0.0355s
+-- create_table("stockquantities")
+   -> 0.0212s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0164s
+-- drop_table(:stockquantities)
+   -> 0.0225s
+-- create_table("stockquantities")
+   -> 0.0160s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0415s
+-- drop_table(:stockquantities)
+   -> 0.0157s
+-- create_table("stockquantities")
+   -> 0.0412s
+-- drop_table(:stockquantities)
+   -> 0.0202s
+-- create_table("stockquantities")
+   -> 0.0165s
+-- drop_table(:stockquantities)
+   -> 0.0215s
+-- create_table("stockquantities")
+   -> 0.0248s
+-- drop_table(:stockquantities)
+   -> 0.0148s
+-- create_table("stockquantities")
+   -> 0.0316s
+-- drop_table(:stockquantities)
+   -> 0.0074s
+-- create_table("stockquantities")
+   -> 0.0447s
+-- drop_table(:stockquantities)
+   -> 0.0073s
+-- create_table("stockquantities")
+   -> 0.0182s
+-- drop_table(:stockquantities)
+   -> 0.0134s
+-- create_table("stockquantities")
+   -> 0.0268s
+-- drop_table(:stockquantities)
+   -> 0.0166s
+-- create_table("stockquantities")
+   -> 0.0670s
+-- drop_table(:stockquantities)
+   -> 0.0454s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0111s
+-- create_table("stockquantities")
+   -> 0.0338s
+-- drop_table(:stockquantities)
+   -> 0.0099s
+-- create_table("stockquantities")
+   -> 0.0181s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0217s
+-- drop_table(:stockquantities)
+   -> 0.0138s
+-- create_table("stockquantities")
+   -> 0.0321s
+-- drop_table(:stockquantities)
+   -> 0.0195s
+-- create_table("stockquantities")
+   -> 0.0221s
+-- drop_table(:stockquantities)
+   -> 0.0112s
+-- create_table("stockquantities")
+   -> 0.0502s
+-- drop_table(:stockquantities)
+   -> 0.0218s
+-- create_table("stockquantities")
+   -> 0.0464s
+-- drop_table(:stockquantities)
+   -> 0.0117s
+-- create_table("stockquantities")
+   -> 0.0340s
+-- drop_table(:stockquantities)
+   -> 0.0184s
+-- create_table("stockquantities")
+   -> 0.0386s
+-- drop_table(:stockquantities)
+   -> 0.0364s
+-- create_table("stockquantities")
+   -> 0.0525s
+-- drop_table(:stockquantities)
+   -> 0.0390s
+-- create_table("stockquantities")
+   -> 0.0178s
+-- drop_table(:stockquantities)
+   -> 0.0135s
+-- create_table("stockquantities")
+   -> 0.0338s
+-- drop_table(:stockquantities)
+   -> 0.0233s
+-- create_table("stockquantities")
+   -> 0.0305s
+-- drop_table(:stockquantities)
+   -> 0.0067s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0285s
+-- drop_table(:stockquantities)
+   -> 0.0110s
+-- create_table("stockquantities")
+   -> 0.0324s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0203s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0189s
+-- drop_table(:stockquantities)
+   -> 0.0092s
+-- create_table("stockquantities")
+   -> 0.0343s
+-- drop_table(:stockquantities)
+   -> 0.0182s
+-- create_table("stockquantities")
+   -> 0.0347s
+-- drop_table(:stockquantities)
+   -> 0.0096s
+-- create_table("stockquantities")
+   -> 0.0336s
+-- drop_table(:stockquantities)
+   -> 0.0197s
+-- create_table("stockquantities")
+   -> 0.0375s
+-- drop_table(:stockquantities)
+   -> 0.0207s
+-- create_table("stockquantities")
+   -> 0.0312s
+-- drop_table(:stockquantities)
+   -> 0.0134s
+-- create_table("stockquantities")
+   -> 0.0206s
+-- drop_table(:stockquantities)
+   -> 0.0090s
+-- create_table("stockquantities")
+   -> 0.0316s
+-- drop_table(:stockquantities)
+   -> 0.0250s
+-- create_table("stockquantities")
+   -> 0.0167s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0277s
+-- drop_table(:stockquantities)
+   -> 0.0078s
+-- create_table("stockquantities")
+   -> 0.0335s
+-- drop_table(:stockquantities)
+   -> 0.0106s
+-- create_table("stockquantities")
+   -> 0.0235s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0226s
+-- drop_table(:stockquantities)
+   -> 0.0097s
+-- create_table("stockquantities")
+   -> 0.0713s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0380s
+-- drop_table(:stockquantities)
+   -> 0.0074s
+-- create_table("stockquantities")
+   -> 0.0173s
+-- drop_table(:stockquantities)
+   -> 0.0222s
+-- create_table("stockquantities")
+   -> 0.0445s
+-- drop_table(:stockquantities)
+   -> 0.0164s
+-- create_table("stockquantities")
+   -> 0.0183s
+-- drop_table(:stockquantities)
+   -> 0.0302s
+-- create_table("stockquantities")
+   -> 0.0209s
+-- drop_table(:stockquantities)
+   -> 0.0075s
+-- create_table("stockquantities")
+   -> 0.0415s
+-- drop_table(:stockquantities)
+   -> 0.0168s
+-- create_table("stockquantities")
+   -> 0.0161s
+-- drop_table(:stockquantities)
+   -> 0.0154s
+-- create_table("stockquantities")
+   -> 0.0386s
+-- drop_table(:stockquantities)
+   -> 0.0116s
+-- create_table("stockquantities")
+   -> 0.0176s
+-- drop_table(:stockquantities)
+   -> 0.0238s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0084s
+-- create_table("stockquantities")
+   -> 0.0330s
+-- drop_table(:stockquantities)
+   -> 0.0101s
+-- create_table("stockquantities")
+   -> 0.0209s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0356s
+-- drop_table(:stockquantities)
+   -> 0.0082s
+-- create_table("stockquantities")
+   -> 0.0319s
+-- drop_table(:stockquantities)
+   -> 0.0131s
+-- create_table("stockquantities")
+   -> 0.0343s
+-- drop_table(:stockquantities)
+   -> 0.0241s
+-- create_table("stockquantities")
+   -> 0.0298s
+-- drop_table(:stockquantities)
+   -> 0.0093s
+-- create_table("stockquantities")
+   -> 0.0178s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0188s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0331s
+-- drop_table(:stockquantities)
+   -> 0.0106s
+-- create_table("stockquantities")
+   -> 0.0191s
+-- drop_table(:stockquantities)
+   -> 0.0119s
+-- create_table("stockquantities")
+   -> 0.0497s
+-- drop_table(:stockquantities)
+   -> 0.0102s
+-- create_table("stockquantities")
+   -> 0.0165s
+-- drop_table(:stockquantities)
+   -> 0.0088s
+-- create_table("stockquantities")
+   -> 0.0267s
+-- drop_table(:stockquantities)
+   -> 0.0104s
+-- create_table("stockquantities")
+   -> 0.0406s
+-- drop_table(:stockquantities)
+   -> 0.0083s
+-- create_table("stockquantities")
+   -> 0.0438s
+-- drop_table(:stockquantities)
+   -> 0.0267s
+-- create_table("stockquantities")
+   -> 0.0362s
+-- drop_table(:stockquantities)
+   -> 0.0123s
+-- create_table("stockquantities")
+   -> 0.0213s
+-- drop_table(:stockquantities)
+   -> 0.0087s
+-- create_table("stockquantities")
+   -> 0.0198s
+-- drop_table(:stockquantities)
+   -> 0.0145s
+-- create_table("stockquantities")
+   -> 0.0159s
+-- drop_table(:stockquantities)
+   -> 0.0161s
+-- create_table("stockquantities")
+   -> 0.0174s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0355s
+-- drop_table(:stockquantities)
+   -> 0.0071s
+-- create_table("stockquantities")
+   -> 0.0369s
+-- drop_table(:stockquantities)
+   -> 0.0091s
+-- create_table("stockquantities")
+   -> 0.0197s
+-- drop_table(:stockquantities)
+   -> 0.0709s
+-- create_table("stockquantities")
+   -> 0.0788s
+-- drop_table(:stockquantities)
+   -> 0.0105s
+-- create_table("stockquantities")
+   -> 0.0339s
+-- drop_table(:stockquantities)
+   -> 0.0411s
+-- create_table("stockquantities")
+   -> 0.0325s
+-- drop_table(:stockquantities)
+   -> 0.0169s
+-- create_table("stockquantities")
+   -> 0.0339s
+-- drop_table(:stockquantities)
+   -> 0.0124s
+-- create_table("stockquantities")
+   -> 0.0279s
+-- drop_table(:stockquantities)
+   -> 0.0085s
+-- create_table("stockquantities")
+   -> 0.0170s
+-- drop_table(:stockquantities)
+   -> 0.0247s
+-- create_table("stockquantities")
+   -> 0.0184s
+-- drop_table(:stockquantities)
+   -> 0.0094s
+-- create_table("stockquantities")
+   -> 0.0172s
+-- drop_table(:stockquantities)
+   -> 0.0343s
+-- create_table("stockquantities")
+   -> 0.0262s
+-- drop_table(:stockquantities)
+   -> 0.0072s
+-- create_table("stockquantities")
+   -> 0.0183s
+-- drop_table(:stockquantities)
+   -> 0.0674s
+-- create_table("stockquantities")
+   -> 0.1143s
+-- drop_table(:stockquantities)
+   -> 0.0328s
+-- create_table("stockquantities")
+   -> 0.1161s
+-- drop_table(:stockquantities)
+   -> 0.1059s
+-- create_table("stockquantities")
+   -> 0.0950s
+-- drop_table(:stockquantities)
+   -> 0.0187s
+-- create_table("stockquantities")
+   -> 0.0323s
+-- drop_table(:stockquantities)
+   -> 0.0307s
+-- create_table("stockquantities")
+   -> 0.0243s
+-- drop_table(:stockquantities)
+   -> 0.0080s
+-- create_table("stockquantities")
+   -> 0.0326s
+-- drop_table(:stockquantities)
+   -> 0.0276s
+-- create_table("stockquantities")
+   -> 0.0447s
+-- drop_table(:stockquantities)
+   -> 0.0193s
+-- create_table("stockquantities")
+   -> 0.0189s
+-- drop_table(:stockquantities)
+   -> 0.0072s
+-- create_table("stockquantities")
+   -> 0.0162s
+-- drop_table(:stockquantities)
+   -> 0.0107s
+-- create_table("stockquantities")
+   -> 0.0184s
+-- drop_table(:stockquantities)
+   -> 0.0172s
+-- create_table("stockquantities")
+   -> 0.0701s
+-- drop_table(:stockquantities)
+   -> 0.0221s
+-- create_table("stockquantities")
+   -> 0.0158s
+-- drop_table(:stockquantities)
+   -> 0.0243s
+-- create_table("stockquantities")
+   -> 0.0389s
+-- drop_table(:stockquantities)
+   -> 0.0086s
+-- create_table("stockquantities")
+   -> 0.0346s
+-- drop_table(:stockquantities)
+   -> 0.0137s
+-- create_table("stockquantities")
+   -> 0.0549s
+-- drop_table(:stockquantities)
+   -> 0.0385s
+-- create_table("stockquantities")
+   -> 0.0397s
+-- drop_table(:stockquantities)
+   -> 0.0293s
+-- create_table("stockquantities")
+   -> 0.0306s
+-- drop_table(:stockquantities)
+   -> 0.0323s
+-- create_table("stockquantities")
+   -> 0.0307s
+-- drop_table(:stockquantities)
+   -> 0.1294s
+-- create_table("stockquantities")
+   -> 0.0960s

@@ -18,6 +18,22 @@
       %td= @stockitem.caseqty
       %td #{@stockitem.vatrate.round(0)}%
       %td= @stockitem.lastsold
+%p Sales Last 30 Days
+= line_chart @item_total_qtysold_last30days, height: "250px"
+%p Sales By Week
+= line_chart @item_total_qtysold_by_week, height: "250px"
+%h4 Top 2 results from searching Tesco's stock (only works with most common products)
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>Tesco Name
+      %td <b>Tesco Price
+    %tr
+      %td= @tescosearchname1
+      %td= @tescosearchprice1
+    %tr
+      %td= @tescosearchname2
+      %td= @tescosearchprice2
 %h4 Goods In
 %table{:class => "table table-bordered"}
   %tbody
@@ -36,19 +52,3 @@
         %td= inward.case_qty
         %td= inward.case_del
         %td= inward.case_cost
-%h4 Top 2 results from searching Tesco's stock (only works with most common products)
-%table{:class => "table table-bordered"}
-  %tbody
-    %tr
-      %td <b>Tesco Name
-      %td <b>Tesco Price
-    %tr
-      %td= @tescosearchname1
-      %td= @tescosearchprice1
-    %tr
-      %td= @tescosearchname2
-      %td= @tescosearchprice2
-%p Sales Last 30 Days
-= line_chart @item_total_qtysold_last30days, height: "250px"
-%p Sales By Week
-= line_chart @item_total_qtysold_by_week, height: "250px"

@@ -5,11 +5,13 @@ class TopsellerstodaysalesController < Sinatra::Base
     #topsellers_allsales_qty = Allsale.where("type = ?","P").group(:description).sum(:qty).sort_by{|_key, value| value}
     #topsellers_allsales_qty.last
     #topsellers_allsales_qty.last.to_i
-    @topsellers_value = Sale.where("type = ?","P").group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
     
-    if @topsellers_value.empty?
-	  allsales_lastdate = Allsale.last.date 
+    allsales_lastdate = Allsale.last.date
+        
+    if Sale.count == 0 || allsales_lastdate.today?
 	  @topsellers_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
+	else
+	  @topsellers_value = Sale.where("type = ?","P").group(:description).sum(:totalprice).sort_by{|_key, value| value}.reverse
 	end     
     items_array = []
 	n = 7

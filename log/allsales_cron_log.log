@@ -10775,3 +10775,523 @@ hvs_migration_allsales.rb:39:in `<main>': uninitialized constant CreateSales (Na
    -> 0.0384s
 -- change_table(:allsales)
    -> 4.3288s
+-- drop_table(:allsales)
+   -> 0.0234s
+-- create_table("allsales")
+   -> 0.0230s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0601s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0346s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0434s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0409s
+-- add_index(:allsales, :plu)
+   -> 0.0548s
+-- add_index(:allsales, :type)
+   -> 0.0399s
+-- add_index(:allsales, :date)
+   -> 0.0505s
+-- add_index(:allsales, :description)
+   -> 0.0611s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0559s
+-- change_table(:allsales)
+   -> 5.8696s
+-- drop_table(:allsales)
+   -> 0.0182s
+-- create_table("allsales")
+   -> 0.0503s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0445s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0322s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0645s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0301s
+-- add_index(:allsales, :plu)
+   -> 0.0727s
+-- add_index(:allsales, :type)
+   -> 0.0491s
+-- add_index(:allsales, :date)
+   -> 0.0375s
+-- add_index(:allsales, :description)
+   -> 0.0417s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0397s
+-- change_table(:allsales)
+   -> 6.0630s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect': Lost connection to MySQL server at 'reading authorization packet', system error: 0 (Mysql2::Error)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:87:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/model_schema.rb:230:in `table_exists?'
+	from hvs_migration_allsales.rb:276:in `<main>'
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:68:in `require'/usr/local/share/ruby/site_ruby/2.0/rubygems/specification.rb:17:in `require': /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/mysql2.so: failed to map segment from shared object: Cannot allocate memory - /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/mysql2.so (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2.rb:31:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `rescue in require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:40:in `require'
+	from hvs_migration_allsales.rb:3:in `<main>'
+: /usr/lib64/ruby/2.0/stringio.so: failed to map segment from shared object: Cannot allocate memory - /usr/lib64/ruby/2.0/stringio.so (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/specification.rb:17:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:1292:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:1292:in `<module:Gem>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:1:in `require'
+	from <internal:gem_prelude>:1:in `<compiled>'
+-- drop_table(:allsales)
+   -> 0.0714s
+-- create_table("allsales")
+   -> 0.0226s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0465s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0456s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0342s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0647s
+-- add_index(:allsales, :plu)
+   -> 0.0618s
+-- add_index(:allsales, :type)
+   -> 0.0337s
+-- add_index(:allsales, :date)
+   -> 0.0440s
+-- add_index(:allsales, :description)
+   -> 0.0475s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0368s
+-- change_table(:allsales)
+   -> 5.5599s
+-- drop_table(:allsales)
+   -> 0.0228s
+-- create_table("allsales")
+   -> 0.0205s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0306s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0636s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0322s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0460s
+-- add_index(:allsales, :plu)
+   -> 0.0581s
+-- add_index(:allsales, :type)
+   -> 0.0520s
+-- add_index(:allsales, :date)
+   -> 0.0364s
+-- add_index(:allsales, :description)
+   -> 0.0397s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0473s
+-- change_table(:allsales)
+   -> 6.5174s
+-- drop_table(:allsales)
+   -> 0.0316s
+-- create_table("allsales")
+   -> 0.0452s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0341s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0339s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0639s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0370s
+-- add_index(:allsales, :plu)
+   -> 0.0432s
+-- add_index(:allsales, :type)
+   -> 0.0541s
+-- add_index(:allsales, :date)
+   -> 0.0400s
+-- add_index(:allsales, :description)
+   -> 0.0495s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0473s
+-- change_table(:allsales)
+   -> 6.3643s
+-- drop_table(:allsales)
+   -> 0.0457s
+-- create_table("allsales")
+   -> 0.0249s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0434s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0465s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0279s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0625s
+-- add_index(:allsales, :plu)
+   -> 0.0633s
+-- add_index(:allsales, :type)
+   -> 0.0415s
+-- add_index(:allsales, :date)
+   -> 0.0420s
+-- add_index(:allsales, :description)
+   -> 0.0597s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0459s
+-- change_table(:allsales)
+   -> 6.6715s
+-- drop_table(:allsales)
+   -> 0.0336s
+-- create_table("allsales")
+   -> 0.0809s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0353s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0344s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0521s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0332s
+-- add_index(:allsales, :plu)
+   -> 0.0496s
+-- add_index(:allsales, :type)
+   -> 0.0593s
+-- add_index(:allsales, :date)
+   -> 0.0461s
+-- add_index(:allsales, :description)
+   -> 0.0631s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0488s
+-- change_table(:allsales)
+   -> 6.5420s
+-- drop_table(:allsales)
+   -> 0.0289s
+-- create_table("allsales")
+   -> 0.0352s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0285s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0498s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0432s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0442s
+-- add_index(:allsales, :plu)
+   -> 0.0580s
+-- add_index(:allsales, :type)
+   -> 0.0440s
+-- add_index(:allsales, :date)
+   -> 0.0409s
+-- add_index(:allsales, :description)
+   -> 0.0728s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0583s
+-- change_table(:allsales)
+   -> 7.1893s
+-- drop_table(:allsales)
+   -> 0.0271s
+-- create_table("allsales")
+   -> 0.0441s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0351s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0286s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0581s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0336s
+-- add_index(:allsales, :plu)
+   -> 0.0652s
+-- add_index(:allsales, :type)
+   -> 0.0533s
+-- add_index(:allsales, :date)
+   -> 0.0594s
+-- add_index(:allsales, :description)
+   -> 0.0542s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0606s
+-- change_table(:allsales)
+   -> 7.2244s
+-- drop_table(:allsales)
+   -> 0.0518s
+-- create_table("allsales")
+   -> 0.0478s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0481s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0476s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.1137s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0308s
+-- add_index(:allsales, :plu)
+   -> 0.0548s
+-- add_index(:allsales, :type)
+   -> 0.0650s
+-- add_index(:allsales, :date)
+   -> 0.0521s
+-- add_index(:allsales, :description)
+   -> 0.0658s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0557s
+-- change_table(:allsales)
+   -> 7.1420s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:73:in `rescue in initialize': file not found: /home/hvsepos/Touch/DATA/allsales.DBF (DBF::FileNotFoundError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:66:in `initialize'
+	from hvs_migration_allsales.rb:275:in `new'
+	from hvs_migration_allsales.rb:275:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0417s
+-- create_table("allsales")
+   -> 0.0205s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0558s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0317s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0315s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0573s
+-- add_index(:allsales, :plu)
+   -> 0.0709s
+-- add_index(:allsales, :type)
+   -> 0.0471s
+-- add_index(:allsales, :date)
+   -> 0.0658s
+-- add_index(:allsales, :description)
+   -> 0.0544s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0609s
+-- change_table(:allsales)
+   -> 7.6040s
+-- drop_table(:allsales)
+   -> 0.0216s
+-- create_table("allsales")
+   -> 0.0505s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0285s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0268s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0567s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0283s
+-- add_index(:allsales, :plu)
+   -> 0.0637s
+-- add_index(:allsales, :type)
+   -> 0.0505s
+-- add_index(:allsales, :date)
+   -> 0.0595s
+-- add_index(:allsales, :description)
+   -> 0.0591s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0574s
+-- change_table(:allsales)
+   -> 7.7671s
+-- drop_table(:allsales)
+   -> 0.1085s
+-- create_table("allsales")
+   -> 0.0382s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0482s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0491s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0323s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0626s
+-- add_index(:allsales, :plu)
+   -> 0.0863s
+-- add_index(:allsales, :type)
+   -> 0.0533s
+-- add_index(:allsales, :date)
+   -> 0.0618s
+-- add_index(:allsales, :description)
+   -> 0.0638s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0618s
+-- change_table(:allsales)
+   -> 7.9825s
+-- drop_table(:allsales)
+   -> 0.0346s
+-- create_table("allsales")
+   -> 0.0234s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0511s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0469s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0454s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0466s
+-- add_index(:allsales, :plu)
+   -> 0.0669s
+-- add_index(:allsales, :type)
+   -> 0.0650s
+-- add_index(:allsales, :date)
+   -> 0.0592s
+-- add_index(:allsales, :description)
+   -> 0.0721s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0594s
+-- change_table(:allsales)
+   -> 8.5879s
+-- drop_table(:allsales)
+   -> 0.0498s
+-- create_table("allsales")
+   -> 0.0764s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0323s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0269s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0639s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0288s
+-- add_index(:allsales, :plu)
+   -> 0.0601s
+-- add_index(:allsales, :type)
+   -> 0.0854s
+-- add_index(:allsales, :date)
+   -> 0.0563s
+-- add_index(:allsales, :description)
+   -> 0.0681s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0598s
+-- change_table(:allsales)
+   -> 9.2509s
+-- drop_table(:allsales)
+   -> 0.0386s
+-- create_table("allsales")
+   -> 0.0394s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0461s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0349s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0642s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0320s
+-- add_index(:allsales, :plu)
+   -> 0.1966s
+-- add_index(:allsales, :type)
+   -> 0.0655s
+-- add_index(:allsales, :date)
+   -> 0.0553s
+-- add_index(:allsales, :description)
+   -> 0.0652s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0640s
+-- change_table(:allsales)
+   -> 8.7397s
+-- drop_table(:allsales)
+   -> 0.0357s
+-- create_table("allsales")
+   -> 0.0272s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0595s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0308s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0334s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0609s
+-- add_index(:allsales, :plu)
+   -> 0.1916s
+-- add_index(:allsales, :type)
+   -> 0.0736s
+-- add_index(:allsales, :date)
+   -> 0.0564s
+-- add_index(:allsales, :description)
+   -> 0.0626s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0663s
+-- change_table(:allsales)
+   -> 9.3873s
+-- drop_table(:allsales)
+   -> 0.0381s
+-- create_table("allsales")
+   -> 0.0203s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0497s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0459s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0260s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0438s
+-- add_index(:allsales, :plu)
+   -> 0.1647s
+-- add_index(:allsales, :type)
+   -> 0.0623s
+-- add_index(:allsales, :date)
+   -> 0.0579s
+-- add_index(:allsales, :description)
+   -> 0.0655s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0746s
+-- change_table(:allsales)
+   -> 9.2429s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:73:in `rescue in initialize': file not found: /home/hvsepos/Touch/DATA/allsales.DBF (DBF::FileNotFoundError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:66:in `initialize'
+	from hvs_migration_allsales.rb:275:in `new'
+	from hvs_migration_allsales.rb:275:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0425s
+-- create_table("allsales")
+   -> 0.0284s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0294s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0425s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0442s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0282s
+-- add_index(:allsales, :plu)
+   -> 0.1666s
+-- add_index(:allsales, :type)
+   -> 0.0784s
+-- add_index(:allsales, :date)
+   -> 0.0783s
+-- add_index(:allsales, :description)
+   -> 0.0759s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0985s
+-- change_table(:allsales)
+   -> 9.6503s
+-- drop_table(:allsales)
+   -> 0.0386s
+-- create_table("allsales")
+   -> 0.0395s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0811s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0407s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0853s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0812s
+-- add_index(:allsales, :plu)
+   -> 0.0405s
+-- add_index(:allsales, :type)
+   -> 0.0422s
+-- add_index(:allsales, :date)
+   -> 0.0389s
+-- add_index(:allsales, :description)
+   -> 0.0405s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0405s
+-- change_table(:allsales)
+   -> 1.6296s

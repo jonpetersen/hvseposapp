@@ -14392,3 +14392,134 @@ hvs_migration_inwards.rb:22:in `block in up': undefined method `branch' for nil:
    -> 0.1681s
 -- change_table(:inwards)
    -> 0.1182s
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require': /usr/lib64/ruby/2.0/strscan.so: failed to map segment from shared object: Cannot allocate memory - /usr/lib64/ruby/2.0/strscan.so (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/share/ruby/gems/2.0/gems/json-1.8.3/lib/json/pure/parser.rb:1:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/share/ruby/gems/2.0/gems/json-1.8.3/lib/json/pure.rb:8:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/share/ruby/gems/2.0/gems/json-1.8.3/lib/json.rb:60:in `rescue in <module:JSON>'
+	from /usr/share/ruby/gems/2.0/gems/json-1.8.3/lib/json.rb:57:in `<module:JSON>'
+	from /usr/share/ruby/gems/2.0/gems/json-1.8.3/lib/json.rb:54:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `rescue in require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:40:in `require'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf.rb:4:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `rescue in require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:40:in `require'
+	from hvs_migration_inwards.rb:1:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0384s
+-- create_table("inwards")
+   -> 0.0309s
+-- change_table(:inwards)
+   -> 0.2802s
+-- drop_table(:inwards)
+   -> 0.0092s
+-- create_table("inwards")
+   -> 0.0298s
+-- change_table(:inwards)
+   -> 0.2290s
+-- drop_table(:inwards)
+   -> 0.0248s
+-- create_table("inwards")
+   -> 0.0273s
+-- change_table(:inwards)
+   -> 0.2646s
+-- drop_table(:inwards)
+   -> 0.1875s
+-- create_table("inwards")
+   -> 0.0170s
+-- change_table(:inwards)
+   -> 0.2349s
+-- drop_table(:inwards)
+   -> 0.0387s
+-- create_table("inwards")
+   -> 0.0467s
+-- change_table(:inwards)
+   -> 0.2334s
+-- drop_table(:inwards)
+   -> 0.0140s
+-- create_table("inwards")
+   -> 0.0457s
+-- change_table(:inwards)
+   -> 0.2811s
+-- drop_table(:inwards)
+   -> 0.0270s
+-- create_table("inwards")
+   -> 0.0154s
+-- change_table(:inwards)
+   -> 0.2473s
+-- drop_table(:inwards)
+   -> 0.0383s
+-- create_table("inwards")
+   -> 0.0411s
+-- change_table(:inwards)
+   -> 0.2526s
+-- drop_table(:inwards)
+   -> 0.0210s
+-- create_table("inwards")
+   -> 0.0209s
+-- change_table(:inwards)
+   -> 0.2580s
+-- drop_table(:inwards)
+   -> 0.0110s
+-- create_table("inwards")
+   -> 0.0499s
+-- change_table(:inwards)
+   -> 0.2868s
+-- drop_table(:inwards)
+   -> 0.0160s
+-- create_table("inwards")
+   -> 0.0202s
+-- change_table(:inwards)
+   -> 0.2774s
+-- drop_table(:inwards)
+   -> 0.0243s
+-- create_table("inwards")
+   -> 0.0192s
+-- change_table(:inwards)
+   -> 0.4674s
+-- drop_table(:inwards)
+   -> 0.0433s
+-- create_table("inwards")
+   -> 0.0272s
+-- change_table(:inwards)
+   -> 0.3038s
+-- drop_table(:inwards)
+   -> 0.0221s
+-- create_table("inwards")
+   -> 0.0169s
+-- change_table(:inwards)
+   -> 0.2689s
+-- drop_table(:inwards)
+   -> 0.0376s
+-- create_table("inwards")
+   -> 0.0349s
+-- change_table(:inwards)
+   -> 0.2755s
+-- drop_table(:inwards)
+   -> 0.0088s
+-- create_table("inwards")
+   -> 0.0165s
+-- change_table(:inwards)
+   -> 0.2543s
+-- drop_table(:inwards)
+   -> 0.0480s
+-- create_table("inwards")
+   -> 0.0202s
+-- change_table(:inwards)
+   -> 0.2646s
+-- drop_table(:inwards)
+   -> 0.0449s
+-- create_table("inwards")
+   -> 0.0223s
+-- change_table(:inwards)
+   -> 0.2768s
+-- drop_table(:inwards)
+   -> 0.0195s
+-- create_table("inwards")
+   -> 0.0177s

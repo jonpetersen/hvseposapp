@@ -2,14 +2,16 @@ class TransactionstodayController < Sinatra::Base
 
   get '/' do
   	
-  	if params[:n]
+  	allsales_lastdate = Date.parse("1 Jan 2000")
+  	allsales_lastdate = Allsale.last.date if Allsale.last
+  	
+	if params[:n]
   	
   	  n=params[:n].to_i
       
       sales_transactions = Sale.where("type = ?","P").group(:transno).last(n)    
-      
-      if sales_transactions.empty?
-	    allsales_lastdate = Allsale.last.date 
+
+      if sales_transactions.empty? || allsales_lastdate.today?
 	    lastn_transactions = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:transno).last(n)
 	    @sales_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).sum(:totalprice)
 	  else
@@ -20,8 +22,7 @@ class TransactionstodayController < Sinatra::Base
     else
       sales_transactions = Sale.where("type = ?","P").group(:transno)    
       
-      if sales_transactions.empty?
-	    allsales_lastdate = Allsale.last.date 
+      if sales_transactions.empty? || allsales_lastdate.today?
 	    lastn_transactions = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).group(:transno)
 	    @sales_value = Allsale.where("type = ? AND date = ?","P",allsales_lastdate).sum(:totalprice)
 	  else
@@ -43,7 +44,7 @@ class TransactionstodayController < Sinatra::Base
     
     lastn_transactions.each do |t|
   	  item_array = [] 
-  	  if sales_transactions.empty?
+  	  if sales_transactions.empty? || allsales_lastdate.today?
   	    items = Allsale.where("transno = ? AND type = ? AND date = ?",t.transno,"P",allsales_lastdate)
       else
         items = Sale.where("transno = ? AND type = ?",t.transno,"P")

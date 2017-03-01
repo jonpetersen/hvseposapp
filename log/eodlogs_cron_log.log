@@ -10308,3 +10308,172 @@
    -> 0.0344s
 -- change_table(:eodlogs)
    -> 0.6400s
+-- drop_table(:eodlogs)
+   -> 0.0353s
+-- create_table("eodlogs")
+   -> 0.0341s
+-- change_table(:eodlogs)
+   -> 0.7993s
+-- drop_table(:eodlogs)
+   -> 0.0464s
+-- create_table("eodlogs")
+   -> 0.0324s
+-- change_table(:eodlogs)
+   -> 0.8847s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect': Lost connection to MySQL server at 'reading authorization packet', system error: 0 (Mysql2::Error)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:87:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/model_schema.rb:230:in `table_exists?'
+	from hvs_migration_eodlogs.rb:50:in `<main>'
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect': Lost connection to MySQL server at 'reading authorization packet', system error: 0 (Mysql2::Error)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:87:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/model_schema.rb:230:in `table_exists?'
+	from hvs_migration_eodlogs.rb:50:in `<main>'
+[FATAL] Failed to create timer thread (errno: 11)
+/usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:68:in `require'/usr/local/share/ruby/site_ruby/2.0/rubygems/specification.rb:17:in `require': /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/mysql2.so: failed to map segment from shared object: Cannot allocate memory - /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/mysql2.so (LoadError)
+: /usr/lib64/ruby/2.0/stringio.so: failed to map segment from shared object: Cannot allocate memory - /usr/lib64/ruby/2.0/stringio.so (LoadError)
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/specification.rb:17:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:1292:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:1292:in `<module:Gem>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:1:in `require'
+	from <internal:gem_prelude>:1:in `<compiled>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2.rb:31:in `<top (required)>'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:133:in `rescue in require'
+	from /usr/local/share/ruby/site_ruby/2.0/rubygems/core_ext/kernel_require.rb:40:in `require'
+	from hvs_migration_eodlogs.rb:3:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0507s
+-- create_table("eodlogs")
+   -> 0.0276s
+-- change_table(:eodlogs)
+   -> 0.8877s
+/home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:73:in `rescue in initialize': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:66:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0557s
+-- create_table("eodlogs")
+   -> 0.0267s
+-- change_table(:eodlogs)
+   -> 0.8668s
+-- drop_table(:eodlogs)
+   -> 0.0393s
+-- create_table("eodlogs")
+   -> 0.0195s
+-- change_table(:eodlogs)
+   -> 0.8524s
+-- drop_table(:eodlogs)
+   -> 0.0224s
+-- create_table("eodlogs")
+   -> 0.0492s
+-- change_table(:eodlogs)
+   -> 0.8518s
+-- drop_table(:eodlogs)
+   -> 0.0170s
+-- create_table("eodlogs")
+   -> 0.0231s
+-- change_table(:eodlogs)
+   -> 0.8957s
+-- drop_table(:eodlogs)
+   -> 0.0189s
+-- create_table("eodlogs")
+   -> 0.0199s
+-- change_table(:eodlogs)
+   -> 0.8196s
+-- drop_table(:eodlogs)
+   -> 0.0490s
+-- create_table("eodlogs")
+   -> 0.0382s
+-- change_table(:eodlogs)
+   -> 0.8154s
+-- drop_table(:eodlogs)
+   -> 0.0232s
+-- create_table("eodlogs")
+   -> 0.0352s
+-- change_table(:eodlogs)
+   -> 0.8931s
+-- drop_table(:eodlogs)
+   -> 0.0344s
+-- create_table("eodlogs")
+   -> 0.0285s
+-- change_table(:eodlogs)
+   -> 0.8366s
+-- drop_table(:eodlogs)
+   -> 0.1836s
+-- create_table("eodlogs")
+   -> 0.0556s
+-- change_table(:eodlogs)
+   -> 0.9111s
+-- drop_table(:eodlogs)
+   -> 0.0193s
+-- create_table("eodlogs")
+   -> 0.0388s
+-- change_table(:eodlogs)
+   -> 0.8189s
+-- drop_table(:eodlogs)
+   -> 0.0347s
+-- create_table("eodlogs")
+   -> 0.0200s
+-- change_table(:eodlogs)
+   -> 0.8471s
+-- drop_table(:eodlogs)
+   -> 0.0539s
+-- create_table("eodlogs")
+   -> 0.0334s
+-- change_table(:eodlogs)
+   -> 0.8321s
+-- drop_table(:eodlogs)
+   -> 0.0295s
+-- create_table("eodlogs")
+   -> 0.0224s
+-- change_table(:eodlogs)
+   -> 0.9297s
+-- drop_table(:eodlogs)
+   -> 0.0386s
+-- create_table("eodlogs")
+   -> 0.0242s
+-- change_table(:eodlogs)
+   -> 0.8676s
+-- drop_table(:eodlogs)
+   -> 0.0170s
+-- create_table("eodlogs")
+   -> 0.0342s
+-- change_table(:eodlogs)
+   -> 0.8828s
+-- drop_table(:eodlogs)
+   -> 0.0277s
+-- create_table("eodlogs")
+   -> 0.1882s
+-- change_table(:eodlogs)
+   -> 0.9783s
