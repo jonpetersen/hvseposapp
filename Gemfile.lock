@@ -20,6 +20,7 @@ GEM
       tzinfo (~> 1.1)
     apriori-ruby (0.0.9)
     arel (6.0.3)
+    barby (0.6.5)
     builder (3.2.2)
     bullet (5.0.0)
       activesupport (>= 3.0.0)
@@ -50,8 +51,12 @@ GEM
       sixarm_ruby_unaccent (>= 1.1.1, < 2)
     mysql2 (0.4.3)
     netrc (0.11.0)
+    pdf-core (0.6.1)
     pony (1.11)
       mail (>= 2.0)
+    prawn (2.1.0)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -80,6 +85,7 @@ GEM
       rack (~> 1.0)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    ttfunk (1.4.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unf (0.1.4)
@@ -98,6 +104,7 @@ DEPENDENCIES
   activerecord-import
   activesupport
   apriori-ruby
+  barby
   bullet
   chartkick
   dbf
@@ -108,6 +115,7 @@ DEPENDENCIES
   money
   mysql2
   pony
+  prawn
   rails-erd
   redis
   rest-client

@@ -1,0 +1,4 @@
+-- drop_table(:stockalts)
+   -> 0.0593s
+-- create_table("stockalts")
+   -> 0.0396s

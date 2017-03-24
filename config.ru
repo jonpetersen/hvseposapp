@@ -8,7 +8,7 @@ Hvseposapp = Rack::Builder.new do
   # map "/cms" do
   #   map("/")   {run CmsController.new }
   # end
-
+  
   map("/docs") {run DocsController.new }
   map("/nestcam") {run NestcamController.new }
   map("/")     {run MainController.new }
@@ -57,6 +57,9 @@ Hvseposapp = Rack::Builder.new do
   map("/routes") {run RoutesController.new }
   map("/nonsellers") {run NonsellersController.new }
   map("/transactionsize") {run TransactionsizeController.new }
+  map("/barcodereport") {run BarcodeReportController.new }
+  map("/barcodereporttest") {run BarcodeReportController.new }
+  map("/barcodeprint") {run BarcodePrintController.new }
 
   
 end

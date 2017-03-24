@@ -1,0 +1,16 @@
+%h2 Stock Items With Printable Barcodes
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>DESCRIPTION
+      %td <b>PLU
+      %td <b>BARCODE
+      %td <b>
+    - @barcode_items.each do |item|
+      %tr
+        %td= item[0]
+        %td= item[1]
+        %td= item[2]
+        %td 
+          %a{:href => "../barcodeprint?plu=#{item[2]}"} Print Barcode Sheet
+    

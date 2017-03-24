@@ -56,5 +56,11 @@ class Inward < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
+class Stockalt < ActiveRecord::Base
+  self.inheritance_column = nil
+  self.primary_key = "plu"
+  belongs_to :stock, foreign_key: 'plu'
+end
+
 
 

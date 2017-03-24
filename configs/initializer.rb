@@ -1,7 +1,9 @@
+
 # base
 require 'bundler/setup'
 require 'sinatra/base'
 require 'sinatra/advanced_routes'
+
 
 # gems
 require 'logger'
@@ -22,7 +24,9 @@ require 'money'
 require 'groupdate'
 require 'bullet'
 require 'apriori'
-
+require 'barby'
+require 'barby/barcode/ean_13'
+require 'barby/outputter/prawn_outputter'
 
 # configs
 require_relative 'deploy_setting'

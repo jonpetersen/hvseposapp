@@ -14523,3 +14523,213 @@ hvs_migration_inwards.rb:22:in `block in up': undefined method `branch' for nil:
    -> 0.0195s
 -- create_table("inwards")
    -> 0.0177s
+-- drop_table(:inwards)
+   -> 0.0270s
+-- create_table("inwards")
+   -> 0.0254s
+-- change_table(:inwards)
+   -> 0.2805s
+-- drop_table(:inwards)
+   -> 0.0288s
+-- create_table("inwards")
+   -> 0.0200s
+-- change_table(:inwards)
+   -> 0.2895s
+-- drop_table(:inwards)
+   -> 0.0109s
+-- create_table("inwards")
+   -> 0.0199s
+-- change_table(:inwards)
+   -> 0.3012s
+-- drop_table(:inwards)
+   -> 0.0257s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.2586s
+-- drop_table(:inwards)
+   -> 0.0158s
+-- create_table("inwards")
+   -> 0.0301s
+-- change_table(:inwards)
+   -> 0.5678s
+-- drop_table(:inwards)
+   -> 0.0259s
+-- create_table("inwards")
+   -> 0.0291s
+-- change_table(:inwards)
+   -> 0.2687s
+-- drop_table(:inwards)
+   -> 0.0312s
+-- create_table("inwards")
+   -> 0.0327s
+-- change_table(:inwards)
+   -> 0.2738s
+-- drop_table(:inwards)
+   -> 0.0335s
+-- create_table("inwards")
+   -> 0.0327s
+-- change_table(:inwards)
+   -> 0.2582s
+-- drop_table(:inwards)
+   -> 0.0298s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.2221s
+-- drop_table(:inwards)
+   -> 0.0116s
+-- create_table("inwards")
+   -> 0.0189s
+-- change_table(:inwards)
+   -> 0.2887s
+-- drop_table(:inwards)
+   -> 0.0208s
+-- create_table("inwards")
+   -> 0.0169s
+-- change_table(:inwards)
+   -> 0.2476s
+-- drop_table(:inwards)
+   -> 0.0338s
+-- create_table("inwards")
+   -> 0.0161s
+-- change_table(:inwards)
+   -> 0.2627s
+-- drop_table(:inwards)
+   -> 0.0103s
+-- create_table("inwards")
+   -> 0.0170s
+-- change_table(:inwards)
+   -> 0.2738s
+-- drop_table(:inwards)
+   -> 0.0126s
+-- create_table("inwards")
+   -> 0.0323s
+-- change_table(:inwards)
+   -> 0.3364s
+-- drop_table(:inwards)
+   -> 0.0112s
+-- create_table("inwards")
+   -> 0.0233s
+-- change_table(:inwards)
+   -> 0.2748s
+-- drop_table(:inwards)
+   -> 0.0262s
+-- create_table("inwards")
+   -> 0.0299s
+-- change_table(:inwards)
+   -> 0.2320s
+-- drop_table(:inwards)
+   -> 0.0355s
+-- create_table("inwards")
+   -> 0.0220s
+-- change_table(:inwards)
+   -> 0.2743s
+-- drop_table(:inwards)
+   -> 0.0146s
+-- create_table("inwards")
+   -> 0.0162s
+-- change_table(:inwards)
+   -> 0.2460s
+-- drop_table(:inwards)
+   -> 0.0245s
+-- create_table("inwards")
+   -> 0.0333s
+-- change_table(:inwards)
+   -> 0.2990s
+-- drop_table(:inwards)
+   -> 0.0109s
+-- create_table("inwards")
+   -> 0.0291s
+-- change_table(:inwards)
+   -> 0.2544s
+-- drop_table(:inwards)
+   -> 0.0637s
+-- create_table("inwards")
+   -> 0.0270s
+-- change_table(:inwards)
+   -> 0.2408s
+-- drop_table(:inwards)
+   -> 0.0097s
+-- create_table("inwards")
+   -> 0.0162s
+-- change_table(:inwards)
+   -> 0.2695s
+-- drop_table(:inwards)
+   -> 0.0374s
+-- create_table("inwards")
+   -> 0.0197s
+-- change_table(:inwards)
+   -> 0.2441s
+-- drop_table(:inwards)
+   -> 0.0107s
+-- create_table("inwards")
+   -> 0.0471s
+-- change_table(:inwards)
+   -> 0.2646s
+-- drop_table(:inwards)
+   -> 0.0113s
+-- create_table("inwards")
+   -> 0.0417s
+-- change_table(:inwards)
+   -> 0.3725s
+-- drop_table(:inwards)
+   -> 0.0215s
+-- create_table("inwards")
+   -> 0.0173s
+-- change_table(:inwards)
+   -> 0.4178s
+-- drop_table(:inwards)
+   -> 0.0212s
+-- create_table("inwards")
+   -> 0.0341s
+-- change_table(:inwards)
+   -> 0.2893s
+-- drop_table(:inwards)
+   -> 0.0127s
+-- create_table("inwards")
+   -> 0.0420s
+-- change_table(:inwards)
+   -> 0.3220s
+-- drop_table(:inwards)
+   -> 0.0126s
+-- create_table("inwards")
+   -> 0.0269s
+-- change_table(:inwards)
+   -> 0.2690s
+-- drop_table(:inwards)
+   -> 0.0238s
+-- create_table("inwards")
+   -> 0.0226s
+-- change_table(:inwards)
+   -> 0.2940s
+-- drop_table(:inwards)
+   -> 0.0081s
+-- create_table("inwards")
+   -> 0.0332s
+-- change_table(:inwards)
+   -> 0.2778s
+-- drop_table(:inwards)
+   -> 0.0190s
+-- create_table("inwards")
+   -> 0.0326s
+-- change_table(:inwards)
+   -> 0.3777s
+-- drop_table(:inwards)
+   -> 0.0085s
+-- create_table("inwards")
+   -> 0.0211s
+-- change_table(:inwards)
+   -> 0.2415s
+-- drop_table(:inwards)
+   -> 0.0340s
+-- create_table("inwards")
+   -> 0.0219s
+-- change_table(:inwards)
+   -> 0.2502s
+-- drop_table(:inwards)
+   -> 0.0281s
+-- create_table("inwards")
+   -> 0.0184s
+-- change_table(:inwards)
+   -> 0.2661s
