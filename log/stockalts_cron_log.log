@@ -2,3 +2,19 @@
    -> 0.0593s
 -- create_table("stockalts")
    -> 0.0396s
+-- drop_table(:stockalts)
+   -> 0.0356s
+-- create_table("stockalts")
+   -> 0.0322s
+-- drop_table(:stockalts)
+   -> 0.0204s
+-- create_table("stockalts")
+   -> 0.0184s
+-- drop_table(:stockalts)
+   -> 0.0617s
+-- create_table("stockalts")
+   -> 0.0421s
+-- drop_table(:stockalts)
+   -> 0.0109s
+-- create_table("stockalts")
+   -> 0.0329s

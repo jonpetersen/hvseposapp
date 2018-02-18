@@ -14733,3 +14733,1153 @@ hvs_migration_inwards.rb:22:in `block in up': undefined method `branch' for nil:
    -> 0.0184s
 -- change_table(:inwards)
    -> 0.2661s
+-- drop_table(:inwards)
+   -> 0.0411s
+-- create_table("inwards")
+   -> 0.0253s
+-- change_table(:inwards)
+   -> 0.2945s
+-- drop_table(:inwards)
+   -> 0.0095s
+-- create_table("inwards")
+   -> 0.0319s
+-- change_table(:inwards)
+   -> 0.2456s
+-- drop_table(:inwards)
+   -> 0.0213s
+-- create_table("inwards")
+   -> 0.0354s
+-- change_table(:inwards)
+   -> 0.2603s
+-- drop_table(:inwards)
+   -> 0.0085s
+-- create_table("inwards")
+   -> 0.0524s
+-- change_table(:inwards)
+   -> 0.2732s
+-- drop_table(:inwards)
+   -> 0.0443s
+-- create_table("inwards")
+   -> 0.0317s
+-- change_table(:inwards)
+   -> 0.2801s
+-- drop_table(:inwards)
+   -> 0.0246s
+-- create_table("inwards")
+   -> 0.0179s
+-- change_table(:inwards)
+   -> 0.2993s
+-- drop_table(:inwards)
+   -> 0.0102s
+-- create_table("inwards")
+   -> 0.0173s
+-- change_table(:inwards)
+   -> 0.3009s
+-- drop_table(:inwards)
+   -> 0.0363s
+-- create_table("inwards")
+   -> 0.0159s
+-- change_table(:inwards)
+   -> 0.5747s
+-- drop_table(:inwards)
+   -> 0.0300s
+-- create_table("inwards")
+   -> 0.0199s
+-- change_table(:inwards)
+   -> 0.2874s
+-- drop_table(:inwards)
+   -> 0.0119s
+-- create_table("inwards")
+   -> 0.0207s
+-- change_table(:inwards)
+   -> 0.3241s
+-- drop_table(:inwards)
+   -> 0.0409s
+-- create_table("inwards")
+   -> 0.0200s
+-- change_table(:inwards)
+   -> 0.2562s
+-- drop_table(:inwards)
+   -> 0.0308s
+-- create_table("inwards")
+   -> 0.0198s
+-- change_table(:inwards)
+   -> 0.4008s
+-- drop_table(:inwards)
+   -> 0.0085s
+-- create_table("inwards")
+   -> 0.0199s
+-- change_table(:inwards)
+   -> 0.2904s
+-- drop_table(:inwards)
+   -> 0.0672s
+-- create_table("inwards")
+   -> 0.0297s
+-- change_table(:inwards)
+   -> 0.3453s
+-- drop_table(:inwards)
+   -> 0.0617s
+-- create_table("inwards")
+   -> 0.0183s
+-- change_table(:inwards)
+   -> 0.2666s
+-- drop_table(:inwards)
+   -> 0.0563s
+-- create_table("inwards")
+   -> 0.0211s
+-- change_table(:inwards)
+   -> 0.3282s
+-- drop_table(:inwards)
+   -> 0.0430s
+-- create_table("inwards")
+   -> 0.0201s
+-- change_table(:inwards)
+   -> 0.2559s
+-- drop_table(:inwards)
+   -> 0.0187s
+-- create_table("inwards")
+   -> 0.0178s
+-- change_table(:inwards)
+   -> 0.2756s
+-- drop_table(:inwards)
+   -> 0.0210s
+-- create_table("inwards")
+   -> 0.0176s
+-- change_table(:inwards)
+   -> 0.3202s
+-- drop_table(:inwards)
+   -> 0.0152s
+-- create_table("inwards")
+   -> 0.0182s
+-- change_table(:inwards)
+   -> 0.2785s
+-- drop_table(:inwards)
+   -> 0.0566s
+-- create_table("inwards")
+   -> 0.0169s
+-- change_table(:inwards)
+   -> 0.2997s
+-- drop_table(:inwards)
+   -> 0.0150s
+-- create_table("inwards")
+   -> 0.0167s
+-- change_table(:inwards)
+   -> 0.2793s
+-- drop_table(:inwards)
+   -> 0.0540s
+-- create_table("inwards")
+   -> 0.0967s
+-- change_table(:inwards)
+   -> 0.2666s
+-- drop_table(:inwards)
+   -> 0.0137s
+-- create_table("inwards")
+   -> 0.0209s
+-- change_table(:inwards)
+   -> 0.4382s
+-- drop_table(:inwards)
+   -> 0.0363s
+-- create_table("inwards")
+   -> 0.0192s
+-- change_table(:inwards)
+   -> 0.3035s
+-- drop_table(:inwards)
+   -> 0.0173s
+-- create_table("inwards")
+   -> 0.0443s
+-- change_table(:inwards)
+   -> 0.3168s
+-- drop_table(:inwards)
+   -> 0.0371s
+-- create_table("inwards")
+   -> 0.0481s
+-- change_table(:inwards)
+   -> 0.3044s
+-- drop_table(:inwards)
+   -> 0.0205s
+-- create_table("inwards")
+   -> 0.0324s
+-- change_table(:inwards)
+   -> 0.2800s
+-- drop_table(:inwards)
+   -> 0.1393s
+-- create_table("inwards")
+   -> 0.0354s
+-- change_table(:inwards)
+   -> 0.3382s
+-- drop_table(:inwards)
+   -> 0.0085s
+-- create_table("inwards")
+   -> 0.0508s
+-- change_table(:inwards)
+   -> 0.3444s
+-- drop_table(:inwards)
+   -> 0.0086s
+-- create_table("inwards")
+   -> 0.0416s
+-- change_table(:inwards)
+   -> 0.3340s
+-- drop_table(:inwards)
+   -> 0.0543s
+-- create_table("inwards")
+   -> 0.0335s
+-- change_table(:inwards)
+   -> 0.3150s
+-- drop_table(:inwards)
+   -> 0.0128s
+-- create_table("inwards")
+   -> 0.0208s
+-- change_table(:inwards)
+   -> 0.2969s
+-- drop_table(:inwards)
+   -> 0.0158s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.2449s
+-- drop_table(:inwards)
+   -> 0.0528s
+-- create_table("inwards")
+   -> 0.0192s
+-- change_table(:inwards)
+   -> 0.2338s
+-- drop_table(:inwards)
+   -> 0.0330s
+-- create_table("inwards")
+   -> 0.0175s
+-- change_table(:inwards)
+   -> 0.3030s
+-- drop_table(:inwards)
+   -> 0.0096s
+-- create_table("inwards")
+   -> 0.0162s
+-- change_table(:inwards)
+   -> 0.2814s
+-- drop_table(:inwards)
+   -> 0.0095s
+-- create_table("inwards")
+   -> 0.0414s
+-- change_table(:inwards)
+   -> 0.2964s
+-- drop_table(:inwards)
+   -> 0.0408s
+-- create_table("inwards")
+   -> 0.0184s
+-- change_table(:inwards)
+   -> 0.2827s
+-- drop_table(:inwards)
+   -> 0.0482s
+-- create_table("inwards")
+   -> 0.0201s
+-- change_table(:inwards)
+   -> 0.2953s
+-- drop_table(:inwards)
+   -> 0.0504s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.2871s
+-- drop_table(:inwards)
+   -> 0.0370s
+-- create_table("inwards")
+   -> 0.0390s
+-- change_table(:inwards)
+   -> 0.2416s
+-- drop_table(:inwards)
+   -> 0.0181s
+-- create_table("inwards")
+   -> 0.0158s
+-- change_table(:inwards)
+   -> 0.2178s
+-- drop_table(:inwards)
+   -> 0.0399s
+-- create_table("inwards")
+   -> 0.0770s
+-- change_table(:inwards)
+   -> 0.2779s
+-- drop_table(:inwards)
+   -> 0.0413s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.3011s
+-- drop_table(:inwards)
+   -> 0.0256s
+-- create_table("inwards")
+   -> 0.0181s
+-- change_table(:inwards)
+   -> 0.2959s
+-- drop_table(:inwards)
+   -> 0.0266s
+-- create_table("inwards")
+   -> 0.0153s
+-- change_table(:inwards)
+   -> 0.4978s
+-- drop_table(:inwards)
+   -> 0.0709s
+-- create_table("inwards")
+   -> 0.0263s
+-- change_table(:inwards)
+   -> 0.2909s
+-- drop_table(:inwards)
+   -> 0.0414s
+-- create_table("inwards")
+   -> 0.0150s
+-- change_table(:inwards)
+   -> 0.2788s
+-- drop_table(:inwards)
+   -> 0.0113s
+-- create_table("inwards")
+   -> 0.0319s
+-- change_table(:inwards)
+   -> 0.2835s
+-- drop_table(:inwards)
+   -> 0.0099s
+-- create_table("inwards")
+   -> 0.0160s
+-- change_table(:inwards)
+   -> 0.2988s
+-- drop_table(:inwards)
+   -> 0.0520s
+-- create_table("inwards")
+   -> 0.0518s
+-- change_table(:inwards)
+   -> 0.3134s
+-- drop_table(:inwards)
+   -> 0.0086s
+-- create_table("inwards")
+   -> 0.0146s
+-- change_table(:inwards)
+   -> 0.2540s
+-- drop_table(:inwards)
+   -> 0.0107s
+-- create_table("inwards")
+   -> 0.0162s
+-- change_table(:inwards)
+   -> 0.2648s
+-- drop_table(:inwards)
+   -> 0.0560s
+-- create_table("inwards")
+   -> 0.0320s
+-- change_table(:inwards)
+   -> 0.3023s
+-- drop_table(:inwards)
+   -> 0.0515s
+-- create_table("inwards")
+   -> 0.0385s
+-- change_table(:inwards)
+   -> 0.2958s
+-- drop_table(:inwards)
+   -> 0.1148s
+-- create_table("inwards")
+   -> 0.1166s
+-- change_table(:inwards)
+   -> 0.2771s
+-- drop_table(:inwards)
+   -> 0.0753s
+-- create_table("inwards")
+   -> 0.0178s
+-- change_table(:inwards)
+   -> 0.2752s
+-- drop_table(:inwards)
+   -> 0.0434s
+-- create_table("inwards")
+   -> 0.0535s
+-- change_table(:inwards)
+   -> 0.3017s
+-- drop_table(:inwards)
+   -> 0.0295s
+-- create_table("inwards")
+   -> 0.0466s
+-- change_table(:inwards)
+   -> 0.2821s
+-- drop_table(:inwards)
+   -> 0.0209s
+-- create_table("inwards")
+   -> 0.0150s
+-- change_table(:inwards)
+   -> 0.2495s
+-- drop_table(:inwards)
+   -> 0.0267s
+-- create_table("inwards")
+   -> 0.0258s
+-- change_table(:inwards)
+   -> 0.2471s
+-- drop_table(:inwards)
+   -> 0.0094s
+-- create_table("inwards")
+   -> 0.0243s
+-- change_table(:inwards)
+   -> 0.2436s
+-- drop_table(:inwards)
+   -> 0.1280s
+-- create_table("inwards")
+   -> 0.0354s
+-- change_table(:inwards)
+   -> 0.3320s
+-- drop_table(:inwards)
+   -> 0.0095s
+-- create_table("inwards")
+   -> 0.0153s
+-- change_table(:inwards)
+   -> 0.2643s
+-- drop_table(:inwards)
+   -> 0.0095s
+-- create_table("inwards")
+   -> 0.0152s
+-- change_table(:inwards)
+   -> 0.4468s
+-- drop_table(:inwards)
+   -> 0.0440s
+-- create_table("inwards")
+   -> 0.0293s
+-- change_table(:inwards)
+   -> 0.2473s
+-- drop_table(:inwards)
+   -> 0.0197s
+-- create_table("inwards")
+   -> 0.0348s
+-- change_table(:inwards)
+   -> 0.2427s
+-- drop_table(:inwards)
+   -> 0.0137s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.3093s
+-- drop_table(:inwards)
+   -> 0.0560s
+-- create_table("inwards")
+   -> 0.0157s
+-- change_table(:inwards)
+   -> 0.2444s
+-- drop_table(:inwards)
+   -> 0.0813s
+-- create_table("inwards")
+   -> 0.0211s
+-- change_table(:inwards)
+   -> 0.2668s
+-- drop_table(:inwards)
+   -> 0.0843s
+-- create_table("inwards")
+   -> 0.0521s
+-- change_table(:inwards)
+   -> 0.3103s
+-- drop_table(:inwards)
+   -> 0.0080s
+-- create_table("inwards")
+   -> 0.0157s
+-- change_table(:inwards)
+   -> 0.2661s
+-- drop_table(:inwards)
+   -> 0.0569s
+-- create_table("inwards")
+   -> 0.0156s
+-- change_table(:inwards)
+   -> 0.2785s
+-- drop_table(:inwards)
+   -> 0.0143s
+-- create_table("inwards")
+   -> 0.0151s
+-- change_table(:inwards)
+   -> 0.2878s
+-- drop_table(:inwards)
+   -> 0.0631s
+-- create_table("inwards")
+   -> 0.0172s
+-- change_table(:inwards)
+   -> 0.2340s
+-- drop_table(:inwards)
+   -> 0.0389s
+-- create_table("inwards")
+   -> 0.0361s
+-- change_table(:inwards)
+   -> 0.3230s
+-- drop_table(:inwards)
+   -> 0.0105s
+-- create_table("inwards")
+   -> 0.0574s
+-- change_table(:inwards)
+   -> 0.3338s
+-- drop_table(:inwards)
+   -> 0.0174s
+-- create_table("inwards")
+   -> 0.0167s
+-- change_table(:inwards)
+   -> 0.2603s
+-- drop_table(:inwards)
+   -> 0.0704s
+-- create_table("inwards")
+   -> 0.0167s
+-- change_table(:inwards)
+   -> 0.3338s
+-- drop_table(:inwards)
+   -> 0.0803s
+-- create_table("inwards")
+   -> 0.0171s
+-- change_table(:inwards)
+   -> 0.2657s
+-- drop_table(:inwards)
+   -> 0.0075s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.3196s
+-- drop_table(:inwards)
+   -> 0.0302s
+-- create_table("inwards")
+   -> 0.0174s
+-- change_table(:inwards)
+   -> 0.2614s
+-- drop_table(:inwards)
+   -> 0.0198s
+-- create_table("inwards")
+   -> 0.0198s
+-- change_table(:inwards)
+   -> 0.3181s
+-- drop_table(:inwards)
+   -> 0.0182s
+-- create_table("inwards")
+   -> 0.0161s
+-- change_table(:inwards)
+   -> 0.2597s
+-- drop_table(:inwards)
+   -> 0.0830s
+-- create_table("inwards")
+   -> 0.0914s
+-- change_table(:inwards)
+   -> 0.2744s
+-- drop_table(:inwards)
+   -> 0.0083s
+-- create_table("inwards")
+   -> 0.0163s
+-- change_table(:inwards)
+   -> 0.3378s
+-- drop_table(:inwards)
+   -> 0.0691s
+-- create_table("inwards")
+   -> 0.0152s
+-- change_table(:inwards)
+   -> 0.3142s
+-- drop_table(:inwards)
+   -> 0.0448s
+-- create_table("inwards")
+   -> 0.0450s
+-- change_table(:inwards)
+   -> 0.3038s
+-- drop_table(:inwards)
+   -> 0.0213s
+-- create_table("inwards")
+   -> 0.0183s
+-- change_table(:inwards)
+   -> 0.4191s
+-- drop_table(:inwards)
+   -> 0.0580s
+-- create_table("inwards")
+   -> 0.0260s
+-- change_table(:inwards)
+   -> 0.2814s
+-- drop_table(:inwards)
+   -> 0.0093s
+-- create_table("inwards")
+   -> 0.0178s
+-- change_table(:inwards)
+   -> 0.2698s
+-- drop_table(:inwards)
+   -> 0.0434s
+-- create_table("inwards")
+   -> 0.0768s
+-- change_table(:inwards)
+   -> 0.3243s
+-- drop_table(:inwards)
+   -> 0.0605s
+-- create_table("inwards")
+   -> 0.0176s
+-- change_table(:inwards)
+   -> 0.2751s
+-- drop_table(:inwards)
+   -> 0.0116s
+-- create_table("inwards")
+   -> 0.0176s
+-- change_table(:inwards)
+   -> 0.3906s
+-- drop_table(:inwards)
+   -> 0.0255s
+-- create_table("inwards")
+   -> 0.0168s
+-- change_table(:inwards)
+   -> 0.2953s
+-- drop_table(:inwards)
+   -> 0.0276s
+-- create_table("inwards")
+   -> 0.0282s
+-- change_table(:inwards)
+   -> 0.2680s
+-- drop_table(:inwards)
+   -> 0.0241s
+-- create_table("inwards")
+   -> 0.0180s
+-- change_table(:inwards)
+   -> 0.3143s
+-- drop_table(:inwards)
+   -> 0.0129s
+-- create_table("inwards")
+   -> 0.0303s
+-- change_table(:inwards)
+   -> 0.2724s
+-- drop_table(:inwards)
+   -> 0.0322s
+-- create_table("inwards")
+   -> 0.0173s
+-- change_table(:inwards)
+   -> 0.3118s
+-- drop_table(:inwards)
+   -> 0.0369s
+-- create_table("inwards")
+   -> 0.0480s
+-- change_table(:inwards)
+   -> 0.3118s
+-- drop_table(:inwards)
+   -> 0.0082s
+-- create_table("inwards")
+   -> 0.0282s
+-- change_table(:inwards)
+   -> 0.2975s
+-- drop_table(:inwards)
+   -> 0.0438s
+-- create_table("inwards")
+   -> 0.0223s
+-- change_table(:inwards)
+   -> 0.2540s
+-- drop_table(:inwards)
+   -> 0.0099s
+-- create_table("inwards")
+   -> 0.0280s
+-- change_table(:inwards)
+   -> 0.2931s
+-- drop_table(:inwards)
+   -> 0.0193s
+-- create_table("inwards")
+   -> 0.0321s
+-- change_table(:inwards)
+   -> 0.2739s
+-- drop_table(:inwards)
+   -> 0.1277s
+-- create_table("inwards")
+   -> 0.0153s
+-- change_table(:inwards)
+   -> 0.2520s
+-- drop_table(:inwards)
+   -> 0.0074s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.3150s
+-- drop_table(:inwards)
+   -> 0.0968s
+-- create_table("inwards")
+   -> 0.0230s
+-- change_table(:inwards)
+   -> 0.3711s
+-- drop_table(:inwards)
+   -> 0.0178s
+-- create_table("inwards")
+   -> 0.0188s
+-- change_table(:inwards)
+   -> 0.5335s
+-- drop_table(:inwards)
+   -> 0.0316s
+-- create_table("inwards")
+   -> 0.0174s
+-- change_table(:inwards)
+   -> 0.3705s
+-- drop_table(:inwards)
+   -> 0.0538s
+-- create_table("inwards")
+   -> 0.0438s
+-- change_table(:inwards)
+   -> 0.3348s
+-- drop_table(:inwards)
+   -> 0.0586s
+-- create_table("inwards")
+   -> 0.0635s
+-- change_table(:inwards)
+   -> 0.4646s
+-- drop_table(:inwards)
+   -> 0.0332s
+-- create_table("inwards")
+   -> 0.0160s
+-- change_table(:inwards)
+   -> 0.2793s
+-- drop_table(:inwards)
+   -> 0.0680s
+-- create_table("inwards")
+   -> 0.0163s
+-- change_table(:inwards)
+   -> 0.2784s
+-- drop_table(:inwards)
+   -> 0.0101s
+-- create_table("inwards")
+   -> 0.0334s
+-- change_table(:inwards)
+   -> 0.2665s
+-- drop_table(:inwards)
+   -> 0.0133s
+-- create_table("inwards")
+   -> 0.0380s
+-- change_table(:inwards)
+   -> 0.2923s
+-- drop_table(:inwards)
+   -> 0.0258s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.3214s
+-- drop_table(:inwards)
+   -> 0.0708s
+-- create_table("inwards")
+   -> 0.0254s
+-- change_table(:inwards)
+   -> 0.2906s
+-- drop_table(:inwards)
+   -> 0.0125s
+-- create_table("inwards")
+   -> 0.0227s
+-- change_table(:inwards)
+   -> 0.4739s
+-- drop_table(:inwards)
+   -> 0.0139s
+-- create_table("inwards")
+   -> 0.0189s
+-- change_table(:inwards)
+   -> 0.3463s
+-- drop_table(:inwards)
+   -> 0.0310s
+-- create_table("inwards")
+   -> 0.0476s
+-- change_table(:inwards)
+   -> 0.3933s
+-- drop_table(:inwards)
+   -> 0.0121s
+-- create_table("inwards")
+   -> 0.0207s
+-- change_table(:inwards)
+   -> 0.3522s
+-- drop_table(:inwards)
+   -> 0.0308s
+-- create_table("inwards")
+   -> 0.0425s
+-- change_table(:inwards)
+   -> 0.3058s
+-- drop_table(:inwards)
+   -> 0.0085s
+-- create_table("inwards")
+   -> 0.0323s
+-- change_table(:inwards)
+   -> 0.3146s
+-- drop_table(:inwards)
+   -> 0.0148s
+-- create_table("inwards")
+   -> 0.0343s
+-- change_table(:inwards)
+   -> 0.3308s
+-- drop_table(:inwards)
+   -> 0.0273s
+-- create_table("inwards")
+   -> 0.0329s
+-- change_table(:inwards)
+   -> 0.2907s
+-- drop_table(:inwards)
+   -> 0.0558s
+-- create_table("inwards")
+   -> 0.0181s
+-- change_table(:inwards)
+   -> 0.3093s
+-- drop_table(:inwards)
+   -> 0.0224s
+-- create_table("inwards")
+   -> 0.0303s
+-- change_table(:inwards)
+   -> 0.7241s
+-- drop_table(:inwards)
+   -> 0.0767s
+-- create_table("inwards")
+   -> 0.0353s
+-- change_table(:inwards)
+   -> 0.3505s
+-- drop_table(:inwards)
+   -> 0.0095s
+-- create_table("inwards")
+   -> 0.0353s
+-- change_table(:inwards)
+   -> 0.3752s
+-- drop_table(:inwards)
+   -> 0.0498s
+-- create_table("inwards")
+   -> 0.0599s
+-- change_table(:inwards)
+   -> 0.3615s
+-- drop_table(:inwards)
+   -> 0.0274s
+-- create_table("inwards")
+   -> 0.0216s
+-- change_table(:inwards)
+   -> 0.2996s
+-- drop_table(:inwards)
+   -> 0.0524s
+-- create_table("inwards")
+   -> 0.0177s
+-- change_table(:inwards)
+   -> 0.3236s
+-- drop_table(:inwards)
+   -> 0.0347s
+-- create_table("inwards")
+   -> 0.0184s
+-- change_table(:inwards)
+   -> 0.3107s
+-- drop_table(:inwards)
+   -> 0.0222s
+-- create_table("inwards")
+   -> 0.0180s
+-- change_table(:inwards)
+   -> 0.3246s
+-- drop_table(:inwards)
+   -> 0.0275s
+-- create_table("inwards")
+   -> 0.0587s
+-- change_table(:inwards)
+   -> 0.3189s
+-- drop_table(:inwards)
+   -> 0.0736s
+-- create_table("inwards")
+   -> 0.0180s
+-- change_table(:inwards)
+   -> 0.4319s
+-- drop_table(:inwards)
+   -> 0.0089s
+-- create_table("inwards")
+   -> 0.0585s
+-- change_table(:inwards)
+   -> 0.3038s
+-- drop_table(:inwards)
+   -> 0.0737s
+-- create_table("inwards")
+   -> 0.0254s
+-- change_table(:inwards)
+   -> 0.3482s
+-- drop_table(:inwards)
+   -> 0.0482s
+-- create_table("inwards")
+   -> 0.0215s
+-- change_table(:inwards)
+   -> 0.2790s
+-- drop_table(:inwards)
+   -> 0.0078s
+-- create_table("inwards")
+   -> 0.0176s
+-- change_table(:inwards)
+   -> 0.3280s
+-- drop_table(:inwards)
+   -> 0.0298s
+-- create_table("inwards")
+   -> 0.0189s
+-- change_table(:inwards)
+   -> 0.2714s
+-- drop_table(:inwards)
+   -> 0.0137s
+-- create_table("inwards")
+   -> 0.0304s
+-- change_table(:inwards)
+   -> 0.2895s
+-- drop_table(:inwards)
+   -> 0.0283s
+-- create_table("inwards")
+   -> 0.0163s
+-- change_table(:inwards)
+   -> 0.3222s
+-- drop_table(:inwards)
+   -> 0.0106s
+-- create_table("inwards")
+   -> 0.0192s
+-- change_table(:inwards)
+   -> 0.2746s
+-- drop_table(:inwards)
+   -> 0.0281s
+-- create_table("inwards")
+   -> 0.0395s
+-- change_table(:inwards)
+   -> 0.5303s
+-- drop_table(:inwards)
+   -> 0.0307s
+-- create_table("inwards")
+   -> 0.0164s
+-- change_table(:inwards)
+   -> 0.2602s
+-- drop_table(:inwards)
+   -> 0.0341s
+-- create_table("inwards")
+   -> 0.0173s
+-- change_table(:inwards)
+   -> 0.2778s
+-- drop_table(:inwards)
+   -> 0.0098s
+-- create_table("inwards")
+   -> 0.0185s
+-- change_table(:inwards)
+   -> 0.2649s
+-- drop_table(:inwards)
+   -> 0.0489s
+-- create_table("inwards")
+   -> 0.0180s
+-- change_table(:inwards)
+   -> 0.4082s
+-- drop_table(:inwards)
+   -> 0.0106s
+-- create_table("inwards")
+   -> 0.0250s
+-- change_table(:inwards)
+   -> 0.2567s
+-- drop_table(:inwards)
+   -> 0.0089s
+-- create_table("inwards")
+   -> 0.0171s
+-- change_table(:inwards)
+   -> 0.2543s
+-- drop_table(:inwards)
+   -> 0.0096s
+-- create_table("inwards")
+   -> 0.0165s
+-- change_table(:inwards)
+   -> 0.2654s
+-- drop_table(:inwards)
+   -> 0.0134s
+-- create_table("inwards")
+   -> 0.0162s
+-- change_table(:inwards)
+   -> 0.2626s
+-- drop_table(:inwards)
+   -> 0.0335s
+-- create_table("inwards")
+   -> 0.0176s
+-- change_table(:inwards)
+   -> 0.2809s
+-- drop_table(:inwards)
+   -> 0.0314s
+-- create_table("inwards")
+   -> 0.0159s
+-- change_table(:inwards)
+   -> 0.2554s
+-- drop_table(:inwards)
+   -> 0.0510s
+-- create_table("inwards")
+   -> 0.0186s
+-- change_table(:inwards)
+   -> 0.3002s
+-- drop_table(:inwards)
+   -> 0.0082s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.3092s
+-- drop_table(:inwards)
+   -> 0.0419s
+-- create_table("inwards")
+   -> 0.0205s
+-- change_table(:inwards)
+   -> 0.3312s
+-- drop_table(:inwards)
+   -> 0.0186s
+-- create_table("inwards")
+   -> 0.0190s
+-- change_table(:inwards)
+   -> 0.3177s
+-- drop_table(:inwards)
+   -> 0.0397s
+-- create_table("inwards")
+   -> 0.0533s
+-- change_table(:inwards)
+   -> 0.3098s
+-- drop_table(:inwards)
+   -> 0.0128s
+-- create_table("inwards")
+   -> 0.0215s
+-- change_table(:inwards)
+   -> 0.3059s
+-- drop_table(:inwards)
+   -> 0.0514s
+-- create_table("inwards")
+   -> 0.0938s
+-- change_table(:inwards)
+   -> 0.2971s
+-- drop_table(:inwards)
+   -> 0.0307s
+-- create_table("inwards")
+   -> 0.0169s
+-- change_table(:inwards)
+   -> 0.3055s
+-- drop_table(:inwards)
+   -> 0.0101s
+-- create_table("inwards")
+   -> 0.0179s
+-- change_table(:inwards)
+   -> 0.6185s
+-- drop_table(:inwards)
+   -> 0.0549s
+-- create_table("inwards")
+   -> 0.0200s
+-- change_table(:inwards)
+   -> 0.2763s
+-- drop_table(:inwards)
+   -> 0.0383s
+-- create_table("inwards")
+   -> 0.0721s
+-- change_table(:inwards)
+   -> 0.3005s
+-- drop_table(:inwards)
+   -> 0.0345s
+-- create_table("inwards")
+   -> 0.0366s
+-- change_table(:inwards)
+   -> 0.2357s
+-- drop_table(:inwards)
+   -> 0.0271s
+-- create_table("inwards")
+   -> 0.0238s
+-- change_table(:inwards)
+   -> 0.2771s
+-- drop_table(:inwards)
+   -> 0.0271s
+-- create_table("inwards")
+   -> 0.0287s
+-- change_table(:inwards)
+   -> 0.2897s
+-- drop_table(:inwards)
+   -> 0.0102s
+-- create_table("inwards")
+   -> 0.0275s
+-- change_table(:inwards)
+   -> 0.2886s
+-- drop_table(:inwards)
+   -> 0.0514s
+-- create_table("inwards")
+   -> 0.0230s
+-- change_table(:inwards)
+   -> 0.3192s
+-- drop_table(:inwards)
+   -> 0.0141s
+-- create_table("inwards")
+   -> 0.0220s
+-- change_table(:inwards)
+   -> 0.4511s
+-- drop_table(:inwards)
+   -> 0.0149s
+-- create_table("inwards")
+   -> 0.0337s
+-- change_table(:inwards)
+   -> 0.3332s
+-- drop_table(:inwards)
+   -> 0.0130s
+-- create_table("inwards")
+   -> 0.0223s
+-- change_table(:inwards)
+   -> 0.5234s
+-- drop_table(:inwards)
+   -> 0.0171s
+-- create_table("inwards")
+   -> 0.0217s
+-- change_table(:inwards)
+   -> 0.3258s
+-- drop_table(:inwards)
+   -> 0.0271s
+-- create_table("inwards")
+   -> 0.0246s
+-- change_table(:inwards)
+   -> 0.3256s
+-- drop_table(:inwards)
+   -> 0.0795s
+-- create_table("inwards")
+   -> 0.0328s
+-- change_table(:inwards)
+   -> 0.3224s
+-- drop_table(:inwards)
+   -> 0.0695s
+-- create_table("inwards")
+   -> 0.1165s
+-- change_table(:inwards)
+   -> 0.3973s
+-- drop_table(:inwards)
+   -> 0.0677s
+-- create_table("inwards")
+   -> 0.0351s
+-- change_table(:inwards)
+   -> 0.3142s
+-- drop_table(:inwards)
+   -> 0.0114s
+-- create_table("inwards")
+   -> 0.0211s
+-- change_table(:inwards)
+   -> 0.3204s
+-- drop_table(:inwards)
+   -> 0.0180s
+-- create_table("inwards")
+   -> 0.0225s
+-- change_table(:inwards)
+   -> 0.3022s
+-- drop_table(:inwards)
+   -> 0.0115s
+-- create_table("inwards")
+   -> 0.0208s
+-- change_table(:inwards)
+   -> 0.3056s
+-- drop_table(:inwards)
+   -> 0.0389s
+-- create_table("inwards")
+   -> 0.0310s
+-- drop_table(:inwards)
+   -> 0.0103s
+-- create_table("inwards")
+   -> 0.0216s
+-- change_table(:inwards)
+   -> 0.2923s
+-- drop_table(:inwards)
+   -> 0.0605s
+-- create_table("inwards")
+   -> 0.0225s
+-- change_table(:inwards)
+   -> 0.4170s
+-- drop_table(:inwards)
+   -> 0.0780s
+-- create_table("inwards")
+   -> 0.0194s
+-- change_table(:inwards)
+   -> 0.3391s
+-- drop_table(:inwards)
+   -> 0.0127s
+-- create_table("inwards")
+   -> 0.0227s
+-- change_table(:inwards)
+   -> 0.3535s
+-- drop_table(:inwards)
+   -> 0.0128s
+-- create_table("inwards")
+   -> 0.0246s
+-- change_table(:inwards)
+   -> 0.3404s
+-- drop_table(:inwards)
+   -> 0.0730s
+-- create_table("inwards")
+   -> 0.0736s
+-- change_table(:inwards)
+   -> 0.3219s
+-- drop_table(:inwards)
+   -> 0.0474s
+-- create_table("inwards")
+   -> 0.0281s
+-- change_table(:inwards)
+   -> 0.3048s
+-- drop_table(:inwards)
+   -> 0.0119s
+-- create_table("inwards")
+   -> 0.0224s
+-- change_table(:inwards)
+   -> 0.2958s

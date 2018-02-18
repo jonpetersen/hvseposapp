@@ -3,11 +3,11 @@ class BarcodeReportController < Sinatra::Base
   get '/' do
     #get details of stock items with alternative plu's in created range
     
-    alternative_plus = Stockalt.joins(:stock).where("altsku > ?",5199999900000)
+    alternative_plus = Stockalt.joins(:stock).where("altsku > ?",5099999000000)
     
     #get details of stock items with plu's in created range
     
-    created_plus = Stock.where("plu > ? AND plu < ?",5199999000000,5200000000000)
+    created_plus = Stock.where("plu > ? AND plu < ?",5099999000000,5200000000000)
     
     #merge them
     

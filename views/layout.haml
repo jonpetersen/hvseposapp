@@ -38,7 +38,7 @@
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a{:href => "../saleschart"} Sales Charts
+              %a{:href => "../saleschart"}Charts
             %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                 Sales Activity
@@ -54,9 +54,11 @@
                   %a{:href => "../transactionsize"} Transaction Sizes
             %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-                Sales Reports
+                Reports
                 %span.caret
               %ul.dropdown-menu{:role => "menu"}
+                %li
+                  %a{:href => "../stockvatincorrect"} Items with Incorrect VAT
                 %li
                   %a{:href => "../transactionstoday"} Today's Transactions
                 %li
@@ -72,7 +74,33 @@
                 %li
                   %a{:href => "../monthlyreport"} All Time Sales Report
                 %li
-                  %a{:href => "../monthlyreport?yyyymm=201703"} Current Month
+                  %a{:href => "../monthlyreport?yyyy=2016"} Fin Yr 2016
+                %li
+                  %a{:href => "../monthlyreport?yyyy=2016"} Fin Yr 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201802"} Current Month
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201801"} January 2018
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201712"} December 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201711"} November 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201710"} October 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201709"} September 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201708"} August 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201707"} July 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201706"} June 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201705"} May 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201704"} April 2017
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201703"} March 2017
                 %li
                   %a{:href => "../monthlyreport?yyyymm=201702"} February 2017
                 %li
@@ -113,6 +141,10 @@
                 %li
                   %a{:href => "../topsellersarchivesalesreport"} Since 28 Oct 2015
                 %li
+                  %a{:href => "../topsellersyearsalesreport?yyyy=2017"} Fin Yr 2017
+                %li
+                  %a{:href => "../topsellersyearsalesreport?yyyy=2016"} Fin Yr 2016
+                %li
                   %a{:href => "../topsellerslastmonthsalesreport"} Last Month
                 %li
                   %a{:href => "../topsellersallsalesreport"} Current Month
@@ -121,7 +153,7 @@
                 %li
                   %a{:href => "../nonsellers"} Nonsellers
             %li
-              %a{:href => "../barcodereport"} Barcode List
+              %a{:href => "../barcodereport"} Barcodes
             %li
               %a{:href => "mailto:villageshop@hambledonsurrey.co.uk"} Contact
 

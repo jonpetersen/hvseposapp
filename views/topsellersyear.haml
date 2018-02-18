@@ -1,0 +1,21 @@
+%div
+  %strong{:style => "font-size:22px"} Top Sellers #{@report_time} - Total #{Money.new(@salestotal*100).format}
+%table{:class => "table table-bordered"}
+  %tbody
+    %tr
+      %td <b>ITEM
+      %td <b>GROUP
+      %td <b>DEPT
+      %td <b>VALUE
+      %td <b>QTY
+      %td <b>AVG £
+      
+    - @topsellers.each do |row|
+      %tr
+        %td 
+          %a{:href => "../stockitem/#{row[1]}"} #{row[0]}
+        %td= row[5]
+        %td= row[4]
+        %td= Money.new(row[2]*100).format
+        %td= row[3].round if row[2]
+        %td= Money.new((row[2]/row[3])*100).format if row[3] != 0

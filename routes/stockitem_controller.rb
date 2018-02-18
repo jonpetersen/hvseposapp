@@ -34,7 +34,9 @@ class StockitemController < Sinatra::Base
     
     item_total_qtysold_by_day_allsales = allsales.group_by_day(:created_at,dates: true, range: (Time.now.mday - 1).days.ago.midnight..Time.now).sum(:qty)
     item_total_qtysold_by_day_archivesales = archivesales.group_by_day(:created_at,dates: true, range: Time.parse("28 Oct 2015")..Time.now).sum(:qty)
-    item_total_qtysold_by_day_sales = sales.group_by_day(:created_at,dates: true,last: 1).sum(:qty)
+    #item_total_qtysold_by_day_sales = sales.group_by_day(:created_at,dates: true,last: 1).sum(:qty)
+    item_total_qtysold_by_day_sales = sales.sum(:qty)
+    item_total_qtysold_by_day_sales = {Date.today => item_total_qtysold_by_day_sales}
     
     item_total_qtysold_by_day = item_total_qtysold_by_day_archivesales.merge(item_total_qtysold_by_day_allsales){|key, oldval, newval| newval + oldval}.merge(item_total_qtysold_by_day_sales){|key, oldval, newval| newval + oldval}
         
