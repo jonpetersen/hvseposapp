@@ -6268,3 +6268,13 @@
    -> 0.0920s
 -- add_index(:stocks, :dept)
    -> 0.0560s
+-- drop_table(:stocks)
+   -> 0.0135s
+-- create_table("stocks")
+   -> 0.0245s
+-- change_table(:stocks)
+   -> 3.0817s
+-- add_index(:stocks, :plu)
+   -> 0.0806s
+-- add_index(:stocks, :dept)
+   -> 0.0449s

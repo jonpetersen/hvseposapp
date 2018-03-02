@@ -16760,3 +16760,22 @@ Sale count is 339 rec count is 346 so creating
 -- change_table(:sales)
    -> 1.2847s
 Sale count is 346 rec count is 346 so skipping
+Sale count is 346 rec count is 354 so creating
+-- drop_table(:sales)
+   -> 0.0098s
+-- create_table("sales")
+   -> 0.0245s
+-- add_column(:sales, :created_at, :datetime)
+   -> 0.0343s
+-- add_index(:sales, :plu)
+   -> 0.0264s
+-- add_index(:sales, :type)
+   -> 0.0231s
+-- add_index(:sales, :date)
+   -> 0.0202s
+-- add_index(:sales, :time)
+   -> 0.0233s
+-- add_index(:sales, [:plu, :type])
+   -> 0.0234s
+-- change_table(:sales)
+   -> 3.2345s
