@@ -3736,4 +3736,106 @@ N+1 Query method call stack
 /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
 /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
 /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_10322500'
-/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'
+/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'2018-02-22 14:49:57[WARN] user: jon
+/stockvatincorrect
+N+1 Query detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'
+
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'2018-02-22 14:49:57[WARN] user: jon
+/stockvatincorrect
+N+1 Query detected
+  Depart => [:group]
+  Add to your finder: :includes => [:group]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'
+
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'2018-02-23 10:58:06[WARN] user: jon
+/stockvatincorrect
+N+1 Query detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'
+
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'2018-02-23 10:58:06[WARN] user: jon
+/stockvatincorrect
+N+1 Query detected
+  Depart => [:group]
+  Add to your finder: :includes => [:group]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'
+
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `instance_eval'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-9:in `singleton class'
+/home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-11:in `__tilt_20680180'
+/home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:64:in `block in <class:StockvatincorrectController>'2018-02-23 21:26:16[WARN] user: jon
+/barcodereport
+N+1 Query detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'2018-02-23 21:28:03[WARN] user: jon
+/barcodereport
+N+1 Query detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'2018-02-24 04:38:12[WARN] user: jon
+/barcodereport
+N+1 Query detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+N+1 Query method call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+/home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'

@@ -29386,3 +29386,6771 @@
    -> 0.0170s
 -- add_index(:departs, :gid)
    -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0234s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0070s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0170s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0113s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0198s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0082s
+-- create_table("groups")
+   -> 0.0228s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0193s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0081s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0214s
+-- create_table("departs")
+   -> 0.0227s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0069s
+-- create_table("groups")
+   -> 0.0321s
+-- add_index(:groups, :gid)
+   -> 0.0217s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0298s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0117s
+-- create_table("groups")
+   -> 0.0193s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0178s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0124s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0082s
+-- create_table("groups")
+   -> 0.0220s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0267s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0189s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0064s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0194s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0302s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0227s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0254s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0186s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0119s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0200s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0164s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0123s
+-- create_table("groups")
+   -> 0.0226s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0174s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0204s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0328s
+-- add_index(:groups, :gid)
+   -> 0.0204s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0169s
+-- add_index(:departs, :gid)
+   -> 0.0260s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0249s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0105s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0192s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0187s
+-- create_table("groups")
+   -> 0.0243s
+-- add_index(:groups, :gid)
+   -> 0.0258s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0233s
+-- add_index(:departs, :gid)
+   -> 0.0263s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0197s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0240s
+-- drop_table(:groups)
+   -> 0.0133s
+-- create_table("groups")
+   -> 0.0371s
+-- add_index(:groups, :gid)
+   -> 0.0280s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0239s
+-- add_index(:departs, :gid)
+   -> 0.0294s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0224s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0225s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0637s
+-- add_index(:groups, :gid)
+   -> 0.0264s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0246s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0265s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0269s
+-- add_index(:groups, :gid)
+   -> 0.0242s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0174s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0250s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0252s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0213s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0302s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0240s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0216s
+-- create_table("groups")
+   -> 0.0311s
+-- add_index(:groups, :gid)
+   -> 0.0270s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0175s
+-- add_index(:groups, :gid)
+   -> 0.0217s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0160s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0254s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0153s
+-- create_table("groups")
+   -> 0.0213s
+-- add_index(:groups, :gid)
+   -> 0.0250s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0119s
+-- create_table("groups")
+   -> 0.0169s
+-- add_index(:groups, :gid)
+   -> 1.0664s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0163s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0163s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0159s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0081s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0275s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0243s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0167s
+-- add_index(:groups, :gid)
+   -> 0.0196s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0255s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0244s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0178s
+-- add_index(:groups, :gid)
+   -> 0.0193s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0223s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0226s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0224s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0223s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0124s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0217s
+-- add_index(:departs, :gid)
+   -> 0.0196s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0236s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0182s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0268s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0235s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0165s
+-- add_index(:groups, :gid)
+   -> 0.0194s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0074s
+-- create_table("groups")
+   -> 0.0166s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0171s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0113s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0062s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0166s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0119s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0320s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0164s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0189s
+-- drop_table(:groups)
+   -> 0.0130s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0365s
+-- create_table("groups")
+   -> 0.0606s
+-- add_index(:groups, :gid)
+   -> 0.0714s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0082s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0134s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0195s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0204s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0219s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0142s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0244s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0218s
+-- add_index(:departs, :gid)
+   -> 0.0532s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0193s
+-- add_index(:groups, :gid)
+   -> 0.0258s
+-- drop_table(:departs)
+   -> 0.0111s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0300s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0117s
+-- create_table("departs")
+   -> 0.0247s
+-- add_index(:departs, :gid)
+   -> 0.0240s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0166s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0373s
+-- add_index(:groups, :gid)
+   -> 0.0289s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0242s
+-- add_index(:departs, :gid)
+   -> 0.0264s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0241s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0277s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0169s
+-- add_index(:departs, :gid)
+   -> 0.0279s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0222s
+-- add_index(:groups, :gid)
+   -> 0.0201s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0112s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0248s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0299s
+-- add_index(:groups, :gid)
+   -> 0.0268s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0406s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0244s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0243s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0064s
+-- create_table("departs")
+   -> 0.0225s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0132s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0187s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0155s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0253s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0255s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0075s
+-- create_table("groups")
+   -> 0.0193s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0305s
+-- add_index(:groups, :gid)
+   -> 0.0307s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0276s
+-- drop_table(:groups)
+   -> 0.0159s
+-- create_table("groups")
+   -> 0.0375s
+-- add_index(:groups, :gid)
+   -> 0.0262s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0204s
+-- drop_table(:groups)
+   -> 0.2194s
+-- create_table("groups")
+   -> 0.1084s
+-- add_index(:groups, :gid)
+   -> 0.0644s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0248s
+-- add_index(:groups, :gid)
+   -> 0.0202s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0075s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0076s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0213s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0064s
+-- create_table("departs")
+   -> 0.0218s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0075s
+-- create_table("groups")
+   -> 0.0165s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0244s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0271s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0182s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0131s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0245s
+-- add_index(:departs, :gid)
+   -> 0.0256s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0158s
+-- create_table("groups")
+   -> 0.0387s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0082s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0169s
+-- add_index(:groups, :gid)
+   -> 0.0196s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0265s
+-- add_index(:departs, :gid)
+   -> 0.0198s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0294s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0129s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0240s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0205s
+-- drop_table(:groups)
+   -> 0.0127s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0201s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0064s
+-- create_table("departs")
+   -> 0.0217s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0250s
+-- add_index(:groups, :gid)
+   -> 0.0242s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0202s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0182s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0064s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0219s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0073s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0588s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0201s
+-- add_index(:groups, :gid)
+   -> 0.0284s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0276s
+-- drop_table(:groups)
+   -> 0.0171s
+-- create_table("groups")
+   -> 0.0184s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0292s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0274s
+-- drop_table(:groups)
+   -> 0.0164s
+-- create_table("groups")
+   -> 0.0278s
+-- add_index(:groups, :gid)
+   -> 0.0246s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0197s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0260s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0413s
+-- add_index(:groups, :gid)
+   -> 0.0335s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0248s
+-- add_index(:departs, :gid)
+   -> 0.0252s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0454s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0189s
+-- create_table("groups")
+   -> 0.0239s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0232s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0270s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0328s
+-- add_index(:groups, :gid)
+   -> 0.0251s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0248s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0310s
+-- add_index(:groups, :gid)
+   -> 0.0259s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0269s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0229s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0281s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0292s
+-- add_index(:departs, :gid)
+   -> 0.0256s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0238s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.1225s
+-- create_table("groups")
+   -> 0.0624s
+-- add_index(:groups, :gid)
+   -> 0.0591s
+-- drop_table(:departs)
+   -> 0.0148s
+-- create_table("departs")
+   -> 0.0562s
+-- add_index(:departs, :gid)
+   -> 0.0487s
+-- drop_table(:groups)
+   -> 0.0143s
+-- create_table("groups")
+   -> 0.0268s
+-- add_index(:groups, :gid)
+   -> 0.0280s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0260s
+-- drop_table(:groups)
+   -> 0.3102s
+-- create_table("groups")
+   -> 0.0780s
+-- add_index(:groups, :gid)
+   -> 0.0616s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0268s
+-- add_index(:departs, :gid)
+   -> 0.0252s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0264s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0283s
+-- drop_table(:groups)
+   -> 0.0086s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0241s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0240s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0252s
+-- create_table("groups")
+   -> 0.0278s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0182s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0247s
+-- drop_table(:departs)
+   -> 0.0113s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0086s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0407s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0133s
+-- create_table("groups")
+   -> 0.0184s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0227s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0234s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0368s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0170s
+-- add_index(:departs, :gid)
+   -> 0.0205s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0215s
+-- add_index(:groups, :gid)
+   -> 0.0196s
+-- drop_table(:departs)
+   -> 0.0313s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0074s
+-- create_table("groups")
+   -> 0.0178s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0251s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0258s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0290s
+-- add_index(:departs, :gid)
+   -> 0.0236s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0066s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0131s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0235s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0235s
+-- drop_table(:departs)
+   -> 0.0117s
+-- create_table("departs")
+   -> 0.0227s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0224s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0229s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0121s
+-- create_table("departs")
+   -> 0.0197s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0312s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0230s
+-- create_table("groups")
+   -> 0.0292s
+-- add_index(:groups, :gid)
+   -> 0.0288s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0313s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0152s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0275s
+-- drop_table(:departs)
+   -> 0.0109s
+-- create_table("departs")
+   -> 0.0329s
+-- add_index(:departs, :gid)
+   -> 0.0263s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0224s
+-- add_index(:groups, :gid)
+   -> 0.0253s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0378s
+-- add_index(:departs, :gid)
+   -> 0.0279s
+-- drop_table(:groups)
+   -> 0.0129s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0267s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0236s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0320s
+-- add_index(:groups, :gid)
+   -> 0.0279s
+-- drop_table(:departs)
+   -> 0.0120s
+-- create_table("departs")
+   -> 0.0271s
+-- add_index(:departs, :gid)
+   -> 0.0273s
+-- drop_table(:groups)
+   -> 0.0112s
+-- create_table("groups")
+   -> 0.0275s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0357s
+-- create_table("groups")
+   -> 0.0661s
+-- add_index(:groups, :gid)
+   -> 0.0251s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0237s
+-- add_index(:departs, :gid)
+   -> 0.0366s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0282s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0141s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0410s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0262s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0274s
+-- drop_table(:departs)
+   -> 0.0145s
+-- create_table("departs")
+   -> 0.0231s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0136s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0329s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0230s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0123s
+-- create_table("groups")
+   -> 0.0292s
+-- add_index(:groups, :gid)
+   -> 0.0362s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0383s
+-- add_index(:departs, :gid)
+   -> 0.0302s
+-- drop_table(:groups)
+   -> 0.0137s
+-- create_table("groups")
+   -> 0.0219s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0172s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0688s
+-- create_table("groups")
+   -> 0.2296s
+-- add_index(:groups, :gid)
+   -> 0.0952s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0159s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0175s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0201s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0241s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0402s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0112s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0236s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0117s
+-- create_table("groups")
+   -> 0.0289s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0197s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0139s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0241s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0121s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0073s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0128s
+-- create_table("groups")
+   -> 0.0248s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0232s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0128s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0262s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0234s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0240s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0120s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0195s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0121s
+-- create_table("groups")
+   -> 0.0264s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0222s
+-- add_index(:groups, :gid)
+   -> 0.0341s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0221s
+-- add_index(:departs, :gid)
+   -> 0.0263s
+-- drop_table(:groups)
+   -> 0.0419s
+-- create_table("groups")
+   -> 0.0846s
+-- add_index(:groups, :gid)
+   -> 0.0553s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0361s
+-- add_index(:departs, :gid)
+   -> 0.0205s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0173s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0086s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0137s
+-- create_table("groups")
+   -> 0.0243s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0236s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0252s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0474s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0193s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0132s
+-- create_table("groups")
+   -> 0.0250s
+-- add_index(:groups, :gid)
+   -> 0.0289s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0264s
+-- add_index(:departs, :gid)
+   -> 0.0258s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0179s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0109s
+-- create_table("departs")
+   -> 0.0169s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0162s
+-- create_table("groups")
+   -> 0.0369s
+-- add_index(:groups, :gid)
+   -> 0.0271s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0281s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0226s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0248s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0232s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0201s
+-- add_index(:groups, :gid)
+   -> 0.0202s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0257s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0168s
+-- create_table("groups")
+   -> 0.0425s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0229s
+-- add_index(:departs, :gid)
+   -> 0.0284s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0213s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0260s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0265s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0174s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0116s
+-- create_table("departs")
+   -> 0.0237s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0367s
+-- add_index(:groups, :gid)
+   -> 0.0257s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0229s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0121s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0381s
+-- add_index(:groups, :gid)
+   -> 0.0285s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0305s
+-- add_index(:departs, :gid)
+   -> 0.0379s
+-- drop_table(:groups)
+   -> 0.0160s
+-- create_table("groups")
+   -> 0.0250s
+-- add_index(:groups, :gid)
+   -> 0.0337s
+-- drop_table(:departs)
+   -> 0.0206s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0514s
+-- drop_table(:groups)
+   -> 0.0131s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0198s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0370s
+-- create_table("groups")
+   -> 0.0853s
+-- add_index(:groups, :gid)
+   -> 0.0371s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0176s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0183s
+-- add_index(:departs, :gid)
+   -> 0.0197s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0202s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0178s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0073s
+-- create_table("departs")
+   -> 0.0172s
+-- add_index(:departs, :gid)
+   -> 0.0260s
+-- drop_table(:groups)
+   -> 0.0170s
+-- create_table("groups")
+   -> 0.0187s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0181s
+-- add_index(:groups, :gid)
+   -> 0.0301s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0104s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0169s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0240s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0179s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0181s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0185s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0162s
+-- add_index(:departs, :gid)
+   -> 0.0189s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0187s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0161s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0184s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0286s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0077s
+-- create_table("departs")
+   -> 0.0281s
+-- add_index(:departs, :gid)
+   -> 0.0195s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0164s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0101s
+-- create_table("groups")
+   -> 0.0163s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0160s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0166s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0189s
+-- add_index(:groups, :gid)
+   -> 0.0200s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0265s
+-- add_index(:groups, :gid)
+   -> 0.0200s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0239s
+-- add_index(:departs, :gid)
+   -> 0.0338s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0189s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0131s
+-- create_table("groups")
+   -> 0.0360s
+-- add_index(:groups, :gid)
+   -> 0.0263s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0135s
+-- create_table("groups")
+   -> 0.0229s
+-- add_index(:groups, :gid)
+   -> 0.0247s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0247s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0130s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0234s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0247s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0248s
+-- add_index(:departs, :gid)
+   -> 0.0274s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0179s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0267s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0233s
+-- add_index(:departs, :gid)
+   -> 0.0267s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0384s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0116s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0142s
+-- create_table("groups")
+   -> 0.0252s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0180s
+-- create_table("groups")
+   -> 0.0770s
+-- add_index(:groups, :gid)
+   -> 0.0605s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0266s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0235s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0125s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0285s
+-- drop_table(:departs)
+   -> 0.0055s
+-- create_table("departs")
+   -> 0.0223s
+-- add_index(:departs, :gid)
+   -> 0.0267s
+-- drop_table(:groups)
+   -> 0.0130s
+-- create_table("groups")
+   -> 0.0246s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0195s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0254s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0275s
+-- drop_table(:groups)
+   -> 0.0156s
+-- create_table("groups")
+   -> 0.0238s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0216s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0183s
+-- add_index(:departs, :gid)
+   -> 0.0240s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0186s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0133s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0271s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0104s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0123s
+-- create_table("groups")
+   -> 0.0181s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0082s
+-- create_table("groups")
+   -> 0.0233s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0066s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0222s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0066s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0182s
+-- add_index(:groups, :gid)
+   -> 0.0204s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0248s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0178s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0065s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0112s
+-- create_table("groups")
+   -> 0.0328s
+-- add_index(:groups, :gid)
+   -> 0.0281s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0283s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0236s
+-- add_index(:departs, :gid)
+   -> 0.0252s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0169s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0238s
+-- add_index(:groups, :gid)
+   -> 0.0246s
+-- drop_table(:departs)
+   -> 0.0119s
+-- create_table("departs")
+   -> 0.0218s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0072s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0258s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0232s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0260s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0198s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0251s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0168s
+-- create_table("groups")
+   -> 0.0235s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0216s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0173s
+-- add_index(:groups, :gid)
+   -> 0.0204s
+-- drop_table(:departs)
+   -> 0.0065s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0086s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0260s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0260s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0298s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0245s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0387s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0244s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0266s
+-- drop_table(:groups)
+   -> 0.0127s
+-- create_table("groups")
+   -> 0.0221s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0125s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0072s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0060s
+-- create_table("departs")
+   -> 0.0243s
+-- add_index(:departs, :gid)
+   -> 0.0258s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0221s
+-- add_index(:departs, :gid)
+   -> 0.0285s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0330s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0287s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0238s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0256s
+-- drop_table(:groups)
+   -> 0.0253s
+-- create_table("groups")
+   -> 0.0331s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0102s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0282s
+-- drop_table(:groups)
+   -> 0.0215s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0259s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0333s
+-- add_index(:groups, :gid)
+   -> 0.0195s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0218s
+-- add_index(:departs, :gid)
+   -> 0.0266s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0503s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0135s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0807s
+-- add_index(:groups, :gid)
+   -> 0.9630s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0139s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0224s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0279s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0065s
+-- create_table("departs")
+   -> 0.0245s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0327s
+-- create_table("groups")
+   -> 0.0280s
+-- add_index(:groups, :gid)
+   -> 0.0348s
+-- drop_table(:departs)
+   -> 0.0131s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0184s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0153s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0240s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0238s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0232s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0236s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0243s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0274s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0162s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0264s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0181s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0241s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0219s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0242s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0202s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0233s
+-- add_index(:groups, :gid)
+   -> 0.0241s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0213s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0242s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0245s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0236s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0167s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0116s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0252s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0254s
+-- drop_table(:groups)
+   -> 0.0130s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0259s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0076s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0279s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0201s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0258s
+-- drop_table(:departs)
+   -> 0.0101s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0121s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0243s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0248s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0235s
+-- drop_table(:departs)
+   -> 0.0143s
+-- create_table("departs")
+   -> 0.0243s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0242s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0223s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0129s
+-- create_table("groups")
+   -> 0.0348s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0260s
+-- add_index(:departs, :gid)
+   -> 0.0254s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0101s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0257s
+-- drop_table(:departs)
+   -> 0.0104s
+-- create_table("departs")
+   -> 0.0240s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0255s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0277s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0240s
+-- add_index(:departs, :gid)
+   -> 0.0286s
+-- drop_table(:groups)
+   -> 0.0117s
+-- create_table("groups")
+   -> 0.0213s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0205s
+-- create_table("groups")
+   -> 0.0246s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0205s
+-- add_index(:departs, :gid)
+   -> 0.0290s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0200s
+-- drop_table(:groups)
+   -> 0.0127s
+-- create_table("groups")
+   -> 0.0263s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0223s
+-- add_index(:departs, :gid)
+   -> 0.0282s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0249s
+-- add_index(:groups, :gid)
+   -> 0.0252s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0073s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0221s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0277s
+-- add_index(:groups, :gid)
+   -> 0.0257s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0240s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0112s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0309s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0152s
+-- create_table("groups")
+   -> 0.0242s
+-- add_index(:groups, :gid)
+   -> 0.0236s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0199s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0101s
+-- create_table("groups")
+   -> 0.0375s
+-- add_index(:groups, :gid)
+   -> 0.0324s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0262s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0112s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0282s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0254s
+-- add_index(:departs, :gid)
+   -> 0.0248s
+-- drop_table(:groups)
+   -> 0.0136s
+-- create_table("groups")
+   -> 0.0252s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0349s
+-- create_table("groups")
+   -> 0.0867s
+-- add_index(:groups, :gid)
+   -> 0.2163s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0138s
+-- create_table("groups")
+   -> 0.0245s
+-- add_index(:groups, :gid)
+   -> 0.0260s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0234s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0207s
+-- add_index(:groups, :gid)
+   -> 0.0254s
+-- drop_table(:departs)
+   -> 0.0117s
+-- create_table("departs")
+   -> 0.0262s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0130s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0257s
+-- drop_table(:departs)
+   -> 0.0109s
+-- create_table("departs")
+   -> 0.0244s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0125s
+-- create_table("groups")
+   -> 0.0250s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0120s
+-- create_table("groups")
+   -> 0.0217s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0122s
+-- create_table("groups")
+   -> 0.0201s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0065s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0253s
+-- drop_table(:groups)
+   -> 0.0142s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0408s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0225s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0121s
+-- create_table("groups")
+   -> 0.0169s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0235s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0249s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0128s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0250s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0274s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0132s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0183s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0215s
+-- add_index(:groups, :gid)
+   -> 0.0269s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0229s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0124s
+-- create_table("groups")
+   -> 0.0423s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0235s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0211s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0117s
+-- create_table("groups")
+   -> 0.0230s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0170s
+-- add_index(:departs, :gid)
+   -> 0.0258s
+-- drop_table(:groups)
+   -> 0.0100s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0210s
+-- add_index(:departs, :gid)
+   -> 0.0257s
+-- drop_table(:groups)
+   -> 0.0121s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0073s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.1160s
+-- create_table("groups")
+   -> 0.0941s
+-- add_index(:groups, :gid)
+   -> 0.0644s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0206s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0195s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0120s
+-- create_table("groups")
+   -> 0.0233s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.1121s
+-- create_table("groups")
+   -> 0.1034s
+-- add_index(:groups, :gid)
+   -> 0.0504s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0222s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0257s
+-- drop_table(:groups)
+   -> 0.1105s
+-- create_table("groups")
+   -> 0.1337s
+-- add_index(:groups, :gid)
+   -> 0.0572s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0240s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0073s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0088s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0166s
+-- add_index(:departs, :gid)
+   -> 0.0264s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0302s
+-- add_index(:groups, :gid)
+   -> 0.0261s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0110s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0170s
+-- create_table("groups")
+   -> 0.0264s
+-- add_index(:groups, :gid)
+   -> 0.0292s
+-- drop_table(:departs)
+   -> 0.0137s
+-- create_table("departs")
+   -> 0.0258s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0330s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0281s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0073s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0244s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0272s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0094s
+-- create_table("departs")
+   -> 0.0236s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0086s
+-- create_table("groups")
+   -> 0.0212s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0194s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0482s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0236s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0152s
+-- create_table("groups")
+   -> 0.0231s
+-- add_index(:groups, :gid)
+   -> 0.0239s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0223s
+-- add_index(:departs, :gid)
+   -> 0.0355s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0240s
+-- add_index(:groups, :gid)
+   -> 0.0208s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0372s
+-- add_index(:groups, :gid)
+   -> 0.0244s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0266s
+-- drop_table(:groups)
+   -> 0.0119s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0247s
+-- drop_table(:departs)
+   -> 0.0113s
+-- create_table("departs")
+   -> 0.0345s
+-- add_index(:departs, :gid)
+   -> 0.0230s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0268s
+-- drop_table(:departs)
+   -> 0.0126s
+-- create_table("departs")
+   -> 0.0242s
+-- add_index(:departs, :gid)
+   -> 0.0311s
+-- drop_table(:groups)
+   -> 0.0287s
+-- create_table("groups")
+   -> 0.0215s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0345s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0207s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0358s
+-- drop_table(:departs)
+   -> 0.0395s
+-- create_table("departs")
+   -> 0.0304s
+-- add_index(:departs, :gid)
+   -> 0.0370s
+-- drop_table(:groups)
+   -> 0.0289s
+-- create_table("groups")
+   -> 0.0356s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0151s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0243s
+-- drop_table(:groups)
+   -> 0.0407s
+-- create_table("groups")
+   -> 0.0754s
+-- add_index(:groups, :gid)
+   -> 0.0586s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0203s
+-- drop_table(:departs)
+   -> 0.0066s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0203s
+-- add_index(:groups, :gid)
+   -> 0.0259s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0221s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0172s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.1119s
+-- create_table("groups")
+   -> 0.0932s
+-- add_index(:groups, :gid)
+   -> 0.0769s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0224s
+-- drop_table(:groups)
+   -> 0.2292s
+-- create_table("groups")
+   -> 0.1053s
+-- add_index(:groups, :gid)
+   -> 0.0912s
+-- drop_table(:departs)
+   -> 0.0073s
+-- create_table("departs")
+   -> 0.0315s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0210s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0173s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0168s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0111s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0171s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.1130s
+-- create_table("groups")
+   -> 0.1117s
+-- add_index(:groups, :gid)
+   -> 0.0701s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0223s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0078s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0241s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0227s
+-- drop_table(:groups)
+   -> 0.0113s
+-- create_table("groups")
+   -> 0.0189s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0124s
+-- create_table("groups")
+   -> 0.0247s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0095s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0203s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0234s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0232s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.2367s
+-- create_table("groups")
+   -> 0.0665s
+-- add_index(:groups, :gid)
+   -> 0.0504s
+-- drop_table(:departs)
+   -> 0.0081s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0256s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0175s
+-- add_index(:groups, :gid)
+   -> 0.0213s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.1754s
+-- create_table("groups")
+   -> 0.1333s
+-- add_index(:groups, :gid)
+   -> 0.0674s
+-- drop_table(:departs)
+   -> 0.0114s
+-- create_table("departs")
+   -> 0.0180s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0247s
+-- drop_table(:groups)
+   -> 0.0179s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0103s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0131s
+-- create_table("groups")
+   -> 0.0223s
+-- add_index(:groups, :gid)
+   -> 0.0277s
+-- drop_table(:departs)
+   -> 0.0139s
+-- create_table("departs")
+   -> 0.0224s
+-- add_index(:departs, :gid)
+   -> 0.0250s
+-- drop_table(:groups)
+   -> 0.0746s
+-- create_table("groups")
+   -> 0.0641s
+-- add_index(:groups, :gid)
+   -> 0.0708s
+-- drop_table(:departs)
+   -> 0.0113s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0196s
+-- drop_table(:groups)
+   -> 0.0085s
+-- create_table("groups")
+   -> 0.0173s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0171s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0119s
+-- create_table("groups")
+   -> 0.0195s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0165s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0115s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0156s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0199s
+-- drop_table(:groups)
+   -> 0.0627s
+-- create_table("groups")
+   -> 0.1078s
+-- add_index(:groups, :gid)
+   -> 0.0768s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0165s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0262s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0163s
+-- add_index(:groups, :gid)
+   -> 0.0209s
+-- drop_table(:departs)
+   -> 0.0067s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0266s
+-- create_table("groups")
+   -> 0.0586s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0500s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0252s
+-- drop_table(:departs)
+   -> 0.0144s
+-- create_table("departs")
+   -> 0.0254s
+-- add_index(:departs, :gid)
+   -> 0.0296s
+-- drop_table(:groups)
+   -> 0.0196s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0084s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0261s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0213s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0212s
+-- drop_table(:groups)
+   -> 0.0135s
+-- create_table("groups")
+   -> 0.0214s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0221s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0184s
+-- create_table("groups")
+   -> 0.0544s
+-- add_index(:groups, :gid)
+   -> 0.0297s
+-- drop_table(:departs)
+   -> 0.0157s
+-- create_table("departs")
+   -> 0.0296s
+-- add_index(:departs, :gid)
+   -> 0.0279s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0218s
+-- add_index(:groups, :gid)
+   -> 0.0247s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0074s
+-- create_table("groups")
+   -> 0.0220s
+-- add_index(:groups, :gid)
+   -> 0.0242s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0204s
+-- add_index(:departs, :gid)
+   -> 0.0274s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0189s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0422s
+-- add_index(:groups, :gid)
+   -> 0.0236s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0327s
+-- drop_table(:groups)
+   -> 0.0124s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0212s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0315s
+-- drop_table(:groups)
+   -> 0.0179s
+-- create_table("groups")
+   -> 0.0311s
+-- add_index(:groups, :gid)
+   -> 0.0311s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0248s
+-- add_index(:departs, :gid)
+   -> 0.0248s
+-- drop_table(:groups)
+   -> 0.0329s
+-- create_table("groups")
+   -> 0.1705s
+-- add_index(:groups, :gid)
+   -> 0.0226s
+-- drop_table(:departs)
+   -> 0.0119s
+-- create_table("departs")
+   -> 0.0232s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0515s
+-- add_index(:groups, :gid)
+   -> 0.0281s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0302s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0185s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0166s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0209s
+-- create_table("groups")
+   -> 0.0266s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0230s
+-- add_index(:departs, :gid)
+   -> 0.0246s
+-- drop_table(:groups)
+   -> 0.0141s
+-- create_table("groups")
+   -> 0.0246s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0171s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0269s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0095s
+-- create_table("groups")
+   -> 0.0242s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0193s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0070s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0219s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0173s
+-- add_index(:departs, :gid)
+   -> 0.0193s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0602s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0149s
+-- create_table("groups")
+   -> 0.0254s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0115s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0249s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0287s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0251s
+-- drop_table(:departs)
+   -> 0.0128s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0235s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0199s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0186s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0092s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0177s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0227s
+-- drop_table(:departs)
+   -> 0.0096s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0233s
+-- drop_table(:groups)
+   -> 0.0272s
+-- create_table("groups")
+   -> 0.1355s
+-- add_index(:groups, :gid)
+   -> 0.2028s
+-- drop_table(:departs)
+   -> 0.0195s
+-- create_table("departs")
+   -> 0.0219s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.2586s
+-- create_table("groups")
+   -> 0.2419s
+-- add_index(:groups, :gid)
+   -> 0.0718s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0182s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.1743s
+-- create_table("groups")
+   -> 0.1433s
+-- add_index(:groups, :gid)
+   -> 0.0739s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0276s
+-- drop_table(:groups)
+   -> 0.1086s
+-- create_table("groups")
+   -> 0.2453s
+-- add_index(:groups, :gid)
+   -> 0.0993s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0183s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0198s
+-- add_index(:departs, :gid)
+   -> 0.0210s
+-- drop_table(:groups)
+   -> 0.1358s
+-- create_table("groups")
+   -> 0.0778s
+-- add_index(:groups, :gid)
+   -> 0.0614s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0215s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0169s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0071s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.1157s
+-- create_table("groups")
+   -> 0.0579s
+-- add_index(:groups, :gid)
+   -> 0.0553s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0197s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0229s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.1088s
+-- create_table("groups")
+   -> 0.1253s
+-- add_index(:groups, :gid)
+   -> 0.0677s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0203s
+-- add_index(:departs, :gid)
+   -> 0.0222s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0236s
+-- add_index(:groups, :gid)
+   -> 0.0190s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0176s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.1629s
+-- create_table("groups")
+   -> 0.9122s
+-- add_index(:groups, :gid)
+   -> 0.1121s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0103s
+-- create_table("groups")
+   -> 0.0174s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0063s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0927s
+-- create_table("groups")
+   -> 0.0694s
+-- add_index(:groups, :gid)
+   -> 0.0826s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0474s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0193s
+-- drop_table(:departs)
+   -> 0.0105s
+-- create_table("departs")
+   -> 0.0175s
+-- add_index(:departs, :gid)
+   -> 0.0254s
+-- drop_table(:groups)
+   -> 0.0892s
+-- create_table("groups")
+   -> 0.1025s
+-- add_index(:groups, :gid)
+   -> 0.0639s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0216s
+-- drop_table(:groups)
+   -> 0.0080s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0202s
+-- drop_table(:departs)
+   -> 0.0099s
+-- create_table("departs")
+   -> 0.0188s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0106s
+-- create_table("groups")
+   -> 0.0180s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0165s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0114s
+-- create_table("groups")
+   -> 0.0170s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0088s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0405s
+-- drop_table(:groups)
+   -> 0.0155s
+-- create_table("groups")
+   -> 0.0193s
+-- add_index(:groups, :gid)
+   -> 0.0238s
+-- drop_table(:departs)
+   -> 0.0138s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0175s
+-- create_table("groups")
+   -> 0.0285s
+-- add_index(:groups, :gid)
+   -> 0.0236s
+-- drop_table(:departs)
+   -> 0.0108s
+-- create_table("departs")
+   -> 0.0231s
+-- add_index(:departs, :gid)
+   -> 0.0239s
+-- drop_table(:groups)
+   -> 0.0099s
+-- create_table("groups")
+   -> 0.0197s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0113s
+-- create_table("departs")
+   -> 0.0216s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0151s
+-- create_table("groups")
+   -> 0.0460s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0109s
+-- create_table("groups")
+   -> 0.0183s
+-- add_index(:groups, :gid)
+   -> 0.0269s
+-- drop_table(:departs)
+   -> 0.0085s
+-- create_table("departs")
+   -> 0.0186s
+-- add_index(:departs, :gid)
+   -> 0.0221s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0165s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0076s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0120s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0248s
+-- drop_table(:departs)
+   -> 0.0098s
+-- create_table("departs")
+   -> 0.0209s
+-- add_index(:departs, :gid)
+   -> 0.0253s
+-- drop_table(:groups)
+   -> 0.0192s
+-- create_table("groups")
+   -> 0.0383s
+-- add_index(:groups, :gid)
+   -> 0.0233s
+-- drop_table(:departs)
+   -> 0.0062s
+-- create_table("departs")
+   -> 0.0249s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0133s
+-- create_table("groups")
+   -> 0.0208s
+-- add_index(:groups, :gid)
+   -> 0.0207s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0201s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0320s
+-- add_index(:groups, :gid)
+   -> 0.0307s
+-- drop_table(:departs)
+   -> 0.0082s
+-- create_table("departs")
+   -> 0.0238s
+-- add_index(:departs, :gid)
+   -> 0.0259s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0209s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0242s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0091s
+-- create_table("groups")
+   -> 0.0278s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0100s
+-- create_table("departs")
+   -> 0.0228s
+-- add_index(:departs, :gid)
+   -> 0.0271s
+-- drop_table(:groups)
+   -> 0.0192s
+-- create_table("groups")
+   -> 0.0234s
+-- add_index(:groups, :gid)
+   -> 0.0220s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0184s
+-- add_index(:departs, :gid)
+   -> 0.0219s
+-- drop_table(:groups)
+   -> 0.0191s
+-- create_table("groups")
+   -> 0.0257s
+-- add_index(:groups, :gid)
+   -> 0.0290s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0196s
+-- add_index(:departs, :gid)
+   -> 0.0278s
+-- drop_table(:groups)
+   -> 0.0431s
+-- create_table("groups")
+   -> 0.0752s
+-- add_index(:groups, :gid)
+   -> 0.0756s
+-- drop_table(:departs)
+   -> 0.0172s
+-- create_table("departs")
+   -> 0.0183s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0358s
+-- create_table("groups")
+   -> 0.0308s
+-- add_index(:groups, :gid)
+   -> 0.0327s
+-- drop_table(:departs)
+   -> 0.0135s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0312s
+-- drop_table(:groups)
+   -> 0.2700s
+-- create_table("groups")
+   -> 0.0743s
+-- add_index(:groups, :gid)
+   -> 0.0602s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0387s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0083s
+-- create_table("groups")
+   -> 0.0243s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0163s
+-- add_index(:departs, :gid)
+   -> 0.0220s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0176s
+-- add_index(:groups, :gid)
+   -> 0.0215s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0185s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0087s
+-- create_table("groups")
+   -> 0.0179s
+-- add_index(:groups, :gid)
+   -> 0.0237s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0167s
+-- add_index(:departs, :gid)
+   -> 0.0251s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0176s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0107s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0267s
+-- drop_table(:groups)
+   -> 0.0118s
+-- create_table("groups")
+   -> 0.0194s
+-- add_index(:groups, :gid)
+   -> 0.0217s
+-- drop_table(:departs)
+   -> 0.0069s
+-- create_table("departs")
+   -> 0.0212s
+-- add_index(:departs, :gid)
+   -> 0.0208s
+-- drop_table(:groups)
+   -> 0.0107s
+-- create_table("groups")
+   -> 0.0186s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0068s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0120s
+-- create_table("groups")
+   -> 0.0256s
+-- add_index(:groups, :gid)
+   -> 0.0297s
+-- drop_table(:departs)
+   -> 0.0111s
+-- create_table("departs")
+   -> 0.0235s
+-- add_index(:departs, :gid)
+   -> 0.0218s
+-- drop_table(:groups)
+   -> 0.0070s
+-- create_table("groups")
+   -> 0.0188s
+-- add_index(:groups, :gid)
+   -> 0.0222s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0206s
+-- drop_table(:groups)
+   -> 0.0110s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0089s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0248s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0233s
+-- add_index(:groups, :gid)
+   -> 0.0249s
+-- drop_table(:departs)
+   -> 0.0093s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0226s
+-- drop_table(:groups)
+   -> 0.0140s
+-- create_table("groups")
+   -> 0.0204s
+-- add_index(:groups, :gid)
+   -> 0.0216s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0197s
+-- add_index(:departs, :gid)
+   -> 0.0213s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0188s
+-- drop_table(:departs)
+   -> 0.0092s
+-- create_table("departs")
+   -> 0.0208s
+-- add_index(:departs, :gid)
+   -> 0.0204s
+-- drop_table(:groups)
+   -> 0.0089s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0235s
+-- drop_table(:departs)
+   -> 0.0205s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0204s
+-- drop_table(:groups)
+   -> 0.0096s
+-- create_table("groups")
+   -> 0.0191s
+-- add_index(:groups, :gid)
+   -> 0.0225s
+-- drop_table(:departs)
+   -> 0.0075s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0223s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0200s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0113s
+-- create_table("departs")
+   -> 0.0357s
+-- add_index(:departs, :gid)
+   -> 0.0245s
+-- drop_table(:groups)
+   -> 0.0084s
+-- create_table("groups")
+   -> 0.0177s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0091s
+-- create_table("departs")
+   -> 0.0187s
+-- add_index(:departs, :gid)
+   -> 0.0194s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0201s
+-- add_index(:groups, :gid)
+   -> 0.0211s
+-- drop_table(:departs)
+   -> 0.0106s
+-- create_table("departs")
+   -> 0.0181s
+-- add_index(:departs, :gid)
+   -> 0.0234s
+-- drop_table(:groups)
+   -> 0.0128s
+-- create_table("groups")
+   -> 0.0244s
+-- add_index(:groups, :gid)
+   -> 0.0244s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0167s
+-- add_index(:departs, :gid)
+   -> 0.0207s
+-- drop_table(:groups)
+   -> 0.0117s
+-- create_table("groups")
+   -> 0.0216s
+-- add_index(:groups, :gid)
+   -> 0.0218s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0201s
+-- add_index(:departs, :gid)
+   -> 0.0231s
+-- drop_table(:groups)
+   -> 0.0077s
+-- create_table("groups")
+   -> 0.0172s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0078s
+-- create_table("departs")
+   -> 0.0190s
+-- add_index(:departs, :gid)
+   -> 0.0214s
+-- drop_table(:groups)
+   -> 0.0121s
+-- create_table("groups")
+   -> 0.0199s
+-- add_index(:groups, :gid)
+   -> 0.0230s
+-- drop_table(:departs)
+   -> 0.0156s
+-- create_table("departs")
+   -> 0.0202s
+-- add_index(:departs, :gid)
+   -> 0.0232s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0222s
+-- add_index(:groups, :gid)
+   -> 0.0223s
+-- drop_table(:departs)
+   -> 0.0074s
+-- create_table("departs")
+   -> 0.0171s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0093s
+-- create_table("groups")
+   -> 0.0168s
+-- add_index(:groups, :gid)
+   -> 0.0333s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0178s
+-- add_index(:departs, :gid)
+   -> 0.0225s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0215s
+-- add_index(:groups, :gid)
+   -> 0.0280s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0189s
+-- add_index(:departs, :gid)
+   -> 0.0237s
+-- drop_table(:groups)
+   -> 0.0140s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0214s
+-- drop_table(:departs)
+   -> 0.0086s
+-- create_table("departs")
+   -> 0.0172s
+-- add_index(:departs, :gid)
+   -> 0.0215s
+-- drop_table(:groups)
+   -> 0.0090s
+-- create_table("groups")
+   -> 0.0187s
+-- add_index(:groups, :gid)
+   -> 0.0210s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0206s
+-- add_index(:departs, :gid)
+   -> 0.0244s
+-- drop_table(:groups)
+   -> 0.0079s
+-- create_table("groups")
+   -> 0.0176s
+-- add_index(:groups, :gid)
+   -> 0.0197s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0220s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0113s
+-- create_table("groups")
+   -> 0.0196s
+-- add_index(:groups, :gid)
+   -> 0.0231s
+-- drop_table(:departs)
+   -> 0.0083s
+-- create_table("departs")
+   -> 0.0234s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0126s
+-- create_table("groups")
+   -> 0.0220s
+-- add_index(:groups, :gid)
+   -> 0.0205s
+-- drop_table(:departs)
+   -> 0.0070s
+-- create_table("departs")
+   -> 0.0171s
+-- add_index(:departs, :gid)
+   -> 0.0209s
+-- drop_table(:groups)
+   -> 0.0075s
+-- create_table("groups")
+   -> 0.0175s
+-- add_index(:groups, :gid)
+   -> 0.0191s
+-- drop_table(:departs)
+   -> 0.0065s
+-- create_table("departs")
+   -> 0.0166s
+-- add_index(:departs, :gid)
+   -> 0.0211s
+-- drop_table(:groups)
+   -> 0.0129s
+-- create_table("groups")
+   -> 0.0166s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0080s
+-- create_table("departs")
+   -> 0.0226s
+-- add_index(:departs, :gid)
+   -> 0.0610s
+-- drop_table(:groups)
+   -> 0.0097s
+-- create_table("groups")
+   -> 0.0192s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0097s
+-- create_table("departs")
+   -> 0.0192s
+-- add_index(:departs, :gid)
+   -> 0.0217s
+-- drop_table(:groups)
+   -> 0.0105s
+-- create_table("groups")
+   -> 0.0237s
+-- add_index(:groups, :gid)
+   -> 0.0254s
+-- drop_table(:departs)
+   -> 0.0087s
+-- create_table("departs")
+   -> 0.0191s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0098s
+-- create_table("groups")
+   -> 0.0205s
+-- add_index(:groups, :gid)
+   -> 0.0228s
+-- drop_table(:departs)
+   -> 0.0109s
+-- create_table("departs")
+   -> 0.0200s
+-- add_index(:departs, :gid)
+   -> 0.0228s
+-- drop_table(:groups)
+   -> 0.0135s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0364s
+-- drop_table(:departs)
+   -> 0.0079s
+-- create_table("departs")
+   -> 0.0214s
+-- add_index(:departs, :gid)
+   -> 0.0243s
+-- drop_table(:groups)
+   -> 0.0104s
+-- create_table("groups")
+   -> 0.0190s
+-- add_index(:groups, :gid)
+   -> 0.0206s
+-- drop_table(:departs)
+   -> 0.0090s
+-- create_table("departs")
+   -> 0.0207s
+-- add_index(:departs, :gid)
+   -> 0.0202s
+-- drop_table(:groups)
+   -> 0.0102s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0318s
+-- drop_table(:departs)
+   -> 0.0072s
+-- create_table("departs")
+   -> 0.0222s
+-- add_index(:departs, :gid)
+   -> 0.0251s
+-- drop_table(:groups)
+   -> 0.0094s
+-- create_table("groups")
+   -> 0.0211s
+-- add_index(:groups, :gid)
+   -> 0.0224s
+-- drop_table(:departs)
+   -> 0.0111s
+-- create_table("departs")
+   -> 0.0231s
+-- add_index(:departs, :gid)
+   -> 0.0229s
+-- drop_table(:groups)
+   -> 0.0108s
+-- create_table("groups")
+   -> 0.0198s
+-- add_index(:groups, :gid)
+   -> 0.0232s
+-- drop_table(:departs)
+   -> 0.0104s
+-- create_table("departs")
+   -> 0.0266s
+-- add_index(:departs, :gid)
+   -> 0.0262s

@@ -15883,3 +15883,45 @@ hvs_migration_inwards.rb:22:in `block in up': undefined method `branch' for nil:
    -> 0.0224s
 -- change_table(:inwards)
    -> 0.2958s
+-- drop_table(:inwards)
+   -> 0.0407s
+-- create_table("inwards")
+   -> 0.0202s
+-- change_table(:inwards)
+   -> 0.3022s
+-- drop_table(:inwards)
+   -> 0.0142s
+-- create_table("inwards")
+   -> 0.0239s
+-- change_table(:inwards)
+   -> 0.2924s
+-- drop_table(:inwards)
+   -> 0.0128s
+-- create_table("inwards")
+   -> 0.0231s
+-- change_table(:inwards)
+   -> 0.2921s
+-- drop_table(:inwards)
+   -> 0.0239s
+-- create_table("inwards")
+   -> 0.0210s
+-- change_table(:inwards)
+   -> 0.3438s
+-- drop_table(:inwards)
+   -> 0.0298s
+-- create_table("inwards")
+   -> 0.0448s
+-- change_table(:inwards)
+   -> 0.3009s
+-- drop_table(:inwards)
+   -> 0.0409s
+-- create_table("inwards")
+   -> 0.0258s
+-- change_table(:inwards)
+   -> 0.3333s
+-- drop_table(:inwards)
+   -> 0.0164s
+-- create_table("inwards")
+   -> 0.0231s
+-- change_table(:inwards)
+   -> 0.3708s

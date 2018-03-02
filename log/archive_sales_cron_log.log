@@ -367,3 +367,23 @@ hvs_migration_archive_sales.rb:30:in `block (2 levels) in up': undefined method 
    -> 0.0312s
 -- add_column(:archivesales, :imovoqty, :int)
    -> 0.0328s
+hvs_migration_archive_sales.rb:30:in `block (2 levels) in up': undefined method `to_datetime' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_archive_sales.rb:29:in `block in up'
+	from hvs_migration_archive_sales.rb:27:in `each'
+	from hvs_migration_archive_sales.rb:27:in `up'
+	from hvs_migration_archive_sales.rb:66:in `<main>'
+-- drop_table(:archivesales)
+   -> 0.1628s
+-- create_table("archivesales")
+   -> 0.0291s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.1957s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.1082s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0379s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0322s
