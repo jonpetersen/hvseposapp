@@ -14,7 +14,7 @@ end
 
 class UpdateArchivesales < ActiveRecord::Migration
   def self.up
-    @archive_files = ["/home/hvsepos/Touch/ARCHIVE/001_2018_01.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_02.dbf"]
+    @archive_files = ["/home/hvsepos/Touch/ARCHIVE/001_2018_07.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_08.dbf"]
     @archive_files.each do |file|
 	  table = DBF::Table.new(file)
       table.each do |record|
