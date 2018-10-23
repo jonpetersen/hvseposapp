@@ -14699,3 +14699,11 @@
 
   class CreateGroups < ActiveRecord::Migration[4.2]
 	from all_static_tables_migration.rb:22:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateGroups < ActiveRecord::Migration[4.2]
+	from all_static_tables_migration.rb:22:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateGroups < ActiveRecord::Migration[4.2]
+	from all_static_tables_migration.rb:22:in `<main>'

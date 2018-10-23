@@ -1,5 +1,5 @@
 current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.5/ext/unf_ext
-/home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180926-27603-1wlqaca.rb extconf.rb
+/home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181023-30170-tr7g3s.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -9,10 +9,14 @@ make "DESTDIR=" clean
 current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.5/ext/unf_ext
 make "DESTDIR="
 compiling unf.cc
-g++: error: unrecognized command line option ‘-Wmisleading-indentation’
-g++: error: unrecognized command line option ‘-Wimplicit-fallthrough=0’
-g++: error: unrecognized command line option ‘-Wduplicated-cond’
-g++: error: unrecognized command line option ‘-Wrestrict’
-make: *** [unf.o] Error 1
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+linking shared-object unf_ext.so
 
-make failed, exit code 2
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20181023-30170-rrtxnh

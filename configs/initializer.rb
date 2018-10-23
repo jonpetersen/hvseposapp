@@ -16,6 +16,9 @@ require 'active_record_union'
 require 'dbf'
 require 'highcharts'
 require 'chartkick'
+include Chartkick::Helper
+
+require 'graphviz'
 require 'rails_erd/diagram/graphviz'
 require 'money'
 require 'groupdate'
