@@ -1,0 +1,743 @@
+digraph  {
+rankdir = "LR";
+ranksep = "0.5";
+nodesep = "0.4";
+pad = "0.4,0.4";
+margin = "0,0";
+concentrate = "true";
+labelloc = "t";
+fontsize = "13";
+fontname = "Arial Bold";
+splines = "spline";
+node[ shape  =  "Mrecord" , fontsize  =  "10" , fontname  =  "Arial" , margin  =  "0.07,0.05" , penwidth  =  "1.0"];
+edge[ fontname  =  "Arial" , fontsize  =  "7" , dir  =  "both" , arrowsize  =  "0.9" , penwidth  =  "1.0" , labelangle  =  "32" , labeldistance  =  "1.8"];
+rankdir = "TB";
+label = "Domain model\n\n";
+m_Allsale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Allsale</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="acccode">acccode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="accref">accref <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="branch">branch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="caddressid">caddressid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ccertno">ccertno <font face="Arial Italic" color="grey60">string (11)</font></td></tr>
+  <tr><td align="left" width="130" port="cd_no">cd_no <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cdeporef">cdeporef <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ceodid">ceodid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric">cgeneric <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric2">cgeneric2 <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="cmmatchid">cmmatchid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="covers">covers <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ctaxcodes">ctaxcodes <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctransref">ctransref <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctsuffix">ctsuffix <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cukey">cukey <font face="Arial Italic" color="grey60">string (16)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cuov">cuov <font face="Arial Italic" color="grey60">string (3)</font></td></tr>
+  <tr><td align="left" width="130" port="custcode">custcode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="date">date <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="ddysldate">ddysldate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="discamount">discamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="discreason">discreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="dtfinal">dtfinal <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export1">export1 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export2">export2 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="first">first <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext1">freetext1 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext2">freetext2 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext3">freetext3 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="imovoqty">imovoqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ipricelvl">ipricelvl <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="istatus">istatus <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lcompleted">lcompleted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lexport">lexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lflag">lflag <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmarkup">lmarkup <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmmcomp">lmmcomp <font face="Arial Italic" color="grey60">integer (1)</font></td></tr>
+  <tr><td align="left" width="130" port="lmsm">lmsm <font face="Arial Italic" color="grey60">integer (1)</font></td></tr>
+  <tr><td align="left" width="130" port="loycode">loycode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="loypoints">loypoints <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lprinted">lprinted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrechead">lrechead <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecipe">lrecipe <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecitem">lrecitem <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrefunded">lrefunded <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsageexp">lsageexp <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lshift">lshift <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lstkupdtd">lstkupdtd <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="luncexport">luncexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="mixamount">mixamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="mixmatch">mixmatch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ncashback">ncashback <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ncourse">ncourse <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ndeposit">ndeposit <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlength">nlength <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlineno">nlineno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nmmqty">nmmqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nnsreason">nnsreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="norderline">norderline <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nplusper">nplusper <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nredmpts">nredmpts <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nrounding">nrounding <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nseat">nseat <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nstdprice">nstdprice <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxshift">ntaxshift <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nvoreason">nvoreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwidth">nwidth <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="operator">operator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="printed">printed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="q1">q1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q2">q2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q3">q3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="qty">qty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes">qtydes <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="rate_start">rate_start <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="refdreason">refdreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="remoteprn">remoteprn <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="reportdate">reportdate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="serialnum">serialnum <font face="Arial Italic" color="grey60">string (48)</font></td></tr>
+  <tr><td align="left" width="130" port="sheet">sheet <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="shiftdisc">shiftdisc <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="shifttable">shifttable <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="tender1">tender1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender10">tender10 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender11">tender11 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender12">tender12 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender4">tender4 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender5">tender5 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender6">tender6 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender7">tender7 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender8">tender8 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender9">tender9 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="terminal">terminal <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="time">time <font face="Arial Italic" color="grey60">string (5)</font></td></tr>
+  <tr><td align="left" width="130" port="totalprice">totalprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="transno">transno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="type">type <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitprice">unitprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitqty">unitqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="vatamount">vatamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="vatcode">vatcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+}>];
+m_Archivesale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Archivesale</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="acccode">acccode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="accref">accref <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="branch">branch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="caddressid">caddressid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ccertno">ccertno <font face="Arial Italic" color="grey60">string (11)</font></td></tr>
+  <tr><td align="left" width="130" port="cd_no">cd_no <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cdeporef">cdeporef <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ceodid">ceodid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric">cgeneric <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric2">cgeneric2 <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="cmmatchid">cmmatchid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="covers">covers <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ctaxcodes">ctaxcodes <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctransref">ctransref <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctsuffix">ctsuffix <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cukey">cukey <font face="Arial Italic" color="grey60">string (16)</font></td></tr>
+  <tr><td align="left" width="130" port="cuov">cuov <font face="Arial Italic" color="grey60">string (3)</font></td></tr>
+  <tr><td align="left" width="130" port="custcode">custcode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="date">date <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="ddysldate">ddysldate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="discamount">discamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="discreason">discreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="dtfinal">dtfinal <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export1">export1 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export2">export2 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="first">first <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext1">freetext1 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext2">freetext2 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext3">freetext3 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="imovoqty">imovoqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ipricelvl">ipricelvl <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="istatus">istatus <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lcompleted">lcompleted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lexport">lexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lflag">lflag <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmarkup">lmarkup <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmmcomp">lmmcomp <font face="Arial Italic" color="grey60">integer (1)</font></td></tr>
+  <tr><td align="left" width="130" port="lmsm">lmsm <font face="Arial Italic" color="grey60">integer (1)</font></td></tr>
+  <tr><td align="left" width="130" port="loycode">loycode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="loypoints">loypoints <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lprinted">lprinted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrechead">lrechead <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecipe">lrecipe <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecitem">lrecitem <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrefunded">lrefunded <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsageexp">lsageexp <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lshift">lshift <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lstkupdtd">lstkupdtd <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="luncexport">luncexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="mixamount">mixamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="mixmatch">mixmatch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ncashback">ncashback <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ncourse">ncourse <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ndeposit">ndeposit <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlength">nlength <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlineno">nlineno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nmmqty">nmmqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nnsreason">nnsreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="norderline">norderline <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nplusper">nplusper <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nredmpts">nredmpts <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nrounding">nrounding <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nseat">nseat <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nstdprice">nstdprice <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxshift">ntaxshift <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nvoreason">nvoreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwidth">nwidth <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="operator">operator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="printed">printed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="q1">q1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q2">q2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q3">q3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="qty">qty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes">qtydes <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="rate_start">rate_start <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="refdreason">refdreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="remoteprn">remoteprn <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="reportdate">reportdate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="serialnum">serialnum <font face="Arial Italic" color="grey60">string (48)</font></td></tr>
+  <tr><td align="left" width="130" port="sheet">sheet <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="shiftdisc">shiftdisc <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="shifttable">shifttable <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="tender1">tender1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender10">tender10 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender11">tender11 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender12">tender12 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender4">tender4 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender5">tender5 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender6">tender6 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender7">tender7 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender8">tender8 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender9">tender9 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="terminal">terminal <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="time">time <font face="Arial Italic" color="grey60">time (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="totalprice">totalprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="transno">transno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="type">type <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitprice">unitprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitqty">unitqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="vatamount">vatamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="vatcode">vatcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+}>];
+m_Depart [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Depart</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="creceipt1">creceipt1 <font face="Arial Italic" color="grey60">string (40)</font></td></tr>
+  <tr><td align="left" width="130" port="creceipt2">creceipt2 <font face="Arial Italic" color="grey60">string (40)</font></td></tr>
+  <tr><td align="left" width="130" port="creceipt3">creceipt3 <font face="Arial Italic" color="grey60">string (40)</font></td></tr>
+  <tr><td align="left" width="130" port="ctheme">ctheme <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniquegid">cuniquegid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="exp_code">exp_code <font face="Arial Italic" color="grey60">string (15)</font></td></tr>
+  <tr><td align="left" width="130" port="halo">halo <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="imainstay">imainstay <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="isagedept">isagedept <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lalo">lalo <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ldefault">ldefault <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lonreceipt">lonreceipt <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lopalert">lopalert <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lpricebcod">lpricebcod <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ltrainee">ltrainee <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lwavesoft">lwavesoft <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lwsconsol">lwsconsol <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="maxdisc">maxdisc <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="mcomments">mcomments <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="mlabeldesc">mlabeldesc <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="mtcomments">mtcomments <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="neodreport">neodreport <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nissnlen">nissnlen <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nlabwaredp">nlabwaredp <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nloyalty">nloyalty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nprefixlen">nprefixlen <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="npricelen">npricelen <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nquestion1">nquestion1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nquestion2">nquestion2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nquestion3">nquestion3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nsequence">nsequence <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nthbcolour">nthbcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nthfcolour">nthfcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwsbcolour">nwsbcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwsfcolour">nwsfcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+}>];
+m_Eodlog [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Eodlog</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="coperator">coperator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ddated">ddated <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="dtdatetime">dtdatetime <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="lcomplete">lcomplete <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="nacpayqty">nacpayqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nacpayval">nacpayval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nacsalqty">nacsalqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nacsalval">nacsalval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nbranch">nbranch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ncoverqty">ncoverqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ndepinqty">ndepinqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndepinval">ndepinval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndepoutqty">ndepoutqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndepoutval">ndepoutval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndepredqty">ndepredqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndepredval">ndepredval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndiscqty">ndiscqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ndiscval">ndiscval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="neodref">neodref <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ngratqty">ngratqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ngratval">ngratval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ngsalesqty">ngsalesqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ngsalesval">ngsalesval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="nlpissued">nlpissued <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nmhval">nmhval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nmixval">nmixval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="nnosaleqty">nnosaleqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="npiqty">npiqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="npival">npival <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="npoqty">npoqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="npoval">npoval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nrefddqty">nrefddqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nrefddval">nrefddval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nrefdmval">nrefdmval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nrefdqty">nrefdqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nrefdval">nrefdval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="nservqty">nservqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nservval">nservval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxtotval">ntaxtotval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="nterminal">nterminal <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ntransqty">ntransqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ntx1_val">ntx1_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntx2_val">ntx2_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntx3_val">ntx3_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntx4_val">ntx4_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntx5_val">ntx5_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntx6_val">ntx6_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntx7_val">ntx7_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntx8_val">ntx8_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntx9_val">ntx9_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl1_val">ntxbl1_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl2_val">ntxbl2_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl3_val">ntxbl3_val <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl4_val">ntxbl4_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl5_val">ntxbl5_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl6_val">ntxbl6_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl7_val">ntxbl7_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl8_val">ntxbl8_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbl9_val">ntxbl9_val <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntxbtotval">ntxbtotval <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="nvaitemqty">nvaitemqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nvaqty">nvaqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nvaval">nvaval <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nviqty">nviqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nvival">nvival <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nvivalue">nvivalue <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+</table>
+}>];
+m_Group [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Group</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="exp_code">exp_code <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="ldefault">ldefault <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lnorefund">lnorefund <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lnsonostk">lnsonostk <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+</table>
+}>];
+m_Inward [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Inward</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="branch">branch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="case_cost">case_cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="case_del">case_del <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="case_in">case_in <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="case_ord">case_ord <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="case_out">case_out <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="case_qty">case_qty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="comment">comment <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="comments">comments <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="completed">completed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="cordertype">cordertype <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="creceived">creceived <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="date_in">date_in <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="first">first <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="linternal">linternal <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ltaken">ltaken <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxamount">ntaxamount <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxcode">ntaxcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nunits_del">nunits_del <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nunits_in">nunits_in <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nunits_ord">nunits_ord <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nunits_out">nunits_out <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="plu">plu <font face="Arial Italic" color="grey60">string (14)</font></td></tr>
+  <tr><td align="left" width="130" port="ref">ref <font face="Arial Italic" color="grey60">string (14)</font></td></tr>
+  <tr><td align="left" width="130" port="supp_ref">supp_ref <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="supplier">supplier <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+</table>
+}>];
+m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Sale</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="acccode">acccode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="accref">accref <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="branch">branch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="caddressid">caddressid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ccertno">ccertno <font face="Arial Italic" color="grey60">string (11)</font></td></tr>
+  <tr><td align="left" width="130" port="cd_no">cd_no <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cdeporef">cdeporef <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ceodid">ceodid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric">cgeneric <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cgeneric2">cgeneric2 <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="cmmatchid">cmmatchid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="covers">covers <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ctaxcodes">ctaxcodes <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctransref">ctransref <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="ctsuffix">ctsuffix <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="cukey">cukey <font face="Arial Italic" color="grey60">string (16)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cuov">cuov <font face="Arial Italic" color="grey60">string (3)</font></td></tr>
+  <tr><td align="left" width="130" port="custcode">custcode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="date">date <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="ddysldate">ddysldate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="discamount">discamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="discreason">discreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="dtfinal">dtfinal <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export1">export1 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="export2">export2 <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="first">first <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext1">freetext1 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext2">freetext2 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="freetext3">freetext3 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="imovoqty">imovoqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ipricelvl">ipricelvl <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="istatus">istatus <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lcompleted">lcompleted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lexport">lexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lflag">lflag <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmarkup">lmarkup <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmmcomp">lmmcomp <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmsm">lmsm <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="loycode">loycode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="loypoints">loypoints <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lprinted">lprinted <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrechead">lrechead <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecipe">lrecipe <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecitem">lrecitem <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrefunded">lrefunded <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsageexp">lsageexp <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lshift">lshift <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lstkupdtd">lstkupdtd <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="luncexport">luncexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="mixamount">mixamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="mixmatch">mixmatch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ncashback">ncashback <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ncourse">ncourse <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ndeposit">ndeposit <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlength">nlength <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nlineno">nlineno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nmmqty">nmmqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nnsreason">nnsreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="norderline">norderline <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nplusper">nplusper <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nredmpts">nredmpts <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nrounding">nrounding <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nseat">nseat <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nstdprice">nstdprice <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="ntaxshift">ntaxshift <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nvoreason">nvoreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwidth">nwidth <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="operator">operator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="printed">printed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="q1">q1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q2">q2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="q3">q3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="qty">qty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes">qtydes <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="rate_start">rate_start <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="refdreason">refdreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="remoteprn">remoteprn <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="reportdate">reportdate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="serialnum">serialnum <font face="Arial Italic" color="grey60">string (48)</font></td></tr>
+  <tr><td align="left" width="130" port="sheet">sheet <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="shiftdisc">shiftdisc <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="shifttable">shifttable <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="tender1">tender1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender10">tender10 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender11">tender11 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender12">tender12 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender4">tender4 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender5">tender5 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender6">tender6 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender7">tender7 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender8">tender8 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender9">tender9 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="terminal">terminal <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="time">time <font face="Arial Italic" color="grey60">string (5)</font></td></tr>
+  <tr><td align="left" width="130" port="totalprice">totalprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="transno">transno <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="type">type <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitprice">unitprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitqty">unitqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="vatamount">vatamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="vatcode">vatcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+}>];
+m_Stock [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Stock</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="avgcost">avgcost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="bonus">bonus <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="casecost">casecost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="caseqty">caseqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cdefloc">cdefloc <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cfacing">cfacing <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cgroupid">cgroupid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cmasterplu">cmasterplu <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="comment1">comment1 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="comment2">comment2 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="comment3">comment3 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="comprece">comprece <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="compstock">compstock <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="csize">csize <font face="Arial Italic" color="grey60">string (15)</font></td></tr>
+  <tr><td align="left" width="130" port="ctheme">ctheme <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cuovlabel">cuovlabel <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="custpts">custpts <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="cwmgroup">cwmgroup <font face="Arial Italic" color="grey60">string (4)</font></td></tr>
+  <tr><td align="left" width="130" port="cwmplu">cwmplu <font face="Arial Italic" color="grey60">string (4)</font></td></tr>
+  <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="followon">followon <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="ifrequency">ifrequency <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="ilabwareid">ilabwareid <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="kitchen">kitchen <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="labelprn">labelprn <font face="Arial Italic" color="grey60">string (56)</font></td></tr>
+  <tr><td align="left" width="130" port="lascondi">lascondi <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lastorder">lastorder <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="lastrece">lastrece <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="lastsold">lastsold <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="lasttake">lasttake <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="ldcmeasure">ldcmeasure <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ldelivery">ldelivery <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="leodprint">leodprint <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="letopup">letopup <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lfreqplu">lfreqplu <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lghost">lghost <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="linsurance">linsurance <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lmodifier">lmodifier <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lnontax">lnontax <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lnoreturn">lnoreturn <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="location">location <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
+  <tr><td align="left" width="130" port="lonfly">lonfly <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="loyex">loyex <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="loypoints">loypoints <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="lpackage">lpackage <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrcpdispla">lrcpdispla <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrcpdtrain">lrcpdtrain <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecipe">lrecipe <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrepair">lrepair <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsageexcl">lsageexcl <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsquidrdm">lsquidrdm <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lsquidtop">lsquidtop <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ltracking">ltracking <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="ltrainee">ltrainee <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="luncexport">luncexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lusedmm">lusedmm <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lusepict">lusepict <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lvchaccnt">lvchaccnt <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lvchserial">lvchserial <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lvchticket">lvchticket <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lvoucher">lvoucher <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lweighable">lweighable <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lwghtbcode">lwghtbcode <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lwsconsol">lwsconsol <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lwsexclude">lwsexclude <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="max">max <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="maxdisc">maxdisc <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="min">min <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="mixmatch">mixmatch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="mrcpinst">mrcpinst <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="ndcstubs">ndcstubs <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nghostmsel">nghostmsel <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nghostsell">nghostsell <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nonorder">nonorder <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nonorderu">nonorderu <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nonstock">nonstock <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="nrcpremote">nrcpremote <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nrepmargin">nrepmargin <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nthbcolour">nthbcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nthfcolour">nthfcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nuovqty">nuovqty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nweight">nweight <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nwsbcolour">nwsbcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwsfcolour">nwsfcolour <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nwsseq">nwsseq <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="opalert">opalert <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="opcomment">opcomment <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="opening">opening <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="photo">photo <font face="Arial Italic" color="grey60">string (64)</font></td></tr>
+  <tr><td align="left" width="130" port="postsale">postsale <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="price1">price1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="price2">price2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="price3">price3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="price4">price4 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="price5">price5 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="price6">price6 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="prnalert">prnalert <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="prod_lab">prod_lab <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="pshift1">pshift1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="pshift2">pshift2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="pshift3">pshift3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="pshift4">pshift4 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="pshift5">pshift5 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="pshift6">pshift6 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="qty1">qty1 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qty2">qty2 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qty3">qty3 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qty4">qty4 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qty5">qty5 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qty6">qty6 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes1">qtydes1 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes2">qtydes2 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes3">qtydes3 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes4">qtydes4 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes5">qtydes5 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="qtydes6">qtydes6 <font face="Arial Italic" color="grey60">string (8)</font></td></tr>
+  <tr><td align="left" width="130" port="question1">question1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="question2">question2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="question3">question3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="redonrem">redonrem <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="remtext1">remtext1 <font face="Arial Italic" color="grey60">string (36)</font></td></tr>
+  <tr><td align="left" width="130" port="remtext2">remtext2 <font face="Arial Italic" color="grey60">string (36)</font></td></tr>
+  <tr><td align="left" width="130" port="sales_qty">sales_qty <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="saleslabel">saleslabel <font face="Arial Italic" color="grey60">string (56)</font></td></tr>
+  <tr><td align="left" width="130" port="serialmax">serialmax <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="serialmin">serialmin <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="shelf_lab">shelf_lab <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="stock">stock <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="stockin">stockin <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="stockout">stockout <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="stop">stop <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="supp">supp <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="suppcode">suppcode <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="takeout">takeout <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="vatcode">vatcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="vatrate">vatrate <font face="Arial Italic" color="grey60">float</font></td></tr>
+</table>
+}>];
+m_Stockalt [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Stockalt</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="altsku">altsku <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="llatprice">llatprice <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="lrecent">lrecent <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
+  <tr><td align="left" width="130" port="nstocklvl">nstocklvl <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="prilev">prilev <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+}>];
+m_Stockquantity [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Stockquantity</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="clocid">clocid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
+  <tr><td align="left" width="130" port="dduedate">dduedate <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="dlastrecv">dlastrecv <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="dlastsold">dlastsold <font face="Arial Italic" color="grey60">date</font></td></tr>
+  <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
+  <tr><td align="left" width="130" port="nbranch">nbranch <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nonorder">nonorder <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="nonorderu">nonorderu <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="nstocklvl">nstocklvl <font face="Arial Italic" color="grey60">float</font></td></tr>
+</table>
+}>];
+  m_Group -> m_Depart [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Group -> m_Stock [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Group -> m_Depart [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Depart -> m_Stock [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Depart -> m_Archivesale [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Depart -> m_Allsale [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Depart -> m_Sale [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Depart -> m_Stock [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Stock -> m_Archivesale [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Stock -> m_Sale [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Stock -> m_Allsale [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Stock -> m_Stockquantity [arrowhead = "none", arrowtail = "none", weight = "1"];
+  m_Stock -> m_Stockquantity [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Stock -> m_Stockalt [arrowhead = "normal", arrowtail = "none", weight = "1"];
+}

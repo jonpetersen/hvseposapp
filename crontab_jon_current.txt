@@ -1,0 +1,17 @@
+#sm start rvm
+PATH="/home/jon/.rvm/gems/ruby-2.5.1/bin:/home/jon/.rvm/gems/ruby-2.5.1@global/bin:/home/jon/.rvm/rubies/ruby-2.5.1/bin:/home/jon/.rvm/gems/ruby-2.5.1/bin:/home/jon/.rvm/gems/ruby-2.5.1@global/bin:/home/jon/.rvm/rubies/ruby-2.5.1/bin:/home/jon/.rvm/bin:/home/jon/.rbenv/shims:/home/jon/.rbenv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/jon/bin:/opt/aws/bin:/home/jon/bin:/home/jon/.local/bin:/home/jon/bin"
+GEM_HOME='/home/jon/.rvm/gems/ruby-2.5.1'
+GEM_PATH='/home/jon/.rvm/gems/ruby-2.5.1:/home/jon/.rvm/gems/ruby-2.5.1@global'
+MY_RUBY_HOME='/home/jon/.rvm/rubies/ruby-2.5.1'
+IRBRC='/home/jon/.rvm/rubies/ruby-2.5.1/.irbrc'
+RUBY_VERSION='ruby-2.5.1'
+#sm end rvm
+*/1 8,9,10,11,12,13,14,15,16,17 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_sales.rb  >> /home/hvsepos/hvseposapp/log/sales_cron_log.log 2>&1
+0,5,10,15,20,25,30,35,40,45,50,55 14,17 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_eodlogs.rb  >> /home/hvsepos/hvseposapp/log/eodlogs_cron_log.log 2>&1
+0 0 1 * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_archive_sales.rb  >> /home/hvsepos/hvseposapp/log/archive_sales_cron_log.log 2>&1
+9,29 9,10,11,12,13,14,15,16,17 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_stocks.rb  >> /home/hvsepos/hvseposapp/log/stocks_cron_log.log 2>&1
+*/30 9,14,15,16,17,18 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_allsales.rb  >> /home/hvsepos/hvseposapp/log/allsales_cron_log.log 2>&1
+37 9,10,11,12,13,14,15,16  * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_inwards.rb  >> /home/hvsepos/hvseposapp/log/inwards_cron_log.log 2>&1
+*/28 9,10,11,12,13,14,15,16,17 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_stock_quantities.rb  >> /home/hvsepos/hvseposapp/log/stock_quantities_cron_log.log 2>&1
+*/18 9,10,11,12,13,14,15,16,17 * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts hvs_migration_stockalts.rb  >> /home/hvsepos/hvseposapp/log/stockalts_cron_log.log 2>&1
+*/48 * * * * /home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -C /home/hvsepos/hvseposapp/scripts all_static_tables_migration.rb  >> /home/hvsepos/hvseposapp/log/all_static_tables_cron_log.log 2>&1

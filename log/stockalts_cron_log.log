@@ -18,3 +18,63 @@
    -> 0.0109s
 -- create_table("stockalts")
    -> 0.0329s
+/usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- dbf (LoadError)
+	from /usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- dbf (LoadError)
+	from /usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- dbf (LoadError)
+	from /usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- dbf (LoadError)
+	from /usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect': Lost connection to MySQL server at 'reading authorization packet', system error: 0 (Mysql2::Error)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/share/ruby/2.0/monitor.rb:211:in `mon_synchronize'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:87:in `connection'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/model_schema.rb:230:in `table_exists?'
+	from hvs_migration_stockalts.rb:34:in `<main>'
+/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- dbf (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- dbf (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_stockalts.rb:1:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateStockalts < ActiveRecord::Migration[4.2]
+	from hvs_migration_stockalts.rb:16:in `<main>'

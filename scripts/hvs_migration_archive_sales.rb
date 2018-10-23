@@ -12,7 +12,7 @@ class Archivesale < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
-class CreateArchivesales < ActiveRecord::Migration
+class CreateArchivesales < ActiveRecord::Migration[4.2]
   def self.up
     @archive_files = Dir.glob($aws_archivedir + "*.dbf").select {|f| !File.directory? f}.sort_by { |x| File.mtime(x) }
     table = DBF::Table.new(@archive_files[0])

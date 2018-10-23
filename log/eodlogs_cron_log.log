@@ -1,0 +1,585 @@
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Unknown table 'hvs.eodlogs': DROP TABLE `eodlogs` (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:498:in `drop_table'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:665:in `block in method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:45:in `down'
+	from hvs_migration_eodlogs.rb:52:in `<main>'
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Unknown table 'hvs.eodlogs': DROP TABLE `eodlogs` (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:498:in `drop_table'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:665:in `block in method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:45:in `down'
+	from hvs_migration_eodlogs.rb:52:in `<main>'
+-- drop_table(:eodlogs)
+-- drop_table(:eodlogs)
+-- drop_table(:eodlogs)
+   -> 0.0110s
+-- create_table("eodlogs")
+   -> 0.0687s
+-- change_table(:eodlogs)
+   -> 1.0484s
+-- drop_table(:eodlogs)
+   -> 0.0499s
+-- create_table("eodlogs")
+   -> 0.0509s
+-- change_table(:eodlogs)
+   -> 0.9451s
+-- drop_table(:eodlogs)
+   -> 0.0535s
+-- create_table("eodlogs")
+   -> 0.0207s
+-- change_table(:eodlogs)
+   -> 1.0126s
+-- drop_table(:eodlogs)
+   -> 0.0428s
+-- create_table("eodlogs")
+   -> 0.0167s
+-- change_table(:eodlogs)
+   -> 0.9041s
+-- drop_table(:eodlogs)
+   -> 0.0325s
+-- create_table("eodlogs")
+   -> 0.0189s
+-- change_table(:eodlogs)
+   -> 0.9188s
+-- drop_table(:eodlogs)
+   -> 0.0300s
+-- create_table("eodlogs")
+   -> 0.0185s
+-- change_table(:eodlogs)
+   -> 0.8924s
+-- drop_table(:eodlogs)
+   -> 0.0321s
+-- create_table("eodlogs")
+   -> 0.0283s
+-- change_table(:eodlogs)
+   -> 0.9276s
+-- drop_table(:eodlogs)
+   -> 0.0465s
+-- create_table("eodlogs")
+   -> 0.0229s
+-- change_table(:eodlogs)
+   -> 1.4447s
+-- drop_table(:eodlogs)
+   -> 0.0239s
+-- create_table("eodlogs")
+   -> 0.0278s
+-- change_table(:eodlogs)
+   -> 0.9978s
+-- drop_table(:eodlogs)
+   -> 0.0332s
+-- create_table("eodlogs")
+   -> 0.0232s
+-- change_table(:eodlogs)
+   -> 1.1860s
+-- drop_table(:eodlogs)
+   -> 0.0328s
+-- create_table("eodlogs")
+   -> 0.0262s
+-- change_table(:eodlogs)
+   -> 0.8901s
+-- drop_table(:eodlogs)
+   -> 0.0296s
+-- create_table("eodlogs")
+   -> 0.0215s
+-- change_table(:eodlogs)
+   -> 1.2977s
+-- drop_table(:eodlogs)
+   -> 0.0266s
+-- create_table("eodlogs")
+   -> 0.0403s
+-- change_table(:eodlogs)
+   -> 0.8826s
+-- drop_table(:eodlogs)
+   -> 0.0350s
+-- create_table("eodlogs")
+   -> 0.0244s
+-- change_table(:eodlogs)
+   -> 0.8705s
+-- drop_table(:eodlogs)
+   -> 0.0334s
+-- create_table("eodlogs")
+   -> 0.0212s
+-- change_table(:eodlogs)
+   -> 0.9229s
+-- drop_table(:eodlogs)
+   -> 0.0319s
+-- create_table("eodlogs")
+   -> 0.0190s
+-- change_table(:eodlogs)
+   -> 0.9466s
+-- drop_table(:eodlogs)
+   -> 0.0348s
+-- create_table("eodlogs")
+   -> 0.0190s
+-- change_table(:eodlogs)
+   -> 0.8848s
+-- drop_table(:eodlogs)
+   -> 0.0435s
+-- create_table("eodlogs")
+   -> 0.0428s
+-- change_table(:eodlogs)
+   -> 0.9888s
+-- drop_table(:eodlogs)
+   -> 0.0646s
+-- create_table("eodlogs")
+   -> 0.0415s
+-- change_table(:eodlogs)
+   -> 0.9268s
+-- drop_table(:eodlogs)
+   -> 0.0325s
+-- create_table("eodlogs")
+   -> 0.1672s
+-- change_table(:eodlogs)
+   -> 0.8702s
+-- drop_table(:eodlogs)
+   -> 0.0256s
+-- create_table("eodlogs")
+   -> 0.0213s
+-- change_table(:eodlogs)
+   -> 0.9659s
+-- drop_table(:eodlogs)
+   -> 0.0741s
+-- create_table("eodlogs")
+   -> 0.0286s
+-- change_table(:eodlogs)
+   -> 0.9648s
+-- drop_table(:eodlogs)
+   -> 0.0579s
+-- create_table("eodlogs")
+   -> 0.0229s
+-- change_table(:eodlogs)
+   -> 0.9664s
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000011bd158> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000249d160> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000d1ccc0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002305820> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001cf4f30> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000d30a68> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001a74cd8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000016b8ab8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000010ed160> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000011dcf30> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000f191e0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000026d8fb0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001035150> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000019b0cc0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000013796b8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000027bd138> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000fb9820> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001025020> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002454dc0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001c69188> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000015ed160> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000012b5150> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000f6d3f8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000da90f8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000024a9258> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001d7cfe8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000016a4c98> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002ae9820> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000023a5258> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000013c97a8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000f41168> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000029a9820> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000128cf98> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000011c17a8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000025d8fe8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002381178> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000da8b58> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001711258> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000024e10b8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000012e4b58> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001eecae0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002838d60> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002800cd0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000023c1138> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001315258> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000022d4b30> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000025a90e0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002129150> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000029391d8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000025f4ab8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_eodlogs.rb:16:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000fe91b0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block i/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- dbf (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_eodlogs.rb:1:in `<main>'
+/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- dbf (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_eodlogs.rb:1:in `<main>'

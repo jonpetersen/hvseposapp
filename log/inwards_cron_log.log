@@ -1,0 +1,83 @@
+/usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- dbf (LoadError)
+	from /usr/share/ruby/vendor_ruby/2.4/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from hvs_migration_inwards.rb:1:in `<main>'
+-- drop_table(:inwards)
+   -> 0.0376s
+-- create_table("inwards")
+   -> 0.0379s
+-- change_table(:inwards)
+   -> 0.3643s
+-- drop_table(:inwards)
+   -> 0.0308s
+-- create_table("inwards")
+   -> 0.0175s
+-- change_table(:inwards)
+   -> 0.3317s
+-- drop_table(:inwards)
+   -> 0.0119s
+-- create_table("inwards")
+   -> 0.0217s
+-- change_table(:inwards)
+   -> 0.3101s
+-- drop_table(:inwards)
+   -> 0.0137s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.3226s
+-- drop_table(:inwards)
+   -> 0.0123s
+-- create_table("inwards")
+   -> 0.0208s
+-- change_table(:inwards)
+   -> 0.3315s
+-- drop_table(:inwards)
+   -> 0.0590s
+-- create_table("inwards")
+   -> 0.0187s
+-- change_table(:inwards)
+   -> 0.6212s
+-- drop_table(:inwards)
+   -> 0.0317s
+-- create_table("inwards")
+   -> 0.0429s
+-- change_table(:inwards)
+   -> 0.3193s
+-- drop_table(:inwards)
+   -> 0.0112s
+-- create_table("inwards")
+   -> 0.0199s
+-- change_table(:inwards)
+   -> 0.3033s
+-- drop_table(:inwards)
+   -> 0.0105s
+-- create_table("inwards")
+   -> 0.0206s
+-- change_table(:inwards)
+   -> 0.3115s
+-- drop_table(:inwards)
+   -> 0.0387s
+-- create_table("inwards")
+   -> 0.0192s
+-- change_table(:inwards)
+   -> 0.3119s
+-- drop_table(:inwards)
+   -> 0.0155s
+-- create_table("inwards")
+   -> 0.0318s
+-- change_table(:inwards)
+   -> 0.3276s
+-- drop_table(:inwards)
+   -> 0.0123s
+-- create_table("inwards")
+   -> 0.0197s
+-- change_table(:inwards)
+   -> 0.3293s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateInwards < ActiveRecord::Migration[4.2]
+	from hvs_migration_inwards.rb:15:in `<main>'
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/migration.rb:528:in `inherited': Directly inheriting from ActiveRecord::Migration is not supported. Please specify the Rails release the migration was written for: (StandardError)
+
+  class CreateInwards < ActiveRecord::Migration[4.2]
+	from hvs_migration_inwards.rb:15:in `<main>'

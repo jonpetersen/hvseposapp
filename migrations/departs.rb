@@ -1,4 +1,4 @@
-class CreateDeparts < ActiveRecord::Migration
+class CreateDeparts < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "DEPART.dbf")
     new_schema = table.schema.gsub!("id","gid")

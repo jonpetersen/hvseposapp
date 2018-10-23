@@ -1,4 +1,4 @@
-class CreateInwards < ActiveRecord::Migration
+class CreateInwards < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "INWARDS.dbf")
     new_schema = table.schema.gsub!("INWARDS","inwards")

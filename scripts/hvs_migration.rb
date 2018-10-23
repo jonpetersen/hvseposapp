@@ -52,7 +52,7 @@ class Inward < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
-class CreateGroups < ActiveRecord::Migration
+class CreateGroups < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "GROUPS.dbf")
     new_schema = table.schema.gsub!("id","gid")
@@ -70,7 +70,7 @@ class CreateGroups < ActiveRecord::Migration
   end
 end
 
-class CreateDeparts < ActiveRecord::Migration
+class CreateDeparts < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "DEPART.dbf")
     new_schema = table.schema.gsub!("id","gid")
@@ -89,7 +89,7 @@ class CreateDeparts < ActiveRecord::Migration
   end
 end
 
-class CreateSales < ActiveRecord::Migration
+class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "allsales.DBF")
     new_schema = table.schema.gsub!("allsales","sales")
@@ -107,7 +107,7 @@ class CreateSales < ActiveRecord::Migration
   end
 end
 
-class CreateEodlogs < ActiveRecord::Migration
+class CreateEodlogs < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "EODLOG.DBF")
     new_schema = table.schema.gsub!("EODLOG","eodlogs")
@@ -123,7 +123,7 @@ class CreateEodlogs < ActiveRecord::Migration
   end
 end
 
-class CreateInwards < ActiveRecord::Migration
+class CreateInwards < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "INWARDS.dbf")
     new_schema = table.schema.gsub!("INWARDS","inwards")
@@ -139,7 +139,7 @@ class CreateInwards < ActiveRecord::Migration
   end
 end
 
-class CreateStocks < ActiveRecord::Migration
+class CreateStocks < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "Stock.DBF")
     new_schema = table.schema.gsub!("Stock","stocks")
@@ -158,7 +158,7 @@ class CreateStocks < ActiveRecord::Migration
   end
 end
 
-class CreateStockquantities < ActiveRecord::Migration
+class CreateStockquantities < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "StockQuantitiesByLocation.DBF")
     new_schema = table.schema.gsub!("StockQuantitiesByLocation","stockquantities")

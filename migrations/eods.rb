@@ -1,4 +1,4 @@
-class CreateEodlogs < ActiveRecord::Migration
+class CreateEodlogs < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "EODLOG.DBF")
     new_schema = table.schema.gsub!("EODLOG","eodlogs")

@@ -12,7 +12,7 @@ class Stockquantity < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
-class CreateStockquantities < ActiveRecord::Migration
+class CreateStockquantities < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "StockQuantitiesByLocation.DBF")
     new_schema = table.schema.gsub!("StockQuantitiesByLocation","stockquantities")

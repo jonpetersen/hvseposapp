@@ -8,10 +8,10 @@ end
 
 class Depart < ActiveRecord::Base
   belongs_to :group, foreign_key: 'group'
+  has_many :stocks, foreign_key: 'gid'
   has_many :archivesales, through: :stocks, foreign_key: 'gid'
   has_many :allsales, through: :stocks, foreign_key: 'gid'
   has_many :sales, through: :stocks, foreign_key: 'gid'
-  has_many :stocks, foreign_key: 'gid'
   self.primary_key = "gid"
   self.inheritance_column = nil
 end

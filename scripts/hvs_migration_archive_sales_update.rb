@@ -12,9 +12,9 @@ class Archivesale < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
-class UpdateArchivesales < ActiveRecord::Migration
+class UpdateArchivesales < ActiveRecord::Migration[4.2]
   def self.up
-    @archive_files = ["/home/hvsepos/Touch/ARCHIVE/001_2018_07.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_08.dbf"]
+    @archive_files = ["/home/hvsepos/Touch/ARCHIVE/001_2018_01.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_02.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_03.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_04.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_05.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_06.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_07.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_08.dbf","/home/hvsepos/Touch/ARCHIVE/001_2018_09.dbf"]
     @archive_files.each do |file|
 	  table = DBF::Table.new(file)
       table.each do |record|

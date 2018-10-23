@@ -19,7 +19,8 @@
                     / Just for debugging purposes. Don't actually copy these 2 lines!
                     /[if lt IE 9] <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
                     %script{:type => 'text/javascript', :src => './js/chartkick.js'}
-                    %script{:type => 'text/javascript', :src => './js/highcharts.js'}
+                    %script{:type => 'text/javascript', :src => './js/chart.js'}
+                    %script{:type => 'text/javascript', :src => "https://code.highcharts.com/highcharts.js"}
                     %script{:src => "./js/ie-emulation-modes-warning.js"}
                     / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
                     /[if lt IE 9]
@@ -78,7 +79,9 @@
                 %li
                   %a{:href => "../monthlyreport?yyyy=2016"} Fin Yr 2017
                 %li
-                  %a{:href => "../monthlyreport?yyyymm=201809"} Current Month
+                  %a{:href => "../monthlyreport?yyyymm=201810"} Current Month
+                %li
+                  %a{:href => "../monthlyreport?yyyymm=201809"} September 2018
                 %li
                   %a{:href => "../monthlyreport?yyyymm=201808"} August 2018
                 %li

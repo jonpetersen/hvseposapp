@@ -1,4 +1,4 @@
-require 'dbf'
+require "dbf"
 require "active_record"
 require "mysql2"
 require "yaml"
@@ -12,7 +12,7 @@ class Sale < ActiveRecord::Base
   #belongs_to :stock
   self.inheritance_column = nil
 end
-class CreateSales < ActiveRecord::Migration
+class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "Sales.dbf")
     schema = table.schema.gsub!("Sales","sales")

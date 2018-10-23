@@ -15,6 +15,6 @@
           %td= Money.new(row[2] * 100).format
           %td= ((row[2]/@sales) * 100).round
   %h3 Sales Count by Day of Week
-  = column_chart @salesbydayofweek, height: "250px"
+  -# = column_chart @salesbydayofweek, height: "250px"
   %h3 Sales Count by Hour of Day
-  = column_chart @salesbyhourofday, height: "250px"  
+  -# = column_chart @salesbyhourofday, height: "250px"  

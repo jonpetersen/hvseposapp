@@ -87,7 +87,11 @@ class MonthlyreportController < Sinatra::Base
         else
           salesbygroup = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND MONTH(date) = ? AND YEAR(date) = ?","P",month.month,month.year).group("departs.group")  
         end
-        orderedsalesbygroup = salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
+        
+        salesbygroupsum = salesbygroup.sum(:totalprice)
+        orderedsalesbygroup = salesbygroupsum.sort_by{|_key, value| value}.reverse
+	    #salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
+	    
 	    @salesbygroup_array = []
         orderedsalesbygroup.each do |group|
 	      @salesbygroup_array << [Group.all.where(:gid => group[0]).first.desc,group[0],group[1]]

@@ -1,0 +1,18 @@
+require 'date'
+
+require 'csv'
+require 'json'
+
+require 'dbf/version'
+require 'dbf/schema'
+require 'dbf/record'
+require 'dbf/column_type'
+require 'dbf/column'
+require 'dbf/encodings'
+require 'dbf/header'
+require 'dbf/table'
+require 'dbf/memo/base'
+require 'dbf/memo/dbase3'
+require 'dbf/memo/dbase4'
+require 'dbf/memo/foxpro'
+require 'dbf/database/foxpro'

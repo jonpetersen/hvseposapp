@@ -1,0 +1,1458 @@
+-- drop_table(:allsales)
+   -> 0.0401s
+-- create_table("allsales")
+   -> 0.0805s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0406s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0398s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0415s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0811s
+-- add_index(:allsales, :plu)
+   -> 0.9828s
+-- add_index(:allsales, :type)
+   -> 0.0810s
+-- add_index(:allsales, :date)
+   -> 0.0406s
+-- add_index(:allsales, :description)
+   -> 0.1284s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0782s
+-- change_table(:allsales)
+   -> 7.1103s
+/usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Table 'hvs.allsales' doesn't exist: INSERT INTO `allsales` (`type`, `branch`, `terminal`, `transno`, `operator`, `date`, `time`, `plu`, `description`, `qty`, `unitqty`, `cost`, `vatcode`, `vatamount`, `unitprice`, `totalprice`, `refdreason`, `discamount`, `discreason`, `mixamount`, `freetext1`, `freetext2`, `freetext3`, `change`, `tender1`, `tender2`, `tender3`, `tender4`, `tender5`, `tender6`, `tender7`, `tender8`, `tender9`, `tender10`, `tender11`, `tender12`, `acccode`, `accref`, `custcode`, `caddressid`, `charge`, `sheet`, `condiment1`, `condiment2`, `condiment3`, `remoteprn`, `printed`, `first`, `reportdate`, `covers`, `serialnum`, `qtydes`, `cd_no`, `lexport`, `nstdprice`, `istatus`, `luncexport`, `ddysldate`, `lprinted`, `cuov`, `ctransref`, `lshift`, `nlineno`, `ipricelvl`, `lcompleted`, `lflag`, `cmmatchid`, `lrecipe`, `nseat`, `ncourse`, `ccertno`, `lrechead`, `cgeneric`, `cuniqueid`, `norderline`, `ctaxcodes`, `cdeporef`, `nredmpts`, `lmarkup`, `cukey`, `ctsuffix`, `ceodid`, `lrecitem`, `ntaxshift`, `lrefunded`, `loycode`, `lstkupdtd`, `lsageexp`, `cgeneric2`, `created_at`) VALUES ('P', 1, 1, 37787, 'VOLUNTEER', '2018-09-16', '09:57', '90338', 'Cinnamon Swirl E/I', 1.0, 1.0, 0.0, 1, 0.28, 1.7, 1.7, 0, 0.0, 0, 0.0, '', '', '', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, '', '', '', '', 0, 0, '', '', '', 0, 0, 0, '2018-09-16', 0, '', 'EACH', 1, 0, 0.0, 0, 0, '2018-09-16', 0, '', '_5AP0LBZUO', 0, 7, 1, 1, 0, '', 0, 0, 0, '', 0, '', '_5AP0LCKSB', 0, '', '', 0, 0, '001001_5AP0LCKSB', '', '_5AP0UR4OI', 0, 0, 0, '', 1, 0, '', '2018-09-16 09:57:00') (ActiveRecord::StatementInvalid)
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+	from /usr/local/share/ruby/gems/2.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `block in execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:472:in `block in log'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:466:in `log'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:305:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:231:in `execute'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/mysql2_adapter.rb:248:in `exec_insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:108:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/relation.rb:64:in `insert'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:524:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/counter_cache.rb:139:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:133:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `block in _create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:306:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/timestamp.rb:57:in `_create_record'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:504:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+	from /home/jon/.gem/ruby/2.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/callbacks.rb:302:in `create_or_update'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:120:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/validations.rb:37:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:220:in `transaction'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:286:in `block in save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/transactions.rb:285:in `save'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:34:in `create'
+	from hvs_migration_allsales.rb:137:in `block in up'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0397s
+-- create_table("allsales")
+   -> 0.0398s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0402s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0406s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0407s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0401s
+-- drop_table(:allsales)
+   -> 0.0391s
+-- create_table("allsales")
+   -> 0.0404s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0406s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0442s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0406s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0410s
+-- add_index(:allsales, :plu)
+   -> 8.4948s
+-- add_index(:allsales, :type)
+   -> 0.0812s
+-- add_index(:allsales, :date)
+   -> 0.0808s
+-- add_index(:allsales, :description)
+   -> 0.0810s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0859s
+-- change_table(:allsales)
+   -> 26.3975s
+-- drop_table(:allsales)
+   -> 0.1217s
+-- create_table("allsales")
+   -> 0.0187s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0292s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0277s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0312s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0292s
+-- add_index(:allsales, :plu)
+   -> 0.0920s
+-- add_index(:allsales, :type)
+   -> 0.0640s
+-- add_index(:allsales, :date)
+   -> 0.0674s
+-- add_index(:allsales, :description)
+   -> 0.0723s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0711s
+-- change_table(:allsales)
+   -> 9.8388s
+-- drop_table(:allsales)
+   -> 0.0659s
+-- create_table("allsales")
+   -> 0.0168s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0337s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0307s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0393s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0382s
+-- add_index(:allsales, :plu)
+   -> 0.0765s
+-- add_index(:allsales, :type)
+   -> 0.0657s
+-- add_index(:allsales, :date)
+   -> 0.0671s
+-- add_index(:allsales, :description)
+   -> 0.0791s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.1085s
+-- change_table(:allsales)
+   -> 11.2102s
+-- drop_table(:allsales)
+   -> 0.0588s
+-- create_table("allsales")
+   -> 0.0225s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0307s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0281s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0286s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0281s
+-- add_index(:allsales, :plu)
+   -> 0.0926s
+-- add_index(:allsales, :type)
+   -> 0.0699s
+-- add_index(:allsales, :date)
+   -> 0.0699s
+-- add_index(:allsales, :description)
+   -> 0.0850s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0771s
+-- change_table(:allsales)
+   -> 10.2972s
+-- drop_table(:allsales)
+   -> 0.0462s
+-- create_table("allsales")
+   -> 0.0188s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0288s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0284s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0288s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0356s
+-- add_index(:allsales, :plu)
+   -> 0.0805s
+-- add_index(:allsales, :type)
+   -> 0.0701s
+-- add_index(:allsales, :date)
+   -> 0.0698s
+-- add_index(:allsales, :description)
+   -> 0.0789s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0775s
+-- change_table(:allsales)
+   -> 10.6256s
+-- drop_table(:allsales)
+   -> 0.0246s
+-- create_table("allsales")
+   -> 0.0207s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0305s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0346s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0358s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0407s
+-- add_index(:allsales, :plu)
+   -> 0.0808s
+-- add_index(:allsales, :type)
+   -> 0.0723s
+-- add_index(:allsales, :date)
+   -> 0.0726s
+-- add_index(:allsales, :description)
+   -> 0.0823s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0778s
+-- change_table(:allsales)
+   -> 10.8862s
+-- drop_table(:allsales)
+   -> 0.0236s
+-- create_table("allsales")
+   -> 0.0201s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0325s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0319s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0280s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0311s
+-- add_index(:allsales, :plu)
+   -> 0.0797s
+-- add_index(:allsales, :type)
+   -> 0.0750s
+-- add_index(:allsales, :date)
+   -> 0.0699s
+-- add_index(:allsales, :description)
+   -> 0.0829s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0803s
+-- change_table(:allsales)
+   -> 11.3662s
+-- drop_table(:allsales)
+   -> 0.0362s
+-- create_table("allsales")
+   -> 0.0215s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0288s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0304s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0316s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0319s
+-- add_index(:allsales, :plu)
+   -> 0.0807s
+-- add_index(:allsales, :type)
+   -> 0.0716s
+-- add_index(:allsales, :date)
+   -> 0.0707s
+-- add_index(:allsales, :description)
+   -> 0.0834s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0819s
+-- change_table(:allsales)
+   -> 10.9374s
+-- drop_table(:allsales)
+   -> 0.1943s
+-- create_table("allsales")
+   -> 0.0355s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0597s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0496s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0326s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0349s
+-- add_index(:allsales, :plu)
+   -> 0.0202s
+-- add_index(:allsales, :type)
+   -> 0.0162s
+-- add_index(:allsales, :date)
+   -> 0.0143s
+-- add_index(:allsales, :description)
+   -> 0.0183s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0162s
+-- change_table(:allsales)
+   -> 0.7497s
+-- drop_table(:allsales)
+   -> 0.0704s
+-- create_table("allsales")
+   -> 0.0283s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0316s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0321s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0246s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0248s
+-- add_index(:allsales, :plu)
+   -> 0.0285s
+-- add_index(:allsales, :type)
+   -> 0.0225s
+-- add_index(:allsales, :date)
+   -> 0.0227s
+-- add_index(:allsales, :description)
+   -> 0.0219s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0218s
+-- change_table(:allsales)
+   -> 1.3387s
+-- drop_table(:allsales)
+   -> 0.0361s
+-- create_table("allsales")
+   -> 0.0205s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0253s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0252s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0276s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0303s
+-- add_index(:allsales, :plu)
+   -> 0.1053s
+-- add_index(:allsales, :type)
+   -> 0.0227s
+-- add_index(:allsales, :date)
+   -> 0.0202s
+-- add_index(:allsales, :description)
+   -> 0.0302s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0309s
+-- change_table(:allsales)
+   -> 2.1086s
+-- drop_table(:allsales)
+   -> 0.0342s
+-- create_table("allsales")
+   -> 0.0297s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0485s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0291s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0300s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0312s
+-- add_index(:allsales, :plu)
+   -> 0.0276s
+-- add_index(:allsales, :type)
+   -> 0.0275s
+-- add_index(:allsales, :date)
+   -> 0.0213s
+-- add_index(:allsales, :description)
+   -> 0.0339s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0279s
+-- change_table(:allsales)
+   -> 1.9269s
+-- drop_table(:allsales)
+   -> 0.0142s
+-- create_table("allsales")
+   -> 0.0233s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0381s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0340s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0241s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0234s
+-- add_index(:allsales, :plu)
+   -> 0.0233s
+-- add_index(:allsales, :type)
+   -> 0.0226s
+-- add_index(:allsales, :date)
+   -> 0.0214s
+-- add_index(:allsales, :description)
+   -> 0.0200s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0219s
+-- change_table(:allsales)
+   -> 3.1674s
+-- drop_table(:allsales)
+   -> 0.0522s
+-- create_table("allsales")
+   -> 0.0282s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0343s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0407s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0281s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0240s
+-- add_index(:allsales, :plu)
+   -> 0.0251s
+-- add_index(:allsales, :type)
+   -> 0.0239s
+-- add_index(:allsales, :date)
+   -> 0.0237s
+-- add_index(:allsales, :description)
+   -> 0.0268s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0249s
+-- change_table(:allsales)
+   -> 3.5481s
+-- drop_table(:allsales)
+   -> 0.0270s
+-- create_table("allsales")
+   -> 0.0181s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0257s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0276s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0278s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0244s
+-- add_index(:allsales, :plu)
+   -> 0.0274s
+-- add_index(:allsales, :type)
+   -> 0.0293s
+-- add_index(:allsales, :date)
+   -> 0.0245s
+-- add_index(:allsales, :description)
+   -> 0.0306s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0287s
+-- change_table(:allsales)
+   -> 3.9805s
+-- drop_table(:allsales)
+   -> 0.0315s
+-- create_table("allsales")
+   -> 0.0211s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0308s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0341s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0270s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0297s
+-- add_index(:allsales, :plu)
+   -> 0.0288s
+-- add_index(:allsales, :type)
+   -> 0.0258s
+-- add_index(:allsales, :date)
+   -> 0.0234s
+-- add_index(:allsales, :description)
+   -> 0.0254s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0254s
+-- change_table(:allsales)
+   -> 3.9404s
+-- drop_table(:allsales)
+   -> 0.0442s
+-- create_table("allsales")
+   -> 0.0237s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0302s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0276s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0270s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0254s
+-- add_index(:allsales, :plu)
+   -> 0.0298s
+-- add_index(:allsales, :type)
+   -> 0.0269s
+-- add_index(:allsales, :date)
+   -> 0.0268s
+-- add_index(:allsales, :description)
+   -> 0.0275s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0286s
+-- change_table(:allsales)
+   -> 4.4181s
+-- drop_table(:allsales)
+   -> 0.0764s
+-- create_table("allsales")
+   -> 0.0195s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0294s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0243s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0289s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0263s
+-- add_index(:allsales, :plu)
+   -> 0.0311s
+-- add_index(:allsales, :type)
+   -> 0.0283s
+-- add_index(:allsales, :date)
+   -> 0.0258s
+-- add_index(:allsales, :description)
+   -> 0.0320s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0324s
+-- change_table(:allsales)
+   -> 4.8776s
+-- drop_table(:allsales)
+   -> 0.0445s
+-- create_table("allsales")
+   -> 0.0251s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0244s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0215s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0227s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0239s
+-- add_index(:allsales, :plu)
+   -> 0.0358s
+-- add_index(:allsales, :type)
+   -> 0.0383s
+-- add_index(:allsales, :date)
+   -> 0.0352s
+-- add_index(:allsales, :description)
+   -> 0.0348s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0360s
+-- change_table(:allsales)
+   -> 5.7924s
+-- drop_table(:allsales)
+   -> 0.0117s
+-- create_table("allsales")
+   -> 0.0217s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0255s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0307s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0302s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0270s
+-- add_index(:allsales, :plu)
+   -> 0.0312s
+-- add_index(:allsales, :type)
+   -> 0.0289s
+-- add_index(:allsales, :date)
+   -> 0.0295s
+-- add_index(:allsales, :description)
+   -> 0.0328s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0320s
+-- change_table(:allsales)
+   -> 5.2654s
+-- drop_table(:allsales)
+   -> 0.0329s
+-- create_table("allsales")
+   -> 0.0205s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0326s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0236s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0246s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0246s
+-- add_index(:allsales, :plu)
+   -> 0.0333s
+-- add_index(:allsales, :type)
+   -> 0.0294s
+-- add_index(:allsales, :date)
+   -> 0.0308s
+-- add_index(:allsales, :description)
+   -> 0.0321s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0313s
+-- change_table(:allsales)
+   -> 5.5688s
+-- drop_table(:allsales)
+   -> 0.0283s
+-- create_table("allsales")
+   -> 0.0231s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0279s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0243s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0236s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0245s
+-- add_index(:allsales, :plu)
+   -> 0.0506s
+-- add_index(:allsales, :type)
+   -> 0.0318s
+-- add_index(:allsales, :date)
+   -> 0.0307s
+-- add_index(:allsales, :description)
+   -> 0.0361s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0351s
+-- change_table(:allsales)
+   -> 5.4958s
+-- drop_table(:allsales)
+   -> 0.0723s
+-- create_table("allsales")
+   -> 0.0184s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0304s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0274s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0401s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0239s
+-- add_index(:allsales, :plu)
+   -> 0.0332s
+-- add_index(:allsales, :type)
+   -> 0.0313s
+-- add_index(:allsales, :date)
+   -> 0.0312s
+-- add_index(:allsales, :description)
+   -> 0.0362s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0363s
+-- change_table(:allsales)
+   -> 5.9165s
+-- drop_table(:allsales)
+   -> 0.0250s
+-- create_table("allsales")
+   -> 0.0202s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0315s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0305s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0315s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0312s
+-- add_index(:allsales, :plu)
+   -> 0.0370s
+-- add_index(:allsales, :type)
+   -> 0.0355s
+-- add_index(:allsales, :date)
+   -> 0.0348s
+-- add_index(:allsales, :description)
+   -> 0.0437s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0407s
+-- change_table(:allsales)
+   -> 6.1744s
+-- drop_table(:allsales)
+   -> 0.0670s
+-- create_table("allsales")
+   -> 0.0192s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0314s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0245s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0396s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0290s
+-- add_index(:allsales, :plu)
+   -> 0.0619s
+-- add_index(:allsales, :type)
+   -> 0.0340s
+-- add_index(:allsales, :date)
+   -> 0.0372s
+-- add_index(:allsales, :description)
+   -> 0.0392s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0395s
+-- change_table(:allsales)
+   -> 6.2814s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0461s
+-- create_table("allsales")
+   -> 0.0206s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0286s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0305s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0328s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0289s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0109s
+-- create_table("allsales")
+   -> 0.0191s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0327s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0349s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0440s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0281s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0097s
+-- create_table("allsales")
+   -> 0.0283s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0262s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0308s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0303s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0294s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0138s
+-- create_table("allsales")
+   -> 0.0219s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0418s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0291s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0247s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0251s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0124s
+-- create_table("allsales")
+   -> 0.0194s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0273s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0271s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0246s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0299s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0156s
+-- create_table("allsales")
+   -> 0.0308s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0341s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0391s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0284s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0305s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0093s
+-- create_table("allsales")
+   -> 0.0225s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0271s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0239s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0253s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0257s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0139s
+-- create_table("allsales")
+   -> 0.0437s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0294s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0273s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0305s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0288s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0117s
+-- create_table("allsales")
+   -> 0.0207s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0270s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0246s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0272s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0255s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0104s
+-- create_table("allsales")
+   -> 0.0245s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0351s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0376s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0360s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0287s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0126s
+-- create_table("allsales")
+   -> 0.0285s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0261s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0254s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0261s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0269s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0206s
+-- create_table("allsales")
+   -> 0.0298s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0325s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0272s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0262s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0235s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0094s
+-- create_table("allsales")
+   -> 0.0188s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0487s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0247s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0241s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0254s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0156s
+-- create_table("allsales")
+   -> 0.0242s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0494s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0398s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0370s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0262s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0081s
+-- create_table("allsales")
+   -> 0.0180s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0273s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0250s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0240s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0277s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0157s
+-- create_table("allsales")
+   -> 0.0237s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0250s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0254s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0236s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0377s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0120s
+-- create_table("allsales")
+   -> 0.0203s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0320s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0262s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0266s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0383s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0213s
+-- create_table("allsales")
+   -> 0.0231s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0282s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0297s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0291s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0282s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0116s
+-- create_table("allsales")
+   -> 0.0219s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0247s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0271s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0279s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0289s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0156s
+-- create_table("allsales")
+   -> 0.0389s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0372s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0362s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0260s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0295s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0123s
+-- create_table("allsales")
+   -> 0.0261s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0268s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0258s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0237s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0250s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0143s
+-- create_table("allsales")
+   -> 0.0231s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0401s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0274s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0298s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0284s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0147s
+-- create_table("allsales")
+   -> 0.0258s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0319s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0292s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0300s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0274s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0188s
+-- create_table("allsales")
+   -> 0.0242s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0240s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0274s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0250s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0256s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.1596s
+-- create_table("allsales")
+   -> 0.0191s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0357s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0237s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0311s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0284s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0103s
+-- create_table("allsales")
+   -> 0.0245s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0429s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0334s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0324s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0519s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0111s
+-- create_table("allsales")
+   -> 0.0224s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0260s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0390s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0310s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0244s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0112s
+-- create_table("allsales")
+   -> 0.0226s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0214s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0309s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0242s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0234s
+hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:NilClass (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `block in each'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `times'
+	from /home/jon/.gem/ruby/2.0/gems/dbf-3.0.5/lib/dbf/table.rb:113:in `each'
+	from hvs_migration_allsales.rb:27:in `up'
+	from hvs_migration_allsales.rb:279:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0094s
+-- create_table("allsales")
+   -> 0.0199s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0253s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0266s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0258s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0273s
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000021839c0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000129b980> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000025efbd0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000019cb9d0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000ce7a70> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002b5fa98> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000f07828> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001113b08> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002a2ba28> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000e4f930> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001857950> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000001823d80> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000029cb998> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000165b9a8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000118b838> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002823aa0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000023bf8d8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000253b978> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000000e17828> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000028139c0> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x000000025839a8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x00000002c0fdf8> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `block in say_with_time'
+	from /usr/share/ruby/2.0/benchmark.rb:281:in `measure'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:in `say_with_time'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:654:in `method_missing'
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:416:in `method_missing'
+	from hvs_migration_allsales.rb:19:in `<main>'
+-- [](4.2)
+/home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:664:in `block in method_missing': undefined method `[]' for #<ActiveRecord::Migration:0x0000000110b980> (NoMethodError)
+	from /home/jon/.gem/ruby/2.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:634:i/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- dbf (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_allsales.rb:1:in `<main>'
+-- drop_table(:allsales)
+   -> 0.0254s
+-- create_table("allsales")
+   -> 0.0337s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0277s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0357s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0406s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0322s
+-- add_index(:allsales, :plu)
+   -> 0.0578s
+-- add_index(:allsales, :type)
+   -> 0.0735s
+-- add_index(:allsales, :date)
+   -> 0.0509s
+-- add_index(:allsales, :description)
+   -> 0.0525s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0509s
+-- change_table(:allsales)
+   -> 8.6333s
+-- drop_table(:allsales)
+   -> 0.0148s
+-- create_table("allsales")
+   -> 0.0251s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0520s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0436s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0250s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0239s
+-- add_index(:allsales, :plu)
+   -> 0.3270s
+-- add_index(:allsales, :type)
+   -> 0.0430s
+-- add_index(:allsales, :date)
+   -> 0.0433s
+-- add_index(:allsales, :description)
+   -> 0.0465s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0479s
+-- change_table(:allsales)
+   -> 6.8780s
+-- drop_table(:allsales)
+   -> 0.0377s
+-- create_table("allsales")
+   -> 0.0253s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0287s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0254s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0220s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0259s
+-- add_index(:allsales, :plu)
+   -> 0.2701s
+-- add_index(:allsales, :type)
+   -> 0.0435s
+-- add_index(:allsales, :date)
+   -> 0.0428s
+-- add_index(:allsales, :description)
+   -> 0.0579s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0482s
+-- change_table(:allsales)
+   -> 7.4782s

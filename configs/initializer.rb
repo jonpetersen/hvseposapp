@@ -1,9 +1,6 @@
 
 # base
 require 'bundler/setup'
-require 'sinatra/base'
-require 'sinatra/advanced_routes'
-
 
 # gems
 require 'logger'
@@ -17,8 +14,8 @@ require 'mysql2'
 require 'active_record'
 require 'active_record_union'
 require 'dbf'
+require 'highcharts'
 require 'chartkick'
-require 'sinatra/twitter-bootstrap'
 require 'rails_erd/diagram/graphviz'
 require 'money'
 require 'groupdate'
@@ -27,6 +24,14 @@ require 'apriori'
 require 'barby'
 require 'barby/barcode/ean_13'
 require 'barby/outputter/prawn_outputter'
+
+require 'active_support'
+require 'active_support/core_ext'
+
+require 'sinatra/base'
+require 'sinatra/twitter-bootstrap'
+
+#require 'sinatra/advanced_routes'
 
 # configs
 require_relative 'deploy_setting'
@@ -46,14 +51,14 @@ end
 Groupdate.time_zone = "UTC"
 Money.default_currency = Money::Currency.new("GBP")
 
-#RailsERD.options.filetype = :dot
-#RailsERD::Diagram::Graphviz.create
+RailsERD.options.filetype = :dot
+RailsERD::Diagram::Graphviz.create
 
 class Sinatra::Base
   # helpers
   include DebugOn
   register Sinatra::Twitter::Bootstrap::Assets
-  register Sinatra::AdvancedRoutes
+  #register Sinatra::AdvancedRoutes
   
   # set sinatra's variables
   set :app_name, "Hvseposapp" 

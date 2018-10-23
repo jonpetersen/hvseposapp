@@ -1,4 +1,4 @@
-class CreateArchivesales < ActiveRecord::Migration
+class CreateArchivesales < ActiveRecord::Migration[4.2]
   def self.up
     table1 = DBF::Table.new($aws_archivedir + "001_2015_10.dbf")
     new_schema = table1.schema.gsub!("001_2015_10","archivesales")

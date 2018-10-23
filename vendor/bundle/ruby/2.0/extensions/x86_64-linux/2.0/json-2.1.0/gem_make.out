@@ -1,0 +1,14 @@
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.0/gems/json-2.1.0/ext/json
+/usr/bin/ruby2.0 -r ./siteconf20180924-16874-19sg8oa.rb extconf.rb
+creating Makefile
+
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+rm -f .so  *.o  *.bak mkmf.log .*.time
+
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.0/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" install

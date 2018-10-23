@@ -1,0 +1,18 @@
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+/home/jon/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180925-14757-dxklwr.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/hvsepos/hvseposapp/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+g++: error: unrecognized command line option ‘-Wmisleading-indentation’
+g++: error: unrecognized command line option ‘-Wimplicit-fallthrough=0’
+g++: error: unrecognized command line option ‘-Wduplicated-cond’
+g++: error: unrecognized command line option ‘-Wrestrict’
+make: *** [unf.o] Error 1
+
+make failed, exit code 2

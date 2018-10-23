@@ -1,4 +1,4 @@
-class CreateSales < ActiveRecord::Migration
+class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "Sales.dbf")
     new_schema = table.schema.gsub!("Sales","sales")
