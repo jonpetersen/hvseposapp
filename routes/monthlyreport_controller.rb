@@ -22,7 +22,7 @@ class MonthlyreportController < Sinatra::Base
 	if params[:yyyy]
       @salesyear = Date.strptime(params[:yyyy], "%Y").strftime("%Y")
       @periodforreport = @salesyear
-      @salesyear = "current" if params[:yyyy] == "2018"
+      @salesyear = "current" if Date.today.strftime("%Y") == params[:yyyymm]
     end
     
     class Monthlysales
@@ -111,8 +111,10 @@ class MonthlyreportController < Sinatra::Base
           start_month = year + "-02-01"
 	      end_month = (year.to_i + 1).to_s + "-01-31"
           salesbygroup = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND date BETWEEN ? AND ?","P",start_month,end_month).group("departs.group")  
-        end
-        orderedsalesbygroup = salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
+        end        
+        salesbygroupsum = salesbygroup.sum(:totalprice)
+        orderedsalesbygroup = salesbygroupsum.sort_by{|_key, value| value}.reverse
+        #orderedsalesbygroup = salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
 	    @salesbygroup_array = []
         orderedsalesbygroup.each do |group|
 	      @salesbygroup_array << [Group.all.where(:gid => group[0]).first.desc,group[0],group[1]]

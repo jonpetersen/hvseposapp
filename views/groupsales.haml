@@ -30,5 +30,5 @@
                 %a{:href => "../stockitem/#{row[1]}"} #{row[0]}
               %td £#{row[2].to_i}
               %td= row[3].round if row[3]
-              %td= Money.new((row[2]/row[3])*100).format if row[3]
+              %td= Money.new((row[2]/row[3])*100).format if row[2] && row[3] && row[2] != 0.0
               %td= row[4] if row[3]

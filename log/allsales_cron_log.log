@@ -1480,3 +1480,51 @@ hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:
    -> 0.0527s
 -- change_table(:allsales)
    -> 7.0170s
+-- drop_table(:allsales)
+   -> 0.2665s
+-- create_table("allsales")
+   -> 0.1250s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.1408s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0346s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0322s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0360s
+-- add_index(:allsales, :plu)
+   -> 0.5031s
+-- add_index(:allsales, :type)
+   -> 0.0467s
+-- add_index(:allsales, :date)
+   -> 0.0406s
+-- add_index(:allsales, :description)
+   -> 0.0477s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0530s
+-- change_table(:allsales)
+   -> 7.0977s
+-- drop_table(:allsales)
+   -> 0.2348s
+-- create_table("allsales")
+   -> 0.3003s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0958s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0294s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0386s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0264s
+-- add_index(:allsales, :plu)
+   -> 1.0406s
+-- add_index(:allsales, :type)
+   -> 0.2849s
+-- add_index(:allsales, :date)
+   -> 0.0443s
+-- add_index(:allsales, :description)
+   -> 0.0454s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0471s
+-- change_table(:allsales)
+   -> 7.1546s

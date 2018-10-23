@@ -4741,3 +4741,9 @@
 /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- activerecord-import/base (LoadError)
 	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
 	from hvs_migration_stocks.rb:3:in `<main>'
+/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- activerecord-import/base (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_stocks.rb:3:in `<main>'
+/home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- activerecord-import/base (LoadError)
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from hvs_migration_stocks.rb:3:in `<main>'
