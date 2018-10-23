@@ -37971,3 +37971,5 @@ Sale count is 403 rec count is 404 so creating
 -- change_table(:sales)
    -> 1.1153s
 Sale count is 404 rec count is 404 so skipping
+Sale count is 404 rec count is 404 so skipping
+Sale count is 404 rec count is 404 so skipping
