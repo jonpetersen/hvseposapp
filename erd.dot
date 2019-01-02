@@ -175,7 +175,7 @@ m_Archivesale [label = <{<table border="0" align="center" cellspacing="0.5" cell
   <tr><td align="left" width="130" port="freetext1">freetext1 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
   <tr><td align="left" width="130" port="freetext2">freetext2 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
   <tr><td align="left" width="130" port="freetext3">freetext3 <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
-  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer (8) ∗</font></td></tr>
   <tr><td align="left" width="130" port="imovoqty">imovoqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="ipricelvl">ipricelvl <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="istatus">istatus <font face="Arial Italic" color="grey60">integer</font></td></tr>
@@ -549,9 +549,9 @@ m_Stock [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddin
 </table>
 |
 <table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
-  <tr><td align="left" width="130" port="avgcost">avgcost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="avgcost">avgcost <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="bonus">bonus <font face="Arial Italic" color="grey60">integer</font></td></tr>
-  <tr><td align="left" width="130" port="casecost">casecost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="casecost">casecost <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="caseqty">caseqty <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="cdefloc">cdefloc <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
   <tr><td align="left" width="130" port="cfacing">cfacing <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
@@ -565,7 +565,7 @@ m_Stock [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddin
   <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">integer</font></td></tr>
-  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="csize">csize <font face="Arial Italic" color="grey60">string (15)</font></td></tr>
   <tr><td align="left" width="130" port="ctheme">ctheme <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
   <tr><td align="left" width="130" port="cuniqueid">cuniqueid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
@@ -576,7 +576,7 @@ m_Stock [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddin
   <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
   <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
   <tr><td align="left" width="130" port="followon">followon <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
-  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer (8) ∗</font></td></tr>
   <tr><td align="left" width="130" port="ifrequency">ifrequency <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="ilabwareid">ilabwareid <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="kitchen">kitchen <font face="Arial Italic" color="grey60">integer</font></td></tr>
@@ -646,9 +646,9 @@ m_Stock [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddin
   <tr><td align="left" width="130" port="opening">opening <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="photo">photo <font face="Arial Italic" color="grey60">string (64)</font></td></tr>
   <tr><td align="left" width="130" port="postsale">postsale <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
-  <tr><td align="left" width="130" port="price1">price1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="price2">price2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="price3">price3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="price1">price1 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="price2">price2 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="price3">price3 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="price4">price4 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="price5">price5 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="price6">price6 <font face="Arial Italic" color="grey60">float</font></td></tr>

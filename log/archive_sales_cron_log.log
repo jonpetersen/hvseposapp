@@ -18,3 +18,43 @@ hvs_migration_archive_sales.rb:30:in `block (2 levels) in up': undefined method 
    -> 0.0233s
 -- add_column(:archivesales, :imovoqty, :int)
    -> 0.0312s
+hvs_migration_archive_sales.rb:30:in `block (2 levels) in up': undefined method `to_datetime' for nil:NilClass (NoMethodError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_archive_sales.rb:29:in `block in up'
+	from hvs_migration_archive_sales.rb:27:in `each'
+	from hvs_migration_archive_sales.rb:27:in `up'
+	from hvs_migration_archive_sales.rb:66:in `<main>'
+-- drop_table(:archivesales)
+   -> 0.3244s
+-- create_table("archivesales")
+   -> 0.0740s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.0601s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.0268s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0298s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0257s
+hvs_migration_archive_sales.rb:30:in `block (2 levels) in up': undefined method `to_datetime' for nil:NilClass (NoMethodError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_archive_sales.rb:29:in `block in up'
+	from hvs_migration_archive_sales.rb:27:in `each'
+	from hvs_migration_archive_sales.rb:27:in `up'
+	from hvs_migration_archive_sales.rb:66:in `<main>'
+-- drop_table(:archivesales)
+   -> 0.1667s
+-- create_table("archivesales")
+   -> 0.0384s
+-- add_column(:archivesales, :created_at, :datetime)
+   -> 0.0267s
+-- add_column(:archivesales, :lmmcomp, :tinyint)
+   -> 0.0205s
+-- add_column(:archivesales, :lmsm, :tinyint)
+   -> 0.0227s
+-- add_column(:archivesales, :imovoqty, :int)
+   -> 0.0236s

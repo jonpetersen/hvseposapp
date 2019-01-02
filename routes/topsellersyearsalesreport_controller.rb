@@ -4,7 +4,7 @@ class TopsellersyearsalesreportController < Sinatra::Base
     if params[:yyyy]
       @salesyear = Date.strptime(params[:yyyy], "%Y").strftime("%Y")
       @periodforreport = @salesyear
-      @salesyear = "current" if params[:yyyy] == "2018"
+      #@salesyear = "current" if params[:yyyy] == "2018"
       start_month = @salesyear + "-02-01"
 	  end_month = (@salesyear.to_i + 1).to_s + "-01-31"
     end

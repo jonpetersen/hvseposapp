@@ -24,6 +24,12 @@ class MonthlyreportController < Sinatra::Base
       @periodforreport = @salesyear
       @salesyear = "current" if Date.today.strftime("%Y") == params[:yyyymm]
     end
+        
+	# default is group reports this param used if report is by department    
+    @level = "group"
+	if params[:level]
+	  @level = params[:level]    
+	end    
     
     class Monthlysales
       def self.totalvalue(month)
@@ -119,7 +125,31 @@ class MonthlyreportController < Sinatra::Base
         orderedsalesbygroup.each do |group|
 	      @salesbygroup_array << [Group.all.where(:gid => group[0]).first.desc,group[0],group[1]]
         end
-          @salesbygroup_array
+        @salesbygroup_array
+      end
+    end
+    
+    class Yearlydepts
+	  def self.totalvalue(year)
+        if year == "all"
+	      salesbydept = Archivesale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("departs.group")
+        elsif
+          year == "current"
+          salesbygroup = Allsale.joins(:stock =>{:depart => :group}).where("type = ?","P").group("departs.group")     
+        else
+          start_month = year + "-02-01"
+	      end_month = (year.to_i + 1).to_s + "-01-31"
+          #salesbydept = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND date BETWEEN ? AND ?","P",start_month,end_month).group("departs.group")
+          salesbydept = Archivesale.joins(:stock =>{:depart => :group}).where("type = ? AND date BETWEEN ? AND ?","P",start_month,end_month).group("departs.gid")  
+        end        
+        salesbydeptsum = salesbydept.sum(:totalprice)
+        orderedsalesbydept = salesbydeptsum.sort_by{|_key, value| value}.reverse
+        #orderedsalesbygroup = salesbygroup.sum(:totalprice){ |k, a_value, b_value| a_value + b_value }.sort_by{|_key, value| value}.reverse
+	    @salesbydept_array = []
+        orderedsalesbydept.each do |dept|
+	      @salesbydept_array << [Depart.all.where(:gid => dept[0]).first.desc,dept[0],dept[1]]
+        end
+        @salesbydept_array
       end
     end      
 	       
@@ -196,7 +226,11 @@ class MonthlyreportController < Sinatra::Base
 	  @sales = Yearlysales.totalvalue(@salesyear)
       @vat = Yearlyvat.totalvat(@salesyear)
       @vatpercent = ((@vat/@sales) * 100).round(2)
-      @groupsales = Yearlygroups.totalvalue(@salesyear)
+      if @level == "group"
+        @groupsales = Yearlygroups.totalvalue(@salesyear)
+      elsif @level == "dept"
+        @groupsales = Yearlydepts.totalvalue(@salesyear)
+      end
       @salesbydayofweek = Yearlysalesbyday.totalcount(@salesyear)
       @salesbyhourofday = Yearlysalesbyhour.totalcount(@salesyear)
 	end
