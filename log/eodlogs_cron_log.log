@@ -1003,3 +1003,165 @@
    -> 0.1071s
 -- change_table(:eodlogs)
    -> 1.5311s
+-- drop_table(:eodlogs)
+   -> 0.2592s
+-- create_table("eodlogs")
+   -> 0.1337s
+-- change_table(:eodlogs)
+   -> 2.5161s
+-- drop_table(:eodlogs)
+   -> 0.1434s
+-- create_table("eodlogs")
+   -> 0.2064s
+-- change_table(:eodlogs)
+   -> 1.4290s
+-- drop_table(:eodlogs)
+   -> 0.2813s
+-- create_table("eodlogs")
+   -> 0.0663s
+-- change_table(:eodlogs)
+   -> 0.9383s
+-- drop_table(:eodlogs)
+   -> 0.2350s
+-- create_table("eodlogs")
+   -> 0.2078s
+-- change_table(:eodlogs)
+   -> 1.1310s
+-- drop_table(:eodlogs)
+   -> 0.0425s
+-- create_table("eodlogs")
+   -> 0.0327s
+-- change_table(:eodlogs)
+   -> 1.0015s
+-- drop_table(:eodlogs)
+   -> 0.1370s
+-- create_table("eodlogs")
+   -> 0.0561s
+-- change_table(:eodlogs)
+   -> 1.0613s
+-- drop_table(:eodlogs)
+   -> 0.3823s
+-- create_table("eodlogs")
+   -> 0.1473s
+-- change_table(:eodlogs)
+   -> 1.5628s
+-- drop_table(:eodlogs)
+   -> 0.3971s
+-- create_table("eodlogs")
+   -> 0.1025s
+-- change_table(:eodlogs)
+   -> 1.7029s
+-- drop_table(:eodlogs)
+   -> 0.0499s
+-- create_table("eodlogs")
+   -> 0.0274s
+-- change_table(:eodlogs)
+   -> 1.2321s
+-- drop_table(:eodlogs)
+   -> 0.1233s
+-- create_table("eodlogs")
+   -> 0.2444s
+-- change_table(:eodlogs)
+   -> 1.4731s
+-- drop_table(:eodlogs)
+   -> 0.1055s
+-- create_table("eodlogs")
+   -> 0.2149s
+-- change_table(:eodlogs)
+   -> 1.3743s
+-- drop_table(:eodlogs)
+   -> 0.0696s
+-- create_table("eodlogs")
+   -> 0.0626s
+-- change_table(:eodlogs)
+   -> 1.7545s
+-- drop_table(:eodlogs)
+   -> 0.0867s
+-- create_table("eodlogs")
+   -> 0.0262s
+-- change_table(:eodlogs)
+   -> 1.8244s
+-- drop_table(:eodlogs)
+   -> 0.0675s
+-- create_table("eodlogs")
+   -> 0.0451s
+-- change_table(:eodlogs)
+   -> 1.0950s
+-- drop_table(:eodlogs)
+   -> 0.0542s
+-- create_table("eodlogs")
+   -> 0.0246s
+-- change_table(:eodlogs)
+   -> 1.4817s
+-- drop_table(:eodlogs)
+   -> 0.3136s
+-- create_table("eodlogs")
+   -> 0.0900s
+-- change_table(:eodlogs)
+   -> 1.9891s
+-- drop_table(:eodlogs)
+   -> 0.3497s
+-- create_table("eodlogs")
+   -> 0.2234s
+-- change_table(:eodlogs)
+   -> 1.2396s
+-- drop_table(:eodlogs)
+   -> 0.0947s
+-- create_table("eodlogs")
+   -> 0.0709s
+-- change_table(:eodlogs)
+   -> 1.4201s
+-- drop_table(:eodlogs)
+   -> 0.0505s
+-- create_table("eodlogs")
+   -> 0.0285s
+-- change_table(:eodlogs)
+   -> 1.4634s
+-- drop_table(:eodlogs)
+   -> 0.2473s
+-- create_table("eodlogs")
+   -> 0.0847s
+-- change_table(:eodlogs)
+   -> 1.9864s
+-- drop_table(:eodlogs)
+   -> 0.0365s
+-- create_table("eodlogs")
+   -> 0.0431s
+-- change_table(:eodlogs)
+   -> 1.7391s
+-- drop_table(:eodlogs)
+   -> 0.3956s
+-- create_table("eodlogs")
+   -> 0.1408s
+-- change_table(:eodlogs)
+   -> 1.8045s
+-- drop_table(:eodlogs)
+   -> 0.2945s
+-- create_table("eodlogs")
+   -> 0.2422s
+-- change_table(:eodlogs)
+   -> 1.9756s
+-- drop_table(:eodlogs)
+   -> 0.2577s
+-- create_table("eodlogs")
+   -> 0.0962s
+-- change_table(:eodlogs)
+   -> 1.3824s
+-- drop_table(:eodlogs)
+   -> 0.2551s
+-- create_table("eodlogs")
+   -> 0.1221s
+-- change_table(:eodlogs)
+   -> 1.1431s
+-- drop_table(:eodlogs)
+   -> 0.1838s
+-- create_table("eodlogs")
+   -> 0.2499s
+-- change_table(:eodlogs)
+   -> 1.3617s
+-- drop_table(:eodlogs)
+   -> 0.2188s
+-- create_table("eodlogs")
+   -> 0.0933s
+-- change_table(:eodlogs)
+   -> 1.7566s

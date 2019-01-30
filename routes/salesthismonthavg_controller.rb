@@ -6,7 +6,7 @@ class SalesthismonthavgController < Sinatra::Base
     #numberofdays = Allsale.where("type = ? AND MONTH(created_at) = ?","P",Date.today.month).group_by_day(:date).count.size
     numberofdays = Date.today.day
         
-    numberofdays = numberofdays - 2 if Date.today.month == 1
+    numberofdays = numberofdays - 1 if Date.today.month == 1
     
     #numberofdays = Allsale.where("type = ?","P").group_by_day(:date).count.size
     #salestoday = Eodlog.last.ntxbtotval if salestoday == "0.0"

@@ -2,7 +2,8 @@ class TopsellerslastmonthsalesreportController < Sinatra::Base
 
   get '/' do    
     last_month = Date.today.month - 1 
-    
+    last_month = 12 if last_month == 0
+        
     if last_month == 12
       lastmonths_year = Date.today.year - 1
     else
