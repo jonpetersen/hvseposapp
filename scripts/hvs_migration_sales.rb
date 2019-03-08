@@ -22,11 +22,7 @@ vanngin = '735850718095'
 opening_sales_splashmap = Sale.where("plu = #{splashmap}").count
 opening_sales_donut = Sale.where("plu = #{donut}").count
 opening_sales_sroll = Sale.where("plu = #{sroll}").count
-opening_sales_vanngin = Sale.where("plu = #{vanginn}").count
-
-puts opening_sales_splashmap
-puts opening_sales_donut
-puts opening_sales_sroll
+opening_sales_vanngin = Sale.where("plu = #{vanngin}").count
 
 class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
@@ -211,7 +207,7 @@ if Sale.where("plu = #{sroll}").count > opening_sales_sroll
   response = Net::HTTP.get(uri)
 end
 
-if Sale.where("plu = #{sroll}").count > opening_sales_vanngin
+if Sale.where("plu = #{vanngin}").count > opening_sales_vanngin
   url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:eb2df5455e5d2ce69f0698cbd0c7d1d7:'
   uri = URI(url)
   response = Net::HTTP.get(uri)
