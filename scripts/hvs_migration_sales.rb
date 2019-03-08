@@ -2,6 +2,7 @@ require "dbf"
 require "active_record"
 require "mysql2"
 require "yaml"
+require 'net/http'
 require_relative "../configs/deploy_setting.rb"
 require_relative "../configs/active_record_setting.rb"
 
@@ -12,6 +13,21 @@ class Sale < ActiveRecord::Base
   #belongs_to :stock
   self.inheritance_column = nil
 end
+
+splashmap = '747989998842'
+donut = '90114'
+sroll = '90230'
+vanngin = '735850718095'
+
+opening_sales_splashmap = Sale.where("plu = #{splashmap}").count
+opening_sales_donut = Sale.where("plu = #{donut}").count
+opening_sales_sroll = Sale.where("plu = #{sroll}").count
+opening_sales_vanngin = Sale.where("plu = #{vanginn}").count
+
+puts opening_sales_splashmap
+puts opening_sales_donut
+puts opening_sales_sroll
+
 class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "Sales.dbf")
@@ -176,3 +192,28 @@ if Sale.table_exists?
 else
   CreateSales.up
 end
+
+if Sale.where("plu = #{splashmap}").count > opening_sales_splashmap
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:b63a39e97f63a4bb47cf69a5b7ea0d8a:'
+  uri = URI(url)
+  response = Net::HTTP.get(uri)
+end
+
+if Sale.where("plu = #{donut}").count > opening_sales_donut
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:5dc917fbcbf79e8b85a31555fd2f46d7:'
+  uri = URI(url)
+  response = Net::HTTP.get(uri)
+end
+
+if Sale.where("plu = #{sroll}").count > opening_sales_sroll
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:eb2df5455e5d2ce69f0698cbd0c7d1d7:'
+  uri = URI(url)
+  response = Net::HTTP.get(uri)
+end
+
+if Sale.where("plu = #{sroll}").count > opening_sales_vanngin
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:eb2df5455e5d2ce69f0698cbd0c7d1d7:'
+  uri = URI(url)
+  response = Net::HTTP.get(uri)
+end
+

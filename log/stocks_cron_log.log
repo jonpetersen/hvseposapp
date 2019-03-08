@@ -976,3 +976,1977 @@
    -> 0.1239s
 -- add_index(:stocks, :plu)
    -> 0.1749s
+-- drop_table(:stocks)
+   -> 0.0784s
+-- create_table("stocks")
+   -> 0.0908s
+-- add_index(:stocks, :plu)
+   -> 0.3393s
+-- drop_table(:stocks)
+   -> 0.0136s
+-- create_table("stocks")
+   -> 0.0195s
+-- add_index(:stocks, :plu)
+   -> 0.1683s
+-- drop_table(:stocks)
+   -> 0.0097s
+-- create_table("stocks")
+   -> 0.0193s
+-- add_index(:stocks, :plu)
+   -> 2.1618s
+-- drop_table(:stocks)
+   -> 0.4191s
+-- create_table("stocks")
+   -> 0.3182s
+-- add_index(:stocks, :plu)
+   -> 1.0068s
+-- drop_table(:stocks)
+   -> 0.4379s
+-- create_table("stocks")
+   -> 0.1126s
+-- add_index(:stocks, :plu)
+   -> 0.2899s
+-- drop_table(:stocks)
+   -> 0.0131s
+-- create_table("stocks")
+   -> 0.0211s
+-- add_index(:stocks, :plu)
+   -> 1.4683s
+-- drop_table(:stocks)
+   -> 0.2632s
+-- create_table("stocks")
+   -> 0.1224s
+-- add_index(:stocks, :plu)
+   -> 0.6161s
+-- drop_table(:stocks)
+   -> 0.3583s
+-- create_table("stocks")
+   -> 0.0370s
+-- add_index(:stocks, :plu)
+   -> 0.2765s
+-- drop_table(:stocks)
+   -> 0.1762s
+-- create_table("stocks")
+   -> 0.2709s
+-- add_index(:stocks, :plu)
+   -> 1.6492s
+-- drop_table(:stocks)
+   -> 0.1298s
+-- create_table("stocks")
+   -> 0.1007s
+-- add_index(:stocks, :plu)
+   -> 0.5384s
+-- drop_table(:stocks)
+   -> 0.0158s
+-- create_table("stocks")
+   -> 0.0215s
+-- add_index(:stocks, :plu)
+   -> 0.3777s
+-- drop_table(:stocks)
+   -> 0.0139s
+-- create_table("stocks")
+   -> 0.0195s
+-- add_index(:stocks, :plu)
+   -> 0.1897s
+-- drop_table(:stocks)
+   -> 0.8356s
+-- create_table("stocks")
+   -> 0.1335s
+-- add_index(:stocks, :plu)
+   -> 0.0725s
+-- drop_table(:stocks)
+   -> 0.1445s
+-- create_table("stocks")
+   -> 0.2279s
+-- add_index(:stocks, :plu)
+   -> 0.3237s
+-- drop_table(:stocks)
+   -> 0.0600s
+-- create_table("stocks")
+   -> 0.1229s
+-- add_index(:stocks, :plu)
+   -> 0.1776s
+-- drop_table(:stocks)
+   -> 0.1865s
+-- create_table("stocks")
+   -> 0.1268s
+-- add_index(:stocks, :plu)
+   -> 0.1295s
+-- drop_table(:stocks)
+   -> 0.1109s
+-- create_table("stocks")
+   -> 0.1124s
+-- add_index(:stocks, :plu)
+   -> 0.3669s
+-- drop_table(:stocks)
+   -> 0.0186s
+-- create_table("stocks")
+   -> 0.0345s
+-- add_index(:stocks, :plu)
+   -> 0.2149s
+-- drop_table(:stocks)
+   -> 0.3540s
+-- create_table("stocks")
+   -> 0.1298s
+-- add_index(:stocks, :plu)
+   -> 0.1743s
+-- drop_table(:stocks)
+   -> 0.2261s
+-- create_table("stocks")
+   -> 0.3442s
+-- add_index(:stocks, :plu)
+   -> 0.2113s
+-- drop_table(:stocks)
+   -> 0.2891s
+-- create_table("stocks")
+   -> 0.1132s
+-- add_index(:stocks, :plu)
+   -> 0.1933s
+-- drop_table(:stocks)
+   -> 0.6768s
+-- create_table("stocks")
+   -> 0.0493s
+-- add_index(:stocks, :plu)
+   -> 0.3976s
+-- drop_table(:stocks)
+   -> 0.2177s
+-- create_table("stocks")
+   -> 0.1107s
+-- add_index(:stocks, :plu)
+   -> 0.5490s
+-- drop_table(:stocks)
+   -> 0.0184s
+-- create_table("stocks")
+   -> 0.0231s
+-- add_index(:stocks, :plu)
+   -> 0.4741s
+-- drop_table(:stocks)
+   -> 0.3525s
+-- create_table("stocks")
+   -> 0.0883s
+-- add_index(:stocks, :plu)
+   -> 0.2957s
+-- drop_table(:stocks)
+   -> 0.1329s
+-- create_table("stocks")
+   -> 0.1401s
+-- add_index(:stocks, :plu)
+   -> 0.2807s
+-- drop_table(:stocks)
+   -> 0.2609s
+-- create_table("stocks")
+   -> 0.3018s
+-- add_index(:stocks, :plu)
+   -> 1.9194s
+-- drop_table(:stocks)
+   -> 0.5320s
+-- create_table("stocks")
+   -> 0.7716s
+-- add_index(:stocks, :plu)
+   -> 0.3497s
+-- drop_table(:stocks)
+   -> 0.0138s
+-- create_table("stocks")
+   -> 0.0198s
+-- add_index(:stocks, :plu)
+   -> 0.6154s
+-- drop_table(:stocks)
+   -> 0.0128s
+-- create_table("stocks")
+   -> 0.0236s
+-- add_index(:stocks, :plu)
+   -> 0.7672s
+-- drop_table(:stocks)
+   -> 0.0115s
+-- create_table("stocks")
+   -> 0.0204s
+-- add_index(:stocks, :plu)
+   -> 0.2657s
+-- drop_table(:stocks)
+   -> 0.2181s
+-- create_table("stocks")
+   -> 0.1303s
+-- add_index(:stocks, :plu)
+   -> 0.5009s
+-- drop_table(:stocks)
+   -> 0.0180s
+-- create_table("stocks")
+   -> 0.0329s
+-- add_index(:stocks, :plu)
+   -> 0.2005s
+-- drop_table(:stocks)
+   -> 0.1567s
+-- create_table("stocks")
+   -> 0.3147s
+-- add_index(:stocks, :plu)
+   -> 0.1756s
+-- drop_table(:stocks)
+   -> 0.1122s
+-- create_table("stocks")
+   -> 0.0862s
+-- add_index(:stocks, :plu)
+   -> 0.2121s
+-- drop_table(:stocks)
+   -> 0.0774s
+-- create_table("stocks")
+   -> 0.1204s
+-- add_index(:stocks, :plu)
+   -> 0.2258s
+-- drop_table(:stocks)
+   -> 0.2332s
+-- create_table("stocks")
+   -> 0.1546s
+-- add_index(:stocks, :plu)
+   -> 0.3489s
+-- drop_table(:stocks)
+   -> 0.0139s
+-- create_table("stocks")
+   -> 0.0201s
+-- add_index(:stocks, :plu)
+   -> 0.6418s
+-- drop_table(:stocks)
+   -> 0.0504s
+-- create_table("stocks")
+   -> 0.1382s
+-- add_index(:stocks, :plu)
+   -> 0.5048s
+-- drop_table(:stocks)
+   -> 0.2114s
+-- create_table("stocks")
+   -> 0.2807s
+-- add_index(:stocks, :plu)
+   -> 0.4754s
+-- drop_table(:stocks)
+   -> 3.2191s
+-- create_table("stocks")
+   -> 0.0823s
+-- add_index(:stocks, :plu)
+   -> 0.4905s
+-- drop_table(:stocks)
+   -> 1.1234s
+-- create_table("stocks")
+   -> 0.0762s
+-- add_index(:stocks, :plu)
+   -> 0.3900s
+-- drop_table(:stocks)
+   -> 0.0128s
+-- create_table("stocks")
+   -> 0.0280s
+-- add_index(:stocks, :plu)
+   -> 0.6255s
+-- drop_table(:stocks)
+   -> 0.1525s
+-- create_table("stocks")
+   -> 0.1239s
+-- add_index(:stocks, :plu)
+   -> 0.5409s
+-- drop_table(:stocks)
+   -> 0.1615s
+-- create_table("stocks")
+   -> 0.2258s
+-- add_index(:stocks, :plu)
+   -> 0.1694s
+-- drop_table(:stocks)
+   -> 0.2483s
+-- create_table("stocks")
+   -> 0.1914s
+-- add_index(:stocks, :plu)
+   -> 0.1256s
+-- drop_table(:stocks)
+   -> 0.0134s
+-- create_table("stocks")
+   -> 0.0238s
+-- add_index(:stocks, :plu)
+   -> 0.2146s
+-- drop_table(:stocks)
+   -> 0.0104s
+-- create_table("stocks")
+   -> 0.0270s
+-- add_index(:stocks, :plu)
+   -> 0.9335s
+-- drop_table(:stocks)
+   -> 0.8097s
+-- create_table("stocks")
+   -> 0.7813s
+-- add_index(:stocks, :plu)
+   -> 0.0552s
+-- drop_table(:stocks)
+   -> 0.8883s
+-- create_table("stocks")
+   -> 0.4550s
+-- add_index(:stocks, :plu)
+   -> 0.9809s
+-- drop_table(:stocks)
+   -> 0.0195s
+-- create_table("stocks")
+   -> 0.0220s
+-- add_index(:stocks, :plu)
+   -> 0.3217s
+-- drop_table(:stocks)
+   -> 0.2630s
+-- create_table("stocks")
+   -> 0.1187s
+-- add_index(:stocks, :plu)
+   -> 0.3333s
+-- drop_table(:stocks)
+   -> 0.1956s
+-- create_table("stocks")
+   -> 0.2125s
+-- add_index(:stocks, :plu)
+   -> 0.3884s
+-- drop_table(:stocks)
+   -> 0.0170s
+-- create_table("stocks")
+   -> 0.0318s
+-- add_index(:stocks, :plu)
+   -> 0.3534s
+-- drop_table(:stocks)
+   -> 0.0127s
+-- create_table("stocks")
+   -> 0.0188s
+-- add_index(:stocks, :plu)
+   -> 0.3745s
+-- drop_table(:stocks)
+   -> 0.0159s
+-- create_table("stocks")
+   -> 0.0184s
+-- add_index(:stocks, :plu)
+   -> 0.2478s
+-- drop_table(:stocks)
+   -> 0.1101s
+-- create_table("stocks")
+   -> 0.1015s
+-- add_index(:stocks, :plu)
+   -> 0.2835s
+-- drop_table(:stocks)
+   -> 0.2520s
+-- create_table("stocks")
+   -> 0.1263s
+-- add_index(:stocks, :plu)
+   -> 0.3078s
+-- drop_table(:stocks)
+   -> 0.2154s
+-- create_table("stocks")
+   -> 0.1298s
+-- add_index(:stocks, :plu)
+   -> 2.3580s
+-- drop_table(:stocks)
+   -> 0.0128s
+-- create_table("stocks")
+   -> 0.0236s
+-- add_index(:stocks, :plu)
+   -> 0.3589s
+-- drop_table(:stocks)
+   -> 1.9733s
+-- create_table("stocks")
+   -> 3.4331s
+-- add_index(:stocks, :plu)
+   -> 0.8955s
+-- drop_table(:stocks)
+   -> 0.9232s
+-- create_table("stocks")
+   -> 0.1402s
+-- add_index(:stocks, :plu)
+   -> 0.3403s
+-- drop_table(:stocks)
+   -> 0.1330s
+-- create_table("stocks")
+   -> 0.3049s
+-- add_index(:stocks, :plu)
+   -> 0.1857s
+-- drop_table(:stocks)
+   -> 0.1556s
+-- create_table("stocks")
+   -> 0.2137s
+-- add_index(:stocks, :plu)
+   -> 0.0473s
+-- drop_table(:stocks)
+   -> 0.0167s
+-- create_table("stocks")
+   -> 0.0331s
+-- add_index(:stocks, :plu)
+   -> 0.1848s
+-- drop_table(:stocks)
+   -> 0.0135s
+-- create_table("stocks")
+   -> 0.0188s
+-- add_index(:stocks, :plu)
+   -> 0.1985s
+-- drop_table(:stocks)
+   -> 0.3687s
+-- create_table("stocks")
+   -> 0.8997s
+-- add_index(:stocks, :plu)
+   -> 0.0556s
+-- drop_table(:stocks)
+   -> 0.2101s
+-- create_table("stocks")
+   -> 0.1021s
+-- add_index(:stocks, :plu)
+   -> 0.6303s
+-- drop_table(:stocks)
+   -> 0.3858s
+-- create_table("stocks")
+   -> 0.3916s
+-- add_index(:stocks, :plu)
+   -> 1.0657s
+-- drop_table(:stocks)
+   -> 0.0111s
+-- create_table("stocks")
+   -> 0.0240s
+-- add_index(:stocks, :plu)
+   -> 0.3768s
+-- drop_table(:stocks)
+   -> 0.1711s
+-- create_table("stocks")
+   -> 0.1230s
+-- add_index(:stocks, :plu)
+   -> 0.2969s
+-- drop_table(:stocks)
+   -> 0.2568s
+-- create_table("stocks")
+   -> 0.2151s
+-- add_index(:stocks, :plu)
+   -> 0.2568s
+-- drop_table(:stocks)
+   -> 0.6640s
+-- create_table("stocks")
+   -> 0.0963s
+-- add_index(:stocks, :plu)
+   -> 0.3958s
+-- drop_table(:stocks)
+   -> 0.0134s
+-- create_table("stocks")
+   -> 0.0242s
+-- add_index(:stocks, :plu)
+   -> 0.2112s
+-- drop_table(:stocks)
+   -> 0.0123s
+-- create_table("stocks")
+   -> 0.0270s
+-- add_index(:stocks, :plu)
+   -> 0.2651s
+-- drop_table(:stocks)
+   -> 0.1936s
+-- create_table("stocks")
+   -> 0.0472s
+-- add_index(:stocks, :plu)
+   -> 1.3756s
+-- drop_table(:stocks)
+   -> 0.2168s
+-- create_table("stocks")
+   -> 0.1749s
+-- add_index(:stocks, :plu)
+   -> 0.2448s
+-- drop_table(:stocks)
+   -> 0.0136s
+-- create_table("stocks")
+   -> 0.0385s
+-- add_index(:stocks, :plu)
+   -> 0.3552s
+-- drop_table(:stocks)
+   -> 0.3815s
+-- create_table("stocks")
+   -> 0.1570s
+-- add_index(:stocks, :plu)
+   -> 0.1849s
+-- drop_table(:stocks)
+   -> 0.7030s
+-- create_table("stocks")
+   -> 0.6317s
+-- add_index(:stocks, :plu)
+   -> 1.0325s
+-- drop_table(:stocks)
+   -> 1.6039s
+-- create_table("stocks")
+   -> 3.2451s
+-- add_index(:stocks, :plu)
+   -> 0.2849s
+-- drop_table(:stocks)
+   -> 1.1499s
+-- create_table("stocks")
+   -> 0.8302s
+-- add_index(:stocks, :plu)
+   -> 0.6628s
+-- drop_table(:stocks)
+   -> 0.0162s
+-- create_table("stocks")
+   -> 0.0286s
+-- add_index(:stocks, :plu)
+   -> 0.2496s
+-- drop_table(:stocks)
+   -> 0.1580s
+-- create_table("stocks")
+   -> 0.1033s
+-- add_index(:stocks, :plu)
+   -> 0.4977s
+-- drop_table(:stocks)
+   -> 0.0174s
+-- create_table("stocks")
+   -> 0.0525s
+-- add_index(:stocks, :plu)
+   -> 1.4758s
+-- drop_table(:stocks)
+   -> 0.1211s
+-- create_table("stocks")
+   -> 0.2492s
+-- add_index(:stocks, :plu)
+   -> 0.3193s
+-- drop_table(:stocks)
+   -> 0.3612s
+-- create_table("stocks")
+   -> 0.2842s
+-- add_index(:stocks, :plu)
+   -> 0.9664s
+-- drop_table(:stocks)
+   -> 0.1614s
+-- create_table("stocks")
+   -> 0.0723s
+-- add_index(:stocks, :plu)
+   -> 2.1648s
+-- drop_table(:stocks)
+   -> 0.1353s
+-- create_table("stocks")
+   -> 0.1351s
+-- add_index(:stocks, :plu)
+   -> 0.3730s
+-- drop_table(:stocks)
+   -> 0.5935s
+-- create_table("stocks")
+   -> 0.4920s
+-- add_index(:stocks, :plu)
+   -> 0.7532s
+-- drop_table(:stocks)
+   -> 0.2554s
+-- create_table("stocks")
+   -> 1.2276s
+-- add_index(:stocks, :plu)
+   -> 0.3383s
+-- drop_table(:stocks)
+   -> 0.0108s
+-- create_table("stocks")
+   -> 0.0248s
+-- add_index(:stocks, :plu)
+   -> 0.3036s
+-- drop_table(:stocks)
+   -> 0.0125s
+-- create_table("stocks")
+   -> 0.0243s
+-- add_index(:stocks, :plu)
+   -> 0.1692s
+-- drop_table(:stocks)
+   -> 0.2046s
+-- create_table("stocks")
+   -> 0.1542s
+-- add_index(:stocks, :plu)
+   -> 0.2069s
+-- drop_table(:stocks)
+   -> 0.0704s
+-- create_table("stocks")
+   -> 0.0306s
+-- add_index(:stocks, :plu)
+   -> 0.5166s
+-- drop_table(:stocks)
+   -> 0.3121s
+-- create_table("stocks")
+   -> 0.1105s
+-- add_index(:stocks, :plu)
+   -> 0.2519s
+-- drop_table(:stocks)
+   -> 0.1314s
+-- create_table("stocks")
+   -> 0.2410s
+-- add_index(:stocks, :plu)
+   -> 0.3340s
+-- drop_table(:stocks)
+   -> 0.8239s
+-- create_table("stocks")
+   -> 0.1035s
+-- add_index(:stocks, :plu)
+   -> 0.6612s
+-- drop_table(:stocks)
+   -> 0.4206s
+-- create_table("stocks")
+   -> 0.1278s
+-- add_index(:stocks, :plu)
+   -> 0.2073s
+-- drop_table(:stocks)
+   -> 0.1240s
+-- create_table("stocks")
+   -> 0.1023s
+-- add_index(:stocks, :plu)
+   -> 0.4463s
+-- drop_table(:stocks)
+   -> 0.2844s
+-- create_table("stocks")
+   -> 0.1393s
+-- add_index(:stocks, :plu)
+   -> 0.2877s
+-- drop_table(:stocks)
+   -> 0.7242s
+-- create_table("stocks")
+   -> 0.3338s
+-- add_index(:stocks, :plu)
+   -> 0.3363s
+-- drop_table(:stocks)
+   -> 0.0137s
+-- create_table("stocks")
+   -> 0.0253s
+-- add_index(:stocks, :plu)
+   -> 0.4988s
+-- drop_table(:stocks)
+   -> 0.2024s
+-- create_table("stocks")
+   -> 0.0965s
+-- add_index(:stocks, :plu)
+   -> 0.4243s
+-- drop_table(:stocks)
+   -> 0.2782s
+-- create_table("stocks")
+   -> 0.1564s
+-- add_index(:stocks, :plu)
+   -> 2.0544s
+-- drop_table(:stocks)
+   -> 0.1187s
+-- create_table("stocks")
+   -> 0.0426s
+-- add_index(:stocks, :plu)
+   -> 1.1833s
+-- drop_table(:stocks)
+   -> 1.7205s
+-- create_table("stocks")
+   -> 0.2388s
+-- add_index(:stocks, :plu)
+   -> 0.4724s
+-- drop_table(:stocks)
+   -> 0.4849s
+-- create_table("stocks")
+   -> 0.1912s
+-- add_index(:stocks, :plu)
+   -> 3.2869s
+-- drop_table(:stocks)
+   -> 0.3068s
+-- create_table("stocks")
+   -> 1.2431s
+-- add_index(:stocks, :plu)
+   -> 0.4920s
+-- drop_table(:stocks)
+   -> 0.0138s
+-- create_table("stocks")
+   -> 0.0202s
+-- add_index(:stocks, :plu)
+   -> 0.1794s
+-- drop_table(:stocks)
+   -> 0.0164s
+-- create_table("stocks")
+   -> 0.0181s
+-- add_index(:stocks, :plu)
+   -> 0.2609s
+-- drop_table(:stocks)
+   -> 0.0096s
+-- create_table("stocks")
+   -> 0.0176s
+-- add_index(:stocks, :plu)
+   -> 0.7972s
+-- drop_table(:stocks)
+   -> 0.2178s
+-- create_table("stocks")
+   -> 0.1062s
+-- add_index(:stocks, :plu)
+   -> 2.4466s
+-- drop_table(:stocks)
+   -> 0.1368s
+-- create_table("stocks")
+   -> 0.2499s
+-- add_index(:stocks, :plu)
+   -> 0.3818s
+-- drop_table(:stocks)
+   -> 0.1591s
+-- create_table("stocks")
+   -> 0.0759s
+-- add_index(:stocks, :plu)
+   -> 0.3903s
+-- drop_table(:stocks)
+   -> 0.7910s
+-- create_table("stocks")
+   -> 1.9024s
+-- add_index(:stocks, :plu)
+   -> 0.5015s
+-- drop_table(:stocks)
+   -> 0.5887s
+-- create_table("stocks")
+   -> 0.1304s
+-- add_index(:stocks, :plu)
+   -> 4.7609s
+-- drop_table(:stocks)
+   -> 0.4877s
+-- create_table("stocks")
+   -> 0.1316s
+-- add_index(:stocks, :plu)
+   -> 0.6470s
+-- drop_table(:stocks)
+   -> 0.0133s
+-- create_table("stocks")
+   -> 0.0229s
+-- add_index(:stocks, :plu)
+   -> 0.2764s
+-- drop_table(:stocks)
+   -> 0.2165s
+-- create_table("stocks")
+   -> 0.0974s
+-- add_index(:stocks, :plu)
+   -> 1.5496s
+-- drop_table(:stocks)
+   -> 0.2767s
+-- create_table("stocks")
+   -> 0.3249s
+-- add_index(:stocks, :plu)
+   -> 0.6042s
+-- drop_table(:stocks)
+   -> 0.1822s
+-- create_table("stocks")
+   -> 0.1504s
+-- add_index(:stocks, :plu)
+   -> 0.6349s
+-- drop_table(:stocks)
+   -> 0.0227s
+-- create_table("stocks")
+   -> 0.0380s
+-- add_index(:stocks, :plu)
+   -> 0.4695s
+-- drop_table(:stocks)
+   -> 0.1866s
+-- create_table("stocks")
+   -> 0.0464s
+-- add_index(:stocks, :plu)
+   -> 0.3576s
+-- drop_table(:stocks)
+   -> 0.7298s
+-- create_table("stocks")
+   -> 0.1438s
+-- add_index(:stocks, :plu)
+   -> 0.2085s
+-- drop_table(:stocks)
+   -> 0.2113s
+-- create_table("stocks")
+   -> 0.1359s
+-- add_index(:stocks, :plu)
+   -> 0.2877s
+-- drop_table(:stocks)
+   -> 0.3886s
+-- create_table("stocks")
+   -> 0.0786s
+-- add_index(:stocks, :plu)
+   -> 0.7057s
+-- drop_table(:stocks)
+   -> 0.1363s
+-- create_table("stocks")
+   -> 0.1165s
+-- add_index(:stocks, :plu)
+   -> 0.2273s
+-- drop_table(:stocks)
+   -> 0.0149s
+-- create_table("stocks")
+   -> 0.0255s
+-- add_index(:stocks, :plu)
+   -> 0.5520s
+-- drop_table(:stocks)
+   -> 0.1691s
+-- create_table("stocks")
+   -> 0.0953s
+-- add_index(:stocks, :plu)
+   -> 0.2359s
+-- drop_table(:stocks)
+   -> 0.2040s
+-- create_table("stocks")
+   -> 0.1095s
+-- add_index(:stocks, :plu)
+   -> 0.0693s
+-- drop_table(:stocks)
+   -> 0.3408s
+-- create_table("stocks")
+   -> 0.0403s
+-- add_index(:stocks, :plu)
+   -> 0.2877s
+-- drop_table(:stocks)
+   -> 0.3698s
+-- create_table("stocks")
+   -> 0.2433s
+-- add_index(:stocks, :plu)
+   -> 0.4578s
+-- drop_table(:stocks)
+   -> 0.2952s
+-- create_table("stocks")
+   -> 0.0976s
+-- add_index(:stocks, :plu)
+   -> 0.2871s
+-- drop_table(:stocks)
+   -> 0.2342s
+-- create_table("stocks")
+   -> 0.1379s
+-- add_index(:stocks, :plu)
+   -> 0.6749s
+-- drop_table(:stocks)
+   -> 0.2353s
+-- create_table("stocks")
+   -> 0.1658s
+-- add_index(:stocks, :plu)
+   -> 1.6086s
+-- drop_table(:stocks)
+   -> 0.0408s
+-- create_table("stocks")
+   -> 0.0206s
+-- add_index(:stocks, :plu)
+   -> 0.1546s
+-- drop_table(:stocks)
+   -> 0.1211s
+-- create_table("stocks")
+   -> 0.1180s
+-- add_index(:stocks, :plu)
+   -> 0.4016s
+-- drop_table(:stocks)
+   -> 0.2001s
+-- create_table("stocks")
+   -> 0.1487s
+-- add_index(:stocks, :plu)
+   -> 0.2901s
+-- drop_table(:stocks)
+   -> 0.3080s
+-- create_table("stocks")
+   -> 0.1112s
+-- add_index(:stocks, :plu)
+   -> 0.0662s
+-- drop_table(:stocks)
+   -> 0.0516s
+-- create_table("stocks")
+   -> 0.1029s
+-- add_index(:stocks, :plu)
+   -> 0.3831s
+-- drop_table(:stocks)
+   -> 0.0809s
+-- create_table("stocks")
+   -> 0.1530s
+-- add_index(:stocks, :plu)
+   -> 0.4891s
+-- drop_table(:stocks)
+   -> 0.2115s
+-- create_table("stocks")
+   -> 0.1053s
+-- add_index(:stocks, :plu)
+   -> 0.5013s
+-- drop_table(:stocks)
+   -> 0.0967s
+-- create_table("stocks")
+   -> 0.0780s
+-- add_index(:stocks, :plu)
+   -> 0.3512s
+-- drop_table(:stocks)
+   -> 0.1297s
+-- create_table("stocks")
+   -> 0.3557s
+-- add_index(:stocks, :plu)
+   -> 0.3119s
+-- drop_table(:stocks)
+   -> 0.0139s
+-- create_table("stocks")
+   -> 0.0342s
+-- add_index(:stocks, :plu)
+   -> 0.3982s
+-- drop_table(:stocks)
+   -> 0.0123s
+-- create_table("stocks")
+   -> 0.0327s
+-- add_index(:stocks, :plu)
+   -> 0.4054s
+-- drop_table(:stocks)
+   -> 0.3680s
+-- create_table("stocks")
+   -> 0.2762s
+-- add_index(:stocks, :plu)
+   -> 0.5170s
+-- drop_table(:stocks)
+   -> 0.1241s
+-- create_table("stocks")
+   -> 0.2107s
+-- add_index(:stocks, :plu)
+   -> 1.3428s
+-- drop_table(:stocks)
+   -> 0.3060s
+-- create_table("stocks")
+   -> 0.2066s
+-- add_index(:stocks, :plu)
+   -> 0.3608s
+-- drop_table(:stocks)
+   -> 0.6897s
+-- create_table("stocks")
+   -> 0.1791s
+-- add_index(:stocks, :plu)
+   -> 0.2841s
+-- drop_table(:stocks)
+   -> 0.0159s
+-- create_table("stocks")
+   -> 0.0334s
+-- add_index(:stocks, :plu)
+   -> 0.2093s
+-- drop_table(:stocks)
+   -> 0.0099s
+-- create_table("stocks")
+   -> 0.0193s
+-- add_index(:stocks, :plu)
+   -> 0.2740s
+-- drop_table(:stocks)
+   -> 0.1033s
+-- create_table("stocks")
+   -> 0.0711s
+-- add_index(:stocks, :plu)
+   -> 0.2124s
+-- drop_table(:stocks)
+   -> 0.1249s
+-- create_table("stocks")
+   -> 0.0497s
+-- add_index(:stocks, :plu)
+   -> 0.8980s
+-- drop_table(:stocks)
+   -> 0.2242s
+-- create_table("stocks")
+   -> 0.1275s
+-- add_index(:stocks, :plu)
+   -> 0.0402s
+-- drop_table(:stocks)
+   -> 0.0638s
+-- create_table("stocks")
+   -> 0.1031s
+-- add_index(:stocks, :plu)
+   -> 0.8575s
+-- drop_table(:stocks)
+   -> 0.2426s
+-- create_table("stocks")
+   -> 0.4423s
+-- add_index(:stocks, :plu)
+   -> 0.9084s
+-- drop_table(:stocks)
+   -> 0.3781s
+-- create_table("stocks")
+   -> 0.1362s
+-- add_index(:stocks, :plu)
+   -> 0.6445s
+-- drop_table(:stocks)
+   -> 0.1395s
+-- create_table("stocks")
+   -> 0.1079s
+-- add_index(:stocks, :plu)
+   -> 0.4879s
+-- drop_table(:stocks)
+   -> 0.0902s
+-- create_table("stocks")
+   -> 0.2511s
+-- add_index(:stocks, :plu)
+   -> 0.4073s
+-- drop_table(:stocks)
+   -> 0.2754s
+-- create_table("stocks")
+   -> 0.2430s
+-- add_index(:stocks, :plu)
+   -> 0.2014s
+-- drop_table(:stocks)
+   -> 0.1064s
+-- create_table("stocks")
+   -> 0.1177s
+-- add_index(:stocks, :plu)
+   -> 0.1845s
+-- drop_table(:stocks)
+   -> 0.0935s
+-- create_table("stocks")
+   -> 0.0856s
+-- add_index(:stocks, :plu)
+   -> 0.7016s
+-- drop_table(:stocks)
+   -> 0.7362s
+-- create_table("stocks")
+   -> 0.1269s
+-- add_index(:stocks, :plu)
+   -> 0.4006s
+-- drop_table(:stocks)
+   -> 0.1350s
+-- create_table("stocks")
+   -> 0.1336s
+-- add_index(:stocks, :plu)
+   -> 0.1521s
+-- drop_table(:stocks)
+   -> 0.2394s
+-- create_table("stocks")
+   -> 0.1399s
+-- add_index(:stocks, :plu)
+   -> 0.2335s
+-- drop_table(:stocks)
+   -> 0.4933s
+-- create_table("stocks")
+   -> 0.1497s
+-- add_index(:stocks, :plu)
+   -> 3.0403s
+-- drop_table(:stocks)
+   -> 0.2295s
+-- create_table("stocks")
+   -> 0.1245s
+-- add_index(:stocks, :plu)
+   -> 0.6475s
+-- drop_table(:stocks)
+   -> 0.3578s
+-- create_table("stocks")
+   -> 0.2504s
+-- add_index(:stocks, :plu)
+   -> 1.2311s
+-- drop_table(:stocks)
+   -> 0.0300s
+-- create_table("stocks")
+   -> 0.0377s
+-- add_index(:stocks, :plu)
+   -> 0.4154s
+-- drop_table(:stocks)
+   -> 0.2208s
+-- create_table("stocks")
+   -> 0.0411s
+-- add_index(:stocks, :plu)
+   -> 0.8344s
+-- drop_table(:stocks)
+   -> 0.1708s
+-- create_table("stocks")
+   -> 0.2613s
+-- add_index(:stocks, :plu)
+   -> 0.0709s
+-- drop_table(:stocks)
+   -> 0.0492s
+-- create_table("stocks")
+   -> 0.0182s
+-- add_index(:stocks, :plu)
+   -> 0.6144s
+-- drop_table(:stocks)
+   -> 0.1481s
+-- create_table("stocks")
+   -> 0.0384s
+-- add_index(:stocks, :plu)
+   -> 0.2484s
+-- drop_table(:stocks)
+   -> 0.1887s
+-- create_table("stocks")
+   -> 0.1473s
+-- add_index(:stocks, :plu)
+   -> 0.1602s
+-- drop_table(:stocks)
+   -> 0.0275s
+-- create_table("stocks")
+   -> 0.0242s
+-- add_index(:stocks, :plu)
+   -> 0.3121s
+-- drop_table(:stocks)
+   -> 0.1616s
+-- create_table("stocks")
+   -> 0.1280s
+-- add_index(:stocks, :plu)
+   -> 1.4026s
+-- drop_table(:stocks)
+   -> 0.9775s
+-- create_table("stocks")
+   -> 0.2723s
+-- add_index(:stocks, :plu)
+   -> 3.8037s
+-- drop_table(:stocks)
+   -> 0.7379s
+-- create_table("stocks")
+   -> 0.1615s
+-- add_index(:stocks, :plu)
+   -> 0.4292s
+-- drop_table(:stocks)
+   -> 0.2024s
+-- create_table("stocks")
+   -> 0.2510s
+-- add_index(:stocks, :plu)
+   -> 0.6247s
+-- drop_table(:stocks)
+   -> 0.7082s
+-- create_table("stocks")
+   -> 0.3038s
+-- add_index(:stocks, :plu)
+   -> 0.2165s
+-- drop_table(:stocks)
+   -> 0.3889s
+-- create_table("stocks")
+   -> 0.1018s
+-- add_index(:stocks, :plu)
+   -> 0.4332s
+-- drop_table(:stocks)
+   -> 0.4605s
+-- create_table("stocks")
+   -> 0.1241s
+-- add_index(:stocks, :plu)
+   -> 0.5822s
+-- drop_table(:stocks)
+   -> 0.2718s
+-- create_table("stocks")
+   -> 0.2624s
+-- add_index(:stocks, :plu)
+   -> 0.4195s
+-- drop_table(:stocks)
+   -> 0.1513s
+-- create_table("stocks")
+   -> 0.0986s
+-- add_index(:stocks, :plu)
+   -> 0.1291s
+-- drop_table(:stocks)
+   -> 0.0258s
+-- create_table("stocks")
+   -> 0.0476s
+-- add_index(:stocks, :plu)
+   -> 0.0675s
+-- drop_table(:stocks)
+   -> 0.1484s
+-- create_table("stocks")
+   -> 0.0771s
+-- add_index(:stocks, :plu)
+   -> 0.3855s
+-- drop_table(:stocks)
+   -> 0.0183s
+-- create_table("stocks")
+   -> 0.0606s
+-- add_index(:stocks, :plu)
+   -> 0.2021s
+-- drop_table(:stocks)
+   -> 0.0952s
+-- create_table("stocks")
+   -> 0.0986s
+-- add_index(:stocks, :plu)
+   -> 0.3454s
+-- drop_table(:stocks)
+   -> 0.1315s
+-- create_table("stocks")
+   -> 0.0654s
+-- add_index(:stocks, :plu)
+   -> 0.2319s
+-- drop_table(:stocks)
+   -> 0.1703s
+-- create_table("stocks")
+   -> 0.1324s
+-- add_index(:stocks, :plu)
+   -> 0.7623s
+-- drop_table(:stocks)
+   -> 0.5716s
+-- create_table("stocks")
+   -> 0.1158s
+-- add_index(:stocks, :plu)
+   -> 0.0423s
+-- drop_table(:stocks)
+   -> 1.0776s
+-- create_table("stocks")
+   -> 0.1108s
+-- add_index(:stocks, :plu)
+   -> 0.2474s
+-- drop_table(:stocks)
+   -> 0.3418s
+-- create_table("stocks")
+   -> 0.2898s
+-- add_index(:stocks, :plu)
+   -> 0.2738s
+-- drop_table(:stocks)
+   -> 0.1798s
+-- create_table("stocks")
+   -> 0.1346s
+-- add_index(:stocks, :plu)
+   -> 0.2414s
+-- drop_table(:stocks)
+   -> 0.6082s
+-- create_table("stocks")
+   -> 0.2040s
+-- add_index(:stocks, :plu)
+   -> 0.7175s
+-- drop_table(:stocks)
+   -> 0.1684s
+-- create_table("stocks")
+   -> 0.0923s
+-- add_index(:stocks, :plu)
+   -> 1.9192s
+-- drop_table(:stocks)
+   -> 0.2659s
+-- create_table("stocks")
+   -> 0.1278s
+-- add_index(:stocks, :plu)
+   -> 0.6163s
+-- drop_table(:stocks)
+   -> 0.0148s
+-- create_table("stocks")
+   -> 0.0238s
+-- add_index(:stocks, :plu)
+   -> 0.1727s
+-- drop_table(:stocks)
+   -> 0.0138s
+-- create_table("stocks")
+   -> 0.0181s
+-- add_index(:stocks, :plu)
+   -> 0.1979s
+-- drop_table(:stocks)
+   -> 0.0126s
+-- create_table("stocks")
+   -> 0.0270s
+-- add_index(:stocks, :plu)
+   -> 0.8622s
+-- drop_table(:stocks)
+   -> 0.7332s
+-- create_table("stocks")
+   -> 0.1536s
+-- add_index(:stocks, :plu)
+   -> 0.7992s
+-- drop_table(:stocks)
+   -> 0.7578s
+-- create_table("stocks")
+   -> 0.0377s
+-- add_index(:stocks, :plu)
+   -> 0.1923s
+-- drop_table(:stocks)
+   -> 0.2287s
+-- create_table("stocks")
+   -> 0.1152s
+-- add_index(:stocks, :plu)
+   -> 0.7735s
+-- drop_table(:stocks)
+   -> 0.3762s
+-- create_table("stocks")
+   -> 0.0864s
+-- add_index(:stocks, :plu)
+   -> 0.6862s
+-- drop_table(:stocks)
+   -> 0.0356s
+-- create_table("stocks")
+   -> 0.0469s
+-- add_index(:stocks, :plu)
+   -> 0.2585s
+-- drop_table(:stocks)
+   -> 0.1840s
+-- create_table("stocks")
+   -> 0.1170s
+-- add_index(:stocks, :plu)
+   -> 0.2824s
+-- drop_table(:stocks)
+   -> 0.0134s
+-- create_table("stocks")
+   -> 0.0272s
+-- add_index(:stocks, :plu)
+   -> 0.2718s
+-- drop_table(:stocks)
+   -> 0.8420s
+-- create_table("stocks")
+   -> 0.1249s
+-- add_index(:stocks, :plu)
+   -> 0.8473s
+-- drop_table(:stocks)
+   -> 0.0630s
+-- create_table("stocks")
+   -> 0.2313s
+-- add_index(:stocks, :plu)
+   -> 0.3979s
+-- drop_table(:stocks)
+   -> 0.1105s
+-- create_table("stocks")
+   -> 0.0503s
+-- add_index(:stocks, :plu)
+   -> 0.1499s
+-- drop_table(:stocks)
+   -> 0.7470s
+-- create_table("stocks")
+   -> 0.1389s
+-- add_index(:stocks, :plu)
+   -> 0.2446s
+-- drop_table(:stocks)
+   -> 1.0805s
+-- create_table("stocks")
+   -> 0.2289s
+-- add_index(:stocks, :plu)
+   -> 0.1735s
+-- drop_table(:stocks)
+   -> 0.0664s
+-- create_table("stocks")
+   -> 0.1035s
+-- add_index(:stocks, :plu)
+   -> 0.7825s
+-- drop_table(:stocks)
+   -> 0.1534s
+-- create_table("stocks")
+   -> 0.1252s
+-- add_index(:stocks, :plu)
+   -> 0.3351s
+-- drop_table(:stocks)
+   -> 0.1363s
+-- create_table("stocks")
+   -> 0.1075s
+-- add_index(:stocks, :plu)
+   -> 0.2097s
+-- drop_table(:stocks)
+   -> 0.0145s
+-- create_table("stocks")
+   -> 0.0191s
+-- add_index(:stocks, :plu)
+   -> 0.3383s
+-- drop_table(:stocks)
+   -> 0.1739s
+-- create_table("stocks")
+   -> 0.1013s
+-- add_index(:stocks, :plu)
+   -> 0.2503s
+-- drop_table(:stocks)
+   -> 0.1962s
+-- create_table("stocks")
+   -> 0.4233s
+-- add_index(:stocks, :plu)
+   -> 0.0535s
+-- drop_table(:stocks)
+   -> 0.0124s
+-- create_table("stocks")
+   -> 0.0189s
+-- add_index(:stocks, :plu)
+   -> 0.1918s
+-- drop_table(:stocks)
+   -> 0.3121s
+-- create_table("stocks")
+   -> 0.0601s
+-- add_index(:stocks, :plu)
+   -> 0.3105s
+-- drop_table(:stocks)
+   -> 0.2337s
+-- create_table("stocks")
+   -> 0.8076s
+-- add_index(:stocks, :plu)
+   -> 0.1608s
+-- drop_table(:stocks)
+   -> 0.1942s
+-- create_table("stocks")
+   -> 0.2175s
+-- add_index(:stocks, :plu)
+   -> 0.4044s
+-- drop_table(:stocks)
+   -> 0.0820s
+-- create_table("stocks")
+   -> 0.2484s
+-- add_index(:stocks, :plu)
+   -> 1.2541s
+-- drop_table(:stocks)
+   -> 0.1463s
+-- create_table("stocks")
+   -> 0.0888s
+-- add_index(:stocks, :plu)
+   -> 0.1939s
+-- drop_table(:stocks)
+   -> 0.0277s
+-- create_table("stocks")
+   -> 0.0275s
+-- add_index(:stocks, :plu)
+   -> 0.1577s
+-- drop_table(:stocks)
+   -> 0.1923s
+-- create_table("stocks")
+   -> 0.1636s
+-- add_index(:stocks, :plu)
+   -> 0.2705s
+-- drop_table(:stocks)
+   -> 0.3695s
+-- create_table("stocks")
+   -> 0.1418s
+-- add_index(:stocks, :plu)
+   -> 0.2202s
+-- drop_table(:stocks)
+   -> 0.1468s
+-- create_table("stocks")
+   -> 0.2461s
+-- add_index(:stocks, :plu)
+   -> 0.5737s
+-- drop_table(:stocks)
+   -> 0.0157s
+-- create_table("stocks")
+   -> 0.0224s
+-- add_index(:stocks, :plu)
+   -> 0.2156s
+-- drop_table(:stocks)
+   -> 0.1405s
+-- create_table("stocks")
+   -> 0.0632s
+-- add_index(:stocks, :plu)
+   -> 0.2991s
+-- drop_table(:stocks)
+   -> 0.2206s
+-- create_table("stocks")
+   -> 0.1753s
+-- add_index(:stocks, :plu)
+   -> 0.0707s
+-- drop_table(:stocks)
+   -> 0.1509s
+-- create_table("stocks")
+   -> 0.1411s
+-- add_index(:stocks, :plu)
+   -> 0.1997s
+-- drop_table(:stocks)
+   -> 0.1517s
+-- create_table("stocks")
+   -> 0.3600s
+-- add_index(:stocks, :plu)
+   -> 2.3529s
+-- drop_table(:stocks)
+   -> 1.9487s
+-- create_table("stocks")
+   -> 0.1163s
+-- add_index(:stocks, :plu)
+   -> 1.3969s
+-- drop_table(:stocks)
+   -> 0.7005s
+-- create_table("stocks")
+   -> 0.0790s
+-- add_index(:stocks, :plu)
+   -> 0.4715s
+-- drop_table(:stocks)
+   -> 0.3845s
+-- create_table("stocks")
+   -> 0.3189s
+-- add_index(:stocks, :plu)
+   -> 0.7155s
+-- drop_table(:stocks)
+   -> 0.3706s
+-- create_table("stocks")
+   -> 0.1082s
+-- add_index(:stocks, :plu)
+   -> 0.9504s
+-- drop_table(:stocks)
+   -> 0.2906s
+-- create_table("stocks")
+   -> 0.1616s
+-- add_index(:stocks, :plu)
+   -> 0.5295s
+-- drop_table(:stocks)
+   -> 2.2081s
+-- create_table("stocks")
+   -> 0.0986s
+-- add_index(:stocks, :plu)
+   -> 0.3926s
+-- drop_table(:stocks)
+   -> 0.5075s
+-- create_table("stocks")
+   -> 0.0749s
+-- add_index(:stocks, :plu)
+   -> 0.4791s
+-- drop_table(:stocks)
+   -> 0.2377s
+-- create_table("stocks")
+   -> 0.1412s
+-- add_index(:stocks, :plu)
+   -> 0.5684s
+-- drop_table(:stocks)
+   -> 0.4850s
+-- create_table("stocks")
+   -> 0.0723s
+-- add_index(:stocks, :plu)
+   -> 0.9614s
+-- drop_table(:stocks)
+   -> 0.1151s
+-- create_table("stocks")
+   -> 0.1990s
+-- add_index(:stocks, :plu)
+   -> 0.5714s
+-- drop_table(:stocks)
+   -> 0.5880s
+-- create_table("stocks")
+   -> 0.1371s
+-- add_index(:stocks, :plu)
+   -> 1.7311s
+-- drop_table(:stocks)
+   -> 0.2140s
+-- create_table("stocks")
+   -> 0.2500s
+-- add_index(:stocks, :plu)
+   -> 0.5314s
+-- drop_table(:stocks)
+   -> 0.4527s
+-- create_table("stocks")
+   -> 0.1892s
+-- add_index(:stocks, :plu)
+   -> 0.7802s
+-- drop_table(:stocks)
+   -> 0.0159s
+-- create_table("stocks")
+   -> 0.0600s
+-- add_index(:stocks, :plu)
+   -> 1.0340s
+-- drop_table(:stocks)
+   -> 0.3952s
+-- create_table("stocks")
+   -> 0.0246s
+-- add_index(:stocks, :plu)
+   -> 1.2161s
+-- drop_table(:stocks)
+   -> 0.9785s
+-- create_table("stocks")
+   -> 0.0907s
+-- add_index(:stocks, :plu)
+   -> 1.6910s
+-- drop_table(:stocks)
+   -> 0.5149s
+-- create_table("stocks")
+   -> 0.4516s
+-- add_index(:stocks, :plu)
+   -> 0.3444s
+-- drop_table(:stocks)
+   -> 0.1417s
+-- create_table("stocks")
+   -> 0.1177s
+-- add_index(:stocks, :plu)
+   -> 0.6585s
+-- drop_table(:stocks)
+   -> 0.5644s
+-- create_table("stocks")
+   -> 0.0693s
+-- add_index(:stocks, :plu)
+   -> 0.2233s
+-- drop_table(:stocks)
+   -> 0.3355s
+-- create_table("stocks")
+   -> 0.1302s
+-- add_index(:stocks, :plu)
+   -> 0.0502s
+-- drop_table(:stocks)
+   -> 0.7036s
+-- create_table("stocks")
+   -> 0.0825s
+-- add_index(:stocks, :plu)
+   -> 0.1610s
+-- drop_table(:stocks)
+   -> 0.0795s
+-- create_table("stocks")
+   -> 0.0316s
+-- add_index(:stocks, :plu)
+   -> 0.8640s
+-- drop_table(:stocks)
+   -> 0.0197s
+-- create_table("stocks")
+   -> 0.0336s
+-- add_index(:stocks, :plu)
+   -> 0.6049s
+-- drop_table(:stocks)
+   -> 0.9474s
+-- create_table("stocks")
+   -> 0.1367s
+-- add_index(:stocks, :plu)
+   -> 0.5240s
+-- drop_table(:stocks)
+   -> 0.1673s
+-- create_table("stocks")
+   -> 0.0538s
+-- add_index(:stocks, :plu)
+   -> 0.4768s
+-- drop_table(:stocks)
+   -> 0.2744s
+-- create_table("stocks")
+   -> 0.1138s
+-- add_index(:stocks, :plu)
+   -> 0.6360s
+-- drop_table(:stocks)
+   -> 0.0810s
+-- create_table("stocks")
+   -> 0.1116s
+-- add_index(:stocks, :plu)
+   -> 1.0707s
+-- drop_table(:stocks)
+   -> 0.0142s
+-- create_table("stocks")
+   -> 0.0281s
+-- add_index(:stocks, :plu)
+   -> 0.2610s
+-- drop_table(:stocks)
+   -> 0.0119s
+-- create_table("stocks")
+   -> 0.0404s
+-- add_index(:stocks, :plu)
+   -> 0.2467s
+-- drop_table(:stocks)
+   -> 0.3632s
+-- create_table("stocks")
+   -> 0.1881s
+-- add_index(:stocks, :plu)
+   -> 5.2899s
+-- drop_table(:stocks)
+   -> 1.7875s
+-- create_table("stocks")
+   -> 0.0662s
+-- add_index(:stocks, :plu)
+   -> 0.4454s
+-- drop_table(:stocks)
+   -> 0.1310s
+-- create_table("stocks")
+   -> 0.1302s
+-- add_index(:stocks, :plu)
+   -> 0.4612s
+-- drop_table(:stocks)
+   -> 0.1033s
+-- create_table("stocks")
+   -> 0.2778s
+-- add_index(:stocks, :plu)
+   -> 0.0476s
+-- drop_table(:stocks)
+   -> 0.3281s
+-- create_table("stocks")
+   -> 0.1146s
+-- add_index(:stocks, :plu)
+   -> 0.5683s
+-- drop_table(:stocks)
+   -> 0.1696s
+-- create_table("stocks")
+   -> 0.1011s
+-- add_index(:stocks, :plu)
+   -> 1.0591s
+-- drop_table(:stocks)
+   -> 0.2434s
+-- create_table("stocks")
+   -> 0.2151s
+-- add_index(:stocks, :plu)
+   -> 0.6685s
+-- drop_table(:stocks)
+   -> 0.0146s
+-- create_table("stocks")
+   -> 0.0196s
+-- add_index(:stocks, :plu)
+   -> 0.2208s
+-- drop_table(:stocks)
+   -> 0.0282s
+-- create_table("stocks")
+   -> 0.0291s
+-- add_index(:stocks, :plu)
+   -> 0.2207s
+-- drop_table(:stocks)
+   -> 0.4772s
+-- create_table("stocks")
+   -> 0.8932s
+-- add_index(:stocks, :plu)
+   -> 1.0191s
+-- drop_table(:stocks)
+   -> 0.0477s
+-- create_table("stocks")
+   -> 0.1150s
+-- add_index(:stocks, :plu)
+   -> 0.1984s
+-- drop_table(:stocks)
+   -> 0.2607s
+-- create_table("stocks")
+   -> 0.1768s
+-- add_index(:stocks, :plu)
+   -> 0.6203s
+-- drop_table(:stocks)
+   -> 0.1558s
+-- create_table("stocks")
+   -> 0.1178s
+-- add_index(:stocks, :plu)
+   -> 0.4264s
+-- drop_table(:stocks)
+   -> 0.1314s
+-- create_table("stocks")
+   -> 0.0856s
+-- add_index(:stocks, :plu)
+   -> 0.2622s
+-- drop_table(:stocks)
+   -> 0.9723s
+-- create_table("stocks")
+   -> 0.0902s
+-- add_index(:stocks, :plu)
+   -> 0.1555s
+-- drop_table(:stocks)
+   -> 0.1088s
+-- create_table("stocks")
+   -> 0.2221s
+-- add_index(:stocks, :plu)
+   -> 0.3317s
+-- drop_table(:stocks)
+   -> 0.0154s
+-- create_table("stocks")
+   -> 0.0214s
+-- add_index(:stocks, :plu)
+   -> 0.2653s
+-- drop_table(:stocks)
+   -> 0.2710s
+-- create_table("stocks")
+   -> 0.0679s
+-- add_index(:stocks, :plu)
+   -> 0.2633s
+-- drop_table(:stocks)
+   -> 0.2506s
+-- create_table("stocks")
+   -> 0.1317s
+-- add_index(:stocks, :plu)
+   -> 0.6333s
+-- drop_table(:stocks)
+   -> 0.2387s
+-- create_table("stocks")
+   -> 0.1641s
+-- add_index(:stocks, :plu)
+   -> 1.0495s
+-- drop_table(:stocks)
+   -> 0.3799s
+-- create_table("stocks")
+   -> 0.0882s
+-- add_index(:stocks, :plu)
+   -> 0.8413s
+-- drop_table(:stocks)
+   -> 0.5160s
+-- create_table("stocks")
+   -> 0.1317s
+-- add_index(:stocks, :plu)
+   -> 0.4233s
+-- drop_table(:stocks)
+   -> 0.5422s
+-- create_table("stocks")
+   -> 0.2337s
+-- add_index(:stocks, :plu)
+   -> 1.1559s
+-- drop_table(:stocks)
+   -> 0.5573s
+-- create_table("stocks")
+   -> 0.2461s
+-- add_index(:stocks, :plu)
+   -> 0.1875s
+-- drop_table(:stocks)
+   -> 0.9984s
+-- create_table("stocks")
+   -> 0.4582s
+-- add_index(:stocks, :plu)
+   -> 0.4090s
+-- drop_table(:stocks)
+   -> 0.0151s
+-- create_table("stocks")
+   -> 0.0279s
+-- add_index(:stocks, :plu)
+   -> 2.3672s
+-- drop_table(:stocks)
+   -> 0.0121s
+-- create_table("stocks")
+   -> 0.0193s
+-- add_index(:stocks, :plu)
+   -> 0.1974s
+-- drop_table(:stocks)
+   -> 0.0107s
+-- create_table("stocks")
+   -> 0.0191s
+-- add_index(:stocks, :plu)
+   -> 1.2596s
+-- drop_table(:stocks)
+   -> 0.1137s
+-- create_table("stocks")
+   -> 0.0461s
+-- add_index(:stocks, :plu)
+   -> 1.2088s
+-- drop_table(:stocks)
+   -> 1.5600s
+-- create_table("stocks")
+   -> 0.1424s
+-- add_index(:stocks, :plu)
+   -> 0.3383s
+-- drop_table(:stocks)
+   -> 0.5163s
+-- create_table("stocks")
+   -> 0.1923s
+-- add_index(:stocks, :plu)
+   -> 1.6664s
+-- drop_table(:stocks)
+   -> 0.0109s
+-- create_table("stocks")
+   -> 0.0240s
+-- add_index(:stocks, :plu)
+   -> 0.6744s
+-- drop_table(:stocks)
+   -> 0.3033s
+-- create_table("stocks")
+   -> 0.2382s
+-- add_index(:stocks, :plu)
+   -> 0.1100s
+-- drop_table(:stocks)
+   -> 0.5320s
+-- create_table("stocks")
+   -> 0.0861s
+-- add_index(:stocks, :plu)
+   -> 0.2175s
+-- drop_table(:stocks)
+   -> 0.0149s
+-- create_table("stocks")
+   -> 0.0242s
+-- add_index(:stocks, :plu)
+   -> 0.1594s
+-- drop_table(:stocks)
+   -> 0.1312s
+-- create_table("stocks")
+   -> 0.1166s
+-- add_index(:stocks, :plu)
+   -> 2.1167s
+-- drop_table(:stocks)
+   -> 0.4735s
+-- create_table("stocks")
+   -> 0.1424s
+-- add_index(:stocks, :plu)
+   -> 0.4633s
+-- drop_table(:stocks)
+   -> 0.1798s
+-- create_table("stocks")
+   -> 0.1304s
+-- add_index(:stocks, :plu)
+   -> 0.2274s
+-- drop_table(:stocks)
+   -> 0.7899s
+-- create_table("stocks")
+   -> 1.0731s
+-- add_index(:stocks, :plu)
+   -> 0.8017s
+-- drop_table(:stocks)
+   -> 0.1611s
+-- create_table("stocks")
+   -> 0.2880s
+-- add_index(:stocks, :plu)
+   -> 0.7934s
+-- drop_table(:stocks)
+   -> 0.8131s
+-- create_table("stocks")
+   -> 0.0885s
+-- add_index(:stocks, :plu)
+   -> 0.4355s
+-- drop_table(:stocks)
+   -> 0.2926s
+-- create_table("stocks")
+   -> 0.1287s
+-- add_index(:stocks, :plu)
+   -> 0.3736s
+-- drop_table(:stocks)
+   -> 0.7605s
+-- create_table("stocks")
+   -> 0.9638s
+-- add_index(:stocks, :plu)
+   -> 0.4105s
+-- drop_table(:stocks)
+   -> 0.0159s
+-- create_table("stocks")
+   -> 0.0192s
+-- add_index(:stocks, :plu)
+   -> 0.1380s
+-- drop_table(:stocks)
+   -> 0.0114s
+-- create_table("stocks")
+   -> 0.0208s
+-- add_index(:stocks, :plu)
+   -> 0.2423s
+-- drop_table(:stocks)
+   -> 0.2240s
+-- create_table("stocks")
+   -> 0.1197s
+-- add_index(:stocks, :plu)
+   -> 0.2714s
+-- drop_table(:stocks)
+   -> 0.3717s
+-- create_table("stocks")
+   -> 0.1127s
+-- add_index(:stocks, :plu)
+   -> 0.6171s
+-- drop_table(:stocks)
+   -> 0.1645s
+-- create_table("stocks")
+   -> 0.1358s
+-- add_index(:stocks, :plu)
+   -> 0.0831s
+-- drop_table(:stocks)
+   -> 0.5893s
+-- create_table("stocks")
+   -> 0.5700s
+-- add_index(:stocks, :plu)
+   -> 0.6973s
+-- drop_table(:stocks)
+   -> 0.2951s
+-- create_table("stocks")
+   -> 0.1465s
+-- add_index(:stocks, :plu)
+   -> 0.3713s
+-- drop_table(:stocks)
+   -> 0.1566s
+-- create_table("stocks")
+   -> 0.0805s
+-- add_index(:stocks, :plu)
+   -> 0.4027s
+-- drop_table(:stocks)
+   -> 0.1953s
+-- create_table("stocks")
+   -> 0.1288s
+-- add_index(:stocks, :plu)
+   -> 0.5580s
+-- drop_table(:stocks)
+   -> 0.1059s
+-- create_table("stocks")
+   -> 0.6824s
+-- add_index(:stocks, :plu)
+   -> 1.1049s
+-- drop_table(:stocks)
+   -> 2.6527s
+-- create_table("stocks")
+   -> 0.1513s
+-- add_index(:stocks, :plu)
+   -> 3.4874s
+-- drop_table(:stocks)
+   -> 0.7850s
+-- create_table("stocks")
+   -> 0.0242s
+-- add_index(:stocks, :plu)
+   -> 0.2962s
+-- drop_table(:stocks)
+   -> 0.4038s
+-- create_table("stocks")
+   -> 0.4303s
+-- add_index(:stocks, :plu)
+   -> 0.3525s
+-- drop_table(:stocks)
+   -> 0.2705s
+-- create_table("stocks")
+   -> 0.2784s
+-- add_index(:stocks, :plu)
+   -> 1.9134s
+-- drop_table(:stocks)
+   -> 0.2690s
+-- create_table("stocks")
+   -> 0.0721s
+-- add_index(:stocks, :plu)
+   -> 0.1849s
+-- drop_table(:stocks)
+   -> 0.5615s
+-- create_table("stocks")
+   -> 0.1659s
+-- add_index(:stocks, :plu)
+   -> 1.0159s
+-- drop_table(:stocks)
+   -> 0.8389s
+-- create_table("stocks")
+   -> 0.1059s
+-- add_index(:stocks, :plu)
+   -> 0.5700s
+-- drop_table(:stocks)
+   -> 1.0800s
+-- create_table("stocks")
+   -> 0.1697s
+-- add_index(:stocks, :plu)
+   -> 2.0811s
+-- drop_table(:stocks)
+   -> 0.1114s
+-- create_table("stocks")
+   -> 0.0775s
+-- add_index(:stocks, :plu)
+   -> 0.7057s
+-- drop_table(:stocks)
+   -> 0.1458s
+-- create_table("stocks")
+   -> 0.1297s
+-- add_index(:stocks, :plu)
+   -> 0.8924s
+-- drop_table(:stocks)
+   -> 0.2385s
+-- create_table("stocks")
+   -> 0.2795s
+-- add_index(:stocks, :plu)
+   -> 0.0484s
+-- drop_table(:stocks)
+   -> 0.2219s
+-- create_table("stocks")
+   -> 0.1002s
+-- add_index(:stocks, :plu)
+   -> 0.7571s
