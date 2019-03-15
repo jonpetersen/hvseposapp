@@ -6,23 +6,29 @@ require 'net/http'
 require_relative "../configs/deploy_setting.rb"
 require_relative "../configs/active_record_setting.rb"
 
+require "/home/hvsepos/hvseposapp/configs/deploy_setting.rb"
+require "/home/hvsepos/hvseposapp/configs/active_record_setting.rb"
+
+
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
-
-class Sale < ActiveRecord::Base
-  #belongs_to :stock
-  self.inheritance_column = nil
-end
 
 splashmap = '747989998842'
 donut = '90114'
 sroll = '90230'
 vanngin = '735850718095'
 
-opening_sales_splashmap = Sale.where("plu = #{splashmap}").count
-opening_sales_donut = Sale.where("plu = #{donut}").count
-opening_sales_sroll = Sale.where("plu = #{sroll}").count
-opening_sales_vanngin = Sale.where("plu = #{vanngin}").count
+class Sale < ActiveRecord::Base
+  #belongs_to :stock
+  self.inheritance_column = nil
+end
+
+if Sale.table_exists?
+  opening_sales_splashmap = Sale.where("plu = #{splashmap}").count
+  opening_sales_donut = Sale.where("plu = #{donut}").count
+  opening_sales_sroll = Sale.where("plu = #{sroll}").count
+  opening_sales_vanngin = Sale.where("plu = #{vanngin}").count
+end
 
 class CreateSales < ActiveRecord::Migration[4.2]
   def self.up
