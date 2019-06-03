@@ -54,23 +54,31 @@ class StockitemController < Sinatra::Base
     #@item_total_qtysold_by_week = item_everysale.group_by_week(:date).count.to_a
     
     #TESCO API LOOKUP
-    @tescosearch = Tesco.search(@stockitem.desc)
-    if @tescosearch[0] 
-	   @tescosearchname1 = @tescosearch[0]["name"]
-	   @tescosearchprice1 = Money.new(@tescosearch[0]["price"]*100).format
-	else
-	  @tescosearchname1 = "Not found"
-	  @tescosearchprice1 = "Not found"
-	end
-	
-	if @tescosearch[1] 
-	   @tescosearchname2 = @tescosearch[1]["name"]
-	   @tescosearchprice2 = Money.new(@tescosearch[1]["price"]*100).format
-	else
-	  @tescosearchname2 = "Not found"
-	  @tescosearchprice2 = "Not found"
-	end
+    tescosearch_enabled = 0
     
+    if tescosearch_enabled == 1
+      @tescosearch = Tesco.search(@stockitem.desc)
+      if @tescosearch[0] 
+	     @tescosearchname1 = @tescosearch[0]["name"]
+	     @tescosearchprice1 = Money.new(@tescosearch[0]["price"]*100).format
+	  else
+	    @tescosearchname1 = "Not found"
+	    @tescosearchprice1 = "Not found"
+	  end
+	  
+	  if @tescosearch[1] 
+	     @tescosearchname2 = @tescosearch[1]["name"]
+	     @tescosearchprice2 = Money.new(@tescosearch[1]["price"]*100).format
+	  else
+	    @tescosearchname2 = "Not found"
+	    @tescosearchprice2 = "Not found"
+	  end
+    else
+      @tescosearchname1 = "Not available"
+      @tescosearchprice1 = "Not available"
+      @tescosearchname2 = "Not available"
+	  @tescosearchprice2 = "Not available"
+    end
     #GOODS IN
     @inwards = Inward.where("plu = ?",plu)
     

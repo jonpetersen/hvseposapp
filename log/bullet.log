@@ -466,3 +466,237 @@ Call stack
   /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
   /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
 
+2019-03-16 23:50:33[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-18 14:29:02[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-24 12:33:57[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-24 21:09:43[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-25 06:01:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-25 15:35:58[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-26 05:07:18[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-26 16:58:42[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-26 23:59:25[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-03-27 20:12:32[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-03 15:31:47[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-03 21:06:08[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-05 22:19:07[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-10 11:54:48[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-20 08:16:16[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-22 00:25:33[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-22 19:14:03[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-04-24 03:41:05[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-03 07:02:10[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-03 11:17:20[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-09 17:45:19[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-12 12:21:11[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-14 15:23:47[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-05-14 18:32:14[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-06-01 22:54:59[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-06-01 23:54:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
