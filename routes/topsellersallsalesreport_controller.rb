@@ -7,9 +7,13 @@ class TopsellersallsalesreportController < Sinatra::Base
     
     @topsellers = []
     @topsellers_value.each do |item|
+	  
 	  itemqty = @topsellers_qty.detect {|key, val| key == item[0]}
       itemdesc = Stock.where("plu = ?",item[0]).first.desc
+      puts [item[0], itemdesc]
+
       itemdept = Stock.joins(:depart).where("plu = ?", item[0]).first.depart.desc
+      
       @topsellers << [itemdesc,item[0],item[1],itemqty[1],itemdept]
     end
     @salestotal = (Allsale.where("type = ?","P").sum("totalprice")).to_i

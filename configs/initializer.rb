@@ -1,4 +1,4 @@
-
+# require './configs/initializer.rb'
 # base
 require 'bundler/setup'
 

@@ -6,7 +6,6 @@ require "../configs/deploy_setting.rb"
 require "../configs/active_record_setting.rb"
 #require "./configs/deploy_setting.rb"
 #require "./configs/active_record_setting.rb"
-#require "./models/models.rb"
 
 $aws_dir = "/home/hvsepos/Touch/DATA/"
 $aws_archivedir = "/home/hvsepos/Touch/ARCHIVE/"
@@ -19,7 +18,7 @@ class Depart < ActiveRecord::Base
   self.inheritance_column = nil
 end
 
-class CreateGroups < ActiveRecord::Migration
+class CreateGroups < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "GROUPS.dbf")
     new_schema = table.schema.gsub!("id","gid")
@@ -38,7 +37,7 @@ class CreateGroups < ActiveRecord::Migration
   end
 end
 
-class CreateDeparts < ActiveRecord::Migration
+class CreateDeparts < ActiveRecord::Migration[4.2]
   def self.up
     table = DBF::Table.new($aws_dir + "DEPART.dbf")
     new_schema = table.schema.gsub!("id","gid")

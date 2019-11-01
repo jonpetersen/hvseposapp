@@ -267,7 +267,7 @@ m_Depart [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddi
   <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
   <tr><td align="left" width="130" port="exp_code">exp_code <font face="Arial Italic" color="grey60">string (15)</font></td></tr>
   <tr><td align="left" width="130" port="halo">halo <font face="Arial Italic" color="grey60">float</font></td></tr>
-  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer (8) ∗</font></td></tr>
   <tr><td align="left" width="130" port="imainstay">imainstay <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="isagedept">isagedept <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="lalo">lalo <font face="Arial Italic" color="grey60">float</font></td></tr>
@@ -382,7 +382,7 @@ m_Group [label = <{<table border="0" align="center" cellspacing="0.5" cellpaddin
   <tr><td align="left" width="130" port="desc">desc <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
   <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
   <tr><td align="left" width="130" port="exp_code">exp_code <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
-  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="id">id <font face="Arial Italic" color="grey60">integer (8) ∗</font></td></tr>
   <tr><td align="left" width="130" port="ldefault">ldefault <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="lnorefund">lnorefund <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="lnsonostk">lnsonostk <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>

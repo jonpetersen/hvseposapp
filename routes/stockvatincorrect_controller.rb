@@ -24,9 +24,13 @@ class StockvatincorrectController < Sinatra::Base
     #get the departments that are in vat groups
     vatgroups_depts = []    
     
-    Depart.where(group: vatgroups).each do |dept|
+    Depart.where("departs.group IN (?)",vatgroups).each do |dept|
       vatgroups_depts << dept.gid
     end 
+        
+    #Depart.where(group: vatgroups).each do |dept|
+    #  vatgroups_depts << dept.gid
+    #end 
     
     #now add in vat depts from mixed vat groups
     vatgroups_depts = vatgroups_depts + vatdepts_4 + vatdepts_7 + vatdepts_9
@@ -37,9 +41,13 @@ class StockvatincorrectController < Sinatra::Base
     #get the departments that are in nonvat groups
     nonvatgroups_depts = []    
     
-    Depart.where(group: nonvatgroups).each do |dept|
+    Depart.where("departs.group IN (?)",nonvatgroups).each do |dept|
       nonvatgroups_depts << dept.gid
-    end 
+    end
+    
+    #Depart.where(group: nonvatgroups).each do |dept|
+    #  nonvatgroups_depts << dept.gid
+    #end 
     
     #now add in vat depts from mixed vat groups
     nonvatgroups_depts = nonvatgroups_depts + nonvatdepts_4 + nonvatdepts_7 + nonvatdepts_9
