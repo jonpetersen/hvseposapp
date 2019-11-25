@@ -196,25 +196,25 @@ else
 end
 
 if Sale.where("plu = #{splashmap}").count > opening_sales_splashmap
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:b63a39e97f63a4bb47cf69a5b7ea0d8a:'
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=splashmap'
   uri = URI(url)
   response = Net::HTTP.get(uri)
 end
 
 if Sale.where("plu = #{donut}").count > opening_sales_donut
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:5dc917fbcbf79e8b85a31555fd2f46d7:'
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=donut'  
   uri = URI(url)
   response = Net::HTTP.get(uri)
 end
 
 if Sale.where("plu = #{sroll}").count > opening_sales_sroll
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:eb2df5455e5d2ce69f0698cbd0c7d1d7:'
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=sroll'  
   uri = URI(url)
   response = Net::HTTP.get(uri)
 end
 
 if Sale.where("plu = #{vanngin}").count > opening_sales_vanngin
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/87a6c238-7297-4107-8ad5-5297789d6d5b/smartapps/installations/4d20e5ff-c141-4b9c-a11b-defc7d8b1aea/execute/:eb2df5455e5d2ce69f0698cbd0c7d1d7:'
+  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=vanngin'  
   uri = URI(url)
   response = Net::HTTP.get(uri)
 end

@@ -1637,3 +1637,118 @@ Call stack
   /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36998360'
   /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
 
+2019-11-03 15:58:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30490420'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2019-11-11 13:27:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-11 13:28:11[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-13 14:10:43[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_22433320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2019-11-16 18:35:31[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-21 07:37:13[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_25840600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2019-11-23 14:01:02[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30564780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2019-11-24 09:55:32[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-24 09:56:22[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-24 09:57:48[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2019-11-24 10:18:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
