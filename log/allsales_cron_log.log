@@ -14296,3 +14296,27 @@ hvs_migration_allsales.rb:137:in `block in up': undefined method `type' for nil:
    -> 0.0437s
 -- change_table(:allsales)
    -> 5.9399s
+-- drop_table(:allsales)
+   -> 0.0173s
+-- create_table("allsales")
+   -> 0.0172s
+-- add_column(:allsales, :created_at, :datetime)
+   -> 0.0214s
+-- add_column(:allsales, :lmmcomp, :tinyint)
+   -> 0.0208s
+-- add_column(:allsales, :lmsm, :tinyint)
+   -> 0.0219s
+-- add_column(:allsales, :imovoqty, :int)
+   -> 0.0206s
+-- add_index(:allsales, :plu)
+   -> 0.0433s
+-- add_index(:allsales, :type)
+   -> 0.0406s
+-- add_index(:allsales, :date)
+   -> 0.0402s
+-- add_index(:allsales, :description)
+   -> 0.0435s
+-- add_index(:allsales, [:plu, :type])
+   -> 0.0449s
+-- change_table(:allsales)
+   -> 6.1767s
