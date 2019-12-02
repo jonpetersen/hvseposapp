@@ -24,7 +24,7 @@ GEM
     bullet (5.7.6)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11.0)
-    chartkick (3.0.1)
+    chartkick (3.3.0)
     choice (0.2.0)
     chronic (0.10.2)
     concurrent-ruby (1.0.5)
