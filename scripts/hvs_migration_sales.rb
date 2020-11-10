@@ -201,21 +201,21 @@ if Sale.where("plu = #{splashmap}").count > opening_sales_splashmap
   response = Net::HTTP.get(uri)
 end
 
-if Sale.where("plu = #{donut}").count > opening_sales_donut
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=donut'  
-  uri = URI(url)
-  response = Net::HTTP.get(uri)
-end
-
-if Sale.where("plu = #{sroll}").count > opening_sales_sroll
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=sausage%20roll'  
-  uri = URI(url)
-  response = Net::HTTP.get(uri)
-end
-
-if Sale.where("plu = #{vanngin}").count > opening_sales_vanngin
-  url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=vann%20lane%20gin'  
-  uri = URI(url)
-  response = Net::HTTP.get(uri)
-end
+# if Sale.where("plu = #{donut}").count > opening_sales_donut
+#   url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=donut'  
+#   uri = URI(url)
+#   response = Net::HTTP.get(uri)
+# end
+# 
+# if Sale.where("plu = #{sroll}").count > opening_sales_sroll
+#   url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=sausage%20roll'  
+#   uri = URI(url)
+#   response = Net::HTTP.get(uri)
+# end
+# 
+# if Sale.where("plu = #{vanngin}").count > opening_sales_vanngin
+#   url = 'https://graph-eu01-euwest1.api.smartthings.com/api/token/91150eb1-de4d-45a5-bb5a-77129d5c4f8c/smartapps/installations/327bca3d-4522-474f-a2ee-e84439fde8f5/execute/:2ee997cb80c2e163af3312852b50b266:?product=vann%20lane%20gin'  
+#   uri = URI(url)
+#   response = Net::HTTP.get(uri)
+# end
 
