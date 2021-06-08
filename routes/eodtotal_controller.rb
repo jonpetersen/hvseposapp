@@ -1,7 +1,9 @@
 class EodtotalController < Sinatra::Base
 
   get '/' do
-    Eodlog.last.ntxbtotval.to_json
+    value = Eodlog.last.ntxbtotval.to_json
+    eod_date = Eodlog.last.dtdatetime.to_json
+    value
   end
 
 end
