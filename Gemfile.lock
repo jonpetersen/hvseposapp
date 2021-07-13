@@ -16,7 +16,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     apriori-ruby (0.0.9)
     arel (9.0.0)
     backports (3.11.4)
@@ -66,6 +67,7 @@ GEM
     process-group (1.1.0)
     process-pipeline (1.0.1)
       process-group
+    public_suffix (4.0.6)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
@@ -117,7 +119,7 @@ DEPENDENCIES
   activerecord
   activerecord-import
   activesupport
-  addressable (= 2.4.0)
+  addressable (= 2.8.0)
   apriori-ruby
   barby
   bullet
