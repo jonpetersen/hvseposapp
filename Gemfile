@@ -21,7 +21,7 @@ gem 'money'
 gem "bullet", :group => "development"
 gem "sinatra-advanced-routes"
 gem "apriori-ruby"
-gem "addressable", "2.4.0"
+gem "addressable", "2.8.0"
 gem "daemons", "1.2.3"
 
 # Optional
