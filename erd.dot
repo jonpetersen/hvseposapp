@@ -149,7 +149,7 @@ m_Archivesale [label = <{<table border="0" align="center" cellspacing="0.5" cell
   <tr><td align="left" width="130" port="cgeneric">cgeneric <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
   <tr><td align="left" width="130" port="cgeneric2">cgeneric2 <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
   <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="cmmatchid">cmmatchid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
   <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
   <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
@@ -215,7 +215,7 @@ m_Archivesale [label = <{<table border="0" align="center" cellspacing="0.5" cell
   <tr><td align="left" width="130" port="nvoreason">nvoreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="nwidth">nwidth <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="operator">operator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
-  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="printed">printed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="q1">q1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="q2">q2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
@@ -234,8 +234,8 @@ m_Archivesale [label = <{<table border="0" align="center" cellspacing="0.5" cell
   <tr><td align="left" width="130" port="tender10">tender10 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender11">tender11 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender12">tender12 <font face="Arial Italic" color="grey60">float</font></td></tr>
-  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender4">tender4 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender5">tender5 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender6">tender6 <font face="Arial Italic" color="grey60">float</font></td></tr>
@@ -439,13 +439,13 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="ceodid">ceodid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
   <tr><td align="left" width="130" port="cgeneric">cgeneric <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
   <tr><td align="left" width="130" port="cgeneric2">cgeneric2 <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
-  <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="change">change <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="charge">charge <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="cmmatchid">cmmatchid <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
   <tr><td align="left" width="130" port="condiment1">condiment1 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
   <tr><td align="left" width="130" port="condiment2">condiment2 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
   <tr><td align="left" width="130" port="condiment3">condiment3 <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
-  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="cost">cost <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="covers">covers <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="ctaxcodes">ctaxcodes <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
   <tr><td align="left" width="130" port="ctransref">ctransref <font face="Arial Italic" color="grey60">string (10)</font></td></tr>
@@ -457,7 +457,7 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="date">date <font face="Arial Italic" color="grey60">date</font></td></tr>
   <tr><td align="left" width="130" port="ddysldate">ddysldate <font face="Arial Italic" color="grey60">date</font></td></tr>
   <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string (30)</font></td></tr>
-  <tr><td align="left" width="130" port="discamount">discamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="discamount">discamount <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="discreason">discreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="dtfinal">dtfinal <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
   <tr><td align="left" width="130" port="dtlastedit">dtlastedit <font face="Arial Italic" color="grey60">datetime (0,0)</font></td></tr>
@@ -487,7 +487,7 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="lshift">lshift <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="lstkupdtd">lstkupdtd <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="luncexport">luncexport <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
-  <tr><td align="left" width="130" port="mixamount">mixamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="mixamount">mixamount <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="mixmatch">mixmatch <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="ncashback">ncashback <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="ncourse">ncourse <font face="Arial Italic" color="grey60">integer</font></td></tr>
@@ -506,7 +506,7 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="nvoreason">nvoreason <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="nwidth">nwidth <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="operator">operator <font face="Arial Italic" color="grey60">string (20)</font></td></tr>
-  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="pricechg">pricechg <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="printed">printed <font face="Arial Italic" color="grey60">boolean (0)</font></td></tr>
   <tr><td align="left" width="130" port="q1">q1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="q2">q2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
@@ -519,14 +519,14 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="reportdate">reportdate <font face="Arial Italic" color="grey60">date</font></td></tr>
   <tr><td align="left" width="130" port="serialnum">serialnum <font face="Arial Italic" color="grey60">string (48)</font></td></tr>
   <tr><td align="left" width="130" port="sheet">sheet <font face="Arial Italic" color="grey60">integer</font></td></tr>
-  <tr><td align="left" width="130" port="shiftdisc">shiftdisc <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="shiftdisc">shiftdisc <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="shifttable">shifttable <font face="Arial Italic" color="grey60">integer</font></td></tr>
-  <tr><td align="left" width="130" port="tender1">tender1 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender1">tender1 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender10">tender10 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender11">tender11 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender12">tender12 <font face="Arial Italic" color="grey60">float</font></td></tr>
-  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
-  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="tender2">tender2 <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="tender3">tender3 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender4">tender4 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender5">tender5 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="tender6">tender6 <font face="Arial Italic" color="grey60">float</font></td></tr>
@@ -535,12 +535,12 @@ m_Sale [label = <{<table border="0" align="center" cellspacing="0.5" cellpadding
   <tr><td align="left" width="130" port="tender9">tender9 <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="terminal">terminal <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="time">time <font face="Arial Italic" color="grey60">string (5)</font></td></tr>
-  <tr><td align="left" width="130" port="totalprice">totalprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="totalprice">totalprice <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="transno">transno <font face="Arial Italic" color="grey60">integer</font></td></tr>
   <tr><td align="left" width="130" port="type">type <font face="Arial Italic" color="grey60">string (2)</font></td></tr>
-  <tr><td align="left" width="130" port="unitprice">unitprice <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="unitprice">unitprice <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="unitqty">unitqty <font face="Arial Italic" color="grey60">float</font></td></tr>
-  <tr><td align="left" width="130" port="vatamount">vatamount <font face="Arial Italic" color="grey60">decimal (10,2)</font></td></tr>
+  <tr><td align="left" width="130" port="vatamount">vatamount <font face="Arial Italic" color="grey60">float</font></td></tr>
   <tr><td align="left" width="130" port="vatcode">vatcode <font face="Arial Italic" color="grey60">integer</font></td></tr>
 </table>
 }>];

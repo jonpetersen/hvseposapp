@@ -10723,3 +10723,3088 @@ Call stack
   /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39687660'
   /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
 
+2021-06-08 16:02:20[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24482000'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-13 08:19:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29241140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-16 09:01:57[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33628180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-16 13:08:43[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-16 13:08:46[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-17 13:56:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39760500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-18 16:35:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39288140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-18 17:42:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39288140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-19 05:29:56[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30965040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-19 06:00:17[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30965040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-19 12:01:10[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30965040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-20 03:43:52[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_23876040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-20 03:54:03[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_23876040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-20 13:15:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38325740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-20 13:37:56[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32680180'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-24 14:23:18[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-25 07:48:39[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32169020'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-25 16:55:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_19513080'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-26 02:00:53[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_25748680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-26 08:40:54[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-26 16:14:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_25748680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-26 19:36:18[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_25748680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-27 01:36:15[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_35528740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-27 11:10:47[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42830260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-27 12:05:43[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-27 18:06:49[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42830260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-27 20:33:47[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42830260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-28 07:17:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36870500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-28 19:14:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36870500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-28 19:52:29[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-29 04:42:23[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-29 17:06:38[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34107880'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-06-30 13:33:50[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-06-30 16:51:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29055920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-01 16:25:09[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24295760'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-02 03:03:09[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39053120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-02 05:18:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39053120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-02 05:39:36[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39053120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-03 14:08:28[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38903860'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-06 19:49:24[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34808780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-07 14:05:17[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-07-08 02:37:41[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38263360'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-09 00:43:57[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36994340'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-09 07:38:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36994340'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-10 17:17:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36611460'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-12 02:11:12[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28883380'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-12 16:15:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_26422820'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-13 10:19:10[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_20718040'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-15 01:58:11[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34352120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-17 04:31:14[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-07-17 11:52:08[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39660140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-18 07:51:41[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24149260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-20 18:23:34[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_25800300'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-22 20:05:15[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-07-23 16:45:20[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39678160'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-24 08:02:03[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33582620'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-26 11:13:46[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32926740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-26 12:12:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32926740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-26 23:12:33[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32926740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-26 23:21:26[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32926740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-30 08:13:30[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_35144320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-31 08:24:08[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34979720'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-31 22:27:38[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34979720'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-07-31 22:27:41[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34979720'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-01 12:12:16[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24053600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-01 22:35:18[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24053600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-02 07:38:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31239920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-02 16:49:43[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31239920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-02 16:51:17[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-02 16:52:00[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_40045660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-02 16:53:23[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-02 20:06:24[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31239920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-02 21:01:36[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31239920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-03 07:00:20[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42367680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-03 09:38:59[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42367680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-03 17:34:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42367680'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-04 00:31:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37228280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-04 03:05:54[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37228280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-04 08:36:12[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37228280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-04 19:34:45[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37228280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-09 01:16:16[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41533960'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-09 05:47:21[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41533960'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-09 14:33:02[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41533960'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-10 02:05:41[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28133940'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-10 14:16:03[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28133940'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-11 20:17:06[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-13 04:11:00[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-13 07:06:55[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-13 07:52:03[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-13 11:08:55[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-13 16:30:28[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-13 23:31:15[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33603920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-14 04:33:26[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_27866700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-14 20:17:54[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-15 00:13:27[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37515780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-15 00:59:26[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37515780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-15 15:29:58[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-16 00:13:27[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24841920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-17 23:34:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37337100'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-20 07:00:51[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-08-26 23:55:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_22828120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-27 15:27:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30648200'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-30 16:57:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30599240'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-31 04:20:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_40717900'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-31 16:45:18[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32903460'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-08-31 17:23:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_40717900'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-01 04:24:16[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_35196600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-01 08:53:42[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-02 01:55:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42522580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-02 04:10:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42522580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-02 15:09:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42522580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-02 18:09:26[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42522580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-03 03:52:32[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29010440'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-03 05:07:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33289600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-03 19:56:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33289600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-04 05:55:07[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24661800'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-04 22:28:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28105460'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-04 23:09:47[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-05 23:08:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_35318020'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-06 22:03:22[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29055660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-07 16:48:22[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39530120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-08 08:30:23[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-09 09:48:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29774060'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-09 11:19:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29774060'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-10 22:50:01[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37017320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 03:33:35[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29600360'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 13:59:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29600360'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 19:12:28[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-11 19:57:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29600360'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 20:38:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29600360'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 20:50:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_23085780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-11 20:50:49[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_23085780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-12 04:34:00[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41339720'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-12 04:45:15[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28156660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-14 16:42:24[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24978140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-15 00:47:28[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34664480'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-15 09:17:04[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34664480'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-15 10:20:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34664480'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-15 13:56:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34664480'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-15 18:28:04[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34664480'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-16 01:17:33[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34985700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-16 01:28:48[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34985700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-16 14:26:57[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34985700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-16 19:26:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34985700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-17 02:26:58[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21514140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-17 04:41:57[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21514140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-17 10:05:33[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21514140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-17 13:26:57[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21514140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-18 01:58:28[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33770500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-18 02:16:30[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33770500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-18 13:04:27[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33770500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-18 13:08:40[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33770500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-18 15:58:21[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-18 16:31:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33770500'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-19 01:52:37[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-19 02:26:20[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31772640'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-19 08:51:50[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31975140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-19 13:31:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31975140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-20 10:43:45[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37034960'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-20 18:44:07[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37034960'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-22 05:15:02[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34733320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-22 16:43:32[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34733320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-23 04:36:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37724000'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-23 17:19:13[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-24 11:07:24[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_19879140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-25 00:32:06[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34526140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-28 19:11:49[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-28 22:28:34[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-09-29 20:53:16[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29812260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-09-30 02:02:51[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37516980'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-04 22:47:12[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39774140'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-05 05:54:35[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37858740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-05 07:28:37[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37858740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-05 15:55:33[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-05 17:36:27[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37858740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-06 11:45:54[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33776460'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-07 02:33:43[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30596020'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-07 14:34:51[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30596020'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-08 03:25:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_27910000'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-08 11:04:28[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_27910000'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-08 12:25:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_27910000'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-11 20:46:34[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38339220'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-11 21:22:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38339220'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-13 09:56:28[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-14 03:17:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34332400'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-14 05:04:22[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34332400'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-15 16:22:42[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_22063940'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-15 23:06:38[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_22063940'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-17 11:03:29[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-17 11:09:39[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38989780'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-18 00:04:45[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38577580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-18 00:06:25[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-18 04:01:43[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-18 15:25:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38577580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-20 03:33:29[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33726740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-20 15:08:46[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33726740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-21 14:57:24[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28958660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-23 21:48:33[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30326240'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-23 23:59:45[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_30326240'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-25 03:38:10[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36264100'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-26 03:31:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38246520'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-26 04:03:08[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-10-29 15:00:39[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39967640'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-30 01:14:20[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_26464320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-31 01:11:12[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42164580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-10-31 14:01:04[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39623280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-01 00:21:23[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_35822440'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-01 14:17:51[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24236280'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-01 15:33:30[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-11-02 13:56:15[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28728760'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-02 14:50:15[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28728760'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-03 01:21:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_31097940'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-04 02:46:53[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41165740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-04 15:57:31[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41165740'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-05 15:36:25[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_32223220'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-06 01:03:37[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21052800'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-06 22:55:45[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_21052800'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-07 06:35:48[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29309380'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-08 02:27:46[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41547600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-08 17:11:39[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_41547600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-09 08:44:59[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33431800'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-10 00:10:30[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39298600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-10 04:59:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39298600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-10 19:16:11[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39298600'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-11 02:50:55[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38314060'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-11 03:47:46[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_38314060'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-11 15:55:24[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-11-12 13:59:44[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39054580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-13 18:31:05[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_34478580'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-14 01:26:43[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-11-14 05:45:13[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42319560'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-14 10:39:09[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42319560'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-14 13:38:14[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42319560'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-17 02:27:21[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37679120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-17 07:35:17[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_37679120'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-18 16:35:32[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_24856320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-19 05:01:00[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33397920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-19 11:25:53[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_33397920'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-21 08:41:55[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42398660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-21 11:24:56[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-11-21 13:26:55[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42398660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-21 22:36:02[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_42398660'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-11-22 06:01:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-11-25 18:33:47[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_28800320'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-12-04 19:22:08[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_26165700'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-12-12 03:48:52[WARN] user: jon
+GET /barcodereport
+USE eager loading detected
+  Stockalt => [:stock]
+  Add to your finder: :includes => [:stock]
+Call stack
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:17:in `block (2 levels) in <class:BarcodeReportController>'
+  /home/hvsepos/hvseposapp/routes/barcodereport_controller.rb:16:in `block in <class:BarcodeReportController>'
+
+2021-12-12 17:18:27[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_36088260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-12-14 13:16:52[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_29538540'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+
+2021-12-15 01:26:32[WARN] user: jon
+GET /stockvatincorrect
+USE eager loading detected
+  Stock => [:depart]
+  Add to your finder: :includes => [:depart]
+Call stack
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:23:in `block (2 levels) in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:19:in `block in singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `instance_eval'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-2:in `singleton class'
+  /home/hvsepos/hvseposapp/configs/../views/stockvatincorrect.haml:-5:in `__tilt_39966260'
+  /home/hvsepos/hvseposapp/routes/stockvatincorrect_controller.rb:72:in `block in <class:StockvatincorrectController>'
+

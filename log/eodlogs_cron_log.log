@@ -6072,3 +6072,1770 @@
    -> 0.0740s
 -- change_table(:eodlogs)
    -> 2.1427s
+-- drop_table(:eodlogs)
+   -> 0.0455s
+-- create_table("eodlogs")
+   -> 0.0626s
+-- change_table(:eodlogs)
+   -> 2.2434s
+-- drop_table(:eodlogs)
+   -> 0.0466s
+-- create_table("eodlogs")
+   -> 0.0789s
+-- change_table(:eodlogs)
+   -> 2.0831s
+-- drop_table(:eodlogs)
+   -> 0.0479s
+-- create_table("eodlogs")
+   -> 0.0696s
+-- change_table(:eodlogs)
+   -> 2.2202s
+-- drop_table(:eodlogs)
+   -> 0.1118s
+-- create_table("eodlogs")
+   -> 0.0961s
+-- change_table(:eodlogs)
+   -> 2.1931s
+-- drop_table(:eodlogs)
+   -> 0.0593s
+-- create_table("eodlogs")
+   -> 0.0689s
+-- change_table(:eodlogs)
+   -> 2.0668s
+-- drop_table(:eodlogs)
+   -> 0.0515s
+-- create_table("eodlogs")
+   -> 0.0867s
+-- change_table(:eodlogs)
+   -> 2.2319s
+-- drop_table(:eodlogs)
+   -> 0.0474s
+-- create_table("eodlogs")
+   -> 0.0645s
+-- change_table(:eodlogs)
+   -> 2.2374s
+-- drop_table(:eodlogs)
+   -> 0.0262s
+-- create_table("eodlogs")
+   -> 0.0297s
+-- change_table(:eodlogs)
+   -> 1.9831s
+-- drop_table(:eodlogs)
+   -> 0.0753s
+-- create_table("eodlogs")
+   -> 0.0439s
+-- change_table(:eodlogs)
+   -> 2.4057s
+-- drop_table(:eodlogs)
+   -> 0.0641s
+-- create_table("eodlogs")
+   -> 0.0713s
+-- change_table(:eodlogs)
+   -> 2.1912s
+-- drop_table(:eodlogs)
+   -> 0.0259s
+-- create_table("eodlogs")
+   -> 0.0412s
+-- change_table(:eodlogs)
+   -> 2.0630s
+-- drop_table(:eodlogs)
+   -> 0.0440s
+-- create_table("eodlogs")
+   -> 0.0444s
+-- change_table(:eodlogs)
+   -> 2.0980s
+-- drop_table(:eodlogs)
+   -> 0.0683s
+-- create_table("eodlogs")
+   -> 0.0792s
+-- change_table(:eodlogs)
+   -> 2.2331s
+-- drop_table(:eodlogs)
+   -> 0.0184s
+-- create_table("eodlogs")
+   -> 0.0321s
+-- change_table(:eodlogs)
+   -> 2.2531s
+-- drop_table(:eodlogs)
+   -> 0.0371s
+-- create_table("eodlogs")
+   -> 0.0620s
+-- change_table(:eodlogs)
+   -> 2.4467s
+-- drop_table(:eodlogs)
+   -> 0.0569s
+-- create_table("eodlogs")
+   -> 0.0555s
+-- change_table(:eodlogs)
+   -> 2.3202s
+-- drop_table(:eodlogs)
+   -> 0.0358s
+-- create_table("eodlogs")
+   -> 0.0435s
+-- change_table(:eodlogs)
+   -> 2.1106s
+-- drop_table(:eodlogs)
+   -> 0.0397s
+-- create_table("eodlogs")
+   -> 0.0489s
+-- change_table(:eodlogs)
+   -> 2.0324s
+-- drop_table(:eodlogs)
+   -> 0.0307s
+-- create_table("eodlogs")
+   -> 0.0508s
+-- change_table(:eodlogs)
+   -> 2.1236s
+-- drop_table(:eodlogs)
+   -> 0.0355s
+-- create_table("eodlogs")
+   -> 0.0390s
+-- change_table(:eodlogs)
+   -> 2.1216s
+-- drop_table(:eodlogs)
+   -> 0.0469s
+-- create_table("eodlogs")
+   -> 0.0387s
+-- change_table(:eodlogs)
+   -> 2.1655s
+-- drop_table(:eodlogs)
+   -> 0.0280s
+-- create_table("eodlogs")
+   -> 0.0444s
+-- change_table(:eodlogs)
+   -> 2.1533s
+-- drop_table(:eodlogs)
+   -> 0.0314s
+-- create_table("eodlogs")
+   -> 0.0459s
+-- change_table(:eodlogs)
+   -> 2.1228s
+-- drop_table(:eodlogs)
+   -> 0.0393s
+-- create_table("eodlogs")
+   -> 0.0440s
+-- change_table(:eodlogs)
+   -> 2.1576s
+-- drop_table(:eodlogs)
+   -> 0.0344s
+-- create_table("eodlogs")
+   -> 0.0558s
+-- change_table(:eodlogs)
+   -> 1.9281s
+-- drop_table(:eodlogs)
+   -> 0.0311s
+-- create_table("eodlogs")
+   -> 0.0325s
+-- change_table(:eodlogs)
+   -> 2.1218s
+-- drop_table(:eodlogs)
+   -> 0.0173s
+-- create_table("eodlogs")
+   -> 0.0519s
+-- change_table(:eodlogs)
+   -> 2.3042s
+-- drop_table(:eodlogs)
+   -> 0.0243s
+-- create_table("eodlogs")
+   -> 0.0605s
+-- change_table(:eodlogs)
+   -> 2.1551s
+-- drop_table(:eodlogs)
+   -> 0.0344s
+-- create_table("eodlogs")
+   -> 0.0618s
+-- change_table(:eodlogs)
+   -> 2.1332s
+-- drop_table(:eodlogs)
+   -> 0.0398s
+-- create_table("eodlogs")
+   -> 0.0505s
+-- change_table(:eodlogs)
+   -> 2.1381s
+-- drop_table(:eodlogs)
+   -> 0.0376s
+-- create_table("eodlogs")
+   -> 0.0549s
+-- change_table(:eodlogs)
+   -> 2.1181s
+-- drop_table(:eodlogs)
+   -> 0.0323s
+-- create_table("eodlogs")
+   -> 0.0744s
+-- change_table(:eodlogs)
+   -> 2.0834s
+-- drop_table(:eodlogs)
+   -> 0.0344s
+-- create_table("eodlogs")
+   -> 0.0343s
+-- change_table(:eodlogs)
+   -> 1.9196s
+-- drop_table(:eodlogs)
+   -> 0.0459s
+-- create_table("eodlogs")
+   -> 0.0543s
+-- change_table(:eodlogs)
+   -> 2.2057s
+-- drop_table(:eodlogs)
+   -> 0.0238s
+-- create_table("eodlogs")
+   -> 0.0281s
+-- change_table(:eodlogs)
+   -> 1.9629s
+-- drop_table(:eodlogs)
+   -> 0.0380s
+-- create_table("eodlogs")
+   -> 0.0434s
+-- change_table(:eodlogs)
+   -> 2.2657s
+-- drop_table(:eodlogs)
+   -> 0.0252s
+-- create_table("eodlogs")
+   -> 0.0397s
+-- change_table(:eodlogs)
+   -> 2.3176s
+-- drop_table(:eodlogs)
+   -> 0.0343s
+-- create_table("eodlogs")
+   -> 0.0532s
+-- change_table(:eodlogs)
+   -> 2.1168s
+-- drop_table(:eodlogs)
+   -> 0.0356s
+-- create_table("eodlogs")
+   -> 0.0416s
+-- change_table(:eodlogs)
+   -> 2.0539s
+-- drop_table(:eodlogs)
+   -> 0.0327s
+-- create_table("eodlogs")
+   -> 0.1013s
+-- change_table(:eodlogs)
+   -> 2.1333s
+-- drop_table(:eodlogs)
+   -> 0.0321s
+-- create_table("eodlogs")
+   -> 0.0407s
+-- change_table(:eodlogs)
+   -> 2.0886s
+-- drop_table(:eodlogs)
+   -> 0.0228s
+-- create_table("eodlogs")
+   -> 0.0316s
+-- change_table(:eodlogs)
+   -> 2.2582s
+-- drop_table(:eodlogs)
+   -> 0.0290s
+-- create_table("eodlogs")
+   -> 0.0704s
+-- change_table(:eodlogs)
+   -> 2.0970s
+-- drop_table(:eodlogs)
+   -> 0.0263s
+-- create_table("eodlogs")
+   -> 0.0420s
+-- change_table(:eodlogs)
+   -> 1.9904s
+-- drop_table(:eodlogs)
+   -> 0.0303s
+-- create_table("eodlogs")
+   -> 0.0470s
+-- change_table(:eodlogs)
+   -> 2.1766s
+-- drop_table(:eodlogs)
+   -> 0.0339s
+-- create_table("eodlogs")
+   -> 0.0627s
+-- change_table(:eodlogs)
+   -> 2.0761s
+-- drop_table(:eodlogs)
+   -> 0.0480s
+-- create_table("eodlogs")
+   -> 0.0530s
+-- change_table(:eodlogs)
+   -> 2.1749s
+-- drop_table(:eodlogs)
+   -> 0.0449s
+-- create_table("eodlogs")
+   -> 0.0418s
+-- change_table(:eodlogs)
+   -> 2.2833s
+-- drop_table(:eodlogs)
+   -> 0.0244s
+-- create_table("eodlogs")
+   -> 0.0332s
+-- change_table(:eodlogs)
+   -> 2.3099s
+-- drop_table(:eodlogs)
+   -> 0.0272s
+-- create_table("eodlogs")
+   -> 0.0391s
+-- change_table(:eodlogs)
+   -> 1.8777s
+-- drop_table(:eodlogs)
+   -> 0.0389s
+-- create_table("eodlogs")
+   -> 0.0398s
+-- change_table(:eodlogs)
+   -> 2.0791s
+-- drop_table(:eodlogs)
+   -> 0.0230s
+-- create_table("eodlogs")
+   -> 0.0365s
+-- change_table(:eodlogs)
+   -> 2.2856s
+-- drop_table(:eodlogs)
+   -> 0.0351s
+-- create_table("eodlogs")
+   -> 0.0566s
+-- change_table(:eodlogs)
+   -> 3.0993s
+-- drop_table(:eodlogs)
+   -> 0.0330s
+-- create_table("eodlogs")
+   -> 0.0369s
+-- change_table(:eodlogs)
+   -> 3.0327s
+-- drop_table(:eodlogs)
+   -> 0.0286s
+-- create_table("eodlogs")
+   -> 0.0579s
+-- change_table(:eodlogs)
+   -> 2.1653s
+-- drop_table(:eodlogs)
+   -> 0.0248s
+-- create_table("eodlogs")
+   -> 0.0394s
+-- change_table(:eodlogs)
+   -> 2.2047s
+-- drop_table(:eodlogs)
+   -> 0.0412s
+-- create_table("eodlogs")
+   -> 0.0543s
+-- change_table(:eodlogs)
+   -> 2.2427s
+-- drop_table(:eodlogs)
+   -> 0.0277s
+-- create_table("eodlogs")
+   -> 0.0350s
+-- change_table(:eodlogs)
+   -> 2.1905s
+-- drop_table(:eodlogs)
+   -> 0.0286s
+-- create_table("eodlogs")
+   -> 0.0440s
+-- change_table(:eodlogs)
+   -> 2.1335s
+-- drop_table(:eodlogs)
+   -> 0.0461s
+-- create_table("eodlogs")
+   -> 0.0659s
+-- change_table(:eodlogs)
+   -> 2.0211s
+-- drop_table(:eodlogs)
+   -> 0.0367s
+-- create_table("eodlogs")
+   -> 0.0421s
+-- change_table(:eodlogs)
+   -> 2.1166s
+-- drop_table(:eodlogs)
+   -> 0.0229s
+-- create_table("eodlogs")
+   -> 0.0305s
+-- change_table(:eodlogs)
+   -> 2.2662s
+-- drop_table(:eodlogs)
+   -> 0.0448s
+-- create_table("eodlogs")
+   -> 0.0357s
+-- change_table(:eodlogs)
+   -> 2.3971s
+-- drop_table(:eodlogs)
+   -> 0.0260s
+-- create_table("eodlogs")
+   -> 0.0271s
+-- change_table(:eodlogs)
+   -> 2.0292s
+-- drop_table(:eodlogs)
+   -> 0.0284s
+-- create_table("eodlogs")
+   -> 0.0315s
+-- change_table(:eodlogs)
+   -> 1.9696s
+-- drop_table(:eodlogs)
+   -> 0.0256s
+-- create_table("eodlogs")
+   -> 0.0299s
+-- change_table(:eodlogs)
+   -> 1.9848s
+-- drop_table(:eodlogs)
+   -> 0.0238s
+-- create_table("eodlogs")
+   -> 0.0266s
+-- change_table(:eodlogs)
+   -> 1.9369s
+-- drop_table(:eodlogs)
+   -> 0.0312s
+-- create_table("eodlogs")
+   -> 0.0466s
+-- change_table(:eodlogs)
+   -> 2.0829s
+-- drop_table(:eodlogs)
+   -> 0.0226s
+-- create_table("eodlogs")
+   -> 0.0306s
+-- change_table(:eodlogs)
+   -> 1.8709s
+-- drop_table(:eodlogs)
+   -> 0.0325s
+-- create_table("eodlogs")
+   -> 0.0510s
+-- change_table(:eodlogs)
+   -> 2.3924s
+-- drop_table(:eodlogs)
+   -> 0.0546s
+-- create_table("eodlogs")
+   -> 0.0634s
+-- change_table(:eodlogs)
+   -> 2.2040s
+-- drop_table(:eodlogs)
+   -> 0.0324s
+-- create_table("eodlogs")
+   -> 0.0321s
+-- change_table(:eodlogs)
+   -> 2.1295s
+-- drop_table(:eodlogs)
+   -> 0.0446s
+-- create_table("eodlogs")
+   -> 0.0375s
+-- change_table(:eodlogs)
+   -> 2.2848s
+-- drop_table(:eodlogs)
+   -> 0.0391s
+-- create_table("eodlogs")
+   -> 0.0528s
+-- change_table(:eodlogs)
+   -> 2.0914s
+-- drop_table(:eodlogs)
+   -> 0.0336s
+-- create_table("eodlogs")
+   -> 0.0734s
+-- change_table(:eodlogs)
+   -> 2.0872s
+-- drop_table(:eodlogs)
+   -> 0.0280s
+-- create_table("eodlogs")
+   -> 0.0405s
+-- change_table(:eodlogs)
+   -> 2.2025s
+-- drop_table(:eodlogs)
+   -> 0.0418s
+-- create_table("eodlogs")
+   -> 0.0450s
+-- change_table(:eodlogs)
+   -> 2.7634s
+-- drop_table(:eodlogs)
+   -> 0.0315s
+-- create_table("eodlogs")
+   -> 0.0400s
+-- change_table(:eodlogs)
+   -> 3.0820s
+-- drop_table(:eodlogs)
+   -> 0.0256s
+-- create_table("eodlogs")
+   -> 0.0346s
+-- change_table(:eodlogs)
+   -> 2.2742s
+-- drop_table(:eodlogs)
+   -> 0.0251s
+-- create_table("eodlogs")
+   -> 0.0348s
+-- change_table(:eodlogs)
+   -> 2.3592s
+-- drop_table(:eodlogs)
+   -> 0.0237s
+-- create_table("eodlogs")
+   -> 0.0371s
+-- change_table(:eodlogs)
+   -> 2.0043s
+-- drop_table(:eodlogs)
+   -> 0.0342s
+-- create_table("eodlogs")
+   -> 0.0555s
+-- change_table(:eodlogs)
+   -> 1.9349s
+-- drop_table(:eodlogs)
+   -> 0.0310s
+-- create_table("eodlogs")
+   -> 0.0307s
+-- change_table(:eodlogs)
+   -> 2.3012s
+-- drop_table(:eodlogs)
+   -> 0.0310s
+-- create_table("eodlogs")
+   -> 0.0360s
+-- change_table(:eodlogs)
+   -> 2.1158s
+-- drop_table(:eodlogs)
+   -> 0.0237s
+-- create_table("eodlogs")
+   -> 0.0271s
+-- change_table(:eodlogs)
+   -> 1.9311s
+-- drop_table(:eodlogs)
+   -> 0.0257s
+-- create_table("eodlogs")
+   -> 0.0418s
+-- change_table(:eodlogs)
+   -> 1.9785s
+-- drop_table(:eodlogs)
+   -> 0.0282s
+-- create_table("eodlogs")
+   -> 0.0438s
+-- change_table(:eodlogs)
+   -> 1.9365s
+-- drop_table(:eodlogs)
+   -> 0.0211s
+-- create_table("eodlogs")
+   -> 0.0432s
+-- change_table(:eodlogs)
+   -> 2.4029s
+-- drop_table(:eodlogs)
+   -> 0.0185s
+-- create_table("eodlogs")
+   -> 0.0282s
+-- change_table(:eodlogs)
+   -> 1.8085s
+-- drop_table(:eodlogs)
+   -> 0.0359s
+-- create_table("eodlogs")
+   -> 0.0449s
+-- change_table(:eodlogs)
+   -> 1.9829s
+-- drop_table(:eodlogs)
+   -> 0.0344s
+-- create_table("eodlogs")
+   -> 0.0468s
+-- change_table(:eodlogs)
+   -> 2.2503s
+-- drop_table(:eodlogs)
+   -> 0.0211s
+-- create_table("eodlogs")
+   -> 0.0291s
+-- change_table(:eodlogs)
+   -> 1.9767s
+-- drop_table(:eodlogs)
+   -> 0.0270s
+-- create_table("eodlogs")
+   -> 0.0301s
+-- change_table(:eodlogs)
+   -> 2.1380s
+-- drop_table(:eodlogs)
+   -> 0.0352s
+-- create_table("eodlogs")
+   -> 0.0383s
+-- change_table(:eodlogs)
+   -> 1.9584s
+-- drop_table(:eodlogs)
+   -> 0.0255s
+-- create_table("eodlogs")
+   -> 0.0581s
+-- change_table(:eodlogs)
+   -> 2.1318s
+-- drop_table(:eodlogs)
+   -> 0.0182s
+-- create_table("eodlogs")
+   -> 0.0340s
+-- change_table(:eodlogs)
+   -> 1.9389s
+-- drop_table(:eodlogs)
+   -> 0.0247s
+-- create_table("eodlogs")
+   -> 0.0283s
+-- change_table(:eodlogs)
+   -> 2.0080s
+-- drop_table(:eodlogs)
+   -> 0.0264s
+-- create_table("eodlogs")
+   -> 0.0321s
+-- change_table(:eodlogs)
+   -> 2.3147s
+-- drop_table(:eodlogs)
+   -> 0.0259s
+-- create_table("eodlogs")
+   -> 0.0599s
+-- change_table(:eodlogs)
+   -> 2.3930s
+-- drop_table(:eodlogs)
+   -> 0.0311s
+-- create_table("eodlogs")
+   -> 0.0679s
+-- change_table(:eodlogs)
+   -> 2.1239s
+-- drop_table(:eodlogs)
+   -> 0.0406s
+-- create_table("eodlogs")
+   -> 0.0464s
+-- change_table(:eodlogs)
+   -> 2.3101s
+-- drop_table(:eodlogs)
+   -> 0.0320s
+-- create_table("eodlogs")
+   -> 0.0433s
+-- change_table(:eodlogs)
+   -> 2.0354s
+-- drop_table(:eodlogs)
+   -> 0.0394s
+-- create_table("eodlogs")
+   -> 0.0738s
+-- change_table(:eodlogs)
+   -> 2.1373s
+-- drop_table(:eodlogs)
+   -> 0.0317s
+-- create_table("eodlogs")
+   -> 0.1033s
+-- change_table(:eodlogs)
+   -> 2.1207s
+-- drop_table(:eodlogs)
+   -> 0.0457s
+-- create_table("eodlogs")
+   -> 0.0494s
+-- change_table(:eodlogs)
+   -> 2.3902s
+-- drop_table(:eodlogs)
+   -> 0.0258s
+-- create_table("eodlogs")
+   -> 0.0415s
+-- change_table(:eodlogs)
+   -> 2.1606s
+-- drop_table(:eodlogs)
+   -> 0.0280s
+-- create_table("eodlogs")
+   -> 0.0376s
+-- change_table(:eodlogs)
+   -> 2.0744s
+-- drop_table(:eodlogs)
+   -> 0.0378s
+-- create_table("eodlogs")
+   -> 0.0303s
+-- change_table(:eodlogs)
+   -> 2.0665s
+-- drop_table(:eodlogs)
+   -> 0.0258s
+-- create_table("eodlogs")
+   -> 0.0396s
+-- change_table(:eodlogs)
+   -> 2.1377s
+-- drop_table(:eodlogs)
+   -> 0.0319s
+-- create_table("eodlogs")
+   -> 0.0470s
+-- change_table(:eodlogs)
+   -> 2.3642s
+-- drop_table(:eodlogs)
+   -> 0.0227s
+-- create_table("eodlogs")
+   -> 0.0397s
+-- change_table(:eodlogs)
+   -> 2.3796s
+-- drop_table(:eodlogs)
+   -> 0.0269s
+-- create_table("eodlogs")
+   -> 0.0336s
+-- change_table(:eodlogs)
+   -> 2.1242s
+-- drop_table(:eodlogs)
+   -> 0.0340s
+-- create_table("eodlogs")
+   -> 0.0383s
+-- change_table(:eodlogs)
+   -> 2.2205s
+-- drop_table(:eodlogs)
+   -> 0.0226s
+-- create_table("eodlogs")
+   -> 0.0350s
+-- change_table(:eodlogs)
+   -> 2.0623s
+-- drop_table(:eodlogs)
+   -> 0.0356s
+-- create_table("eodlogs")
+   -> 0.0613s
+-- change_table(:eodlogs)
+   -> 2.2303s
+-- drop_table(:eodlogs)
+   -> 0.0239s
+-- create_table("eodlogs")
+   -> 0.0466s
+-- change_table(:eodlogs)
+   -> 2.0669s
+-- drop_table(:eodlogs)
+   -> 0.0334s
+-- create_table("eodlogs")
+   -> 0.0475s
+-- change_table(:eodlogs)
+   -> 1.8709s
+-- drop_table(:eodlogs)
+   -> 0.0341s
+-- create_table("eodlogs")
+   -> 0.0420s
+-- change_table(:eodlogs)
+   -> 2.2960s
+-- drop_table(:eodlogs)
+   -> 0.0297s
+-- create_table("eodlogs")
+   -> 0.0395s
+-- change_table(:eodlogs)
+   -> 2.1360s
+-- drop_table(:eodlogs)
+   -> 0.0358s
+-- create_table("eodlogs")
+   -> 0.0373s
+-- change_table(:eodlogs)
+   -> 2.3416s
+-- drop_table(:eodlogs)
+   -> 0.0411s
+-- create_table("eodlogs")
+   -> 0.0505s
+-- change_table(:eodlogs)
+   -> 1.9974s
+-- drop_table(:eodlogs)
+   -> 0.0246s
+-- create_table("eodlogs")
+   -> 0.0361s
+-- change_table(:eodlogs)
+   -> 2.1068s
+-- drop_table(:eodlogs)
+   -> 0.0217s
+-- create_table("eodlogs")
+   -> 0.0549s
+-- change_table(:eodlogs)
+   -> 2.2334s
+-- drop_table(:eodlogs)
+   -> 0.0313s
+-- create_table("eodlogs")
+   -> 0.0442s
+-- change_table(:eodlogs)
+   -> 2.4724s
+-- drop_table(:eodlogs)
+   -> 0.0205s
+-- create_table("eodlogs")
+   -> 0.0323s
+-- change_table(:eodlogs)
+   -> 2.4109s
+-- drop_table(:eodlogs)
+   -> 0.0255s
+-- create_table("eodlogs")
+   -> 0.0303s
+-- change_table(:eodlogs)
+   -> 2.1992s
+-- drop_table(:eodlogs)
+   -> 0.0261s
+-- create_table("eodlogs")
+   -> 0.0341s
+-- change_table(:eodlogs)
+   -> 2.4085s
+-- drop_table(:eodlogs)
+   -> 0.0300s
+-- create_table("eodlogs")
+   -> 0.0410s
+-- change_table(:eodlogs)
+   -> 2.2698s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:276:in `rescue in open_data': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:273:in `open_data'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:65:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0253s
+-- create_table("eodlogs")
+   -> 0.0333s
+-- change_table(:eodlogs)
+   -> 2.1729s
+-- drop_table(:eodlogs)
+   -> 0.0505s
+-- create_table("eodlogs")
+   -> 0.0713s
+-- change_table(:eodlogs)
+   -> 2.2448s
+-- drop_table(:eodlogs)
+   -> 0.0402s
+-- create_table("eodlogs")
+   -> 0.0551s
+-- change_table(:eodlogs)
+   -> 2.1707s
+-- drop_table(:eodlogs)
+   -> 0.0204s
+-- create_table("eodlogs")
+   -> 0.0434s
+-- change_table(:eodlogs)
+   -> 1.9992s
+-- drop_table(:eodlogs)
+   -> 0.0231s
+-- create_table("eodlogs")
+   -> 0.0339s
+-- change_table(:eodlogs)
+   -> 2.4175s
+-- drop_table(:eodlogs)
+   -> 0.0224s
+-- create_table("eodlogs")
+   -> 0.0283s
+-- change_table(:eodlogs)
+   -> 2.0679s
+-- drop_table(:eodlogs)
+   -> 0.0448s
+-- create_table("eodlogs")
+   -> 0.0736s
+-- change_table(:eodlogs)
+   -> 2.3977s
+-- drop_table(:eodlogs)
+   -> 0.0270s
+-- create_table("eodlogs")
+   -> 0.0352s
+-- change_table(:eodlogs)
+   -> 2.0381s
+-- drop_table(:eodlogs)
+   -> 0.0279s
+-- create_table("eodlogs")
+   -> 0.0511s
+-- change_table(:eodlogs)
+   -> 2.6292s
+-- drop_table(:eodlogs)
+   -> 0.0517s
+-- create_table("eodlogs")
+   -> 0.0683s
+-- change_table(:eodlogs)
+   -> 2.3902s
+-- drop_table(:eodlogs)
+   -> 0.0211s
+-- create_table("eodlogs")
+   -> 0.0341s
+-- change_table(:eodlogs)
+   -> 2.1242s
+-- drop_table(:eodlogs)
+   -> 0.0330s
+-- create_table("eodlogs")
+   -> 0.0352s
+-- change_table(:eodlogs)
+   -> 2.2181s
+-- drop_table(:eodlogs)
+   -> 0.0284s
+-- create_table("eodlogs")
+   -> 0.0363s
+-- change_table(:eodlogs)
+   -> 2.1484s
+-- drop_table(:eodlogs)
+   -> 0.0365s
+-- create_table("eodlogs")
+   -> 0.0454s
+-- change_table(:eodlogs)
+   -> 2.1394s
+-- drop_table(:eodlogs)
+   -> 0.0230s
+-- create_table("eodlogs")
+   -> 0.0374s
+-- change_table(:eodlogs)
+   -> 2.0419s
+-- drop_table(:eodlogs)
+   -> 0.0304s
+-- create_table("eodlogs")
+   -> 0.0474s
+-- change_table(:eodlogs)
+   -> 2.1781s
+-- drop_table(:eodlogs)
+   -> 0.0330s
+-- create_table("eodlogs")
+   -> 0.0380s
+-- change_table(:eodlogs)
+   -> 2.1178s
+-- drop_table(:eodlogs)
+   -> 0.0337s
+-- create_table("eodlogs")
+   -> 0.0443s
+-- change_table(:eodlogs)
+   -> 2.6256s
+-- drop_table(:eodlogs)
+   -> 0.0282s
+-- create_table("eodlogs")
+   -> 0.0421s
+-- change_table(:eodlogs)
+   -> 2.3587s
+-- drop_table(:eodlogs)
+   -> 0.0238s
+-- create_table("eodlogs")
+   -> 0.0266s
+-- change_table(:eodlogs)
+   -> 2.1795s
+-- drop_table(:eodlogs)
+   -> 0.0454s
+-- create_table("eodlogs")
+   -> 0.0413s
+-- change_table(:eodlogs)
+   -> 2.2269s
+-- drop_table(:eodlogs)
+   -> 0.0291s
+-- create_table("eodlogs")
+   -> 0.0455s
+-- change_table(:eodlogs)
+   -> 2.1840s
+-- drop_table(:eodlogs)
+   -> 0.0243s
+-- create_table("eodlogs")
+   -> 0.0361s
+-- change_table(:eodlogs)
+   -> 2.1461s
+-- drop_table(:eodlogs)
+   -> 0.0289s
+-- create_table("eodlogs")
+   -> 0.0479s
+-- change_table(:eodlogs)
+   -> 2.0894s
+-- drop_table(:eodlogs)
+   -> 0.0224s
+-- create_table("eodlogs")
+   -> 0.0365s
+-- change_table(:eodlogs)
+   -> 2.0490s
+-- drop_table(:eodlogs)
+   -> 0.0208s
+-- create_table("eodlogs")
+   -> 0.0502s
+-- change_table(:eodlogs)
+   -> 2.1407s
+-- drop_table(:eodlogs)
+   -> 0.0470s
+-- create_table("eodlogs")
+   -> 0.0522s
+-- change_table(:eodlogs)
+   -> 2.3128s
+-- drop_table(:eodlogs)
+   -> 0.0384s
+-- create_table("eodlogs")
+   -> 0.0393s
+-- change_table(:eodlogs)
+   -> 2.0763s
+-- drop_table(:eodlogs)
+   -> 0.0413s
+-- create_table("eodlogs")
+   -> 0.0560s
+-- change_table(:eodlogs)
+   -> 2.2691s
+-- drop_table(:eodlogs)
+   -> 0.0437s
+-- create_table("eodlogs")
+   -> 0.0676s
+-- change_table(:eodlogs)
+   -> 2.1509s
+-- drop_table(:eodlogs)
+   -> 0.0346s
+-- create_table("eodlogs")
+   -> 0.0403s
+-- change_table(:eodlogs)
+   -> 2.5988s
+-- drop_table(:eodlogs)
+   -> 0.0550s
+-- create_table("eodlogs")
+   -> 0.0697s
+-- change_table(:eodlogs)
+   -> 2.3198s
+-- drop_table(:eodlogs)
+   -> 0.0488s
+-- create_table("eodlogs")
+   -> 0.0686s
+-- change_table(:eodlogs)
+   -> 1.9277s
+-- drop_table(:eodlogs)
+   -> 0.0240s
+-- create_table("eodlogs")
+   -> 0.0365s
+-- change_table(:eodlogs)
+   -> 2.1354s
+-- drop_table(:eodlogs)
+   -> 0.0399s
+-- create_table("eodlogs")
+   -> 0.0469s
+-- change_table(:eodlogs)
+   -> 2.1316s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_57G10Q8C7', '2018-05-22 17:08:13', 'RUTH', TRUE, '2018-05-22 17:08:22', 136, 465.955, 813.72, 8.0, -4.92, -1.16, 1.0, 0.69, 3, 14.0, 62.6, 806.95, 62.24, 374.5, 0.0, 374.5, 0.36, 374.5, 53.71) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.8033s
+-- create_table("eodlogs")
+   -> 1.3959s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_5HX0Y22KD', '2019-06-01 15:53:24', 'GILL', TRUE, '2019-06-01 15:53:46', 187, 664.691, 1470.74, 24.895, -39.55, -0.5, 0.0, 0.0, 9, 19.38, 129.97, 1430.69, 129.25, 776.62, 0.0, 776.62, 0.72, 776.62, 61.59) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 1.2372s
+-- create_table("eodlogs")
+   -> 1.0468s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_5EG0TXD7D', '2019-01-27 13:57:53', 'ADMIN', TRUE, '2019-01-27 13:58:03', 83, 316.195, 629.75, 10.0, -14.74, -0.18, 0.0, 0.0, 5, 7.0, 52.59, 614.83, 52.33, 314.23, 0.0, 314.23, 0.26, 314.23, 55.1) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.7226s
+-- create_table("eodlogs")
+   -> 1.1326s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_5A30YP2F0', '2018-08-25 16:11:22', 'MARTIN', TRUE, '2018-08-25 16:11:28', 1, 3.0, 5.19, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 0.0, 0.87, 5.19, 0.87, 5.19, 0.0, 5.19, 0.0, 5.19, 0.0) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 1.3062s
+-- create_table("eodlogs")
+   -> 1.2166s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_5UB0VDO1V', '2020-08-18 14:38:26', 'ALISON', TRUE, '2020-08-18 14:38:36', 73, 418.16, 884.02, 160.0, -174.38, -2.2, 0.0, 0.0, 0, 28.83, 41.43, 707.44, 34.06, 205.2, 0.0, 205.2, 7.37, 205.2, 62.95) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.5283s
+-- create_table("eodlogs")
+   -> 1.3815s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_63R0WPGB9', '2021-07-23 15:15:34', 'ALISON', TRUE, '2021-07-23 15:16:19', 130, 655.365, 1480.94, 15.125, -17.52, -1.68, 0.0, 0.0, 4, 3.0, 87.57, 1461.74, 68.91, 414.28, 0.0, 414.28, 18.66, 414.28, 28.34) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.3848s
+-- create_table("eodlogs")
+   -> 0.8633s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_63B0UQXRG', '2021-07-07 14:20:53', 'GILL', TRUE, '2021-07-07 14:21:25', 90, 277.305, 736.2, 22.53, -41.15, -1.68, 0.0, 0.0, 0, 17.1, 36.75, 693.37, 27.92, 167.83, 0.0, 167.83, 8.83, 167.83, 51.66) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.3254s
+-- create_table("eodlogs")
+   -> 0.6265s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_64K0VOURB', '2021-08-21 14:47:08', 'ALISON', TRUE, '2021-08-21 14:47:44', 101, 361.695, 1010.61, 2.62, -5.71, -1.68, 1.0, 10.0, 2, 535.3, 36.83, 993.22, 30.17, 181.16, 0.0, 181.16, 6.66, 181.16, 1667.41) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.4602s
+-- create_table("eodlogs")
+   -> 0.8458s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_62L0VU8RS', '2021-06-11 14:51:26', 'ALISON', TRUE, '2021-06-11 14:52:19', 118, 535.655, 1321.87, 39.665, -54.49, -3.36, 0.0, 0.0, 0, 74.685, 63.54, 1264.02, 50.01, 300.83, 0.0, 300.83, 13.53, 300.83, 122.96) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.4447s
+-- create_table("eodlogs")
+   -> 0.8057s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `_query': Mysql2::Error: Table 'hvs.eodlogs' doesn't exist: INSERT INTO `eodlogs` (`cuniqueid`, `dtdatetime`, `coperator`, `lcomplete`, `dtlastedit`, `ntransqty`, `ngsalesqty`, `ngsalesval`, `ndiscqty`, `ndiscval`, `nmixval`, `nrefdqty`, `nrefdval`, `nnosaleqty`, `nviqty`, `ntaxtotval`, `ntxbtotval`, `ntx1_val`, `ntxbl1_val`, `ntx2_val`, `ntxbl2_val`, `ntx3_val`, `ntxbl3_val`, `nvivalue`) VALUES ('_5YT0V6B5N', '2021-01-26 14:32:49', 'GILL', TRUE, '2021-01-26 14:32:55', 48, 345.845, 988.6, 1.0, -0.58, -1.68, 0.0, 0.0, 0, 87.0, 56.81, 986.34, 53.02, 318.34, 0.0, 318.34, 3.79, 318.34, 97.98) (ActiveRecord::StatementInvalid)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:131:in `block in query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `handle_interrupt'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/mysql2-0.5.2/lib/mysql2/client.rb:130:in `query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:187:in `block (2 levels) in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:186:in `block in execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:579:in `block (2 levels) in log'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:578:in `block in log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:569:in `log'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:185:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:28:in `execute'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:196:in `execute_and_free'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql/database_statements.rb:33:in `exec_query'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:117:in `exec_insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:149:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:21:in `insert'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:187:in `_insert_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:733:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/counter_cache.rb:184:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/locking/optimistic.rb:70:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/attribute_methods/dirty.rb:137:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `block in _create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_create_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:346:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/timestamp.rb:102:in `_create_record'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:704:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `block in create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:816:in `_run_save_callbacks'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/callbacks.rb:342:in `create_or_update'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:275:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/validations.rb:46:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block (2 levels) in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:387:in `block in with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `block in transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:239:in `block in within_new_transaction'
+	from /home/jon/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb:226:in `mon_synchronize'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/transaction.rb:236:in `within_new_transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb:254:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:212:in `transaction'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:385:in `with_transaction_returning_status'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:310:in `block in save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:325:in `rollback_active_record_state!'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/transactions.rb:309:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/suppressor.rb:44:in `save'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/persistence.rb:36:in `create'
+	from hvs_migration_eodlogs.rb:23:in `block in up'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `block in each'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `times'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:107:in `each'
+	from hvs_migration_eodlogs.rb:22:in `up'
+	from hvs_migration_eodlogs.rb:53:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.4850s
+-- create_table("eodlogs")
+   -> 0.7264s
+-- drop_table(:eodlogs)
+   -> 0.2927s
+-- create_table("eodlogs")
+   -> 0.5526s
+-- change_table(:eodlogs)
+   -> 33.8104s
+-- drop_table(:eodlogs)
+   -> 0.0616s
+-- create_table("eodlogs")
+   -> 0.0524s
+-- change_table(:eodlogs)
+   -> 1.7784s
+-- drop_table(:eodlogs)
+   -> 0.0411s
+-- create_table("eodlogs")
+   -> 0.0514s
+-- change_table(:eodlogs)
+   -> 1.7791s
+-- drop_table(:eodlogs)
+   -> 0.0228s
+-- create_table("eodlogs")
+   -> 0.0468s
+-- change_table(:eodlogs)
+   -> 1.7876s
+-- drop_table(:eodlogs)
+   -> 0.0236s
+-- create_table("eodlogs")
+   -> 0.0296s
+-- change_table(:eodlogs)
+   -> 2.7801s
+-- drop_table(:eodlogs)
+   -> 0.0224s
+-- create_table("eodlogs")
+   -> 0.0297s
+-- change_table(:eodlogs)
+   -> 1.5849s
+-- drop_table(:eodlogs)
+   -> 0.8688s
+-- create_table("eodlogs")
+   -> 1.0261s
+-- change_table(:eodlogs)
+   -> 36.3805s
+-- drop_table(:eodlogs)
+   -> 0.8413s
+-- create_table("eodlogs")
+   -> 0.5783s
+-- change_table(:eodlogs)
+   -> 33.0804s
+-- drop_table(:eodlogs)
+   -> 0.4667s
+-- create_table("eodlogs")
+   -> 0.8652s
+-- change_table(:eodlogs)
+   -> 31.4903s
+-- drop_table(:eodlogs)
+   -> 0.4468s
+-- create_table("eodlogs")
+   -> 1.0152s
+-- change_table(:eodlogs)
+   -> 31.8513s
+-- drop_table(:eodlogs)
+   -> 0.4583s
+-- create_table("eodlogs")
+   -> 0.9855s
+-- change_table(:eodlogs)
+   -> 32.9807s
+-- drop_table(:eodlogs)
+   -> 0.0556s
+-- create_table("eodlogs")
+   -> 0.0342s
+-- change_table(:eodlogs)
+   -> 1.7187s
+-- drop_table(:eodlogs)
+   -> 0.0293s
+-- create_table("eodlogs")
+   -> 0.0348s
+-- change_table(:eodlogs)
+   -> 1.5586s
+-- drop_table(:eodlogs)
+   -> 0.0352s
+-- create_table("eodlogs")
+   -> 0.0436s
+-- change_table(:eodlogs)
+   -> 1.5889s
+-- drop_table(:eodlogs)
+   -> 0.0268s
+-- create_table("eodlogs")
+   -> 0.0484s
+-- change_table(:eodlogs)
+   -> 2.0552s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:297:in `initialize': can't-- drop_table(:eodlogs)
+   -> 0.0169s
+-- create_table("eodlogs")
+   -> 0.0272s
+-- change_table(:eodlogs)
+   -> 1.5940s
+-- drop_table(:eodlogs)
+   -> 0.0163s
+-- create_table("eodlogs")
+   -> 0.0290s
+-- change_table(:eodlogs)
+   -> 1.7122s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:276:in `rescue in open_data': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:273:in `open_data'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:65:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0201s
+-- create_table("eodlogs")
+   -> 0.0309s
+-- change_table(:eodlogs)
+   -> 1.9435s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:276:in `rescue in open_data': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:273:in `open_data'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:65:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0238s
+-- create_table("eodlogs")
+   -> 0.0272s
+-- change_table(:eodlogs)
+   -> 1.5660s
+-- drop_table(:eodlogs)
+   -> 0.0467s
+-- create_table("eodlogs")
+   -> 0.0418s
+-- change_table(:eodlogs)
+   -> 1.6690s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:276:in `rescue in open_data': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:273:in `open_data'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:65:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0276s
+-- create_table("eodlogs")
+   -> 0.0261s
+-- change_table(:eodlogs)
+   -> 1.8600s
+/home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:276:in `rescue in open_data': file not found: /home/hvsepos/Touch/DATA/EODLOG.DBF (DBF::FileNotFoundError)
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:273:in `open_data'
+	from /home/jon/.rvm/gems/ruby-2.5.1/gems/dbf-3.1.2/lib/dbf/table.rb:65:in `initialize'
+	from hvs_migration_eodlogs.rb:49:in `new'
+	from hvs_migration_eodlogs.rb:49:in `<main>'
+-- drop_table(:eodlogs)
+   -> 0.0249s
+-- create_table("eodlogs")
+   -> 0.0418s
+-- change_table(:eodlogs)
+   -> 1.7373s
+-- drop_table(:eodlogs)
+   -> 0.0607s
+-- create_table("eodlogs")
+   -> 0.0436s
+-- change_table(:eodlogs)
+   -> 1.6086s
+-- drop_table(:eodlogs)
+   -> 0.0174s
+-- create_table("eodlogs")
+   -> 0.0229s
+-- change_table(:eodlogs)
+   -> 1.5230s
